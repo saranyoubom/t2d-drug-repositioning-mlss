@@ -20,13 +20,11 @@ Scripts were updated across two revision rounds. Key revision-specific changes a
 
 ## Revision 2 Additions (June 2026)
 
-Three new scripts were added to address Reviewer 2 comments (Minor Comment 6 and Major Comment 1):
+One new R script was added to address Reviewer 2 Minor Comment 6:
 
-| File | Language | Figure / Analysis | Description |
-|------|----------|-------------------|-------------|
-| `Fig_S4_linregpcr_extract.py` | Python | Supplementary Fig. 4 | Reads Bio-Rad CFX xlsx exports; applies LinRegPCR (5-cycle window, R² ≥ 0.99, E ≥ 1.10) to all 21 genes from three qPCR runs; outputs three CSV files |
-| `Fig_S4_linregpcr_plot.R` | R | Supplementary Fig. 4 | Reads the CSV outputs of `Fig_S4_linregpcr_extract.py`; produces a 4 × 6 panel figure of representative amplification curves with per-condition E-value annotations |
-| `Fig_S1c_hey1_sensitivity_analysis.py` | Python | Supplementary Table 2 | Hey1-for-Hes1 normalization substitution analysis; verifies retention of the 27-pair consensus co-expression network under the alternative normalization scheme (raw + /Hey1 + /Kcnj11 + /Ins1) |
+| File | Figure | Description |
+|------|--------|-------------|
+| `Fig_S4_linregpcr_plot.R` | Supplementary Fig. 4 | Reads per-gene amplification efficiency CSVs and produces a 4 × 6 panel figure of representative LinRegPCR amplification curves with per-condition E-value annotations |
 
 ---
 
@@ -120,17 +118,6 @@ Three new scripts were added to address Reviewer 2 comments (Minor Comment 6 and
 | File | Lines | Description |
 |------|-------|-------------|
 | `Combined_Analysis_Scripts_Fig_1-6.R` | 4,893 | Full concatenation of all 21 figure scripts in execution order — used for reproducible single-session runs |
-
----
-
-## Required Python Packages (Revision 2 scripts)
-
-```
-pip install numpy scipy openpyxl
-```
-
-- `Fig_S4_linregpcr_extract.py`: requires `numpy`, `scipy` (and standard library `zipfile`, `xml.etree.ElementTree`)
-- `Fig_S1c_hey1_sensitivity_analysis.py`: requires `numpy`, `scipy`, `openpyxl`
 
 ---
 
