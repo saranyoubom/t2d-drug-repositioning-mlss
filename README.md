@@ -1,4 +1,4 @@
-# R Analysis Scripts — Revision 1
+# Analysis Scripts — Revision 1 & Revision 2
 
 **Repository:** [saranyoubom/t2d-drug-repositioning-mlss](https://github.com/saranyoubom/t2d-drug-repositioning-mlss)  
 **Subfolder:** `R_scripts_Rev1/`  
@@ -9,12 +9,24 @@
 
 ## Overview
 
-This subfolder contains the complete set of R analysis scripts used to generate all figures (Fig. 1–6 and Fig. S1–S2) for:
+This repository contains the complete set of analysis scripts (R and Python) used to generate all figures and supplementary analyses for:
 
 > **Systems Biology Analysis for Type 2 Diabetes Drug Repositioning via Multi-Layered Network Pharmacology and MLSS Algorithm**  
-> *npj Systems Biology and Applications* — Revision 1
+> *npj Systems Biology and Applications*
 
-Scripts were revised in response to peer review (Revision 1). Key changes relative to the initial submission are noted per script below.
+Scripts were updated across two revision rounds. Key revision-specific changes are noted per script below.
+
+---
+
+## Revision 2 Additions (June 2026)
+
+Three new scripts were added to address Reviewer 2 comments (Minor Comment 6 and Major Comment 1):
+
+| File | Language | Figure / Analysis | Description |
+|------|----------|-------------------|-------------|
+| `Fig_S4_linregpcr_extract.py` | Python | Supplementary Fig. 4 | Reads Bio-Rad CFX xlsx exports; applies LinRegPCR (5-cycle window, R² ≥ 0.99, E ≥ 1.10) to all 21 genes from three qPCR runs; outputs three CSV files |
+| `Fig_S4_linregpcr_plot.R` | R | Supplementary Fig. 4 | Reads the CSV outputs of `Fig_S4_linregpcr_extract.py`; produces a 4 × 6 panel figure of representative amplification curves with per-condition E-value annotations |
+| `Fig_S1c_hey1_sensitivity_analysis.py` | Python | Supplementary Table 2 | Hey1-for-Hes1 normalization substitution analysis; verifies retention of the 27-pair consensus co-expression network under the alternative normalization scheme (raw + /Hey1 + /Kcnj11 + /Ins1) |
 
 ---
 
@@ -111,6 +123,17 @@ Scripts were revised in response to peer review (Revision 1). Key changes relati
 
 ---
 
+## Required Python Packages (Revision 2 scripts)
+
+```
+pip install numpy scipy openpyxl
+```
+
+- `Fig_S4_linregpcr_extract.py`: requires `numpy`, `scipy` (and standard library `zipfile`, `xml.etree.ElementTree`)
+- `Fig_S1c_hey1_sensitivity_analysis.py`: requires `numpy`, `scipy`, `openpyxl`
+
+---
+
 ## Required R Packages
 
 Install all dependencies with:
@@ -193,4 +216,4 @@ If you use these scripts, please cite:
 
 ---
 
-*Scripts generated: 2026-05-04 | Revision 1 compiled: 2026-05-09*
+*Scripts generated: 2026-05-04 | Revision 1 compiled: 2026-05-09 | Revision 2 additions: 2026-06-29*
