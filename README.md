@@ -20,11 +20,12 @@ Scripts were updated across two revision rounds. Key revision-specific changes a
 
 ## Revision 2 Additions (June 2026)
 
-One new R script was added to address Reviewer 2 Minor Comment 6:
+Two new R scripts were added to address Reviewer 2 comments (Minor Comment 6 and Major Comment 1):
 
-| File | Figure | Description |
-|------|--------|-------------|
-| `Fig_S4_linregpcr_plot.R` | Supplementary Fig. 4 | Reads per-gene amplification efficiency CSVs and produces a 4 × 6 panel figure of representative LinRegPCR amplification curves with per-condition E-value annotations |
+| File | Figure / Analysis | Description |
+|------|-------------------|-------------|
+| `Fig_S4_linregpcr_plot.R` | Supplementary Fig. 4 | Reads per-gene amplification efficiency CSVs and produces a 4 × 6 panel figure of representative LinRegPCR amplification curves with per-condition E-value annotations (addresses Minor Comment 6) |
+| `Fig_S1c_hey1_sensitivity_analysis.R` | Supplementary Table 2 | Hey1-for-Hes1 normalization substitution analysis; verifies retention of the 27-pair consensus co-expression network under the alternative normalization scheme (raw + /Hey1 + /Kcnj11 + /Ins1); exports `Fig_S1c_hey1_retention_summary.csv` (addresses Major Comment 1) |
 
 ---
 
