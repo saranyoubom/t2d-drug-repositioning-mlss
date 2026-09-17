@@ -1,0 +1,34 @@
+﻿Sourcing 48 files...
+Sourced OK: 48
+Loaded sysdata.rda
+
+Done. Testing pcrfit + sliwin availability:
+pcrfit exists: TRUE 
+sliwin exists: TRUE 
+efficiency exists: TRUE 
+takeoff exists: TRUE 
+=== Kcnj11 (Aug26 run) -- compare against published Suppl Fig: DKK-1=1.699, DAPT=1.682, CTRL=1.641 ===
+B4 SLIWIN FAILED: NA/NaN argument 
+C4 SLIWIN FAILED: NA/NaN argument 
+D4 SLIWIN FAILED: NA/NaN argument 
+E3: eff=1.0011 (0.1%) rsq=1.0000 window=[39,44]
+E4 SLIWIN FAILED: NA/NaN argument 
+F3: eff=1.0008 (0.1%) rsq=1.0000 window=[39,44]
+F4 SLIWIN FAILED: NA/NaN argument 
+G3 SLIWIN FAILED: NA/NaN argument 
+G4 SLIWIN FAILED: NA/NaN argument 
+H3 SLIWIN FAILED: NA/NaN argument 
+H4 SLIWIN FAILED: NA/NaN argument 
+Rscript.exe : There were 23 warnings (use warnings() to see them)
+At line:2 char:1
++ & "C:\Program Files\R\R-4.3.1\bin\x64\Rscript.exe" "$SCRATCH\test_sli ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (There were 23 w...() to see them):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+=== Gapdh well A10 (Aug26 run) -- I manually sanity-checked this earlier, found eff~62% in the true exponential region ===
+B10 SLIWIN FAILED: NA/NaN argument 
+NULL
+Warning message:
+In par(oldpar) : calling par(new=TRUE) with no plot

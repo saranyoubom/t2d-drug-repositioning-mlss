@@ -1,0 +1,34 @@
+Original 4-scheme consensus (pooled, uncorrected): 27
+
+======================================================================
+PART 1: pooled/uncorrected method (continuity with Rev1/Rev2 style)
+======================================================================
+
+Tcf7 (Wnt pathway): 149 significant pairs (p<0.05, pooled)
+  1 of 27 original consensus pairs are structurally non-evaluable under this normalizer (involve Tcf7 itself)
+  Retention of 26 evaluable pairs: 26/26 (100.0%)
+  Lost from evaluable consensus under this normalizer: []
+
+Cacna1c (Calcium signaling): 49 significant pairs (p<0.05, pooled)
+  5 of 27 original consensus pairs are structurally non-evaluable under this normalizer (involve Cacna1c itself)
+  Retention of 22 evaluable pairs: 12/22 (54.5%)
+  Lost from evaluable consensus under this normalizer: [('Cacna1d', 'Glp1r'), ('Cacna1d', 'Hey1'), ('Cacna1d', 'Wnt5a'), ('Glp1r', 'Tcf7l2'), ('Glp1r', 'Wnt5a'), ('Hey1', 'Ptbp1'), ('Hey1', 'Tcf7l2'), ('Hey1', 'Wnt5b'), ('Itpr1', 'Tcf7l2'), ('Ryr3', 'Tcf7l2')]
+
+5-way consensus (orig 4 + Tcf7 (Wnt pathway)): 26 pairs
+
+5-way consensus (orig 4 + Cacna1c (Calcium signaling)): 12 pairs
+
+6-way consensus (orig 4 + BOTH new normalizers): 11 pairs
+[('Cacna1d', 'Glut2'), ('Cacna1d', 'Ptbp1'), ('Glp1r', 'Ptbp1'), ('Glp1r', 'Ryr3'), ('Glp1r', 'Wnt5b'), ('Glut2', 'Ptbp1'), ('Hey1', 'Wnt5a'), ('Itpr1', 'Ryr2'), ('Ptbp1', 'Wnt5a'), ('Ryr2', 'Ryr3'), ('Tcf7l2', 'Wnt5b')]
+
+======================================================================
+PART 2: treatment-adjusted + BH-corrected method (consistency w/ R3C2 fix)
+======================================================================
+raw: 1 pairs survive treatment-adjustment + BH
+Hes1: 33 pairs survive treatment-adjustment + BH
+Kcnj11: 37 pairs survive treatment-adjustment + BH
+Ins1: 67 pairs survive treatment-adjustment + BH
+Tcf7 (Wnt pathway): 153 pairs survive treatment-adjustment + BH
+Cacna1c (Calcium signaling): 65 pairs survive treatment-adjustment + BH
+
+6-way consensus, treatment-adjusted + BH: 0 pairs

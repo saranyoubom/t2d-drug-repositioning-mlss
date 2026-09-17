@@ -1,0 +1,40 @@
+Hes1 mean by assumed group (expect DAPT lowest):
+CTRL    0.088792
+DAPT    0.012102
+DKK1    0.045943
+Name: Hes1, dtype: float64 
+
+======================================================================
+PER-METHOD SIGNIFICANT PAIR COUNTS
+======================================================================
+pooled     | uncorrected p<0.05     | Hes1-normalized=169, Kcnj11-normalized=118, Ins1-normalized=98, Raw=80
+pooled     | BH-corrected q<0.05    | Hes1-normalized=169, Kcnj11-normalized=111, Ins1-normalized=89, Raw=52
+adjusted   | uncorrected p<0.05     | Hes1-normalized=50, Kcnj11-normalized=67, Ins1-normalized=96, Raw=18
+adjusted   | BH-corrected q<0.05    | Hes1-normalized=33, Kcnj11-normalized=37, Ins1-normalized=67, Raw=1
+
+======================================================================
+CONSENSUS PAIR COUNTS (intersection across all 4 normalization schemes)
+======================================================================
+pooled     x uncorrected   -> 27 consensus pairs
+pooled     x BH-corrected  -> 18 consensus pairs
+adjusted   x uncorrected   -> 5 consensus pairs
+adjusted   x BH-corrected  -> 0 consensus pairs
+
+======================================================================
+REPRODUCE CURRENT MANUSCRIPT METHOD (pooled, uncorrected) — sanity check vs code's '28'
+======================================================================
+[('Cacna1c', 'Cacna1d'), ('Cacna1c', 'Hey1'), ('Cacna1c', 'Ptbp1'), ('Cacna1c', 'Tcf7l2'), ('Cacna1c', 'Wnt5a'), ('Cacna1d', 'Glp1r'), ('Cacna1d', 'Glut2'), ('Cacna1d', 'Hey1'), ('Cacna1d', 'Ptbp1'), ('Cacna1d', 'Wnt5a'), ('Glp1r', 'Ptbp1'), ('Glp1r', 'Ryr3'), ('Glp1r', 'Tcf7l2'), ('Glp1r', 'Wnt5a'), ('Glp1r', 'Wnt5b'), ('Glut2', 'Ptbp1'), ('Hey1', 'Ptbp1'), ('Hey1', 'Tcf7l2'), ('Hey1', 'Wnt5a'), ('Hey1', 'Wnt5b'), ('Itpr1', 'Ryr2'), ('Itpr1', 'Tcf7l2'), ('Ptbp1', 'Wnt5a'), ('Ryr2', 'Ryr3'), ('Ryr3', 'Tcf7l2'), ('Tcf7', 'Wnt9a'), ('Tcf7l2', 'Wnt5b')]
+
+======================================================================
+CORRECTLY-SPECIFIED CONSENSUS (treatment-adjusted, BH-corrected)
+======================================================================
+N = 0
+
+======================================================================
+OVERLAP: how many of the current 28 survive proper treatment-adjustment + BH?
+======================================================================
+Old (pooled, uncorrected): 27
+New (adjusted, BH): 0
+Overlap: 0
+Lost (in old, not new): 27
+Gained (in new, not old): 0

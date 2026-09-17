@@ -1,198 +1,111 @@
-# Analysis Scripts — Revision 1 & Revision 2
+# R/Python Analysis Scripts — Revision 3
 
-**Repository:** [saranyoubom/t2d-drug-repositioning-mlss](https://github.com/saranyoubom/t2d-drug-repositioning-mlss)  
-**Subfolder:** `R_scripts_Rev1/`  
-**Generated:** 2026-05-09  
-**Compiled source:** `Combined_Analysis_Scripts_Fig_1-6.txt`
+**Repository:** [saranyoubom/t2d-drug-repositioning-mlss](https://github.com/saranyoubom/t2d-drug-repositioning-mlss)
+**Subfolder:** `R_scripts_Rev3/`
+**Generated:** 2026-09-15
 
 ---
 
 ## Overview
 
-This repository contains the complete set of analysis scripts (R and Python) used to generate all figures and supplementary analyses for:
+This subfolder contains the analysis scripts, outputs, and regenerated figure assets added or changed in Revision 3 for:
 
-> **Systems Biology Analysis for Type 2 Diabetes Drug Repositioning via Multi-Layered Network Pharmacology and MLSS Algorithm**  
-> *npj Systems Biology and Applications*
+> **Notch and Wnt inhibitions reveal beta cell dysregulation and predict synergistic diabetes drug candidates**
+> *npj Systems Biology and Applications* — Revision 3 (Submission ID `c1ae7071-d445-422d-baf3-85229ddb6cc1`)
 
-Scripts were updated across two revision rounds. Key revision-specific changes are noted per script below.
-
----
-
-## Revision 2 Additions (June 2026)
-
-Two new R scripts were added to address Reviewer 2 comments (Minor Comment 6 and Major Comment 1):
-
-| File | Figure / Analysis | Description |
-|------|-------------------|-------------|
-| `Fig_S4_linregpcr_plot.R` | Supplementary Fig. 4 | Reads per-gene amplification efficiency CSVs and produces a 4 × 6 panel figure of representative LinRegPCR amplification curves with per-condition E-value annotations (addresses Minor Comment 6) |
-| `Fig_S1c_hey1_sensitivity_analysis.R` | Supplementary Table 2 | Hey1-for-Hes1 normalization substitution analysis; verifies retention of the 27-pair consensus co-expression network under the alternative normalization scheme (raw + /Hey1 + /Kcnj11 + /Ins1); exports `Fig_S1c_hey1_retention_summary.csv` (addresses Major Comment 1) |
+Revision 3 responded to a new third reviewer (Reviewer 3) in addition to Reviewer 2's outstanding comments from Revision 1. It does **not** supersede `R_scripts_Rev1/` — this folder contains only what is new or changed this round; unmodified figure scripts (Fig. 1–3, 5, 6c–e, S1) are unchanged from `R_scripts_Rev1/` and are not duplicated here. Revision 2 did not produce a separate deposited subfolder; changes described below as "Revision 3" are therefore changes since the Revision 1 deposit.
 
 ---
 
-## Revision 1 Changes Summary
+## Revision 3 Changes Summary
 
-| Change | Scripts Affected |
-|--------|-----------------|
-| `Ryr1` excluded from calcium gene panels (near-undetectable expression in CTRL) | `Fig_3ef_Boxplot_script.r`, `Fig_4d_Venn_diagram.r`, `Fig_4e_Hes1-normalized_correlation_matrix.R` |
-| `Hmisc` package replaced with base R `cor.test()` for portability | `Fig_4d_Venn_diagram.r`, `Fig_4e_Hes1-normalized_correlation_matrix.R` |
-| Bonferroni-corrected p-values applied to C-peptide comparisons | `Fig_3b_C-peptide_5.5mm_revised.r` |
-| Gene interaction category labels updated per reviewer response (R2.2) | `Fig_5abcd_network_analysis.r` |
-| MLSS formula updated to v4.0 (January 2026) with potency multiplier | `Fig_6c_MLSS_drug_combinations.r` |
-| Fig. S1 split into two validated panel scripts | `Fig_S1_validation_analysis.r`, `Fig_S1_validation_analysis_double.r` |
+| Change | Scripts Affected | Reviewer Comment |
+|--------|-------------------|-------------------|
+| Treatment-adjusted correlation reanalysis (regress out treatment group, correlate residuals, BH-corrected across all consensus pairs) — new analysis, not in Rev1 | `Fig4_treatment_adjusted_reanalysis.py` | R3C2 |
+| Normalization-gene sensitivity extended to Tcf7 (Wnt pathway) and Cacna1c (calcium pathway) as alternative normalizers from previously-unused functional categories | `R2C1_normalization_sensitivity.py` | R2C1 |
+| **Data bug fix**: `Fig_4d_consensus_pairs.csv` incorrectly retained a `Wnt9a_Ryr1` row (Ryr1 is deliberately excluded from the 20-gene consensus panel everywhere else in the study, per Rev1's own exclusion). Corrected file has 27 data rows, not 28 — same filename as the Rev1 version, content corrected. | `Fig_4d_consensus_pairs.csv` (this folder) | Author-identified (R3C2 reconciliation) |
+| Fig. 6b hub network regenerated from the corrected 27-pair consensus data; `print()` call removed so the script runs headless via `Rscript` (was previously interactive-device-only) | `Fig_6b_consensus_hub_network_revised.r` | Author-identified |
+| Fig. 6f Sankey diagram: label/axis font sizes increased for legibility (stratum label 2.8pt, title 13pt, axis 10pt), and gene-symbol labels (Hub Genes axis only) italicized via `ggalluvial`'s exposed `stat_stratum` axis index | `Fig_6f_regulatory_mechanistic_sankey_revised.r` | Author-identified |
+| LinRegPCR/qPCR amplicon-efficiency reanalysis attempted via the real published `sliwin()` algorithm (`qpcR` package, Ritz & Spiess 2008) on raw CFX well data, bypassing `qpcR`'s broken `rgl` install dependency by sourcing its R files directly. Included as evidence, not as a source of reported efficiency numbers — see script header and manuscript Methods/Response letter for why. | `R2C3_load_qpcR_functions.R`, `R2C3_test_sliwin_real.R` | R2C3 |
 
 ---
 
 ## Folder Contents
 
-### Utility / Helper Scripts
+### Reanalysis Scripts (Python)
 
-| File | Lines | Description |
-|------|-------|-------------|
-| `0_Analysis Script Combination.R` | 77 | Compiles all `.R` scripts in the working directory into a single output file |
-| `0_Combined Statistical Output Workbook.R` | 360 | Builds `Table_S3_Statistical_Output.xlsx` — all CSV statistical outputs assembled into a formatted Excel workbook (Arial 10 pt, alternating rows, Index sheet) |
-| `0_Directory File Checker.R` | 294 | Scans the working directory and cross-references all R scripts, CSV outputs, and PNG/SVG figures against the expected project manifest; exports `Directory_Check_Report.csv` |
+| File | Description |
+|------|-------------|
+| `Fig4_treatment_adjusted_reanalysis.py` | Regresses out treatment-group mean from each gene's expression, correlates residuals pairwise across the 20-gene consensus panel, applies Benjamini-Hochberg correction across all tests. Reports how many of the 27 pooled-consensus pairs survive treatment-adjustment. Output: `Fig4_treatment_adjusted_reanalysis_output.txt`, `SuppTable3_treatment_adjusted_data.csv` (Supplementary Table 3) |
+| `R2C1_normalization_sensitivity.py` | Recomputes the four-normalization-method consensus-pair overlap using Tcf7 and Cacna1c as additional normalizer genes (Wnt and calcium-signalling categories, respectively — previously untested). Reports evaluable-pair retention (excludes structurally non-evaluable self-pairs from the denominator). Output: `R2C1_normalization_sensitivity_output.txt` |
 
----
+### Evidence Scripts (R) — LinRegPCR / qPCR efficiency (R2C3)
 
-### Figure Scripts
+| File | Description |
+|------|-------------|
+| `R2C3_load_qpcR_functions.R` | Sources the `qpcR` package's R functions directly from its installed `R/` source files and `sysdata.rda`, bypassing the package's normal `library(qpcR)` load path (blocked locally by a broken `rgl` Depends). Provides a working `pcrfit()`/`sliwin()` without a full package install. |
+| `R2C3_test_sliwin_real.R` | Runs `sliwin()` (Ritz & Spiess 2008 window-of-linearity method) on real raw CFX well fluorescence data for a sample of genes/wells. Documents non-convergence / implausible fitted windows on CFX Maestro's baseline-subtracted export format — used in the manuscript response as evidence that the data format, not algorithm choice, is the blocker for a full per-amplicon efficiency reanalysis. Requires a local folder of raw CFX `.xlsx` exports (see script header; not included, provided separately per journal raw-data policy). |
+| `R2C3_sliwin_test_output.txt` | Captured console output of `R2C3_test_sliwin_real.R` — 9 of 11 tested wells fail to converge (`SLIWIN FAILED: NA/NaN argument`); the 2 that do converge return implausible efficiencies (~0.1%). This is the evidence referenced above. |
 
-#### Figure 1 — Notch/Wnt Pathway Inhibition & Gene Expression
+### Corrected Data / Regenerated Figure Scripts (R)
 
-| File | Lines | Figure Panel | Description |
-|------|-------|-------------|-------------|
-| `Fig_1c_Boxplot_proliferation_revised.r` | 147 | Fig. 1c | Total DNA content (cell proliferation) — Shapiro-Wilk normality test, one-way ANOVA or Kruskal-Wallis, Bonferroni pairwise comparisons (CTRL vs DAPT vs DKK-1); outputs `Fig_1c_stats.csv` |
-| `Fig_1d_Boxplot_Notch_Wnt_genes.r` | 375 | Fig. 1d | Notch target and Wnt pathway gene expression boxplots — 10 genes (Hes1, Hey1, Wnt2, Wnt2b, Wnt5a, Wnt5b, Wnt9a, Tcf7, Lef1, Tcf7l2); 5-column × 2-row layout (16.2 × 12.8 cm); outputs `Fig_1d_stats.csv`, `Fig_1d_Statistical_Results.csv`, `Fig_1d_Test_Type_Per_Gene.csv` |
-
-#### Figure 2 — Glucose Uptake & Functional Gene Expression
-
-| File | Lines | Figure Panel | Description |
-|------|-------|-------------|-------------|
-| `Fig_2b_glucose_uptake_revised.r` | 166 | Fig. 2b | 2-NBDG fluorescence intensity (glucose uptake) — Shapiro-Wilk, ANOVA/KW, Bonferroni comparisons; outputs `Fig_2b_stats.csv` |
-| `Fig_2cdef_functional_genes_revised.r` | 305 | Fig. 2c–f | Glut2, Kcnj11, Cacna1c, Cacna1d mRNA fold-change boxplots — unified theme matching Fig. 1d; outputs `Fig_2c_stats.csv`, `Fig_2d_stats.csv`, `Fig_2e_stats.csv`, `Fig_2f_stats.csv` |
-
-#### Figure 3 — C-Peptide Secretion, Insulin Pathway & PCA
-
-| File | Lines | Figure Panel | Description |
-|------|-------|-------------|-------------|
-| `Fig_3a_C-peptide_curve.r` | 83 | Fig. 3a | LOESS-smoothed C-peptide secretion curves with 95% CI across glucose concentrations (CTRL, DAPT, DKK-1); outputs `Fig_3a_LOESS_smooth_CI.csv` |
-| `Fig_3b_C-peptide_5.5mm_revised.r` | 165 | Fig. 3b | C-peptide secretion at 5.5 mM glucose — **Revision 1**: Bonferroni-corrected p-values applied; outputs `Fig_3b_stats.csv` |
-| `Fig_3ef_Boxplot_script.r` | 360 | Fig. 3e–f | Calcium signalling & RNA-binding gene expression — **Revision 1**: Ryr1 excluded (near-undetectable CTRL); Fig. 3e: Ryr2, Ryr3, Itpr1 (16.2 × 5.3 cm); Fig. 3f: Ptbp1 (8 × 5.3 cm); outputs `Fig_3e_stats.csv`, `Fig_3f_Ptbp1_stats.csv` |
-| `Fig_3g_PCA_script.r` | 111 | Fig. 3g | PCA of 11 secretory-pathway genes across CTRL, DAPT, DKK-1; outputs `Fig_3g_PCA_variance_explained.csv`, `Fig_3g_PCA_scores.csv`, `Fig_3g_PCA_loadings.csv` |
-
-#### Figure 4 — Multi-Method Correlation Analysis
-
-| File | Lines | Figure Panel | Description |
-|------|-------|-------------|-------------|
-| `Fig_4b_correlation_matrix.r` | 60 | Fig. 4b | Full 21 × 21 Pearson correlation matrix (Hes1-normalized); outputs `Fig_4b_full_correlation_matrix.csv`, `Fig_4b_pvalue_matrix.csv`, `Fig_4b_significant_correlations.csv` |
-| `Fig_4c_normalization_methods.r` | 119 | Fig. 4c | Comparison of four normalization methods (Raw, Hes1, Kcnj11, Ins1) — significant/strong/very-strong pair counts; outputs `Fig_4c_normalization_comparison_data.csv`, `Fig_4c_permutation_null_stats.csv` |
-| `Fig_4c_normalization_methods_revised.r` | 146 | Fig. 4c | **Revision 1 version** — updated normalization comparison with revised thresholds and permutation null; all four expression datasets exported |
-| `Fig_4d_Venn_diagram.r` | 99 | Fig. 4d | Four-way Venn diagram of 28 consensus gene pairs — **Revision 1**: `Hmisc` replaced with base R `cor.test()`; Ryr1 excluded; outputs `Fig_4d_consensus_pairs.csv`, normalization-specific pair CSVs |
-| `Fig_4e_Hes1-normalized_correlation_matrix.R` | 214 | Fig. 4e | Hes1-normalized significant-only correlation heatmap with 28 consensus pair annotations — **Revision 1**: `Hmisc` removed; Ryr1 excluded; outputs `Fig_4e_Hes1_significant_correlations_only.csv`, `Fig_4e_consensus_annotations.csv` |
-
-#### Figure 5 — Gene Interaction Network
-
-| File | Lines | Figure Panel | Description |
-|------|-------|-------------|-------------|
-| `Fig_5abcd_network_analysis.r` | 351 | Fig. 5a–d | Full gene interaction network with STRING validation — **Revision 1**: category labels updated per reviewer R2.2; 181 high-confidence pairs (|r| ≥ 0.7); outputs `Fig_5_All_Classified_Pairs.csv`, `Fig_5_Summary_Statistics.csv`, `Fig_5b_Coverage_Summary.csv`, `Fig_5d_Top_Novel_Discoveries.csv` |
-
-#### Figure 6 — Hub Network, MLSS Drug Repositioning & Regulatory Approval
-
-| File | Lines | Figure Panel | Description |
-|------|-------|-------------|-------------|
-| `Fig_6b_consensus_hub_network.r` | 165 | Fig. 6b | Consensus hub gene network — node centrality (degree, betweenness, closeness, eigenvector); outputs `fig6b_gene_centrality_summary.csv`, `fig6b_edge_correlation_statistics.csv`, `fig6b_consensus_hub_network.png/.svg` |
-| `Fig_6c_MLSS_drug_combinations.r` | 341 | Fig. 6c | **MLSS v4.0** — Multi-Layer Synergy Score for all drug combinations; formula: `MLSS = (0.45·C + 0.30·B + 0.10·V + 0.15·P) × 9 ± potency-weighted r`; outputs `Fig_6c_mlss_all_combinations.csv`, `Fig_6c_mlss_top15.csv` |
-| `Fig_6d_Fig_S2_MLSS_validation.r` | 223 | Fig. 6d, S2 | MLSS robustness and ablation study — 8 weight scenarios, Spearman rank correlation matrix, component importance; outputs `Fig_6d_ranking_correlations.csv`, `Fig_6d_ablation_impact.csv`, `Fig_S2a_mlss_sensitivity_data.csv`, `Fig_S2b_component_importance_data.csv` |
-| `Fig_6e_drug_combination_network.r` | 208 | Fig. 6e | Drug combination network — node/edge statistics for top-15 combinations; outputs `Fig_6e_drug_node_statistics.csv`, `Fig_6e_drug_edge_statistics.csv`, `Fig_6e_drug_combination_network.png/.svg` |
-| `Fig_6f_regulatory_mechanistic_sankey.r` | 183 | Fig. 6f | Six-layer mechanistic Sankey diagram: Disease → Pathway → Gene → Target → Drug → Regulatory approval; outputs `Fig_6f_hub_drug_approval_profile.csv`, `Fig_6f_pathway_gene_connectivity.csv`, `Fig_6f_six_layer_complete_mapping.csv` |
-
-#### Supplementary Figure S1 — Consensus Validation
-
-| File | Lines | Figure Panel | Description |
-|------|-------|-------------|-------------|
-| `Fig_S1_validation_analysis.r` | 492 | Fig. S1a–c | Multi-normalization consensus validation — observed vs permutation null, false positive rate comparison, Hey1 sign-flip check; outputs `Fig_S1a_Observed_vs_Null.csv`, `Fig_S1b_CI_width_pooled_vs_single.csv`, `Fig_S1c_Hey1_signflip.csv` |
-| `Fig_S1_validation_analysis_double.r` | 411 | Fig. S1a–b | **Double-validation version** — Observed vs permutation null bar chart + Pearson r CI validation plot; exports `FigS1a_Validation_Summary.csv`, `FigS1a_Validation_BarChart.png`, `FigS1b_Pearson_r_CI_Plot.png/.svg`; console reports CI (0.211–0.909) and r_min (0.576) |
+| File | Figure Panel | Description |
+|------|-------------|-------------|
+| `Fig_4d_consensus_pairs.csv` | Fig. 4d, 6b | Corrected consensus gene-pair list — 27 rows (Ryr1-containing row removed; see Changes Summary above). Same filename as `R_scripts_Rev1/Fig_4d_Venn_diagram.r`'s output; content corrected. |
+| `Fig_6b_consensus_hub_network_revised.r` | Fig. 6b | Regenerated from the corrected 27-pair data; hub-gene identities and degree values confirmed unchanged from the Rev1 (28-pair, buggy) version except for the removal of Ryr1 itself and one lost edge for Wnt9a. Outputs `Fig_6b_ConsensusHubNetwork_NPG.png/.svg`, `Fig_6b_Gene_Centrality_Summary.csv` |
+| `Fig_6f_regulatory_mechanistic_sankey_revised.r` | Fig. 6f | Six-layer mechanistic Sankey — font-size and gene-italics fixes only (see Changes Summary); underlying data unchanged from `R_scripts_Rev1/Fig_6f_regulatory_mechanistic_sankey.r`. Outputs `Fig_6f_Regulatory_Mechanistic_Sankey.png/.svg` |
 
 ---
 
-### Master Combined Script
+## Required R / Python Packages
 
-| File | Lines | Description |
-|------|-------|-------------|
-| `Combined_Analysis_Scripts_Fig_1-6.R` | 4,893 | Full concatenation of all 21 figure scripts in execution order — used for reproducible single-session runs |
-
----
-
-## Required R Packages
-
-Install all dependencies with:
+R scripts use the same dependencies as `R_scripts_Rev1/` (see that folder's README), plus:
 
 ```r
-install.packages(c(
-  "ggplot2", "ggpubr", "ggrepel", "ggcorrplot", "ggraph", "ggfortify",
-  "ggalluvial", "ggsci",
-  "dplyr", "tidyr", "tidyverse", "data.table", "reshape2",
-  "readxl", "readr",
-  "patchwork", "gridExtra", "grid",
-  "igraph", "VennDiagram",
-  "factoextra",
-  "rstatix", "outliers", "scales", "rlang",
-  "openxlsx"
-))
+# R2C3 evidence scripts only — qpcR loaded via direct source(), not install.packages()
+# Standard qpcR runtime deps (already required by a normal qpcR install):
+install.packages(c("minpack.lm", "robustbase", "lattice", "MASS"))
 ```
 
-> **Note:** `Hmisc` was used in pre-revision scripts but has been replaced with base R `cor.test()` in all Revision 1 scripts.
+Python scripts require:
+
+```
+pandas
+numpy
+scipy
+statsmodels
+```
 
 ---
 
 ## Execution Order
 
-For a full reproducible run, execute scripts in the following order:
+These scripts are independent of each other and of `R_scripts_Rev1/`'s execution order; each can be run standalone provided its input files are present.
 
 ```
-1.  Fig_1c_Boxplot_proliferation_revised.r
-2.  Fig_1d_Boxplot_Notch_Wnt_genes.r
-3.  Fig_2b_glucose_uptake_revised.r
-4.  Fig_2cdef_functional_genes_revised.r
-5.  Fig_3a_C-peptide_curve.r
-6.  Fig_3b_C-peptide_5.5mm_revised.r
-7.  Fig_3ef_Boxplot_script.r
-8.  Fig_3g_PCA_script.r
-9.  Fig_4b_correlation_matrix.r
-10. Fig_4c_normalization_methods_revised.r
-11. Fig_4d_Venn_diagram.r
-12. Fig_4e_Hes1-normalized_correlation_matrix.R
-13. Fig_5abcd_network_analysis.r
-14. Fig_6b_consensus_hub_network.r
-15. Fig_6c_MLSS_drug_combinations.r
-16. Fig_6d_Fig_S2_MLSS_validation.r
-17. Fig_6e_drug_combination_network.r
-18. Fig_6f_regulatory_mechanistic_sankey.r
-19. Fig_S1_validation_analysis.r
-20. Fig_S1_validation_analysis_double.r
-21. 0_Combined Statistical Output Workbook.R   ← run last (reads all CSVs)
-```
-
-Or run the master script directly:
-```r
-source("Combined_Analysis_Scripts_Fig_1-6.R")
+1. Fig_4d_consensus_pairs.csv (this folder's corrected version) must exist before:
+2. Fig_6b_consensus_hub_network_revised.r
+3. Fig4_treatment_adjusted_reanalysis.py   (independent)
+4. R2C1_normalization_sensitivity.py       (independent)
+5. Fig_6f_regulatory_mechanistic_sankey_revised.r  (independent; data unchanged from Rev1)
+6. R2C3_load_qpcR_functions.R, then R2C3_test_sliwin_real.R  (evidence only, not part of the figure pipeline)
 ```
 
 ---
 
 ## Input Data Files Required
 
-The following reference/input CSV files must be present in the working directory before running:
+All scripts here use relative paths and expect to be run with the working directory set to a folder that also contains the relevant `R_scripts_Rev1/` pipeline outputs below (this folder is an incremental overlay on Rev1, not a standalone pipeline — see Overview).
 
-| File | Used by |
-|------|---------|
-| `drug.target.interaction.csv` | Fig_6c, Fig_6e, Fig_6f |
-| `string_interactions.csv` | Fig_5abcd, Fig_4e |
-| `FDA_Approved.csv` | Fig_6f |
-| `EMA_Approved.csv` | Fig_6f |
-| `PMDA_Approved.csv` | Fig_6f |
-| `FDA-EMA-PMDA_Approved.csv` | Fig_6c, Fig_6f |
-
-Raw experimental data (qPCR ΔCt, DNA content, C-peptide, 2-NBDG) must be provided as `.xlsx` files — see individual script headers for expected filenames.
+| File | Used by | Source |
+|------|---------|--------|
+| `Fig_4d_consensus_pairs.csv` (corrected, 27 rows) | `Fig_6b_consensus_hub_network_revised.r` | Included in this folder |
+| `Fig_4e_Hes1_significant_correlations_only.csv` | `Fig_6b_consensus_hub_network_revised.r` | Output of `R_scripts_Rev1/Fig_4e_Hes1-normalized_correlation_matrix.R` |
+| `Fig_6b_Gene_Centrality_Summary.csv` | `Fig_6f_regulatory_mechanistic_sankey_revised.r` | Included in this folder (output of `Fig_6b_consensus_hub_network_revised.r` above) |
+| `Fig_6c_MLSS_Top50.csv` | `Fig_6f_regulatory_mechanistic_sankey_revised.r` | Output of the current MLSS scoring script (`Figures/Fig_6c_MLSS_v4.0.r` in the working tree; **note**: this postdates and is not identical to `R_scripts_Rev1/Fig_6c_MLSS_drug_combinations.r`'s `Fig_6c_mlss_top15.csv` output — the MLSS script itself was not part of this round's changes and has not been re-deposited; flagged here for awareness, not fixed in this round) |
+| `FDA_Approved.csv`, `EMA_Approved.csv`, `PMDA_Approved.csv`, `FDA-EMA-PMDA_Approved.csv` | `Fig_6f_regulatory_mechanistic_sankey_revised.r` | Same files as `R_scripts_Rev1/README.md`'s Input Data Files table |
+| `Fig_4c_Hes1_normalized_data.csv`, `Fig_4c_Kcnj11_normalized_data.csv`, `Fig_4c_Ins1_normalized_data.csv`, `Fig_4c_Raw_expression_data.csv` | `Fig4_treatment_adjusted_reanalysis.py`, `R2C1_normalization_sensitivity.py` (raw only) | Output of `R_scripts_Rev1/Fig_4c_normalization_methods_revised.r` |
+| Raw CFX Maestro well-level fluorescence exports (baseline-subtracted, `.xlsx`) | `R2C3_test_sliwin_real.R` | Provided separately per journal raw-data policy, not included in this deposit |
 
 ---
 
@@ -204,4 +117,4 @@ If you use these scripts, please cite:
 
 ---
 
-*Scripts generated: 2026-05-04 | Revision 1 compiled: 2026-05-09 | Revision 2 additions: 2026-06-29*
+*Revision 3 scripts compiled: 2026-09-15*
