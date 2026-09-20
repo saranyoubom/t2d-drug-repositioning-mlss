@@ -1,8 +1,22 @@
 ## Load qpcR's R-level functions directly (bypassing the package's rgl Depends,
-## which fails to install/load in this environment). qpcR is GPL>=2 licensed;
-## its non-rgl dependencies (MASS, minpack.lm, robustbase, Matrix, methods) are
-## already installed. This gives us the actual published Ritz & Spiess (2008)
-## sliding-window efficiency algorithm instead of a hand-rolled reimplementation.
+## which fails to install/load in some environments, e.g. no OpenGL/X11 dev
+## headers available). qpcR is GPL>=2 licensed; its non-rgl dependencies
+## (MASS, minpack.lm, robustbase, Matrix, methods) are ordinary CRAN packages.
+## This gives the actual published Ritz & Spiess (2008) sliding-window
+## efficiency algorithm instead of a hand-rolled reimplementation.
+##
+## If `library(qpcR)` already works in your environment, skip this script
+## entirely and use that instead -- this workaround is only needed when qpcR's
+## rgl dependency blocks a normal install/load.
+##
+## SRC_DIR must point to a local copy of qpcR's R/ source directory. Obtain
+## one by either:
+##   (a) downloading the qpcR source tarball from CRAN's archive
+##       (https://cran.r-project.org/src/contrib/Archive/qpcR/) and extracting
+##       its R/ subfolder, or
+##   (b) if qpcR is already installed with source available,
+##       file.path(find.package("qpcR"), "R") on some installations.
+## Edit the path below to match.
 
 library(MASS)
 library(minpack.lm)
@@ -10,9 +24,14 @@ library(robustbase)
 library(Matrix)
 library(methods)
 
-# Point this at a local extraction of the qpcR CRAN source tarball's R/ folder
-# (download qpcR's source .tar.gz from CRAN, extract, this is the R/ subfolder).
-SRC_DIR <- "./qpcR_src/qpcR/R"
+SRC_DIR <- "./qpcR_src/R"  # <-- edit to your local qpcR R/ source directory
+
+if (!dir.exists(SRC_DIR)) {
+  stop(sprintf(
+    "SRC_DIR ('%s') not found. Set it to a local qpcR R/ source directory -- see this script's header comment.",
+    SRC_DIR
+  ))
+}
 
 rfiles <- list.files(SRC_DIR, pattern = "\\.[Rr]$", full.names = TRUE)
 cat(sprintf("Sourcing %d files...\n", length(rfiles)))

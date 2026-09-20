@@ -1,0 +1,38 @@
+Sourcing 48 files...
+Sourced OK: 48
+Loaded sysdata.rda
+
+Done. Testing pcrfit + sliwin availability:
+pcrfit exists: TRUE 
+sliwin exists: TRUE 
+efficiency exists: TRUE 
+takeoff exists: TRUE 
+Processing 384 wells...
+There were 50 or more warnings (use warnings() to see the first 50)
+
+=== Per-gene convergence summary ===
+Cacna1c    12/12 converged. eff% range [49.3, 62.6], mean 57.4
+Cacna1d    12/12 converged. eff% range [55.2, 67.1], mean 60.4
+Gapdh      48/48 converged. eff% range [53.6, 88.7], mean 70.1
+Glp1r      12/12 converged. eff% range [52.5, 68.6], mean 58.7
+Glut2      12/12 converged. eff% range [47.1, 70.2], mean 60.1
+Hes1       12/12 converged. eff% range [50.8, 68.7], mean 59.5
+Hey1       12/12 converged. eff% range [46.3, 66.1], mean 55.9
+Ins1       12/12 converged. eff% range [49.9, 87.6], mean 71.9
+Itpr1      12/12 converged. eff% range [62.0, 84.7], mean 74.6
+Kcnj11     12/12 converged. eff% range [54.2, 66.4], mean 61.5
+Lef1       24/24 converged. eff% range [46.6, 69.7], mean 53.9
+Ptbp1      12/12 converged. eff% range [52.2, 71.0], mean 63.3
+Ryr1       8/12 converged. eff% range [63.6, 74.5], mean 69.2
+Ryr2       12/12 converged. eff% range [64.9, 82.1], mean 74.3
+Ryr3       12/12 converged. eff% range [60.7, 80.5], mean 69.4
+Tcf7       24/24 converged. eff% range [46.8, 66.5], mean 56.2
+Tcf7l2     12/12 converged. eff% range [53.7, 67.0], mean 60.0
+Wnt2       24/24 converged. eff% range [43.9, 70.8], mean 54.6
+Wnt2b      23/24 converged. eff% range [48.1, 66.3], mean 52.9
+Wnt5a      24/24 converged. eff% range [50.4, 65.8], mean 55.7
+Wnt5b      24/24 converged. eff% range [50.6, 67.4], mean 57.6
+Wnt9a      24/24 converged. eff% range [49.1, 70.4], mean 56.1
+
+Plots saved for 22 genes to ./sliwin_plots
+Genes with a saved plot: Wnt2, Wnt2b, Wnt5a, Tcf7, Wnt5b, Hes1, Ins1, Glp1r, Glut2, Lef1, Wnt9a, Hey1, Gapdh, Cacna1c, Cacna1d, Kcnj11, Ptbp1, Tcf7l2, Itpr1, Ryr1, Ryr2, Ryr3 
