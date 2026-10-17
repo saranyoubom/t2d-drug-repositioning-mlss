@@ -1,0 +1,49 @@
+
+=== Main table (fold change relative to the mean of the CTRL values used; mean +- SEM) ===
+S1 published: 25K read 2, CTRL rep2 = 331, CTRL 3382 excluded (CTRL only), no blank correction
+   n 3/4/4 | CTRL 1.000+-0.159 | DAPT 0.946+-0.198 (median 0.755) | DKK-1 1.288+-0.388 (median 0.958)
+   KW p 0.839 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.776 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S2 as S1 but CTRL rep2 = 184 (raw reading block)
+   n 3/4/4 | CTRL 1.000+-0.200 | DAPT 1.142+-0.239 (median 1.282) | DKK-1 1.555+-0.469 (median 1.626)
+   KW p 0.840 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.625 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S3 25K read 2, CTRL rep2 = 331, all four CTRL kept
+   n 4/4/4 | CTRL 1.000+-0.731 | DAPT 0.255+-0.053 (median 0.755) | DKK-1 0.347+-0.105 (median 0.958)
+   KW p 0.550 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.504 | log-t Bonf C-D 0.788 C-K 1.000 D-K 1.000
+S4 25K read 2, CTRL rep2 = 184, all four CTRL kept
+   n 4/4/4 | CTRL 1.000+-0.769 | DAPT 0.264+-0.055 (median 0.951) | DKK-1 0.360+-0.108 (median 1.205)
+   KW p 0.874 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.678 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S5 25K read 2, rep2 = 184, 3382 excluded, blank-subtracted by row
+   n 3/4/4 | CTRL 1.000+-0.255 | DAPT 1.223+-0.384 (median 1.174) | DKK-1 1.921+-0.759 (median 1.727)
+   KW p 0.750 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.598 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S6 25K read 2, rep2 = 184, all four kept, blank-subtracted by row
+   n 4/4/4 | CTRL 1.000+-0.849 | DAPT 0.185+-0.058 (median 0.861) | DKK-1 0.291+-0.115 (median 1.267)
+   KW p 0.794 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.694 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S7 25K read 2, rep2 = 184, all four kept, mean blank subtracted
+   n 4/4/4 | CTRL 1.000+-0.852 | DAPT 0.185+-0.061 (median 0.921) | DKK-1 0.291+-0.120 (median 1.329)
+   KW p 0.874 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.737 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S8 25K read 1, all four CTRL kept
+   n 4/4/4 | CTRL 1.000+-0.795 | DAPT 0.257+-0.050 (median 1.058) | DKK-1 0.343+-0.096 (median 1.309)
+   KW p 0.735 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.735 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S9 25K read 1, high CTRL (3435) excluded
+   n 3/4/4 | CTRL 1.000+-0.167 | DAPT 1.249+-0.244 (median 1.304) | DKK-1 1.665+-0.467 (median 1.614)
+   KW p 0.498 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.480 | log-t Bonf C-D 1.000 C-K 0.733 D-K 1.000
+S10 50K read 1, all four kept (no outlier)
+   n 4/4/4 | CTRL 1.000+-0.300 | DAPT 1.150+-0.409 (median 1.150) | DKK-1 1.640+-0.605 (median 1.691)
+   KW p 0.694 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.766 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S11 50K read 2, all four kept (no outlier)
+   n 4/4/4 | CTRL 1.000+-0.284 | DAPT 1.025+-0.313 (median 1.099) | DKK-1 1.428+-0.490 (median 1.396)
+   KW p 0.779 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.775 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+S12 50K read 2, blank-subtracted by row
+   n 4/4/4 | CTRL 1.000+-0.309 | DAPT 1.028+-0.337 (median 1.123) | DKK-1 1.477+-0.538 (median 1.453)
+   KW p 0.779 | Wilcoxon-Bonf C-D 1.000 C-K 1.000 D-K 1.000 | log-ANOVA p 0.766 | log-t Bonf C-D 1.000 C-K 1.000 D-K 1.000
+
+=== Paired-by-row % of CTRL (original workbook analysis) ===
+     g                        label  mean  sem
+  DAPT 25K read 2, raw (rep2 = 184)  78.6 29.6
+ DKK-1 25K read 2, raw (rep2 = 184)  91.9 30.9
+  DAPT       25K read 2, rep2 = 331  61.4   17
+ DKK-1       25K read 2, rep2 = 331    73   18
+  DAPT                   50K read 2 104.1   22
+ DKK-1                   50K read 2 134.6 10.5
+
+Blank (negative-control) wells, 25K read 2: 74 94 122 106 | treated-well signals DAPT: 160 286 214 421 DKK-1: 157 313 321 681 

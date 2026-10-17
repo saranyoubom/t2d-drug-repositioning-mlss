@@ -1,0 +1,31 @@
+N rows = 12 | pooled df = 10 | treatment-adjusted (partial) df = 8
+
+== POOLED across 3 treatment groups
+  uncorrected p<0.05   per-scheme {'Raw': 80, 'Hes1': 169, 'Kcnj11': 118, 'Ins1': 98} | consensus(all 4) = 27
+  BH q<0.05            per-scheme {'Raw': 52, 'Hes1': 169, 'Kcnj11': 111, 'Ins1': 89} | consensus(all 4) = 18
+
+== TREATMENT-ADJUSTED (residuals on group), correct df = 8
+  uncorrected p<0.05   per-scheme {'Raw': 15, 'Hes1': 43, 'Kcnj11': 54, 'Ins1': 76} | consensus(all 4) = 5
+  BH q<0.05            per-scheme {'Raw': 0, 'Hes1': 12, 'Kcnj11': 5, 'Ins1': 49} | consensus(all 4) = 0
+
+Pooled p<0.05 consensus = 27; sign-INCONSISTENT across schemes = 6 -> sign-consistent consensus = 21
+  inconsistent: Hey1-Cacna1c, Hey1-Cacna1d, Hey1-Ptbp1, Tcf7l2-Hey1, Wnt5a-Hey1, Wnt5b-Hey1 
+
+== PERMUTATION NULL (2000 reps; independent within-group residuals; group means retained; seed 20261015)
+  Raw     pooled p<0.05 pairs: mean 77.9 (95% 72-85)
+  Hes1    pooled p<0.05 pairs: mean 169.0 (95% 166-171)
+  Kcnj11  pooled p<0.05 pairs: mean 113.1 (95% 100-128)
+  Ins1    pooled p<0.05 pairs: mean 95.3 (95% 87-104)
+  4-scheme consensus pairs: mean 29.8 (95% 24-36); P(null >= 27) = 0.854
+  ... sign-consistent consensus: mean 22.8 (95% 17-29); P(null >= 21) = 0.780
+
+== Minimum |r| to pass BH at df = 8 (single best pair; m = number of pairs tested)
+  m = 190, q < 0.05: p <= 2.63e-04 -> |r| >= 0.909
+  m = 190, q < 0.10: p <= 5.26e-04 -> |r| >= 0.892
+  m = 171, q < 0.05: p <= 2.92e-04 -> |r| >= 0.907
+  m = 171, q < 0.10: p <= 5.85e-04 -> |r| >= 0.889
+
+Wrote R_all_pairs_statistics.csv (703 rows) and R_SuppTable3_v2_consensus_pairs.csv (27 rows)
+
+sessionInfo():
+[1] "R version 4.4.0 (2024-04-24 ucrt)"

@@ -1,0 +1,20 @@
+datasets: 22 | with a differing classification: 17 
+        dataset       reported                   classification_differs
+          Wnt5a Kruskal-Wallis               CTRL_vs_DAPT; CTRL_vs_DKK1
+          Wnt5b          ANOVA                             CTRL_vs_DAPT
+          Wnt9a          ANOVA               CTRL_vs_DAPT; DAPT_vs_DKK1
+           Tcf7          ANOVA                             DAPT_vs_DKK1
+         Tcf7l2          ANOVA               CTRL_vs_DAPT; DAPT_vs_DKK1
+           Hes1          ANOVA CTRL_vs_DAPT; CTRL_vs_DKK1; DAPT_vs_DKK1
+           Hey1 Kruskal-Wallis CTRL_vs_DAPT; CTRL_vs_DKK1; DAPT_vs_DKK1
+          Itpr1          ANOVA                             CTRL_vs_DAPT
+           Ryr2          ANOVA               CTRL_vs_DAPT; DAPT_vs_DKK1
+        Cacna1c          ANOVA                             CTRL_vs_DAPT
+        Cacna1d          ANOVA               CTRL_vs_DAPT; CTRL_vs_DKK1
+         Kcnj11          ANOVA CTRL_vs_DAPT; CTRL_vs_DKK1; DAPT_vs_DKK1
+          Ptbp1          ANOVA               CTRL_vs_DAPT; CTRL_vs_DKK1
+          Glut2          ANOVA                             CTRL_vs_DKK1
+          Glp1r          ANOVA               CTRL_vs_DAPT; CTRL_vs_DKK1
+         DNA_ug          ANOVA               CTRL_vs_DAPT; CTRL_vs_DKK1
+ Cpeptide_5.5mM Kruskal-Wallis                             CTRL_vs_DKK1
+min attainable KW (Wilcoxon, Bonferroni) padj with n = 4 vs 4: 0.0857 
