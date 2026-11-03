@@ -1,0 +1,99 @@
+"Section","Col1","Col2","Col3","Col4","Col5","Col6"
+"Descriptive Statistics - Hes1","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0432","4",NA,NA
+"","DAPT","0.1363","0.0034","4",NA,NA
+"","DKK-1","0.5174","0.0312","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Hes1","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Hes1)","0.8755","0.0767","Normal",NA,NA
+"","One-way ANOVA (F)","196.9354","0","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Hes1 (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0","0","***","***"
+"","CTRL","DKK-1","2e-06","5e-06","***","***"
+"","DAPT","DKK-1","1.1e-05","3.3e-05","***","***"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Wnt5a","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0562","4",NA,NA
+"","DAPT","0.552","0.0317","4",NA,NA
+"","DKK-1","0.6106","0.0304","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Wnt5a","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Wnt5a)","0.8568","0.0446","Non-normal",NA,NA
+"","Kruskal-Wallis (H)","8.3462","0.0154","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Wnt5a (Pairwise Wilcoxon (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.028571","0.085714","ns","#"
+"","CTRL","DKK-1","0.028571","0.085714","ns","#"
+"","DAPT","DKK-1","0.2","0.6","ns","ns"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Wnt5b","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0536","4",NA,NA
+"","DAPT","0.6962","0.0702","4",NA,NA
+"","DKK-1","0.9251","0.0642","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Wnt5b","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Wnt5b)","0.953","0.6813","Normal",NA,NA
+"","One-way ANOVA (F)","6.3078","0.0194","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Wnt5b (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.007764","0.023291","*","*"
+"","CTRL","DKK-1","0.422433","1","ns","ns"
+"","DAPT","DKK-1","0.030266","0.090798","ns","#"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Wnt9a","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0265","4",NA,NA
+"","DAPT","1.9299","0.1096","4",NA,NA
+"","DKK-1","1.0788","0.0672","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Wnt9a","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Wnt9a)","0.7743","0.0049","Non-normal",NA,NA
+"","One-way ANOVA (F)","46.3234","0","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Wnt9a (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","1.1e-05","3.4e-05","***","***"
+"","CTRL","DKK-1","0.480981","1","ns","ns"
+"","DAPT","DKK-1","2.3e-05","7e-05","***","***"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Lef1","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0971","4",NA,NA
+"","DAPT","1.1711","0.0365","4",NA,NA
+"","DKK-1","1.0065","0.1443","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Lef1","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Lef1)","0.9013","0.1647","Normal",NA,NA
+"","Kruskal-Wallis (H)","2.4231","0.2977","Not significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Lef1 (Pairwise Wilcoxon (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.2","0.6","ns","ns"
+"","CTRL","DKK-1","0.685714","1","ns","ns"
+"","DAPT","DKK-1","0.342857","1","ns","ns"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Tcf7","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0408","4",NA,NA
+"","DAPT","1.296","0.1445","4",NA,NA
+"","DKK-1","0.6883","0.1488","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Tcf7","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Tcf7)","0.958","0.7543","Normal",NA,NA
+"","One-way ANOVA (F)","6.1992","0.0203","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Tcf7 (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.120539","0.361618","ns","ns"
+"","CTRL","DKK-1","0.104389","0.313168","ns","ns"
+"","DAPT","DKK-1","0.006508","0.019523","*","*"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Tcf7l2","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0171","4",NA,NA
+"","DAPT","0.7784","0.0376","4",NA,NA
+"","DKK-1","1.0029","0.0308","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Tcf7l2","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Tcf7l2)","0.9041","0.179","Normal",NA,NA
+"","One-way ANOVA (F)","18.7683","6e-04","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Tcf7l2 (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.000513","0.001539","**","**"
+"","CTRL","DKK-1","0.946843","1","ns","ns"
+"","DAPT","DKK-1","0.000469","0.001406","**","**"
+"---",NA,NA,NA,NA,NA,NA

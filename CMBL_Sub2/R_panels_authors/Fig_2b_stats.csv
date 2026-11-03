@@ -1,0 +1,14 @@
+"Section","Treatment","Mean","SEM","N","Significance","Trend"
+"Descriptive Statistics","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.1587","3",NA,NA
+"","DAPT","0.946","0.1977","4",NA,NA
+"","DKK-1","1.2882","0.3884","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus Test","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (all groups)","0.8405","0.0321","Non-normal distribution",NA,NA
+"","Kruskal-Wallis","0.3501","0.8394","Not significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise Comparisons (Bonferroni + Raw)","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.858427","1","ns","ns"
+"","CTRL","DKK-1","0.858427","1","ns","ns"
+"","DAPT","DKK-1","0.685714","1","ns","ns"

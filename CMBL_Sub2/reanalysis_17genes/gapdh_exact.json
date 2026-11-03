@@ -1,0 +1,537 @@
+{
+ "ref": {
+  "C0": 22.68339095068945,
+  "C1": 23.621502144781974
+ },
+ "hk_used": [
+  22.5685093010354,
+  22.7982726003435,
+  22.5685093010354,
+  22.7982726003435
+ ],
+ "raw": {
+  "A10": 24.9873996418614,
+  "B10": 24.1318270358876,
+  "C10": 22.5685093010354,
+  "D10": 22.7982726003435
+ },
+ "reported": {
+  "per_gene": {
+   "Tcf7l2": {
+    "omnibus_p": 0.0006151981989187627,
+    "fc_dapt": 0.778431624264071,
+    "fc_dkk": 1.002881564685512,
+    "CTRL-DAPT": 0.0015389959719566226,
+    "CTRL-DKK1": 1.0,
+    "DAPT-DKK1": 0.0014057282764087485
+   },
+   "Kcnj11": {
+    "omnibus_p": 1.2640253829408362e-06,
+    "fc_dapt": 0.3961203044094209,
+    "fc_dkk": 0.6591033229349259,
+    "CTRL-DAPT": 1.025330839983617e-06,
+    "CTRL-DKK1": 0.00011695458083365036,
+    "DAPT-DKK1": 0.0008329991409393004
+   },
+   "Cacna1d": {
+    "omnibus_p": 0.0007265760929857564,
+    "fc_dapt": 0.7632428561777962,
+    "fc_dkk": 0.7318428954283416,
+    "CTRL-DAPT": 0.002783502999073025,
+    "CTRL-DKK1": 0.0011767394999365793,
+    "DAPT-DKK1": 1.0
+   },
+   "Cacna1c": {
+    "omnibus_p": 0.013318944206643726,
+    "fc_dapt": 0.7116049885672799,
+    "fc_dkk": 0.8227161701309492,
+    "CTRL-DAPT": 0.013155504540841773,
+    "CTRL-DKK1": 0.13637802144248756,
+    "DAPT-DKK1": 0.5395235116757912
+   },
+   "Ptbp1": {
+    "omnibus_p": 5.377219178565241e-06,
+    "fc_dapt": 0.6157390696657677,
+    "fc_dkk": 0.6607463362309993,
+    "CTRL-DAPT": 9.08677254025015e-06,
+    "CTRL-DKK1": 2.5451184369836093e-05,
+    "DAPT-DKK1": 0.7879653431198638
+   }
+  },
+  "r_cacna1d_glp1r": {
+   "Raw": 0.5802695272428167,
+   "Ins1-normalized": 0.8206942671716227,
+   "Kcnj11-normalized": 0.7565224644600547,
+   "Hes1-normalized": 0.9603569490417238
+  },
+  "p_cacna1d_glp1r": {
+   "Raw": 0.047927414034749295,
+   "Ins1-normalized": 0.0010710800867598665,
+   "Kcnj11-normalized": 0.004402288630461969,
+   "Hes1-normalized": 7.21394350093451e-07
+  },
+  "sig": {
+   "Raw": 66,
+   "Ins1-normalized": 80,
+   "Kcnj11-normalized": 84,
+   "Hes1-normalized": 120
+  },
+  "consensus": [
+   [
+    "Cacna1c",
+    "Cacna1d"
+   ],
+   [
+    "Cacna1c",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1c",
+    "Tcf7l2"
+   ],
+   [
+    "Cacna1c",
+    "Wnt5a"
+   ],
+   [
+    "Cacna1d",
+    "Glp1r"
+   ],
+   [
+    "Cacna1d",
+    "Glut2"
+   ],
+   [
+    "Cacna1d",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1d",
+    "Wnt5a"
+   ],
+   [
+    "Glp1r",
+    "Ptbp1"
+   ],
+   [
+    "Glp1r",
+    "Ryr3"
+   ],
+   [
+    "Glp1r",
+    "Tcf7l2"
+   ],
+   [
+    "Glp1r",
+    "Wnt5a"
+   ],
+   [
+    "Glp1r",
+    "Wnt5b"
+   ],
+   [
+    "Glut2",
+    "Ptbp1"
+   ],
+   [
+    "Itpr1",
+    "Ryr2"
+   ],
+   [
+    "Itpr1",
+    "Tcf7l2"
+   ],
+   [
+    "Ptbp1",
+    "Wnt5a"
+   ],
+   [
+    "Ryr2",
+    "Ryr3"
+   ],
+   [
+    "Ryr3",
+    "Tcf7l2"
+   ],
+   [
+    "Tcf7",
+    "Wnt9a"
+   ],
+   [
+    "Tcf7l2",
+    "Wnt5b"
+   ]
+  ],
+  "adj_q05": {
+   "Raw": 0,
+   "Ins1-normalized": 51,
+   "Kcnj11-normalized": 11,
+   "Hes1-normalized": 15
+  },
+  "degree": {
+   "Glp1r": 6,
+   "Cacna1d": 5,
+   "Ptbp1": 5,
+   "Tcf7l2": 5,
+   "Cacna1c": 4,
+   "Wnt5a": 4,
+   "Ryr3": 3,
+   "Glut2": 2,
+   "Itpr1": 2,
+   "Ryr2": 2,
+   "Wnt5b": 2,
+   "Tcf7": 1,
+   "Wnt9a": 1
+  }
+ },
+ "C0": {
+  "per_gene": {
+   "Tcf7l2": {
+    "omnibus_p": 0.0012806232304538089,
+    "fc_dapt": 0.7791816512580425,
+    "fc_dkk": 1.002881564685512,
+    "CTRL-DAPT": 0.003112451997834045,
+    "CTRL-DKK1": 1.0,
+    "DAPT-DKK1": 0.002854222539694188
+   },
+   "Kcnj11": {
+    "omnibus_p": 2.5600587821076914e-06,
+    "fc_dapt": 0.398448916429045,
+    "fc_dkk": 0.6591033229349259,
+    "CTRL-DAPT": 2.087016544167795e-06,
+    "CTRL-DKK1": 0.00021635716953068124,
+    "DAPT-DKK1": 0.0015581998322558395
+   },
+   "Cacna1d": {
+    "omnibus_p": 0.000253155393897497,
+    "fc_dapt": 0.7615375534063629,
+    "fc_dkk": 0.7318428954283416,
+    "CTRL-DAPT": 0.001001365362077547,
+    "CTRL-DKK1": 0.0004236478124686942,
+    "DAPT-DKK1": 1.0
+   },
+   "Cacna1c": {
+    "omnibus_p": 0.02004194987326409,
+    "fc_dapt": 0.7153901324557514,
+    "fc_dkk": 0.8227161701309492,
+    "CTRL-DAPT": 0.020343456843269374,
+    "CTRL-DKK1": 0.17242715068342895,
+    "DAPT-DKK1": 0.6603788536237111
+   },
+   "Ptbp1": {
+    "omnibus_p": 6.274474633713287e-06,
+    "fc_dapt": 0.616066102674296,
+    "fc_dkk": 0.6607463362309993,
+    "CTRL-DAPT": 1.0622514922429332e-05,
+    "CTRL-DKK1": 2.94534767630594e-05,
+    "DAPT-DKK1": 0.8216507750426509
+   }
+  },
+  "r_cacna1d_glp1r": {
+   "Raw": 0.6241607732531488,
+   "Ins1-normalized": 0.8332267946433979,
+   "Kcnj11-normalized": 0.7905936036689887,
+   "Hes1-normalized": 0.9755158684935263
+  },
+  "p_cacna1d_glp1r": {
+   "Raw": 0.03006216484781468,
+   "Ins1-normalized": 0.0007624080448616035,
+   "Kcnj11-normalized": 0.0022044038362162835,
+   "Hes1-normalized": 6.65072171649513e-08
+  },
+  "sig": {
+   "Raw": 63,
+   "Ins1-normalized": 80,
+   "Kcnj11-normalized": 86,
+   "Hes1-normalized": 120
+  },
+  "consensus": [
+   [
+    "Cacna1c",
+    "Cacna1d"
+   ],
+   [
+    "Cacna1c",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1c",
+    "Tcf7l2"
+   ],
+   [
+    "Cacna1c",
+    "Wnt5a"
+   ],
+   [
+    "Cacna1d",
+    "Glp1r"
+   ],
+   [
+    "Cacna1d",
+    "Glut2"
+   ],
+   [
+    "Cacna1d",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1d",
+    "Wnt5a"
+   ],
+   [
+    "Glp1r",
+    "Ptbp1"
+   ],
+   [
+    "Glp1r",
+    "Ryr3"
+   ],
+   [
+    "Glp1r",
+    "Tcf7l2"
+   ],
+   [
+    "Glp1r",
+    "Wnt5a"
+   ],
+   [
+    "Glp1r",
+    "Wnt5b"
+   ],
+   [
+    "Glut2",
+    "Ptbp1"
+   ],
+   [
+    "Itpr1",
+    "Ryr2"
+   ],
+   [
+    "Itpr1",
+    "Ryr3"
+   ],
+   [
+    "Itpr1",
+    "Wnt5a"
+   ],
+   [
+    "Ptbp1",
+    "Wnt5a"
+   ],
+   [
+    "Ryr2",
+    "Ryr3"
+   ],
+   [
+    "Ryr2",
+    "Tcf7l2"
+   ],
+   [
+    "Ryr2",
+    "Wnt5b"
+   ],
+   [
+    "Ryr3",
+    "Tcf7l2"
+   ],
+   [
+    "Tcf7",
+    "Wnt9a"
+   ],
+   [
+    "Tcf7l2",
+    "Wnt5b"
+   ]
+  ],
+  "adj_q05": {
+   "Raw": 0,
+   "Ins1-normalized": 47,
+   "Kcnj11-normalized": 36,
+   "Hes1-normalized": 12
+  },
+  "degree": {
+   "Glp1r": 6,
+   "Cacna1d": 5,
+   "Ptbp1": 5,
+   "Tcf7l2": 5,
+   "Wnt5a": 5,
+   "Cacna1c": 4,
+   "Ryr2": 4,
+   "Ryr3": 4,
+   "Itpr1": 3,
+   "Wnt5b": 3,
+   "Glut2": 2,
+   "Tcf7": 1,
+   "Wnt9a": 1
+  }
+ },
+ "C1": {
+  "per_gene": {
+   "Tcf7l2": {
+    "omnibus_p": 0.00013324294295581195,
+    "fc_dapt": 1.4929261514305214,
+    "fc_dkk": 1.002881564685512,
+    "CTRL-DAPT": 0.00032608117238712344,
+    "CTRL-DKK1": 1.0,
+    "DAPT-DKK1": 0.0003408597045962457
+   },
+   "Kcnj11": {
+    "omnibus_p": 0.002898365706228137,
+    "fc_dapt": 0.7634353380699374,
+    "fc_dkk": 0.6591033229349259,
+    "CTRL-DAPT": 0.026998468518778487,
+    "CTRL-DKK1": 0.0030111736961071804,
+    "DAPT-DKK1": 0.5329711699277969
+   },
+   "Cacna1d": {
+    "omnibus_p": 3.8904789001964616e-07,
+    "fc_dapt": 1.4591197404881666,
+    "fc_dkk": 0.7318428954283416,
+    "CTRL-DAPT": 1.6872568181695876e-05,
+    "CTRL-DKK1": 0.0010964019687111966,
+    "DAPT-DKK1": 3.385076819697523e-07
+   },
+   "Cacna1c": {
+    "omnibus_p": 0.006034448256665773,
+    "fc_dapt": 1.3707004464159755,
+    "fc_dkk": 0.8227161701309492,
+    "CTRL-DAPT": 0.05359343213403375,
+    "CTRL-DKK1": 0.6005239838269525,
+    "DAPT-DKK1": 0.006212380495354076
+   },
+   "Ptbp1": {
+    "omnibus_p": 1.5676975587214597e-05,
+    "fc_dapt": 1.1803938070247824,
+    "fc_dkk": 0.6607463362309993,
+    "CTRL-DAPT": 0.02545647642368488,
+    "CTRL-DKK1": 0.0004202498398239984,
+    "DAPT-DKK1": 1.432752414402939e-05
+   }
+  },
+  "r_cacna1d_glp1r": {
+   "Raw": -0.5177654560045666,
+   "Ins1-normalized": -0.16260894000194237,
+   "Kcnj11-normalized": -0.3651769161973851,
+   "Hes1-normalized": 0.9744418004003136
+  },
+  "p_cacna1d_glp1r": {
+   "Raw": 0.08466878852597161,
+   "Ins1-normalized": 0.6136062582255793,
+   "Kcnj11-normalized": 0.24312077859306216,
+   "Hes1-normalized": 8.228328803706642e-08
+  },
+  "sig": {
+   "Raw": 62,
+   "Ins1-normalized": 49,
+   "Kcnj11-normalized": 44,
+   "Hes1-normalized": 120
+  },
+  "consensus": [
+   [
+    "Cacna1c",
+    "Cacna1d"
+   ],
+   [
+    "Cacna1c",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1c",
+    "Tcf7l2"
+   ],
+   [
+    "Cacna1d",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1d",
+    "Tcf7"
+   ],
+   [
+    "Cacna1d",
+    "Tcf7l2"
+   ],
+   [
+    "Cacna1d",
+    "Wnt9a"
+   ],
+   [
+    "Glp1r",
+    "Itpr1"
+   ],
+   [
+    "Glp1r",
+    "Ryr2"
+   ],
+   [
+    "Glp1r",
+    "Ryr3"
+   ],
+   [
+    "Glp1r",
+    "Wnt5a"
+   ],
+   [
+    "Glp1r",
+    "Wnt5b"
+   ],
+   [
+    "Glut2",
+    "Ptbp1"
+   ],
+   [
+    "Itpr1",
+    "Ryr2"
+   ],
+   [
+    "Itpr1",
+    "Ryr3"
+   ],
+   [
+    "Ptbp1",
+    "Tcf7"
+   ],
+   [
+    "Ryr2",
+    "Ryr3"
+   ],
+   [
+    "Ryr2",
+    "Wnt5b"
+   ],
+   [
+    "Tcf7",
+    "Tcf7l2"
+   ],
+   [
+    "Tcf7",
+    "Wnt9a"
+   ],
+   [
+    "Tcf7l2",
+    "Wnt9a"
+   ]
+  ],
+  "adj_q05": {
+   "Raw": 2,
+   "Ins1-normalized": 41,
+   "Kcnj11-normalized": 12,
+   "Hes1-normalized": 12
+  },
+  "degree": {
+   "Cacna1d": 5,
+   "Glp1r": 5,
+   "Ptbp1": 4,
+   "Ryr2": 4,
+   "Tcf7": 4,
+   "Tcf7l2": 4,
+   "Cacna1c": 3,
+   "Itpr1": 3,
+   "Ryr3": 3,
+   "Wnt9a": 3,
+   "Wnt5b": 2,
+   "Glut2": 1,
+   "Wnt5a": 1
+  }
+ }
+}

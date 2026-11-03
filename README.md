@@ -7,6 +7,12 @@
 
 ---
 
+## Update (November 2026)
+
+The folder [`CMBL_Sub2/`](CMBL_Sub2/) holds the analysis for the revised 17-gene version of the manuscript (scripts, inputs and results). Earlier folders are unchanged.
+
+---
+
 ## Overview
 
 This repository contains the complete set of analysis scripts (R and Python) used to generate all figures and supplementary analyses for:

@@ -1,0 +1,76 @@
+{
+ "20": {
+  "Raw": {
+   "pairs": 190,
+   "pooled_p": 80,
+   "pooled_q": 52,
+   "adj_p": 15,
+   "adj_q": 0
+  },
+  "Ins1-normalized": {
+   "pairs": 171,
+   "pooled_p": 98,
+   "pooled_q": 89,
+   "adj_p": 76,
+   "adj_q": 49
+  },
+  "Kcnj11-normalized": {
+   "pairs": 171,
+   "pooled_p": 118,
+   "pooled_q": 111,
+   "adj_p": 54,
+   "adj_q": 5
+  },
+  "Hes1-normalized": {
+   "pairs": 171,
+   "pooled_p": 169,
+   "pooled_q": 169,
+   "adj_p": 43,
+   "adj_q": 12
+  },
+  "all": {
+   "pooled_p": 27,
+   "pooled_q": 18,
+   "adj_p": 5,
+   "adj_q": 0,
+   "signcons": 21
+  }
+ },
+ "17": {
+  "Raw": {
+   "pairs": 136,
+   "pooled_p": 66,
+   "pooled_q": 42,
+   "adj_p": 15,
+   "adj_q": 0
+  },
+  "Ins1-normalized": {
+   "pairs": 120,
+   "pooled_p": 80,
+   "pooled_q": 76,
+   "adj_p": 70,
+   "adj_q": 51
+  },
+  "Kcnj11-normalized": {
+   "pairs": 120,
+   "pooled_p": 84,
+   "pooled_q": 79,
+   "adj_p": 40,
+   "adj_q": 11
+  },
+  "Hes1-normalized": {
+   "pairs": 120,
+   "pooled_p": 120,
+   "pooled_q": 120,
+   "adj_p": 34,
+   "adj_q": 15
+  },
+  "all": {
+   "pooled_p": 21,
+   "pooled_q": 14,
+   "adj_p": 5,
+   "adj_q": 0,
+   "signcons": 21
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "genes_20": [
+  "Wnt2",
+  "Wnt2b",
+  "Wnt5a",
+  "Wnt5b",
+  "Wnt9a",
+  "Lef1",
+  "Tcf7",
+  "Tcf7l2",
+  "Hes1",
+  "Hey1",
+  "Itpr1",
+  "Ryr2",
+  "Ryr3",
+  "Cacna1c",
+  "Cacna1d",
+  "Kcnj11",
+  "Ptbp1",
+  "Glut2",
+  "Ins1",
+  "Glp1r"
+ ],
+ "genes_17": [
+  "Wnt5a",
+  "Wnt5b",
+  "Wnt9a",
+  "Lef1",
+  "Tcf7",
+  "Tcf7l2",
+  "Hes1",
+  "Itpr1",
+  "Ryr2",
+  "Ryr3",
+  "Cacna1c",
+  "Cacna1d",
+  "Kcnj11",
+  "Ptbp1",
+  "Glut2",
+  "Ins1",
+  "Glp1r"
+ ],
+ "pooled_consensus_20": 27,
+ "sign_consistent_20": 21,
+ "pooled_consensus_17": 21,
+ "permutation_20": {
+  "n": 2000,
+  "mean": 29.7105,
+  "sd": 3.2449483431943875,
+  "p_ge_obs": 0.8485,
+  "observed": 27,
+  "q05": 25.0,
+  "q95": 35.0
+ },
+ "permutation_17": {
+  "n": 2000,
+  "mean": 22.1125,
+  "sd": 3.0564429898167575,
+  "p_ge_obs": 0.6875,
+  "observed": 21,
+  "q05": 17.0,
+  "q95": 27.0
+ },
+ "adjusted_q05_20": {
+  "Raw": "0",
+  "Ins1-normalized": "49",
+  "Kcnj11-normalized": "5",
+  "Hes1-normalized": "12"
+ },
+ "adjusted_q05_17": {
+  "Raw": "0",
+  "Ins1-normalized": "51",
+  "Kcnj11-normalized": "11",
+  "Hes1-normalized": "15"
+ },
+ "consensus_pairs_sig_in_ge1_adjusted_scheme_17": 13,
+ "consensus_pairs_in_ge3_schemes_17": [
+  "Cacna1d|Ptbp1",
+  "Cacna1d|Wnt5a",
+  "Tcf7|Wnt9a"
+ ],
+ "min_abs_r_df8_p05": 0.6318968647198338,
+ "min_abs_r_best_pair_q05_17": {
+  "raw": 0.9013250133332074,
+  "norm": 0.8980858337999308
+ }
+}

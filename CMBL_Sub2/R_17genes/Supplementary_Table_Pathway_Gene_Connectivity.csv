@@ -1,0 +1,6 @@
+"Primary_Pathway","Hub_Gene","Connection_Strength"
+"Calcium Signaling","Cacna1d",1
+"Calcium Signaling","Cacna1c",0.9
+"Incretin Signaling","Glp1r",1
+"Incretin Signaling","Tcf7",0.85
+"Incretin Signaling","Ptbp1",0.75

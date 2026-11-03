@@ -1,0 +1,90 @@
+{
+ "20": {
+  "Raw": {
+   "mean": 77.9275,
+   "lo": 72.0,
+   "hi": 84.0
+  },
+  "Ins1-normalized": {
+   "mean": 95.2885,
+   "lo": 87.0,
+   "hi": 105.0
+  },
+  "Kcnj11-normalized": {
+   "mean": 113.145,
+   "lo": 100.0,
+   "hi": 128.0
+  },
+  "Hes1-normalized": {
+   "mean": 168.941,
+   "lo": 166.0,
+   "hi": 171.0
+  },
+  "cons": {
+   "mean": 29.7105,
+   "lo": 24.0,
+   "hi": 37.0
+  },
+  "cons_sign": {
+   "mean": 22.751,
+   "lo": 17.0,
+   "hi": 29.0
+  },
+  "observed": {
+   "Raw": 80,
+   "Ins1-normalized": 98,
+   "Kcnj11-normalized": 118,
+   "Hes1-normalized": 169,
+   "cons": 27,
+   "cons_sign": 21
+  },
+  "P_ge_obs": {
+   "cons": 0.8485,
+   "cons_sign": 0.7595
+  }
+ },
+ "17": {
+  "Raw": {
+   "mean": 64.845,
+   "lo": 59.0,
+   "hi": 72.0
+  },
+  "Ins1-normalized": {
+   "mean": 76.659,
+   "lo": 72.0,
+   "hi": 83.0
+  },
+  "Kcnj11-normalized": {
+   "mean": 87.136,
+   "lo": 81.0,
+   "hi": 96.0
+  },
+  "Hes1-normalized": {
+   "mean": 120.0,
+   "lo": 120.0,
+   "hi": 120.0
+  },
+  "cons": {
+   "mean": 22.1125,
+   "lo": 17.0,
+   "hi": 29.0
+  },
+  "cons_sign": {
+   "mean": 21.762,
+   "lo": 17.0,
+   "hi": 28.0
+  },
+  "observed": {
+   "Raw": 66,
+   "Ins1-normalized": 80,
+   "Kcnj11-normalized": 84,
+   "Hes1-normalized": 120,
+   "cons": 21,
+   "cons_sign": 21
+  },
+  "P_ge_obs": {
+   "cons": 0.6875,
+   "cons_sign": 0.644
+  }
+ }
+}

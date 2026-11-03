@@ -1,0 +1,43 @@
+"Section","Col1","Col2","Col3","Col4","Col5","Col6"
+"Descriptive Statistics - Ryr2","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.1281","4",NA,NA
+"","DAPT","0.5311","0.0301","4",NA,NA
+"","DKK-1","1.0378","0.0638","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Ryr2","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Ryr2)","0.9477","0.6034","Normal",NA,NA
+"","One-way ANOVA (F)","11.1822","0.0036","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Ryr2 (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.003469","0.010407","*","*"
+"","CTRL","DKK-1","0.758629","1","ns","ns"
+"","DAPT","DKK-1","0.002159","0.006478","**","**"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Ryr3","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.1501","4",NA,NA
+"","DAPT","0.6116","0.0265","4",NA,NA
+"","DKK-1","1.0096","0.0749","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Ryr3","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Ryr3)","0.9104","0.2159","Normal",NA,NA
+"","One-way ANOVA (F)","5.3629","0.0293","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Ryr3 (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.020681","0.062043","ns","#"
+"","CTRL","DKK-1","0.946214","1","ns","ns"
+"","DAPT","DKK-1","0.018468","0.055403","ns","#"
+"---",NA,NA,NA,NA,NA,NA
+"Descriptive Statistics - Itpr1","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0379","4",NA,NA
+"","DAPT","0.5547","0.0983","4",NA,NA
+"","DKK-1","0.8379","0.0745","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus - Itpr1","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk (Itpr1)","0.8892","0.1149","Normal",NA,NA
+"","One-way ANOVA (F)","9.1534","0.0068","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise - Itpr1 (Pairwise t-test (Bonferroni))","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.002217","0.00665","**","**"
+"","CTRL","DKK-1","0.158149","0.474446","ns","ns"
+"","DAPT","DKK-1","0.024887","0.074661","ns","#"
+"---",NA,NA,NA,NA,NA,NA

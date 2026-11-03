@@ -1,0 +1,83 @@
+"Approval Status","Hub Drugs","Action Type","Hub Genes","Pathways","Annotated effects","Flow"
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Glp1r","Incretin Signaling","Enhanced insulin
+secretion",12
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Glp1r","Incretin Signaling","Metabolic
+homeostasis",12
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Glp1r","Incretin Signaling","β-cell
+preservation",12
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Tcf7","Incretin Signaling","Enhanced insulin
+secretion",10.2
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Tcf7","Incretin Signaling","Metabolic
+homeostasis",10.2
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Tcf7","Incretin Signaling","β-cell
+preservation",10.2
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Ptbp1","Incretin Signaling","Enhanced insulin
+secretion",9
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Ptbp1","Incretin Signaling","Metabolic
+homeostasis",9
+"FDA-EMA-PMDA
+(Tier 1)","liraglutide","Agonist","Ptbp1","Incretin Signaling","β-cell
+preservation",9
+"FDA-Only
+(Tier 3)","isradipine","Antagonist","Cacna1d","Calcium Signaling","Enhanced insulin
+secretion",5
+"FDA-Only
+(Tier 3)","isradipine","Antagonist","Cacna1d","Calcium Signaling","β-cell
+preservation",5
+"FDA-Only
+(Tier 3)","isradipine","Antagonist","Cacna1c","Calcium Signaling","Enhanced insulin
+secretion",4.5
+"FDA-Only
+(Tier 3)","isradipine","Antagonist","Cacna1c","Calcium Signaling","β-cell
+preservation",4.5
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Glp1r","Incretin Signaling","Enhanced insulin
+secretion",4
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Glp1r","Incretin Signaling","Metabolic
+homeostasis",4
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Glp1r","Incretin Signaling","β-cell
+preservation",4
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Tcf7","Incretin Signaling","Enhanced insulin
+secretion",3.4
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Tcf7","Incretin Signaling","Metabolic
+homeostasis",3.4
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Tcf7","Incretin Signaling","β-cell
+preservation",3.4
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Ptbp1","Incretin Signaling","Enhanced insulin
+secretion",3
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Ptbp1","Incretin Signaling","Metabolic
+homeostasis",3
+"FDA-Only
+(Tier 3)","albiglutide","Agonist","Ptbp1","Incretin Signaling","β-cell
+preservation",3
+"Not Approved","(S)-nitrendipine","Antagonist","Cacna1d","Calcium Signaling","Enhanced insulin
+secretion",1.2
+"Not Approved","(S)-nitrendipine","Antagonist","Cacna1d","Calcium Signaling","β-cell
+preservation",1.2
+"Not Approved","nitrendipine","Antagonist","Cacna1d","Calcium Signaling","Enhanced insulin
+secretion",1.2
+"Not Approved","nitrendipine","Antagonist","Cacna1d","Calcium Signaling","β-cell
+preservation",1.2
+"Not Approved","(S)-nitrendipine","Antagonist","Cacna1c","Calcium Signaling","Enhanced insulin
+secretion",1.08
+"Not Approved","(S)-nitrendipine","Antagonist","Cacna1c","Calcium Signaling","β-cell
+preservation",1.08
+"Not Approved","nitrendipine","Antagonist","Cacna1c","Calcium Signaling","Enhanced insulin
+secretion",1.08
+"Not Approved","nitrendipine","Antagonist","Cacna1c","Calcium Signaling","β-cell
+preservation",1.08

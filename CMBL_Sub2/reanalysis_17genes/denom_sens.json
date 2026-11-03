@@ -1,0 +1,38 @@
+{
+ "20": {
+  "n_consensus": 27,
+  "Hey1": {
+   "evaluable": 21,
+   "retained": 21,
+   "new_consensus": 27,
+   "gained": 6
+  },
+  "Tcf7": {
+   "evaluable": 26,
+   "retained": 26,
+   "new_consensus": 33,
+   "gained": 7
+  },
+  "Cacna1c": {
+   "evaluable": 22,
+   "retained": 12,
+   "new_consensus": 14,
+   "gained": 2
+  }
+ },
+ "17": {
+  "n_consensus": 21,
+  "Tcf7": {
+   "evaluable": 20,
+   "retained": 20,
+   "new_consensus": 26,
+   "gained": 6
+  },
+  "Cacna1c": {
+   "evaluable": 17,
+   "retained": 11,
+   "new_consensus": 12,
+   "gained": 1
+  }
+ }
+}

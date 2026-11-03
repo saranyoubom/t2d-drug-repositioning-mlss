@@ -1,0 +1,14 @@
+"Section","Treatment","Mean","SEM","N","Significance","Trend"
+"Descriptive Statistics","Treatment","Mean (AU)","SEM","N",NA,NA
+"","CTRL","1","0.0438","4",NA,NA
+"","DAPT","0.8477","0.0517","4",NA,NA
+"","DKK-1","0.6346","0.0592","4",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Normality & Omnibus Test","Test","Statistic","p_value","Interpretation",NA,NA
+"","Shapiro-Wilk","0.962","0.812","Normal",NA,NA
+"","One-way ANOVA","12.4884","0.0025","Significant",NA,NA
+"---",NA,NA,NA,NA,NA,NA
+"Pairwise Comparisons (Bonferroni + Raw)","Group1","Group2","p_raw","p_adjusted","Significance","Trend_flag"
+"","CTRL","DAPT","0.067991","0.203974","ns","ns"
+"","CTRL","DKK-1","0.000765","0.002295","**","**"
+"","DAPT","DKK-1","0.017556","0.052667","ns","†"

@@ -1,0 +1,16 @@
+"from","to","weight","relationship","path_A","path_B","combo_label","rank"
+"(S)-nitrendipine","albiglutide",9.96035694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","(S)-nitrendipine + albiglutide",1
+"albiglutide","isradipine",9.96035694904172,"Cross-Pathway","Incretin Signaling","Calcium Signaling","albiglutide + isradipine",2
+"exenatide","isradipine",9.96035694904172,"Cross-Pathway","Incretin Signaling","Calcium Signaling","exenatide + isradipine",3
+"(S)-nitrendipine","liraglutide",9.96035694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","(S)-nitrendipine + liraglutide",4
+"isradipine","liraglutide",9.96035694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","isradipine + liraglutide",5
+"isradipine","lixisenatide",9.96035694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","isradipine + lixisenatide",6
+"albiglutide","nitrendipine",9.96035694904172,"Cross-Pathway","Incretin Signaling","Calcium Signaling","albiglutide + nitrendipine",7
+"liraglutide","nitrendipine",9.96035694904172,"Cross-Pathway","Incretin Signaling","Calcium Signaling","liraglutide + nitrendipine",8
+"isradipine","semaglutide",9.96035694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","isradipine + semaglutide",9
+"liraglutide","nifedipine",9.94685694904172,"Cross-Pathway","Incretin Signaling","Calcium Signaling","liraglutide + nifedipine",10
+"(S)-nitrendipine","semaglutide",9.93605694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","(S)-nitrendipine + semaglutide",11
+"nitrendipine","semaglutide",9.93605694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","nitrendipine + semaglutide",12
+"(S)-nitrendipine","exenatide",9.90365694904172,"Cross-Pathway","Calcium Signaling","Incretin Signaling","(S)-nitrendipine + exenatide",13
+"exenatide","nitrendipine",9.90365694904172,"Cross-Pathway","Incretin Signaling","Calcium Signaling","exenatide + nitrendipine",14
+"albiglutide","nifedipine",9.87922194904172,"Cross-Pathway","Incretin Signaling","Calcium Signaling","albiglutide + nifedipine",15

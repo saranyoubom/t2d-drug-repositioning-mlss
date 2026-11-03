@@ -1,0 +1,9 @@
+﻿analysis,scheme,pairs_tested,significant_p05,strong_r07,very_strong_r08,adjusted_q05
+20 genes (as submitted to BR),Raw,190,80,48,24,0
+20 genes (as submitted to BR),Ins1-normalized,171,98,77,52,49
+20 genes (as submitted to BR),Kcnj11-normalized,171,118,91,63,5
+20 genes (as submitted to BR),Hes1-normalized,171,169,164,141,12
+17 genes (after exclusion),Raw,136,66,38,18,0
+17 genes (after exclusion),Ins1-normalized,120,80,66,45,51
+17 genes (after exclusion),Kcnj11-normalized,120,84,72,57,11
+17 genes (after exclusion),Hes1-normalized,120,120,120,117,15
