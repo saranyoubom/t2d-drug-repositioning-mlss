@@ -1,0 +1,42 @@
+A. Reported run (port = R output; see gate_output.txt)
+  class CACNA1DxCACNA1D    n  55  ranks  88-153  C [0.0]  B [1.0]  V [0.0]  MLSS 2.7000 to 4.0095  distinct P 10
+  class GLP1RxGLP1R        n  21  ranks  78-132  C [0.0]  B [1.0]  V [0.0]  MLSS 2.7000 to 4.0500  distinct P 12
+  class cross-target       n  77  ranks   1- 77  C [1.0]  B [1.0]  V [1.0]  MLSS 7.6500 to 9.9604  distinct P 26
+  distinct MLSS values 47 of 153; combinations sharing a score with another one: 125; largest tie groups: 28 at 2.7000, 14 at 7.6500, 12 at 2.7540, 10 at 4.0500
+  drugs 18; with a pIC50 11; without 7: bepridil, clevidipine, dulaglutide, felodipine, nilvadipine, nimodipine, nisoldipine
+  cross-target combinations with Synergy > 0: 30 (range 0.7469 to 0.9604); with zero Synergy: 47
+  combinations in which exactly one drug has no pIC50: 77; of these Potency_P > 0 in 56 (P is computed from half the other drug's pIC50, it is not set to zero)
+  Antagonism Penalty > 0: 0 combinations; negative r in the lookup: 0 of 120 pairs
+  Spearman MLSS vs mean pIC50 of the pair: cross-target 0.9967 (R^2 0.9935); all 153 0.6425 (R^2 0.4128)
+  rank R^2 of the MLSS: class (cross vs same target) alone 0.7562; potency (rank of pair mean pIC50) alone 0.4128; class + potency 0.9885; class + potency + interaction 0.9909
+  appearances in the top 15: isradipine 5, (S)-nitrendipine 4, albiglutide 4, liraglutide 4, nitrendipine 4, exenatide 3, semaglutide 3, nifedipine 2, lixisenatide 1
+
+B. DrugCentral rows for the genes of the network (drug.target.interaction.csv, 19378 rows)
+  GLP1R    exact GENE rows  11 (human   7); inside a multi-gene GENE field   0 (human   0)
+  CACNA1D  exact GENE rows  16 (human  11); inside a multi-gene GENE field  20 (human  14)
+  CACNA1C  exact GENE rows  37 (human  21); inside a multi-gene GENE field  20 (human  14)
+  TCF7L2   exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  PTBP1    exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  WNT5A    exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  WNT5B    exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  WNT9A    exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  LEF1     exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  TCF7     exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  HES1     exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  ITPR1    exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  RYR2     exact GENE rows   3 (human   2); inside a multi-gene GENE field   0 (human   0)
+  RYR3     exact GENE rows   1 (human   1); inside a multi-gene GENE field   0 (human   0)
+  KCNJ11   exact GENE rows   6 (human   3); inside a multi-gene GENE field  25 (human  25)
+  SLC2A2   exact GENE rows   1 (human   1); inside a multi-gene GENE field   0 (human   0)
+  INS      exact GENE rows   0 (human   0); inside a multi-gene GENE field   0 (human   0)
+  human multi-gene rows naming CACNA1D or CACNA1C: 14 (GENE strings: CACNA1D|CACNA1C); distinct drugs 14; among the 18 MLSS drugs 1; these rows are never matched by the exact test toupper(GENE) %in% hub genes
+  drugs whose only human L-type channel record is the multi-gene field CACNA1D|CACNA1C, hence absent from the ranking (13): (S)-nicardipine, aranidipine, azelnidipine, barnidipine, benidipine, cilnidipine, dexniguldipine, efonidipine, lacidipine, lercanidipine, levamlodipine, manidipine, nicardipine
+  of the 18 MLSS drugs, those that also have an exact human CACNA1C record (CACNA1C has degree 4 and is not a hub): 11 ((S)-nitrendipine, amlodipine, bepridil, clevidipine, felodipine, isradipine, nifedipine, nilvadipine, nimodipine, nisoldipine, nitrendipine)
+  action types of the hub-gene human rows of the 18 drugs: {'AGONIST': 7, 'BLOCKER': 6, 'GATING INHIBITOR': 4, '(blank)': 1}
+
+C. Hub rule on the reported degrees: drugs that enter (hub-to-drug mapping only; the scores under these rules are in mlss_scenarios.csv once that run exists)
+  degree >= 3: 7 hubs ['CACNA1C', 'CACNA1D', 'GLP1R', 'PTBP1', 'RYR3', 'TCF7L2', 'WNT5A']; drugs 28; targets ['CACNA1C', 'CACNA1D', 'GLP1R', 'RYR3']; combinations 378; drugs with more than one target 11
+  degree >= 4: 6 hubs ['CACNA1C', 'CACNA1D', 'GLP1R', 'PTBP1', 'TCF7L2', 'WNT5A']; drugs 27; targets ['CACNA1C', 'CACNA1D', 'GLP1R']; combinations 351; drugs with more than one target 11
+  degree >= 5: 4 hubs ['CACNA1D', 'GLP1R', 'PTBP1', 'TCF7L2']; drugs 18; targets ['CACNA1D', 'GLP1R']; combinations 153; drugs with more than one target 0
+  degree >= 6: 1 hubs ['GLP1R']; drugs 7; targets ['GLP1R']; combinations 21; drugs with more than one target 0
+  earlier 20-gene network (reanalysis_17genes/pipeline_20genes.json), degree >= 6 hubs: ['Cacna1d', 'Glp1r', 'Hey1', 'Ptbp1', 'Tcf7l2'] -> drug targets ['CACNA1D', 'GLP1R'] (same two as now)

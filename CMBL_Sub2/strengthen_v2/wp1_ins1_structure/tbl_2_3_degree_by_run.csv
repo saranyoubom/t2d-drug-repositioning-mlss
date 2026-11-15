@@ -1,0 +1,4 @@
+run,eligible_genes,mean_degree,hubs_deg_ge_5,hubs_expected,hypergeometric_p_ge,p_mean_degree_ge
+Jun24,7,2.28571,1,2,0.965035,0.945611
+Aug26,4,4.75,3,1.14286,0.040959,0.0161968
+Nov09,3,2.33333,0,0.857143,1,0.805639

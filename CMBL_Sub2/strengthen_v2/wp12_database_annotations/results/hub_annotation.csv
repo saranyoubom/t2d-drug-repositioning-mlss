@@ -1,0 +1,7 @@
+gene,role,reported_file_records_all_species,reported_file_records_human,reported_file_distinct_drugs_human,reported_file_moa_records_human,reported_file_TDL_values,file_25Sep2026_records_all_species,file_25Sep2026_records_human,file_25Sep2026_distinct_drugs_human,file_25Sep2026_moa_records_human,file_25Sep2026_TDL_values,MLSS_drugs_reported_file,MLSS_drugs_25Sep2026_file
+GLP1R,hub (degree >= 5),8,7,7,6,Tclin,9,8,8,7,Tclin,7,8
+TCF7L2,hub (degree >= 5),0,0,0,0,no record in the file,0,0,0,0,no record in the file,0,0
+CACNA1D,hub (degree >= 5),25,25,24,24,Tclin,25,25,24,24,Tclin,11,11
+PTBP1,hub (degree >= 5),0,0,0,0,no record in the file,0,0,0,0,no record in the file,0,0
+WNT5A,context (degree 4),0,0,0,0,no record in the file,0,0,0,0,no record in the file,,
+CACNA1C,context (degree 4),41,35,33,26,Tclin,41,35,34,27,Tclin,,

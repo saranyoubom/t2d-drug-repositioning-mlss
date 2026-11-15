@@ -1,0 +1,5 @@
+order,dataset,source,decision,label_source,beta_cells,donors,reason
+1,GSE86469,GEO ftp (series matrix + RSEM expected counts csv.gz),attempt,"GEO sample characteristic ""cell type"" (authors)",264,8,
+2,GSE81547,"GEO ftp (GSE81547_RAW.tar, 176 MB, per-cell csv.gz)",attempt,"GEO sample characteristic ""inferred_cell_type"" (authors)",348,8,
+3,E-MTAB-5061,"ArrayExpress / BioStudies (processed.1.zip 159 MB holds the 723 MB rpkm+counts text; the zip is streamed, the 723 MB text is not downloaded)",attempt,"ArrayExpress SDRF ""inferred cell type"" (authors)",270,10,
+4,GSE85241,"GEO ftp (counts csv.gz 17 MB, barcode list, demultiplexing readme)",skipped before expression download,"none in the public record (32 library-level GEO samples; supplementary files: counts, barcodes, readme)",0,0,"no author-provided beta-cell labels in the GEO or repository files; protocol 4.3 requires author-provided labels and plain public download, and we do not assign cell types ourselves"

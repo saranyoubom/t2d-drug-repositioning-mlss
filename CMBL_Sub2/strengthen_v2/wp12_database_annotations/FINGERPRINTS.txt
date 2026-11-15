@@ -1,0 +1,2 @@
+59560c98f4f5d48654c9670559303b0e7dba653b5fe05e54e62ca27bbe0ea8fc *PRESPEC_WP12_annotations.md
+WP12 pre-specification (before the openFDA Drugs@FDA retrieval): 2026-11-09 00:33:22 +0700

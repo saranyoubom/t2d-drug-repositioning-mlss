@@ -1,0 +1,30 @@
+genes of the 26 August run in the matrix: Tcf7l2, Cacna1c, Cacna1d, Kcnj11, Ptbp1; of the 9 November run: Itpr1, Ryr1, Ryr2, Ryr3
+
+A. Instrument export of the 26 August plate (re-export of the .pcrd, wells in plate order)
+   target blocks (5 genes x 3 groups) whose four wells are in ascending Cq order in plate order: 1 of 15 (chance expectation about 1 in 24 per block, i.e. 0.6 of 15)
+
+B. The user's 26 August 'Quantification Summary' workbook (sheet '0', Well and Cq columns) against the instrument value of the same well
+   rows compared: 72 (60 target rows, 12 Gapdh rows); Cq equal to the instrument value of the named well: 32 of 72 (target rows 26 of 60, Gapdh rows 6 of 12)
+   blocks (gene x group) whose four Cq values run in ascending order down the sheet: 17 of 18 (Gapdh DAPT is the exception: its four cells hold two values twice)
+   block by block, sorted workbook values against sorted instrument values (tolerance 0.005):
+     Tcf7l2   same set / same set / same set
+     Cacna1c  same set / same set / same set
+     Cacna1d  same set / same set / same set
+     Kcnj11   same set / same set / same set
+     Ptbp1    same set / same set / same set
+     Gapdh    same set / DIFFERENT / same set
+   Gapdh DAPT: workbook cells 22.569, 22.798, 22.569, 22.798; instrument wells A10 24.987, B10 24.132, C10 22.569, D10 22.798
+
+C. The matrix rows (WP1, row order of the sheet) against the instrument export
+   26 August target blocks ascending in the sheet row order: 15 of 15; same value set as the instrument: 15 of 15
+   Gapdh CTRL  matrix reference vector 23.626 23.659 23.806 23.814 | instrument wells 23.626 23.806 23.659 23.814
+   Gapdh DAPT  matrix reference vector 22.569 22.798 22.569 22.798 | instrument wells 24.987 24.132 22.569 22.798
+   Gapdh DKK-1 matrix reference vector 22.519 22.763 22.819 22.856 | instrument wells 22.519 22.856 22.763 22.819
+
+D. Pairing of target and Gapdh wells on the 26 August plate (descriptive; the reported analysis keeps the sheet pairing)
+   as analyzed (sheet vectors, rank pairing, DAPT Gapdh wells A10 and B10 replaced) within-group SD of dCq 0.132 | mean residual r between the 5 genes +0.536 | mean (DAPT - CTRL) dCq +0.662
+   instrument values, rank pairing (all four Gapdh wells)                           within-group SD of dCq 0.397 | mean residual r between the 5 genes +0.975 | mean (DAPT - CTRL) dCq -0.276
+   instrument values, plate-order pairing (all four Gapdh wells)                    within-group SD of dCq 0.481 | mean residual r between the 5 genes +0.938 | mean (DAPT - CTRL) dCq -0.276
+
+E. 9 November run: matrix rows against the instrument export (exported order)
+   blocks compared: 11; same four values in the same row order as the export: 11; same set of values: 11; ascending in the sheet: 0; ascending in the export: 0

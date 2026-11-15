@@ -1,0 +1,43 @@
+organism,position,what,status,content_type,kind
+human,301,counts GSE278522,404,,HTTP error
+human,302,counts GSE302806,404,,HTTP error
+human,303,counts GSE117608,200,application/x-gzip,gzip file
+human,304,counts GSE184780,404,,HTTP error
+human,305,counts GSE300875,404,,HTTP error
+human,306,counts GSE210579,200,application/x-gzip,gzip file
+human,307,counts GSE334701,404,,HTTP error
+human,308,counts GSE156603,200,application/x-gzip,gzip file
+human,309,counts GSE85724,200,application/x-gzip,gzip file
+human,310,counts GSE159716,200,application/x-gzip,gzip file
+human,311,counts GSE49339,200,application/x-gzip,gzip file
+human,312,counts GSE297863,404,,HTTP error
+human,313,counts GSE286416,404,,HTTP error
+human,314,counts GSE144484,200,application/x-gzip,gzip file
+human,315,counts GSE117511,200,application/x-gzip,gzip file
+human,316,counts GSE253902,404,,HTTP error
+human,317,counts GSE205049,404,,HTTP error
+human,318,counts GSE193231,404,,HTTP error
+human,319,counts GSE101209,200,application/x-gzip,gzip file
+human,320,counts GSE81810,200,application/x-gzip,gzip file
+human,0,annotation,200,text/html; charset=utf-8,HTML (challenge or error page)
+mouse,301,counts GSE140693,404,,HTTP error
+mouse,302,counts GSE189798,404,,HTTP error
+mouse,303,counts GSE162446,404,,HTTP error
+mouse,304,counts GSE205420,404,,HTTP error
+mouse,305,counts GSE280167,404,,HTTP error
+mouse,306,counts GSE235278,404,,HTTP error
+mouse,307,counts GSE252956,404,,HTTP error
+mouse,308,counts GSE287634,404,,HTTP error
+mouse,309,counts GSE175644,404,,HTTP error
+mouse,310,counts GSE148149,404,,HTTP error
+mouse,311,counts GSE108695,404,,HTTP error
+mouse,312,counts GSE303895,404,,HTTP error
+mouse,313,counts GSE292290,404,,HTTP error
+mouse,314,counts GSE300140,404,,HTTP error
+mouse,315,counts GSE150129,404,,HTTP error
+mouse,316,counts GSE99156,404,,HTTP error
+mouse,317,counts GSE265871,404,,HTTP error
+mouse,318,counts GSE222080,404,,HTTP error
+mouse,319,counts GSE193689,404,,HTTP error
+mouse,320,counts GSE211931,404,,HTTP error
+mouse,0,annotation,200,text/html; charset=utf-8,HTML (challenge or error page)

@@ -1,0 +1,10 @@
+all reports                              21054159   (8.6 s)
+metformin                                445561   (1.5 s)
+NAUSEA exact                             792241   (1.6 s)
+metformin AND NAUSEA exact               30587   (1.8 s)
+OR group exact                           1030041   (1.5 s)
+OR group with a two-word PT              947967   (1.8 s)
+metformin AND OR group                   39232   (1.7 s)
+two drugs (metformin, sitagliptin)       46946   (1.6 s)
+two drugs AND OR group                   3763   (1.2 s)
+last_updated 2026-10-28

@@ -1,0 +1,11 @@
+Fig_6d_S2 on the top 15 of the reported run (port) against Fig_6d_S2_Validation_Top15.log and the Additional file 4 sheets
+  components inside the top 15: C [1.0], B [1.0], V [1.0] (distinct values); P from 0.9399 to 1.0000; Synergy [0.960357]
+  pairwise Spearman among the 8 weight scenarios (28 pairs): min 1.000000, max 1.000000; Original_MLSS vs each: min 1.000000
+  (R log: Spearman with the original 1.0000 for all eight; Additional file 4 matrix all 1)
+  mean MLSS of the top 15 per scenario (R log: 9.943, 9.955, 9.949, 9.955, 9.955, 9.915, 9.949, 9.949): 9.943, 9.955, 9.949, 9.955, 9.955, 9.915, 9.949, 9.949
+  Without_C  avg rank shift 0.0, avg score drop +0.013998273, Top5_Stability as coded (five LOWEST) 1.0, with the five largest 1.0; distinct scores among the 15 after ablation: 5
+  Without_B  avg rank shift 0.0, avg score drop +0.007332429, Top5_Stability as coded (five LOWEST) 1.0, with the five largest 1.0; distinct scores among the 15 after ablation: 5
+  Without_V  avg rank shift 0.0, avg score drop +0.001901000, Top5_Stability as coded (five LOWEST) 1.0, with the five largest 1.0; distinct scores among the 15 after ablation: 5
+  Without_P  avg rank shift 3.6, avg score drop -0.017109000, Top5_Stability as coded (five LOWEST) 0.0, with the five largest 1.0; distinct scores among the 15 after ablation: 1
+  Base_Only  avg rank shift 0.0, avg score drop +0.960356949, Top5_Stability as coded (five LOWEST) 1.0, with the five largest 1.0; distinct scores among the 15 after ablation: 5
+  R log / Additional file 4: rank shift 0, 0, 0, 3.6, 0; score drop 0.013998273, 0.007332429, 0.001901, -0.017109, 0.960356949; Top5_Stability 1, 1, 1, 0, 1

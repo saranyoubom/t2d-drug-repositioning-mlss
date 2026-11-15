@@ -1,0 +1,122 @@
+OK   pre-specification table has 8 event groups (8)
+OK   group definitions of wp9_screen.py equal the pre-specification table term by term
+OK   the groups hold 40 preferred terms (40)
+OK   18 drugs, 77 cross-target pairs with ranks 1 to 77
+OK   17 distinct search terms
+OK   N all reports 21054159 equals summary
+OK   event-group report totals equal summary: HYPO 99568, HYPER 275161, PANC 86297, GI 1934366, BILI 48694, HYPOT 383889, OEDEMA 316781, CARD 115742
+OK   drug report totals equal summary
+OK   13 of 17 drugs evaluable (100 reports or more)
+OK   every drug-group count is at most the drug total and the group total
+OK   signals_single.csv has 104 rows (evaluable drugs x 8 groups)
+OK   every row of signals_single.csv (counts, ROR, interval, signal) equals the independent rebuild (0 rows differ)
+OK   70 single-drug signals of 104 tests equal summary
+OK   70 distinct search-term pairs retrieved
+OK   co-report counts never exceed either drug total
+OK   every row of pairs_all77.csv and pairs_long.csv equals the independent rebuild (0 rows differ)
+OK   16 evaluable pairs, 128 pair-group tests and 8 co-report flags (in 5 pairs) equal summary
+OK   analysis raised no consistency warning (0)
+OK   pairs_top15.csv holds ranks 1 to 15
+OK   group HYPO: pairs with a signalled drug, top 15 13, all 77 70
+OK   group HYPER: pairs with a signalled drug, top 15 12, all 77 70
+OK   group PANC: pairs with a signalled drug, top 15 13, all 77 71
+OK   group GI: pairs with a signalled drug, top 15 13, all 77 65
+OK   group BILI: pairs with a signalled drug, top 15 11, all 77 61
+OK   group HYPOT: pairs with a signalled drug, top 15 7, all 77 53
+OK   group OEDEMA: pairs with a signalled drug, top 15 7, all 77 41
+OK   group CARD: pairs with a signalled drug, top 15 2, all 77 47
+OK   pre-specification file equals its latest fingerprint (4 fingerprints recorded)
+OK   raw files (443) equal the fingerprint written before the analysis (RAW_SHA256.txt and PROTOCOL_v2_SHA256.txt)
+OK   raw folder holds only json files
+OK   fallback names of albiglutide equal the pre-specification text (TANZEUM, ALBIGLUTIDE)
+OK   fallback names of bepridil equal the pre-specification text (VASCOR, BEPRIDIL)
+OK   fallback names of nilvadipine equal the pre-specification text (NILVADIPINE)
+OK   fallback names of nitrendipine equal the pre-specification text (NITRENDIPINE)
+OK   wp9_fallback.py names equal the checker list
+OK   drugs below 100 reports through substance_name: albiglutide, bepridil, nilvadipine, nitrendipine
+OK   every secondary (fallback) row equals the independent rebuild (0 differ; 39 pair rows)
+OK   secondary: 39 pair rows, 1 evaluable pairs and 1 co-report flags equal fallback_summary
+OK   README states the number of reports in the database: "21,054,159"
+OK   README states the snapshot date: "2026-10-28"
+OK   README states the number of saved responses: "443 responses"
+OK   README states evaluable terms: "**13 of 17 terms are evaluable**"
+OK   README states signal count: "**70 of 104 drug-group tests are signals**"
+OK   README states report total of amlodipine: "434,732"
+OK   README states report total of clevidipine: "367"
+OK   README states report total of dulaglutide: "89,369"
+OK   README states report total of exenatide: "52,322"
+OK   README states report total of felodipine: "11,420"
+OK   README states report total of glucagon: "4,235"
+OK   README states report total of isradipine: "560"
+OK   README states report total of liraglutide: "51,303"
+OK   README states report total of lixisenatide: "3,660"
+OK   README states report total of nifedipine: "41,738"
+OK   README states report total of nimodipine: "1,122"
+OK   README states report total of nisoldipine: "1,198"
+OK   README states report total of semaglutide: "78,023"
+OK   not evaluable terms are albiglutide, bepridil, nilvadipine, nitrendipine
+OK   README states pairs with an invisible drug: "**35 of the 77 pairs contain such a drug, and 10 of the top 15**"
+OK   README states co-report distribution: "**48 have no report listing both drugs, 13 have 1 to 19, and 16 have 20 or more**"
+OK   README states ranks of the evaluable pairs: "ranks 10, 16, 19, 20, 23, 25, 26, 29, 30, 33, 45, 52, 55, 64, 67 and 71"
+OK   README states range and median of the co-reports: "20 to 2,921 co-reports, median 125"
+OK   README states top 15 co-reports: "**Of the top 15 pairs, 14 have fewer than 20 co-reports (11 have none"
+OK   README states flag counts: "**8 flags in 5 of the 16 evaluable pairs, among 128 pair-group tests; none in the top 15**"
+OK   README states flagged pair: "rank 23 amlodipine + semaglutide (BILI)"
+OK   README states flagged pair: "rank 25 amlodipine + exenatide (PANC, BILI)"
+OK   README states flagged pair: "rank 30 amlodipine + glucagon (HYPOT, CARD)"
+OK   README states flagged pair: "rank 52 exenatide + felodipine (PANC)"
+OK   README states flagged pair: "rank 64 amlodipine + dulaglutide (GI, BILI)"
+OK   README states drugs with a signal per group: "By group, drugs with a signal: PANC 11, HYPO 10, HYPER 10, GI 10, BILI 8, HYPOT 8, CARD 7, OEDEMA 6"
+OK   README states pairs with a signalled drug (top 15 / all 77): "HYPO 13 / 70, HYPER 12 / 70, PANC 13 / 71, GI 13 / 65, BILI 11 / 61, HYPOT 7 / 53, OEDEMA 7 / 41, CARD 2 / 47"
+OK   README states drugs with 8 of 8: "8 of 8 groups for amlodipine, felodipine, glucagon and nifedipine"
+OK   drugs with 5, 3 and 2 signalled groups as stated
+OK   README states liraglutide PANC ROR: "ROR 18.4 (17.8 to 19.0)"
+OK   README states liraglutide PANC interval: "18.4 (17.8 to 19.0)"
+OK   README states glucagon HYPO: "glucagon HYPO 484 of 4,235, ROR 27.3 (24.8 to 30.0)"
+OK   README states amlodipine OEDEMA: "amlodipine OEDEMA ROR 3.08 (3.04 to 3.13)"
+OK   README states amlodipine HYPOT: "HYPOT 2.88 (2.84 to 2.92)"
+OK   README states isradipine HYPOT: "HYPOT 2.9 (2.0 to 4.3)"
+OK   README states isradipine OEDEMA: "OEDEMA 3.1 (2.0 to 4.6)"
+OK   README states liraglutide HYPOT: "HYPOT 0.91 (0.85 to 0.98)"
+OK   README states liraglutide OEDEMA: "OEDEMA 0.79 (0.73 to 0.86)"
+OK   README states liraglutide PANC counts: "3,481 of 51,303 reports"
+OK   README states top-15 row 1: "| 1 | (S)-nitrendipine + albiglutide | 9.9604 | 0 | n/e | n/e | n/a |"
+OK   README states top-15 row 2: "| 2 | albiglutide + isradipine | 9.9604 | 0 | n/e | HYPO PANC GI HYPOT OEDEMA | n/a |"
+OK   README states top-15 row 3: "| 3 | exenatide + isradipine | 9.9604 | 3 | HYPO HYPER PANC GI BILI | HYPO PANC GI HYPOT OEDEMA | n/a |"
+OK   README states top-15 row 4: "| 4 | (S)-nitrendipine + liraglutide | 9.9604 | 0 | n/e | HYPO HYPER PANC GI BILI | n/a |"
+OK   README states top-15 row 5: "| 5 | isradipine + liraglutide | 9.9604 | 1 | HYPO PANC GI HYPOT OEDEMA | HYPO HYPER PANC GI BILI | n/a |"
+OK   README states top-15 row 6: "| 6 | isradipine + lixisenatide | 9.9604 | 0 | HYPO PANC GI HYPOT OEDEMA | HYPO HYPER PANC | n/a |"
+OK   README states top-15 row 7: "| 7 | albiglutide + nitrendipine | 9.9604 | 0 | n/e | n/e | n/a |"
+OK   README states top-15 row 8: "| 8 | liraglutide + nitrendipine | 9.9604 | 0 | HYPO HYPER PANC GI BILI | n/e | n/a |"
+OK   README states top-15 row 9: "| 9 | isradipine + semaglutide | 9.9604 | 2 | HYPO PANC GI HYPOT OEDEMA | HYPO HYPER PANC GI BILI | n/a |"
+OK   README states top-15 row 10: "| 10 | liraglutide + nifedipine | 9.9469 | 167 | HYPO HYPER PANC GI BILI | all 8 groups | none |"
+OK   README states top-15 row 11: "| 11 | (S)-nitrendipine + semaglutide | 9.9361 | 0 | n/e | HYPO HYPER PANC GI BILI | n/a |"
+OK   README states top-15 row 12: "| 12 | nitrendipine + semaglutide | 9.9361 | 0 | n/e | HYPO HYPER PANC GI BILI | n/a |"
+OK   README states top-15 row 13: "| 13 | (S)-nitrendipine + exenatide | 9.9037 | 0 | n/e | HYPO HYPER PANC GI BILI | n/a |"
+OK   README states top-15 row 14: "| 14 | exenatide + nitrendipine | 9.9037 | 0 | HYPO HYPER PANC GI BILI | n/e | n/a |"
+OK   README states top-15 row 15: "| 15 | albiglutide + nifedipine | 9.8792 | 0 | n/e | all 8 groups | n/a |"
+OK   README states free-text report total of albiglutide: "8,899"
+OK   README states free-text report total of bepridil: "356"
+OK   README states free-text report total of nilvadipine: "138"
+OK   README states free-text report total of nitrendipine: "1,523"
+OK   README states free-text ROR albiglutide HYPO: "HYPO (2.88)"
+OK   README states free-text ROR albiglutide HYPER: "HYPER (4.11)"
+OK   README states free-text ROR albiglutide PANC: "PANC (2.34)"
+OK   README states free-text ROR albiglutide GI: "GI (1.09)"
+OK   README states free-text ROR bepridil HYPOT: "HYPOT (3.72)"
+OK   README states free-text ROR nilvadipine OEDEMA: "OEDEMA (3.50)"
+OK   README states free-text ROR nilvadipine CARD: "CARD (6.80)"
+OK   README states free-text ROR nitrendipine HYPOT: "HYPOT (6.15)"
+OK   README states free-text ROR nitrendipine BILI: "BILI (6.03)"
+OK   README states free-text ROR nitrendipine OEDEMA: "OEDEMA (4.70)"
+OK   README states bepridil CARD: "CARD (20.4)"
+OK   README states nitrendipine CARD: "CARD (10.7)"
+OK   nitrendipine has signals in 7 of 8 groups, all but HYPO
+OK   README states secondary pair counts: "Of the 39 pairs that contain one of these four drugs, **one has 20 or more co-reports (albiglutide + amlodipine, rank 21, 86 co-reports; excess flag GI)**"
+OK   the only secondary pair with 20 or more co-reports is rank 21 albiglutide + amlodipine, 86, flag GI
+OK   secondary co-reports in the top 15: nitrendipine + liraglutide 5, nitrendipine + semaglutide 4, albiglutide + nifedipine 3, all others 0
+OK   every number of the wording (sections 1 to 7) is a number of the README (not found: )
+OK   framing words (predict, safe, unsafe, risk, validated, confirms) only inside negations in sections 1 to 7 (offending: )
+OK   the Results text is at most 330 words
+
+120 checks, 0 failures

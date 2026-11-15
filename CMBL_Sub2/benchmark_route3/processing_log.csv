@@ -1,0 +1,59 @@
+gse,platform,order,status,n_de
+GSE307491,GPL570,10,analysed,105.0
+GSE39889,GPL570,15,not analysable: 0 DE genes (< 34),0.0
+GSE28645,GPL570,21,analysed,2066.0
+GSE29881,GPL570,26,not analysable: 3 DE genes (< 34),3.0
+GSE11618,GPL570,30,analysed,1622.0
+GSE27385,GPL570,45,not analysable: 0 DE genes (< 34),0.0
+GSE7890,GPL570,52,analysed,1102.0
+GSE32100,GPL570,55,analysed,1676.0
+GSE58093,GPL570,59,analysed,7424.0
+GSE63955,GPL570,62,not analysable: 6 DE genes (< 34),6.0
+GSE3059,GPL570,63,not analysable: 0 DE genes (< 34),0.0
+GSE5883,GPL570,65,analysed,2404.0
+GSE13274,GPL570,68,analysed,5445.0
+GSE98078,GPL570,73,analysed,9496.0
+GSE30536,GPL570,81,analysed,809.0
+GSE26656,GPL570,91,analysed,9212.0
+GSE36176,GPL570,108,analysed,5852.0
+GSE53183,GPL570,117,analysed,10262.0
+GSE20677,GPL570,122,analysed,1320.0
+GSE48498,GPL570,124,not analysable: 5 DE genes (< 34),5.0
+GSE75232,GPL570,127,not analysable: 1 DE genes (< 34),1.0
+GSE34112,GPL570,136,analysed,1134.0
+GSE11942,GPL570,140,analysed,3667.0
+GSE37265,GPL570,143,analysed,1318.0
+GSE53185,GPL570,145,not analysable: duplicate of GSE53183,
+GSE93864,GPL1261,3,not analysable: 17 DE genes (< 34),17.0
+GSE88799,GPL1261,6,not analysable: 5 DE genes (< 34),5.0
+GSE68361,GPL1261,7,not analysable: 6 DE genes (< 34),6.0
+GSE49079,GPL1261,8,analysed,262.0
+GSE5500,GPL1261,13,not analysable: 5 DE genes (< 34),5.0
+GSE8733,GPL1261,14,not analysable: 0 DE genes (< 34),0.0
+GSE65461,GPL1261,24,analysed,2864.0
+GSE2924,GPL1261,31,analysed,279.0
+GSE31851,GPL1261,36,analysed,6503.0
+GSE64658,GPL1261,45,not analysable: 0 DE genes (< 34),0.0
+GSE106581,GPL1261,46,not analysable: 0 DE genes (< 34),0.0
+GSE14499,GPL1261,50,not analysable: 2 DE genes (< 34),2.0
+GSE15892,GPL1261,53,analysed,2881.0
+GSE56483,GPL1261,62,analysed,2175.0
+GSE46169,GPL1261,63,not analysable: 0 DE genes (< 34),0.0
+GSE51925,GPL1261,65,analysed,48.0
+GSE47516,GPL1261,72,not analysable: 0 DE genes (< 34),0.0
+GSE55238,GPL1261,73,analysed,1079.0
+GSE28477,GPL1261,82,analysed,8834.0
+GSE39820,GPL1261,86,analysed,3727.0
+GSE34773,GPL1261,87,analysed,1922.0
+GSE26695,GPL1261,88,analysed,142.0
+GSE140954,GPL1261,98,analysed,4321.0
+GSE89935,GPL1261,101,not analysable: 0 DE genes (< 34),0.0
+GSE6858,GPL1261,102,analysed,144.0
+GSE144145,GPL1261,105,analysed,2582.0
+GSE18224,GPL1261,106,analysed,56.0
+GSE16790,GPL1261,110,analysed,637.0
+GSE51365,GPL1261,112,not analysable: 1 DE genes (< 34),1.0
+GSE15325,GPL1261,121,not analysable: 1 DE genes (< 34),1.0
+GSE52644,GPL1261,124,analysed,1882.0
+GSE51432,GPL1261,130,analysed,208.0
+GSE53480,GPL1261,132,analysed,161.0

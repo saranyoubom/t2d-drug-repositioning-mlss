@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use these scripts or results, please cite the article and this software release."
+title: "t2d-drug-repositioning-mlss: analysis scripts, pre-specified protocol and results (17-gene analysis and version-2 checks)"
+type: software
+authors:
+  - family-names: "Oontawee"
+    given-names: "Saranyou"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Rodprasert"
+    given-names: "Watchareewan"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Purbantoro"
+    given-names: "Steven Dwi"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Viriyakitkosol"
+    given-names: "Ratchanont"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Kasemsukprasert"
+    given-names: "Kamolchanok"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Patapeedusita"
+    given-names: "Kongpop"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Na Nan"
+    given-names: "Daneeya"
+    affiliation: "Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Osathanon"
+    given-names: "Thanaphum"
+    affiliation: "Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Adisakwattana"
+    given-names: "Sirichai"
+    affiliation: "Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Giachelli"
+    given-names: "Cecilia M"
+    affiliation: "Department of Bioengineering, University of Washington, Seattle, USA"
+  - family-names: "Sawangmake"
+    given-names: "Chenphop"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Rattanapuchpong"
+    given-names: "Sirirat"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+repository-code: "https://github.com/saranyoubom/t2d-drug-repositioning-mlss"
+license: MIT
+abstract: "Analysis scripts, pre-specified protocol with SHA-256 fingerprints, results and saved openFDA responses for an exploratory study of co-expression networks in INS-1 cells after Notch (DAPT) and Wnt (DKK-1) inhibition and of a network-based drug-pair ranking. Exploratory and computational; no prediction of toxicity, efficacy or synergy."
+keywords:
+  - co-expression network
+  - INS-1
+  - Notch
+  - Wnt
+  - permutation test
+  - drug combination
+  - pharmacovigilance

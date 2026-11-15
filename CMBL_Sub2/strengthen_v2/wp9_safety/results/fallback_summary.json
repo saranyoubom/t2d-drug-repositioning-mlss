@@ -1,0 +1,67 @@
+{
+ "note": "SECONDARY, POST HOC, free-text names; not merged into the primary counts",
+ "drugs": {
+  "albiglutide": {
+   "searched": true,
+   "names": [
+    "TANZEUM",
+    "ALBIGLUTIDE"
+   ],
+   "reports": 8899,
+   "evaluable": true,
+   "signals": [
+    "HYPO",
+    "HYPER",
+    "PANC",
+    "GI"
+   ]
+  },
+  "bepridil": {
+   "searched": true,
+   "names": [
+    "VASCOR",
+    "BEPRIDIL"
+   ],
+   "reports": 356,
+   "evaluable": true,
+   "signals": [
+    "HYPOT",
+    "CARD"
+   ]
+  },
+  "nilvadipine": {
+   "searched": true,
+   "names": [
+    "NILVADIPINE"
+   ],
+   "reports": 138,
+   "evaluable": true,
+   "signals": [
+    "OEDEMA",
+    "CARD"
+   ]
+  },
+  "nitrendipine": {
+   "searched": true,
+   "names": [
+    "NITRENDIPINE"
+   ],
+   "reports": 1523,
+   "evaluable": true,
+   "signals": [
+    "HYPER",
+    "PANC",
+    "GI",
+    "BILI",
+    "HYPOT",
+    "OEDEMA",
+    "CARD"
+   ]
+  }
+ },
+ "pairs": 39,
+ "pairs_evaluable": 1,
+ "pairs_evaluable_top15": 0,
+ "pairs_top15": 12,
+ "co_report_flags": 1
+}

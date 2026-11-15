@@ -1,0 +1,70 @@
+loaded; baseline consensus 21, pooled [66, 80, 84, 120], adjusted [0, 51, 11, 15]
+2.2 run structure
+                                                                                  labelling           scope  n_inside_pairs  mean_inside  mean_cross      D  p_two_sided
+0                                                       verified map (run = sheet): primary        all runs              49        0.149      -0.019  0.168        0.020
+1                                                       verified map (run = sheet): primary       run Jun24              36        0.014      -0.032  0.047        0.548
+2                                                       verified map (run = sheet): primary       run Aug26              10        0.536      -0.030  0.566        0.001
+3                                                       verified map (run = sheet): primary       run Nov09               3        0.469       0.020  0.450        0.035
+8   verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)        all runs              29        0.385      -0.052  0.436        0.000
+9   verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)  run Jun24-refA              10        0.333      -0.071  0.403        0.006
+10  verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)  run Aug26-refA              10        0.536      -0.030  0.566        0.001
+11  verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)  run Jun24-refC               6        0.176      -0.112  0.289        0.055
+12  verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)  run Nov09-refA               3        0.469       0.020  0.450        0.035
+18                              provisional map of the planning reconnaissance (superseded)        all runs              29        0.385      -0.052  0.436        0.000
+19                              provisional map of the planning reconnaissance (superseded)       run Jun24              10        0.333      -0.071  0.403        0.006
+20                              provisional map of the planning reconnaissance (superseded)       run Aug26              10        0.536      -0.030  0.566        0.001
+21                              provisional map of the planning reconnaissance (superseded)       run Jun03               6        0.176      -0.112  0.289        0.055
+22                              provisional map of the planning reconnaissance (superseded)       run Nov09               3        0.469       0.020  0.450        0.035
+2.3 consensus by run
+  consensus same-run 9/30, between-run 12/61; Fisher OR 1.75 P 0.298; label permutation P(>=) 0.1941 (null mean 6.9); degree by run: {'Jun24': 2.29, 'Aug26': 4.75, 'Nov09': 2.33}
+2.4 shared reference
+                                                    scope  n_pairs  mean_r_target_cq  mean_r_dcq  mean_r_expected_shared_reference_only  mean_abs_r_target_cq  mean_abs_r_dcq  n_abs_r_ge_0632_target_cq  n_abs_r_ge_0632_dcq  wilcoxon_p_dcq_vs_target_cq
+0                                      all same-run pairs       49             0.215       0.149                                  0.232                 0.416           0.359                         14                    7                        0.259
+1                                   all between-run pairs       87            -0.090      -0.019                                  0.036                 0.264           0.257                          3                    6                        0.050
+2                                         same run: Aug26       10             0.777       0.536                                  0.343                 0.777           0.536                         10                    2                        0.002
+3                                         same run: Jun24       36             0.061       0.014                                  0.192                 0.326           0.300                          3                    4                        0.489
+4                                         same run: Nov09        3             0.192       0.469                                  0.347                 0.295           0.469                          1                    1                          NaN
+5                          same reference set: Aug26-refA       10             0.777       0.536                                  0.343                 0.777           0.536                         10                    2                        0.002
+6                          same reference set: Jun24-refA       10             0.123       0.333                                  0.413                 0.246           0.393                          1                    2                        0.037
+7                          same reference set: Jun24-refC        6            -0.164       0.176                                  0.297                 0.426           0.316                          1                    1                        0.031
+8                          same reference set: Nov09-refA        3             0.192       0.469                                  0.347                 0.295           0.469                          1                    1                          NaN
+9  same run, different reference sets (Jun24 refA x refC)       20             0.098      -0.194                                  0.049                 0.336           0.250                          1                    1                        0.002
+  Aug26 layout control: {"ascending rows (as in the sheet)": {"mean_r_target_cq": {"mean": 0.7407441254986658, "q025": 0.6209624799909566, "q975": 0.845593987882888}, "mean_r_dcq": {"mean": 0.5201104515174797, "q025": 0.30509316761305144, "q975": 0.7257439633618903, "p_ge_observed": 0.4488}}, "random row order": {"mean_r_target_cq": {"mean": 0.0018070098186492253, "q025": -0.16336570589210683, "q975": 0.23480685009865593}, "mean_r_dcq": {"mean": 0.34269499454888624, "q025": 0.03158598984331768, "q975": 0.6316292737168857, "p_ge_observed": 0.1096}}} | observed {'mean_r_target_cq': 0.7769587264762021, 'mean_r_dcq': 0.5364638240017224}
+                                            version  consensus_pairs  kept  lost  new  null_mean  p_null_ge  adj_Ins1  adj_Kcnj11  adj_Hes1                                                      hubs_deg_ge_5   T_r2  T_r2_p  D_same_minus_between    D_p
+0                                reported (primary)               21    21     0    0     22.100      0.682        51          11        15                              Glp1r 6; Tcf7l2 5; Cacna1d 5; Ptbp1 5  0.133   0.061                 0.168  0.020
+1                (a) reference = run-and-group mean               27    18     3    9     27.773      0.659        17          27        18  Glp1r 8; Tcf7l2 6; Ptbp1 6; Wnt5a 5; Ryr2 5; Cacna1c 5; Cacna1d 5  0.152   0.001                 0.305  0.001
+2  (b) reference = run-wide mean (no normalization)               19     8    13   11     19.420      0.675        14           9        23                                                Tcf7l2 6; Cacna1c 5  0.152   0.001                 0.305  0.001
+2.5 calibrated adjusted counts
+              scheme  observed_q_lt_005  null_mean  null_sd  null_q95  excess  p_null_ge_obs  p_plus1  calibrated                                                                reading
+0                raw                  0      0.068    0.281       1.0  -0.068          1.000    1.000        True                        calibrated: no pair has q < 0.05 (null mean ~0)
+1    Ins1-normalized                 51     29.319   14.354      54.0  21.681          0.079    0.079       False  artefact-prone: shared denominator, observed count not above its null
+2  Kcnj11-normalized                 11     11.296    9.230      30.0  -0.296          0.440    0.440       False  artefact-prone: shared denominator, observed count not above its null
+3    Hes1-normalized                 15      6.532    5.232      17.0   8.468          0.078    0.079       False  artefact-prone: shared denominator, observed count not above its null
+2.6 coupling and run-block null
+                                                             null                         statistic  observed  null_mean  null_sd  null_q95  p_ge_plus1    p_ge
+0                               independent genes (protocol null)                              T_r2    0.1329     0.1138   0.0115    0.1340      0.0607     NaN
+1                               independent genes (protocol null)                               T_p   13.0000     7.3126   2.5904   12.0000      0.0313     NaN
+2                               independent genes (protocol null)                             T_eig    5.0606     4.3921   0.4507    5.2028      0.0810     NaN
+3                               independent genes (protocol null)                     T_r2_same_run    0.1792     0.1297   0.0207    0.1664      0.0196     NaN
+4                               independent genes (protocol null)                  T_r2_between_run    0.1068     0.1048   0.0134    0.1277      0.4198     NaN
+5   run-block (replicate labels permuted jointly within each run)                              T_r2    0.1329     0.1315   0.0110    0.1508      0.4184     NaN
+6   run-block (replicate labels permuted jointly within each run)                               T_p   13.0000    10.8257   2.1521   15.0000      0.2040     NaN
+7   run-block (replicate labels permuted jointly within each run)                             T_eig    5.0606     5.0062   0.4864    5.8467      0.4322     NaN
+8   run-block (replicate labels permuted jointly within each run)                     T_r2_same_run    0.1792     0.1792   0.0000    0.1792      1.0000     NaN
+9   run-block (replicate labels permuted jointly within each run)                  T_r2_between_run    0.1068     0.1046   0.0171    0.1347      0.4184     NaN
+10                              independent genes (protocol null)                   consensus_count   21.0000    22.1004   3.0311   27.0000      0.6825  0.6825
+11  run-block (replicate labels permuted jointly within each run)                   consensus_count   21.0000    23.5905   2.9879   29.0000      0.8450  0.8450
+12  run-block (replicate labels permuted jointly within each run)  consensus_count_between_run_only   12.0000    14.5905   2.9879   20.0000      0.8450  0.8450
+2.7 geometry
+                                                                    data  n_pairs  n_sig  share  expected
+0  INS-1, genes with ANOVA group effect (log scale, BH q<0.05): 15 genes      105   61.0  0.581     0.609
+1                                                    INS-1, all 17 genes      136   66.0  0.485     0.609
+2          INS-1, genes with ANOVA group effect (linear scale): 15 genes      105   61.0  0.581     0.609
+3        benchmark part 1, gene set A (17 DE genes), median of 37 series      136  108.0  0.794     0.609
+2.8 scale sensitivity
+                                   scale  pooled_raw  pooled_Ins1  pooled_Kcnj11  pooled_Hes1  consensus_pairs  same_sign  null_mean  null_sd  p_null_ge  covariance_share_median  covariance_share_n_pairs  adj_q_raw  adj_q_Ins1  adj_q_Kcnj11  adj_q_Hes1  consensus_with_adj_q_any                          hubs_deg_ge_5
+0  linear-scale Pearson (the manuscript)          66           80             84          120               21         21     22.100    3.031      0.682                    0.971                        66          0          51            11          15                        13  Glp1r 6; Tcf7l2 5; Cacna1d 5; Ptbp1 5
+1                      log-scale Pearson          63           77             86          120               24         24     22.111    2.897      0.297                    0.976                        63          0          45             2           8                        13    Tcf7l2 8; Ptbp1 6; Wnt5a 5; Glp1r 5
+2                               Spearman          62           77             75          120               18         18     16.424    2.984      0.341                    0.928                        62          0          31             1           3                        11                                       
+done in 218s; wrote results_ins1.json and tbl_*.csv
+python exit 0

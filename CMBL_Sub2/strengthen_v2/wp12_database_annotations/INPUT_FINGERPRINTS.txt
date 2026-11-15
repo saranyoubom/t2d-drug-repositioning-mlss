@@ -1,0 +1,9 @@
+Inputs and raw responses of WP12 (sha256), fingerprinted 2026-11-09 00:43:55 +0700
+1908684983a79a067a44da952e1f6fd26b0f34cc36560cd9be0f0843bbfee1e1 *Database/drug.target.interaction.tsv.gz
+b54bc596406afd9f53939d70ef6df656cd6bb7701eca9cf3c8d16fae4034404a *Analysis_outputs/R_17genes/drug.target.interaction.csv
+439624721dead2e8961774860e7e417ff17932a81eb7beed85ab23fb71622331 *Analysis_outputs/strengthen_v2/wp10_versions/results/mlss_comparison.csv
+1664c8cab06074892ac98b700dfdd0d251dda8a90e923eefababd4b6e4c2c3f2 *Analysis_outputs/strengthen_v2/wp10_versions/results/mlss_new_all_combinations.csv
+9cc7571ecfc9375514d9f9fcc8d037ecb0d58adc75f67bbcf061a4c7d227429a *Analysis_outputs/strengthen_v2/wp10_versions/results/approval_tiers_old_vs_new.csv
+4e20a9c422ae4baeca4351bc0c978d172072aa737d2f7ba83aa5f0281be6eabf *Analysis_outputs/strengthen_v2/wp10_versions/results/drugcentral_summary.json
+openFDA drugsfda raw responses (wp12_database_annotations/results/raw, 19 files; sha256 of the sorted list of 'hash  file' lines):
+c8e8b37b45997340f0e1a78dfa770580dcdcb2cbfcdd3787b450b8b1cf41a4d6

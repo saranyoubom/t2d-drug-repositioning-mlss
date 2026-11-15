@@ -1,0 +1,6 @@
+b6cf12b10a5bb42d20fd2d654ebf74b6afa1b9c3cff951c8e9c42039f1173fae *PROTOCOL_prespecified.md
+Protocol frozen: 2026-11-04 08:53:04 +0700
+14c20e7a211a6b64dfc3bc322d9ae705a40218be1577cabde9afd5bd1f497998 *PROTOCOL_prespecified.md
+Addendum 9 frozen: 2026-11-04 08:59:49 +0700
+a70f259fe73181d61ae2919b64b322e7ca4199af6fb66d922ba6b6d0fae1634d *PROTOCOL_prespecified.md
+Deviation D1 recorded: 2026-11-04 09:27:37 +0700

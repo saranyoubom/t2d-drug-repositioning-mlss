@@ -1,0 +1,235 @@
+{
+ "hubs": [
+  {
+   "gene": "GLP1R",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 8,
+   "reported_file_records_human": 7,
+   "reported_file_distinct_drugs_human": 7,
+   "reported_file_moa_records_human": 6,
+   "reported_file_TDL_values": "Tclin",
+   "file_25Sep2026_records_all_species": 9,
+   "file_25Sep2026_records_human": 8,
+   "file_25Sep2026_distinct_drugs_human": 8,
+   "file_25Sep2026_moa_records_human": 7,
+   "file_25Sep2026_TDL_values": "Tclin",
+   "MLSS_drugs_reported_file": 7,
+   "MLSS_drugs_25Sep2026_file": 8
+  },
+  {
+   "gene": "TCF7L2",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 0,
+   "reported_file_records_human": 0,
+   "reported_file_distinct_drugs_human": 0,
+   "reported_file_moa_records_human": 0,
+   "reported_file_TDL_values": "no record in the file",
+   "file_25Sep2026_records_all_species": 0,
+   "file_25Sep2026_records_human": 0,
+   "file_25Sep2026_distinct_drugs_human": 0,
+   "file_25Sep2026_moa_records_human": 0,
+   "file_25Sep2026_TDL_values": "no record in the file",
+   "MLSS_drugs_reported_file": 0,
+   "MLSS_drugs_25Sep2026_file": 0
+  },
+  {
+   "gene": "CACNA1D",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 25,
+   "reported_file_records_human": 25,
+   "reported_file_distinct_drugs_human": 24,
+   "reported_file_moa_records_human": 24,
+   "reported_file_TDL_values": "Tclin",
+   "file_25Sep2026_records_all_species": 25,
+   "file_25Sep2026_records_human": 25,
+   "file_25Sep2026_distinct_drugs_human": 24,
+   "file_25Sep2026_moa_records_human": 24,
+   "file_25Sep2026_TDL_values": "Tclin",
+   "MLSS_drugs_reported_file": 11,
+   "MLSS_drugs_25Sep2026_file": 11
+  },
+  {
+   "gene": "PTBP1",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 0,
+   "reported_file_records_human": 0,
+   "reported_file_distinct_drugs_human": 0,
+   "reported_file_moa_records_human": 0,
+   "reported_file_TDL_values": "no record in the file",
+   "file_25Sep2026_records_all_species": 0,
+   "file_25Sep2026_records_human": 0,
+   "file_25Sep2026_distinct_drugs_human": 0,
+   "file_25Sep2026_moa_records_human": 0,
+   "file_25Sep2026_TDL_values": "no record in the file",
+   "MLSS_drugs_reported_file": 0,
+   "MLSS_drugs_25Sep2026_file": 0
+  },
+  {
+   "gene": "WNT5A",
+   "role": "context (degree 4)",
+   "reported_file_records_all_species": 0,
+   "reported_file_records_human": 0,
+   "reported_file_distinct_drugs_human": 0,
+   "reported_file_moa_records_human": 0,
+   "reported_file_TDL_values": "no record in the file",
+   "file_25Sep2026_records_all_species": 0,
+   "file_25Sep2026_records_human": 0,
+   "file_25Sep2026_distinct_drugs_human": 0,
+   "file_25Sep2026_moa_records_human": 0,
+   "file_25Sep2026_TDL_values": "no record in the file",
+   "MLSS_drugs_reported_file": "",
+   "MLSS_drugs_25Sep2026_file": ""
+  },
+  {
+   "gene": "CACNA1C",
+   "role": "context (degree 4)",
+   "reported_file_records_all_species": 41,
+   "reported_file_records_human": 35,
+   "reported_file_distinct_drugs_human": 33,
+   "reported_file_moa_records_human": 26,
+   "reported_file_TDL_values": "Tclin",
+   "file_25Sep2026_records_all_species": 41,
+   "file_25Sep2026_records_human": 35,
+   "file_25Sep2026_distinct_drugs_human": 34,
+   "file_25Sep2026_moa_records_human": 27,
+   "file_25Sep2026_TDL_values": "Tclin",
+   "MLSS_drugs_reported_file": "",
+   "MLSS_drugs_25Sep2026_file": ""
+  }
+ ],
+ "quartiles": {
+  "n_reported": 153,
+  "n_171": 171,
+  "thresholds_reported_153": {
+   "t75": 7.879365,
+   "t50": 7.65,
+   "t25": 2.754
+  },
+  "thresholds_171": {
+   "t75": 7.879365,
+   "t50": 7.65,
+   "t25": 2.8674
+  },
+  "class_sizes_reported_153": {
+   "Q1": 42,
+   "Q2": 35,
+   "Q3": 48,
+   "Q4": 28
+  },
+  "class_sizes_171": {
+   "Q1": 47,
+   "Q2": 41,
+   "Q3": 40,
+   "Q4": 43
+  },
+  "reported_combinations_changing_class_when_171_used": [
+   [
+    "dulaglutide + exenatide",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "dulaglutide + lixisenatide",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + bepridil",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + clevidipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + felodipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + nilvadipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + nimodipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + nisoldipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "bepridil + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "clevidipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "felodipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "nilvadipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "nimodipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "nisoldipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ]
+  ],
+  "top15_reported_classes": [
+   [
+    "(S)-nitrendipine + albiglutide",
+    1,
+    "Q1"
+   ],
+   [
+    "albiglutide + isradipine",
+    2,
+    "Q1"
+   ],
+   [
+    "exenatide + isradipine",
+    3,
+    "Q1"
+   ],
+   [
+    "(S)-nitrendipine 
+
+market status:
+  albiglutide        apps   1 NDA/BLA  1  application(s) present, all products discontinued or tentative first NDA/BLA approval 20140415  brands TANZEUM
+  amlodipine         apps 121 NDA/BLA 19  listed as marketed (not discontinued)                        first NDA/BLA approval 19920731  brands AMLODIPINE BESYLATE|AMLODIPINE MALEATE; BENAZEPRIL HYDROCHLO
+  bepridil           apps   2 NDA/BLA  2  application(s) present, all products discontinued or tentative first NDA/BLA approval 19901228  brands BEPADIN|VASCOR
+  clevidipine        apps   1 NDA/BLA  1  listed as marketed (not discontinued)                        first NDA/BLA approval 20080801  brands CLEVIPREX
+  dulaglutide        apps   1 NDA/BLA  1  listed as marketed (not discontinued)                        first NDA/BLA approval 20140918  brands TRULICITY
+  exenatide          apps   5 NDA/BLA  4  listed as marketed (not discontinued)                        first NDA/BLA approval 20050428  brands BYDUREON|BYDUREON BCISE|BYDUREON PEN|BYETTA
+  felodipine         apps  15 NDA/BLA  2  listed as marketed (not discontinued)                        first NDA/BLA approval 19910725  brands LEXXEL|PLENDIL
+  glucagon           apps  12 NDA/BLA  6  listed as marketed (not discontinued)                        first NDA/BLA approval 19601114  brands BAQSIMI|GLUCAGEN|GLUCAGON|GVOKE HYPOPEN|GVOKE KIT|GVOKE PFS|
+  isradipine         apps   5 NDA/BLA  2  listed as marketed (not discontinued)                        first NDA/BLA approval 19901220  brands DYNACIRC|DYNACIRC CR
+  liraglutide        apps  14 NDA/BLA  3  listed as marketed (not discontinued)                        first NDA/BLA approval 20100125  brands SAXENDA|VICTOZA|XULTOPHY 100/3.6
+  lixisenatide       apps   2 NDA/BLA  2  listed as marketed (not discontinued)                        first NDA/BLA approval 20160727  brands ADLYXIN|SOLIQUA 100/33
+  nifedipine         apps  36 NDA/BLA  4  listed as marketed (not discontinued)                        first NDA/BLA approval 19811231  brands ADALAT|ADALAT CC|PROCARDIA|PROCARDIA XL
+  nilvadipine        apps   0 NDA/BLA  0  no FDA application                                           first NDA/BLA approval   brands 
+  nimodipine         apps   9 NDA/BLA  2  listed as marketed (not discontinued)                        first NDA/BLA approval 19881228  brands NIMOTOP|NYMALIZE
+  nisoldipine        apps   4 NDA/BLA  1  listed as marketed (not discontinued)                        first NDA/BLA approval 19950202  brands SULAR
+  nitrendipine       apps   0 NDA/BLA  0  no FDA application                                           first NDA/BLA approval   brands 
+  (s)-nitrendipine   apps   0 NDA/BLA  0  no FDA application                                           first NDA/BLA approval   brands 
+  semaglutide        apps   6 NDA/BLA  5  listed as marketed (not discontinued)                        first NDA/BLA approval 20171205  brands OZEMPIC|RYBELSUS|WEGOVY|WEGOVY FLEXTOUCH|WEGOVY HD
+  tirzepatide        apps   2 NDA/BLA  2  listed as marketed (not discontinued)                        first NDA/BLA approval 20220513  brands MOUNJARO|MOUNJARO (AUTOINJECTOR)|MOUNJARO KWIKPEN|ZEPBOUND|Z

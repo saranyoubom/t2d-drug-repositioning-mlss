@@ -1,0 +1,7 @@
+gsm	title	source	ch0	ch1	ch2	ch3	platform
+GSM7927731	Control-1 [LN002]	pancreas	tissue: pancreas	cell type: pancreatic islets	genotype: RIP-Cre+, Rosa26-rtTA+, tetO_Jag1-	treatment: doxycycline supplementation: 8 weeks	GPL24247
+GSM7927732	Control-2 [LN003]	pancreas	tissue: pancreas	cell type: pancreatic islets	genotype: RIP-Cre+, Rosa26-rtTA+, tetO_Jag1-	treatment: doxycycline supplementation: 8 weeks	GPL24247
+GSM7927733	Control-3 [LN004]	pancreas	tissue: pancreas	cell type: pancreatic islets	genotype: RIP-Cre+, Rosa26-rtTA+, tetO_Jag1-	treatment: doxycycline supplementation: 8 weeks	GPL24247
+GSM7927734	Jag1-1 [LN005]	pancreas	tissue: pancreas	cell type: pancreatic islets	genotype: RIP-Cre+, Rosa26-rtTA+, tetO_Jag1+	treatment: doxycycline supplementation: 8 weeks	GPL24247
+GSM7927735	Jag1-2 [LN006]	pancreas	tissue: pancreas	cell type: pancreatic islets	genotype: RIP-Cre+, Rosa26-rtTA+, tetO_Jag1+	treatment: doxycycline supplementation: 8 weeks	GPL24247
+GSM7927736	Jag1-3  [LN008]	pancreas	tissue: pancreas	cell type: pancreatic islets	genotype: RIP-Cre+, Rosa26-rtTA+, tetO_Jag1+	treatment: doxycycline supplementation: 8 weeks	GPL24247

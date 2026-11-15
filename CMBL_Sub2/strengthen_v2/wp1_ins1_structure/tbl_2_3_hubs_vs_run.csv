@@ -1,0 +1,15 @@
+gene,run,reference_set,genes_in_run_17,eligible_genes_in_run,degree,is_hub_deg_ge_5,same_run_edges,between_run_edges,possible_same_run_partners,expected_same_run_edges
+Glp1r,Jun24,Jun24-refC,9,7,6,True,2,4,6,2.76923
+Cacna1d,Aug26,Aug26-refA,5,4,5,True,2,3,3,1.15385
+Ptbp1,Aug26,Aug26-refA,5,4,5,True,2,3,3,1.15385
+Tcf7l2,Aug26,Aug26-refA,5,4,5,True,1,4,3,1.15385
+Cacna1c,Aug26,Aug26-refA,5,4,4,False,3,1,3,0.923077
+Wnt5a,Jun24,Jun24-refA,9,7,4,False,1,3,6,1.84615
+Ryr3,Nov09,Nov09-refA,3,3,3,False,1,2,2,0.461538
+Glut2,Jun24,Jun24-refC,9,7,2,False,0,2,6,0.923077
+Itpr1,Nov09,Nov09-refA,3,3,2,False,1,1,2,0.307692
+Ryr2,Nov09,Nov09-refA,3,3,2,False,2,0,2,0.307692
+Wnt5b,Jun24,Jun24-refA,9,7,2,False,1,1,6,0.923077
+Tcf7,Jun24,Jun24-refA,9,7,1,False,1,0,6,0.461538
+Wnt9a,Jun24,Jun24-refA,9,7,1,False,1,0,6,0.461538
+Lef1,Jun24,Jun24-refA,9,7,0,False,0,0,6,0

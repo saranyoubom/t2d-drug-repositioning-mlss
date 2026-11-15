@@ -1,0 +1,1405 @@
+{
+ "status": "POST HOC exploratory analysis of one cell preparation (3 groups x 4 wells); protocol v2 section 2; not confirmatory",
+ "map": {
+  "Wnt5a": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refA",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "51-62"
+  },
+  "Wnt5b": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refA",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "99-110"
+  },
+  "Wnt9a": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refA",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "67-78"
+  },
+  "Lef1": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refA",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "3-14"
+  },
+  "Tcf7": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refA",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "83-94"
+  },
+  "Tcf7l2": {
+   "run": "Aug26",
+   "reference_set": "Aug26-refA",
+   "sheet": "0",
+   "rows": "62-73"
+  },
+  "Hes1": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refC",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "115-126"
+  },
+  "Itpr1": {
+   "run": "Nov09",
+   "reference_set": "Nov09-refA",
+   "sheet": "Box Plot",
+   "rows": "3-14"
+  },
+  "Ryr2": {
+   "run": "Nov09",
+   "reference_set": "Nov09-refA",
+   "sheet": "Box Plot",
+   "rows": "41-52"
+  },
+  "Ryr3": {
+   "run": "Nov09",
+   "reference_set": "Nov09-refA",
+   "sheet": "Box Plot",
+   "rows": "62-73"
+  },
+  "Cacna1c": {
+   "run": "Aug26",
+   "reference_set": "Aug26-refA",
+   "sheet": "0",
+   "rows": "2-13"
+  },
+  "Cacna1d": {
+   "run": "Aug26",
+   "reference_set": "Aug26-refA",
+   "sheet": "0",
+   "rows": "14-25"
+  },
+  "Kcnj11": {
+   "run": "Aug26",
+   "reference_set": "Aug26-refA",
+   "sheet": "0",
+   "rows": "38-49"
+  },
+  "Ptbp1": {
+   "run": "Aug26",
+   "reference_set": "Aug26-refA",
+   "sheet": "0",
+   "rows": "50-61"
+  },
+  "Glut2": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refC",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "179-190"
+  },
+  "Ins1": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refC",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "147-158"
+  },
+  "Glp1r": {
+   "run": "Jun24",
+   "reference_set": "Jun24-refC",
+   "sheet": "Mix_3+24 June 2020",
+   "rows": "163-174"
+  }
+ },
+ "run_sizes_17genes": {
+  "Jun24": 9,
+  "Aug26": 5,
+  "Nov09": 3
+ },
+ "reference_set_sizes_17genes": {
+  "Jun24-refA": 5,
+  "Aug26-refA": 5,
+  "Jun24-refC": 4,
+  "Nov09-refA": 3
+ },
+ "baseline": {
+  "consensus_any": 21,
+  "consensus_same_sign": 21,
+  "pooled_sig_per_scheme": [
+   66,
+   80,
+   84,
+   120
+  ],
+  "adj_q05_per_scheme": [
+   0,
+   51,
+   11,
+   15
+  ],
+  "cons_adj_any": 13,
+  "degree": {
+   "Glp1r": 6,
+   "Tcf7l2": 5,
+   "Cacna1d": 5,
+   "Ptbp1": 5,
+   "Wnt5a": 4,
+   "Cacna1c": 4,
+   "Ryr3": 3,
+   "Wnt5b": 2,
+   "Itpr1": 2,
+   "Ryr2": 2,
+   "Glut2": 2,
+   "Wnt9a": 1,
+   "Tcf7": 1
+  },
+  "consensus_pairs": [
+   [
+    "Wnt5a",
+    "Cacna1c"
+   ],
+   [
+    "Wnt5a",
+    "Cacna1d"
+   ],
+   [
+    "Wnt5a",
+    "Ptbp1"
+   ],
+   [
+    "Wnt5a",
+    "Glp1r"
+   ],
+   [
+    "Wnt5b",
+    "Tcf7l2"
+   ],
+   [
+    "Wnt5b",
+    "Glp1r"
+   ],
+   [
+    "Wnt9a",
+    "Tcf7"
+   ],
+   [
+    "Tcf7l2",
+    "Itpr1"
+   ],
+   [
+    "Tcf7l2",
+    "Ryr3"
+   ],
+   [
+    "Tcf7l2",
+    "Cacna1c"
+   ],
+   [
+    "Tcf7l2",
+    "Glp1r"
+   ],
+   [
+    "Itpr1",
+    "Ryr2"
+   ],
+   [
+    "Ryr2",
+    "Ryr3"
+   ],
+   [
+    "Ryr3",
+    "Glp1r"
+   ],
+   [
+    "Cacna1c",
+    "Cacna1d"
+   ],
+   [
+    "Cacna1c",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1d",
+    "Ptbp1"
+   ],
+   [
+    "Cacna1d",
+    "Glut2"
+   ],
+   [
+    "Cacna1d",
+    "Glp1r"
+   ],
+   [
+    "Ptbp1",
+    "Glut2"
+   ],
+   [
+    "Ptbp1",
+    "Glp1r"
+   ]
+  ],
+  "scheme_names": [
+   "raw",
+   "Ins1-normalized",
+   "Kcnj11-normalized",
+   "Hes1-normalized"
+  ]
+ },
+ "2_2_run_structure": {
+  "primary": {
+   "n_genes": 17,
+   "runs": {
+    "Jun24": 9,
+    "Aug26": 5,
+    "Nov09": 3
+   },
+   "n_same_pairs": 49,
+   "n_between_pairs": 87,
+   "nperm": 20000,
+   "excluded": [],
+   "r": {
+    "mean_same": 0.14859128279931189,
+    "mean_between": -0.018981289325004935,
+    "D": 0.16757257212431684,
+    "null_sd": 0.06654295202633313,
+    "p_two_sided": 0.019899005049747513,
+    "per_run": {
+     "Jun24": {
+      "n_genes": 9,
+      "n_pairs_inside": 36,
+      "mean_inside": 0.014131919978605625,
+      "mean_cross": -0.03242686470269662,
+      "D": 0.04655878468130225,
+      "p_two_sided": 0.5480225988700564
+     },
+     "Aug26": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.5364638240017224,
+      "mean_cross": -0.02991488492914348,
+      "D": 0.5663787089308661,
+      "p_two_sided": 0.000599970001499925
+     },
+     "Nov09": {
+      "n_genes": 3,
+      "n_pairs_inside": 3,
+      "mean_inside": 0.46919516597308514,
+      "mean_cross": 0.01968769075695016,
+      "D": 0.449507475216135,
+      "p_two_sided": 0.035398230088495575
+     }
+    }
+   },
+   "abs_r": {
+    "mean_same": 0.3589770815889296,
+    "mean_between": 0.25707222986032313,
+    "D": 0.10190485172860642,
+    "null_sd": 0.03923100235352982,
+    "p_two_sided": 0.011949402529873506,
+    "per_run": {
+     "Jun24": {
+      "n_genes": 9,
+      "n_pairs_inside": 36,
+      "mean_inside": 0.30049036833114084,
+      "mean_cross": 0.27288508406703926,
+      "D": 0.027605284264101526,
+      "p_two_sided": 0.5494225288735564
+     },
+     "Aug26": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.5364638240017224,
+      "mean_cross": 0.2730449301028278,
+      "D": 0.2634188938988947,
+      "p_two_sided": 0.0015999200039998
+     },
+     "Nov09": {
+      "n_genes": 3,
+      "n_pairs_inside": 3,
+      "mean_inside": 0.46919516597308514,
+      "mean_cross": 0.20714633658808884,
+      "D": 0.2620488293849963,
+      "p_two_sided": 0.04519774011299435
+     }
+    }
+   }
+  },
+  "reference_set": {
+   "n_genes": 17,
+   "runs": {
+    "Jun24-refA": 5,
+    "Aug26-refA": 5,
+    "Jun24-refC": 4,
+    "Nov09-refA": 3
+   },
+   "n_same_pairs": 29,
+   "n_between_pairs": 107,
+   "nperm": 20000,
+   "excluded": [],
+   "r": {
+    "mean_same": 0.384649537473813,
+    "mean_between": -0.05163771869953011,
+    "D": 0.4362872561733429,
+    "null_sd": 0.07429850522572712,
+    "p_two_sided": 4.999750012499375e-05,
+    "per_run": {
+     "Jun24-refA": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.3326508345875449,
+      "mean_cross": -0.07055215397227252,
+      "D": 0.4032029885598174,
+      "p_two_sided": 0.005649717514124294
+     },
+     "Aug26-refA": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.5364638240017224,
+      "mean_cross": -0.02991488492914348,
+      "D": 0.5663787089308661,
+      "p_two_sided": 0.000599970001499925
+     },
+     "Jun24-refC": {
+      "n_genes": 4,
+      "n_pairs_inside": 6,
+      "mean_inside": 0.17601741715477418,
+      "mean_cross": -0.11248716306550749,
+      "D": 0.2885045802202817,
+      "p_two_sided": 0.054997250137493126
+     },
+     "Nov09-refA": {
+      "n_genes": 3,
+      "n_pairs_inside": 3,
+      "mean_inside": 0.46919516597308514,
+      "mean_cross": 0.01968769075695016,
+      "D": 0.449507475216135,
+      "p_two_sided": 0.035398230088495575
+     }
+    }
+   },
+   "abs_r": {
+    "mean_same": 0.4343623128704396,
+    "mean_between": 0.2556883544155413,
+    "D": 0.1786739584548982,
+    "null_sd": 0.045082193687957677,
+    "p_two_sided": 0.0005499725013749313,
+    "per_run": {
+     "Jun24-refA": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.39272938002351343,
+      "mean_cross": 0.2401073642807585,
+      "D": 0.1526220157427549,
+      "p_two_sided": 0.037948102594870255
+     },
+     "Aug26-refA": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.5364638240017224,
+      "mean_cross": 0.2730449301028278,
+      "D": 0.2634188938988947,
+      "p_two_sided": 0.0015999200039998
+     },
+     "Jun24-refC": {
+      "n_genes": 4,
+      "n_pairs_inside": 6,
+      "mean_inside": 0.3161649225118556,
+      "mean_cross": 0.2928466162540562,
+      "D": 0.023318306257799404,
+      "p_two_sided": 0.7988600569971501
+     },
+     "Nov09-refA": {
+      "n_genes": 3,
+      "n_pairs_inside": 3,
+      "mean_inside": 0.46919516597308514,
+      "mean_cross": 0.20714633658808884,
+      "D": 0.2620488293849963,
+      "p_two_sided": 0.04519774011299435
+     }
+    }
+   }
+  },
+  "provisional_map": {
+   "n_genes": 17,
+   "runs": {
+    "Jun24": 5,
+    "Aug26": 5,
+    "Jun03": 4,
+    "Nov09": 3
+   },
+   "n_same_pairs": 29,
+   "n_between_pairs": 107,
+   "nperm": 20000,
+   "excluded": [],
+   "r": {
+    "mean_same": 0.384649537473813,
+    "mean_between": -0.05163771869953011,
+    "D": 0.4362872561733429,
+    "null_sd": 0.07429850522572712,
+    "p_two_sided": 4.999750012499375e-05,
+    "per_run": {
+     "Jun24": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.3326508345875449,
+      "mean_cross": -0.07055215397227252,
+      "D": 0.4032029885598174,
+      "p_two_sided": 0.005649717514124294
+     },
+     "Aug26": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.5364638240017224,
+      "mean_cross": -0.02991488492914348,
+      "D": 0.5663787089308661,
+      "p_two_sided": 0.000599970001499925
+     },
+     "Jun03": {
+      "n_genes": 4,
+      "n_pairs_inside": 6,
+      "mean_inside": 0.17601741715477418,
+      "mean_cross": -0.11248716306550749,
+      "D": 0.2885045802202817,
+      "p_two_sided": 0.054997250137493126
+     },
+     "Nov09": {
+      "n_genes": 3,
+      "n_pairs_inside": 3,
+      "mean_inside": 0.46919516597308514,
+      "mean_cross": 0.01968769075695016,
+      "D": 0.449507475216135,
+      "p_two_sided": 0.035398230088495575
+     }
+    }
+   },
+   "abs_r": {
+    "mean_same": 0.4343623128704396,
+    "mean_between": 0.2556883544155413,
+    "D": 0.1786739584548982,
+    "null_sd": 0.045082193687957677,
+    "p_two_sided": 0.0005499725013749313,
+    "per_run": {
+     "Jun24": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.39272938002351343,
+      "mean_cross": 0.2401073642807585,
+      "D": 0.1526220157427549,
+      "p_two_sided": 0.037948102594870255
+     },
+     "Aug26": {
+      "n_genes": 5,
+      "n_pairs_inside": 10,
+      "mean_inside": 0.5364638240017224,
+      "mean_cross": 0.2730449301028278,
+      "D": 0.2634188938988947,
+      "p_two_sided": 0.0015999200039998
+     },
+     "Jun03": {
+      "n_genes": 4,
+      "n_pairs_inside": 6,
+      "mean_inside": 0.3161649225118556,
+      "mean_cross": 0.2928466162540562,
+      "D": 0.023318306257799404,
+      "p_two_sided": 0.7988600569971501
+     },
+     "Nov09": {
+      "n_genes": 3,
+      "n_pairs_inside": 3,
+      "mean_inside": 0.46919516597308514,
+      "mean_cross": 0.20714633658808884,
+      "D": 0.2620488293849963,
+      "p_two_sided": 0.04519774011299435
+     }
+    }
+   }
+  }
+ },
+ "2_3_consensus_by_run": {
+  "eligible_pairs": 91,
+  "same_run_pairs": 30,
+  "between_run_pairs": 61,
+  "consensus_same_run": 9,
+  "same_run_not_consensus": 21,
+  "consensus_between_run": 12,
+  "between_run_not_consensus": 49,
+  "share_consensus_same_run": 0.3,
+  "share_consensus_between_run": 0.19672131147540983,
+  "fisher_odds_ratio": 1.75,
+  "fisher_p_two_sided": 0.2981578651715229,
+  "fisher_p_greater": 0.20069698646950196,
+  "label_permutation_null_mean": 6.90965,
+  "label_permutation_null_sd": 1.9391974828521206,
+  "label_permutation_p_ge": 0.19414029298535074,
+  "label_permutation_p_le": 0.9075546222688865,
+  "label_permutation_p_two_sided": 0.2871856407179641,
+  "pairs_involving_run": [
+   {
+    "run": "Jun24",
+    "eligible_pairs_involving_run": 70,
+    "consensus_pairs_involving_run": 13,
+    "consensus_expected": 16.153846153846153,
+    "hypergeometric_p_ge": 0.9816608606046285
+   },
+   {
+    "run": "Aug26",
+    "eligible_pairs_involving_run": 46,
+    "consensus_pairs_involving_run": 15,
+    "consensus_expected": 10.615384615384615,
+    "hypergeometric_p_ge": 0.025731790766429983
+   },
+   {
+    "run": "Nov09",
+    "eligible_pairs_involving_run": 36,
+    "consensus_pairs_involving_run": 5,
+    "consensus_expected": 8.307692307692308,
+    "hypergeometric_p_ge": 0.9762594494689739
+   }
+  ],
+  "hubs": [
+   "Tcf7l2",
+   "Cacna1d",
+   "Ptbp1",
+   "Glp1r"
+  ],
+  "hub_table": [
+   {
+    "gene": "Wnt5a",
+    "run": "Jun24",
+    "reference_set": "Jun24-refA",
+    "genes_in_run_17": 9,
+    "eligible_genes_in_run": 7,
+    "degree": 4,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 1,
+    "between_run_edges": 3,
+    "possible_same_run_partners": 6,
+    "expected_same_run_edges": 1.8461538461538463
+   },
+   {
+    "gene": "Wnt5b",
+    "run": "Jun24",
+    "reference_set": "Jun24-refA",
+    "genes_in_run_17": 9,
+    "eligible_genes_in_run": 7,
+    "degree": 2,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 1,
+    "between_run_edges": 1,
+    "possible_same_run_partners": 6,
+    "expected_same_run_edges": 0.9230769230769231
+   },
+   {
+    "gene": "Wnt9a",
+    "run": "Jun24",
+    "reference_set": "Jun24-refA",
+    "genes_in_run_17": 9,
+    "eligible_genes_in_run": 7,
+    "degree": 1,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 1,
+    "between_run_edges": 0,
+    "possible_same_run_partners": 6,
+    "expected_same_run_edges": 0.46153846153846156
+   },
+   {
+    "gene": "Lef1",
+    "run": "Jun24",
+    "reference_set": "Jun24-refA",
+    "genes_in_run_17": 9,
+    "eligible_genes_in_run": 7,
+    "degree": 0,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 0,
+    "between_run_edges": 0,
+    "possible_same_run_partners": 6,
+    "expected_same_run_edges": 0.0
+   },
+   {
+    "gene": "Tcf7",
+    "run": "Jun24",
+    "reference_set": "Jun24-refA",
+    "genes_in_run_17": 9,
+    "eligible_genes_in_run": 7,
+    "degree": 1,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 1,
+    "between_run_edges": 0,
+    "possible_same_run_partners": 6,
+    "expected_same_run_edges": 0.46153846153846156
+   },
+   {
+    "gene": "Tcf7l2",
+    "run": "Aug26",
+    "reference_set": "Aug26-refA",
+    "genes_in_run_17": 5,
+    "eligible_genes_in_run": 4,
+    "degree": 5,
+    "is_hub_deg_ge_5": true,
+    "same_run_edges": 1,
+    "between_run_edges": 4,
+    "possible_same_run_partners": 3,
+    "expected_same_run_edges": 1.1538461538461537
+   },
+   {
+    "gene": "Itpr1",
+    "run": "Nov09",
+    "reference_set": "Nov09-refA",
+    "genes_in_run_17": 3,
+    "eligible_genes_in_run": 3,
+    "degree": 2,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 1,
+    "between_run_edges": 1,
+    "possible_same_run_partners": 2,
+    "expected_same_run_edges": 0.3076923076923077
+   },
+   {
+    "gene": "Ryr2",
+    "run": "Nov09",
+    "reference_set": "Nov09-refA",
+    "genes_in_run_17": 3,
+    "eligible_genes_in_run": 3,
+    "degree": 2,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 2,
+    "between_run_edges": 0,
+    "possible_same_run_partners": 2,
+    "expected_same_run_edges": 0.3076923076923077
+   },
+   {
+    "gene": "Ryr3",
+    "run": "Nov09",
+    "reference_set": "Nov09-refA",
+    "genes_in_run_17": 3,
+    "eligible_genes_in_run": 3,
+    "degree": 3,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 1,
+    "between_run_edges": 2,
+    "possible_same_run_partners": 2,
+    "expected_same_run_edges": 0.46153846153846156
+   },
+   {
+    "gene": "Cacna1c",
+    "run": "Aug26",
+    "reference_set": "Aug26-refA",
+    "genes_in_run_17": 5,
+    "eligible_genes_in_run": 4,
+    "degree": 4,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 3,
+    "between_run_edges": 1,
+    "possible_same_run_partners": 3,
+    "expected_same_run_edges": 0.9230769230769231
+   },
+   {
+    "gene": "Cacna1d",
+    "run": "Aug26",
+    "reference_set": "Aug26-refA",
+    "genes_in_run_17": 5,
+    "eligible_genes_in_run": 4,
+    "degree": 5,
+    "is_hub_deg_ge_5": true,
+    "same_run_edges": 2,
+    "between_run_edges": 3,
+    "possible_same_run_partners": 3,
+    "expected_same_run_edges": 1.1538461538461537
+   },
+   {
+    "gene": "Ptbp1",
+    "run": "Aug26",
+    "reference_set": "Aug26-refA",
+    "genes_in_run_17": 5,
+    "eligible_genes_in_run": 4,
+    "degree": 5,
+    "is_hub_deg_ge_5": true,
+    "same_run_edges": 2,
+    "between_run_edges": 3,
+    "possible_same_run_partners": 3,
+    "expected_same_run_edges": 1.1538461538461537
+   },
+   {
+    "gene": "Glut2",
+    "run": "Jun24",
+    "reference_set": "Jun24-refC",
+    "genes_in_run_17": 9,
+    "eligible_genes_in_run": 7,
+    "degree": 2,
+    "is_hub_deg_ge_5": false,
+    "same_run_edges": 0,
+    "between_run_edges": 2,
+    "possible_same_run_partners": 6,
+    "expected_same_run_edges": 0.9230769230769231
+   },
+   {
+    "gene": "Glp1r",
+    "run": "Jun24",
+    "reference_set": "Jun24-refC",
+    "genes_in_run_17": 9,
+    "eligible_genes_in_run": 7,
+    "degree": 6,
+    "is_hub_deg_ge_5": true,
+    "same_run_edges": 2,
+    "between_run_edges": 4,
+    "possible_same_run_partners": 6,
+    "expected_same_run_edges": 2.769230769230769
+   }
+  ],
+  "degree_by_run": [
+   {
+    "run": "Jun24",
+    "eligible_genes": 7,
+    "mean_degree": 2.2857142857142856,
+    "hubs_deg_ge_5": 1,
+    "hubs_expected": 2.0,
+    "hypergeometric_p_ge": 0.965034965034965,
+    "p_mean_degree_ge": 0.9456108778244351
+   },
+   {
+    "run": "Aug26",
+    "eligible_genes": 4,
+    "mean_degree": 4.75,
+    "hubs_deg_ge_5": 3,
+    "hubs_expected": 1.1428571428571428,
+    "hypergeometric_p_ge": 0.04095904095904096,
+    "p_mean_degree_ge": 0.016196760647870425
+   },
+   {
+    "run": "Nov09",
+    "eligible_genes": 3,
+    "mean_degree": 2.3333333333333335,
+    "hubs_deg_ge_5": 0,
+    "hubs_expected": 0.8571428571428571,
+    "hypergeometric_p_ge": 1.0,
+    "p_mean_degree_ge": 0.8056388722255549
+   }
+  ],
+  "kruskal_H_degree_by_run": 5.017423256318473,
+  "kruskal_p_asymptotic": 0.08137301042951017,
+  "kruskal_p_label_permutation": 0.02299233588803732
+ },
+ "2_4_addon_layout_control_Aug26": {
+  "note": "ADD-ON (not in the protocol): simulated Aug26 data with independent genes, observed group means/SDs; compare with the observed mean within-group r of the 10 Aug26 pairs",
+  "observed": {
+   "mean_r_target_cq": 0.7769587264762021,
+   "mean_r_dcq": 0.5364638240017224
+  },
+  "simulated": {
+   "ascending rows (as in the sheet)": {
+    "mean_r_target_cq": {
+     "mean": 0.7407441254986658,
+     "q025": 0.6209624799909566,
+     "q975": 0.845593987882888
+    },
+    "mean_r_dcq": {
+     "mean": 0.5201104515174797,
+     "q025": 0.30509316761305144,
+     "q975": 0.7257439633618903,
+     "p_ge_observed": 0.4488
+    }
+   },
+   "random row order": {
+    "mean_r_target_cq": {
+     "mean": 0.0018070098186492253,
+     "q025": -0.16336570589210683,
+     "q975": 0.23480685009865593
+    },
+    "mean_r_dcq": {
+     "mean": 0.34269499454888624,
+     "q025": 0.03158598984331768,
+     "q975": 0.6316292737168857,
+     "p_ge_observed": 0.1096
+    }
+   }
+  }
+ },
+ "2_4_shared_reference": {
+  "summary": [
+   {
+    "scope": "all same-run pairs",
+    "n_pairs": 49,
+    "mean_r_target_cq": 0.21538194689465304,
+    "mean_r_dcq": 0.14859128279931189,
+    "mean_r_expected_shared_reference_only": 0.23195447827152635,
+    "mean_abs_r_target_cq": 0.41603189393202694,
+    "mean_abs_r_dcq": 0.3589770815889296,
+    "n_abs_r_ge_0632_target_cq": 14,
+    "n_abs_r_ge_0632_dcq": 7,
+    "wilcoxon_p_dcq_vs_target_cq": 0.2593256718271526
+   },
+   {
+    "scope": "all between-run pairs",
+    "n_pairs": 87,
+    "mean_r_target_cq": -0.08975012902247352,
+    "mean_r_dcq": -0.018981289325004935,
+    "mean_r_expected_shared_reference_only": 0.03573049828279751,
+    "mean_abs_r_target_cq": 0.2635260306661392,
+    "mean_abs_r_dcq": 0.25707222986032313,
+    "n_abs_r_ge_0632_target_cq": 3,
+    "n_abs_r_ge_0632_dcq": 6,
+    "wilcoxon_p_dcq_vs_target_cq": 0.049549954290720344
+   },
+   {
+    "scope": "same run: Aug26",
+    "n_pairs": 10,
+    "mean_r_target_cq": 0.7769587264762021,
+    "mean_r_dcq": 0.5364638240017224,
+    "mean_r_expected_shared_reference_only": 0.3428549814528897,
+    "mean_abs_r_target_cq": 0.7769587264762021,
+    "mean_abs_r_dcq": 0.5364638240017224,
+    "n_abs_r_ge_0632_target_cq": 10,
+    "n_abs_r_ge_0632_dcq": 2,
+    "wilcoxon_p_dcq_vs_target_cq": 0.001953125
+   },
+   {
+    "scope": "same run: Jun24",
+    "n_pairs": 36,
+    "mean_r_target_cq": 0.06135582877639126,
+    "mean_r_dcq": 0.014131919978605625,
+    "mean_r_expected_shared_reference_only": 0.19154307723727496,
+    "mean_abs_r_target_cq": 0.32584092987300106,
+    "mean_abs_r_dcq": 0.30049036833114084,
+    "n_abs_r_ge_0632_target_cq": 3,
+    "n_abs_r_ge_0632_dcq": 4,
+    "wilcoxon_p_dcq_vs_target_cq": 0.4890561629727017
+   },
+   {
+    "scope": "same run: Nov09",
+    "n_pairs": 3,
+    "mean_r_target_cq": 0.191772765708631,
+    "mean_r_dcq": 0.46919516597308514,
+    "mean_r_expected_shared_reference_only": 0.34722294674466564,
+    "mean_abs_r_target_cq": 0.2952340208264196,
+    "mean_abs_r_dcq": 0.46919516597308514,
+    "n_abs_r_ge_0632_target_cq": 1,
+    "n_abs_r_ge_0632_dcq": 1,
+    "wilcoxon_p_dcq_vs_target_cq": null
+   },
+   {
+    "scope": "same reference set: Aug26-refA",
+    "n_pairs": 10,
+    "mean_r_target_cq": 0.7769587264762021,
+    "mean_r_dcq": 0.5364638240017224,
+    "mean_r_expected_shared_reference_only": 0.3428549814528897,
+    "mean_abs_r_target_cq": 0.7769587264762021,
+    "mean_abs_r_dcq": 0.5364638240017224,
+    "n_abs_r_ge_0632_target_cq": 10,
+    "n_abs_r_ge_0632_dcq": 2,
+    "wilcoxon_p_dcq_vs_target_cq": 0.001953125
+   },
+   {
+    "scope": "same reference set: Jun24-refA",
+    "n_pairs": 10,
+    "mean_r_target_cq": 0.12297352276101987,
+    "mean_r_dcq": 0.3326508345875449,
+    "mean_r_expected_shared_reference_only": 0.4127310178691926,
+    "mean_abs_r_target_cq": 0.24550595142669587,
+    "mean_abs_r_dcq": 0.39272938002351343,
+    "n_abs_r_ge_0632_target_cq": 1,
+    "n_abs_r_ge_0632_dcq": 2,
+    "wilcoxon_p_dcq_vs_target_cq": 0.037109375
+   },
+   {
+    "scope": "same reference set: Jun24-refC",
+    "n_pairs": 6,
+    "mean_r_target_cq": -0.16380699513672112,
+    "mean_r_dcq": 0.17601741715477418,
+    "mean_r_expected_shared_reference_only": 0.29707998521686224,
+    "mean_abs_r_target_cq": 0.4260826529231103,
+    "mean_abs_r_dcq": 0.3161649225118556,
+    "n_abs_r_ge_0632_target_cq": 1,
+    "n_abs_r_ge_0632_dcq": 1,
+    "wilcoxon_p_dcq_vs_target_cq": 0.03125
+   },
+   {
+    "scope": "same reference set: Nov09-refA",
+    "n_pairs": 3,
+    "mean_r_target_cq": 0.191772765708631,
+    "mean_r_dcq": 0.46919516597308514,
+    "mean_r_expected_shared_reference_only": 0.34722294674466564,
+    "mean_abs_r_target_cq": 0.2952340208264196,
+    "mean_abs_r_dcq": 0.46919516597308514,
+    "n_abs_r_ge_0632_target_cq": 1,
+    "n_abs_r_ge_0632_dcq": 1,
+    "wilcoxon_p_dcq_vs_target_cq": null
+   },
+   {
+    "scope": "same run, different reference sets (Jun24 refA x refC)",
+    "n_pairs": 20,
+    "mean_r_target_cq": 0.0980958289580107,
+    "mean_r_dcq": -0.19369318647871459,
+    "mean_r_expected_shared_reference_only": 0.049288034527439975,
+    "mean_abs_r_target_cq": 0.3359359021811209,
+    "mean_abs_r_dcq": 0.24966849623074022,
+    "n_abs_r_ge_0632_target_cq": 1,
+    "n_abs_r_ge_0632_dcq": 1,
+    "wilcoxon_p_dcq_vs_target_cq": 0.001689910888671875
+   }
+  ],
+  "versions": [
+   {
+    "version": "reported (primary)",
+    "consensus_pairs": 21,
+    "kept": 21,
+    "lost": 0,
+    "new": 0,
+    "null_mean": 22.1004,
+    "p_null_ge": 0.6825,
+    "pooled_raw": 66,
+    "pooled_Ins1": 80,
+    "pooled_Kcnj11": 84,
+    "pooled_Hes1": 120,
+    "adj_raw": 0,
+    "adj_Ins1": 51,
+    "adj_Kcnj11": 11,
+    "adj_Hes1": 15,
+    "hubs_deg_ge_5": "Glp1r 6; Tcf7l2 5; Cacna1d 5; Ptbp1 5",
+    "max_degree": 6,
+    "T_r2": 0.13290465491606648,
+    "T_r2_null_mean": 0.11377497408738377,
+    "T_r2_p": 0.060693930606939304,
+    "T_p": 13.0,
+    "T_p_null_mean": 7.3126,
+    "T_p_p": 0.031296870312968704,
+    "share_median": 0.9713605788093822,
+    "D_same_minus_between": 0.16757257212431684,
+    "D_p": 0.019899005049747513,
+    "mean_r_same_run": 0.14859128279931189,
+    "mean_r_between_run": -0.018981289325004935,
+    "mean_inside_Jun24": 0.014131919978605625,
+    "D_Jun24": 0.04655878468130225,
+    "p_Jun24": 0.5480225988700564,
+    "mean_inside_Aug26": 0.5364638240017224,
+    "D_Aug26": 0.5663787089308661,
+    "p_Aug26": 0.000599970001499925,
+    "mean_inside_Nov09": 0.46919516597308514,
+    "D_Nov09": 0.449507475216135,
+    "p_Nov09": 0.035398230088495575,
+    "raw_scheme_pairs_q_lt_005": "",
+    "consensus_pairs_lost": "",
+    "consensus_pairs_new": ""
+   },
+   {
+    "version": "(a) reference = run-and-group mean",
+    "consensus_pairs": 27,
+    "kept": 18,
+    "lost": 3,
+    "new": 9,
+    "null_mean": 27.7729,
+    "p_null_ge": 0.6586,
+    "pooled_raw": 70,
+    "pooled_Ins1": 82,
+    "pooled_Kcnj11": 90,
+    "pooled_Hes1": 120,
+    "adj_raw": 2,
+    "adj_Ins1": 17,
+    "adj_Kcnj11": 27,
+    "adj_Hes1": 18,
+    "hubs_deg_ge_5": "Glp1r 8; Tcf7l2 6; Ptbp1 6; Wnt5a 5; Ryr2 5; Cacna1c 5; Cacna1d 5",
+    "max_degree": 8,
+    "T_r2": 0.15235368023709206,
+    "T_r2_null_mean": 0.1092451206116696,
+    "T_r2_p": 0.0010998900109989002,
+    "T_p": 17.0,
+    "T_p_null_mean": 6.8005,
+    "T_p_p": 0.00039996000399960006,
+    "share_median": 0.9712031682077249,
+    "D_same_minus_between": 0.3051320759171266,
+    "D_p": 0.0014999250037498126,
+    "mean_r_same_run": 0.21538194689465295,
+    "mean_r_between_run": -0.08975012902247363,
+    "mean_inside_Jun24": 0.06135582877639133,
+    "D_Jun24": 0.16873797770363425,
+    "p_Jun24": 0.03874806259687016,
+    "mean_inside_Aug26": 0.7769587264762011,
+    "D_Aug26": 0.8526178923144392,
+    "p_Aug26": 0.00044997750112494374,
+    "mean_inside_Nov09": 0.1917727657086318,
+    "D_Nov09": 0.2714265223004089,
+    "p_Nov09": 0.19929003549822508,
+    "raw_scheme_pairs_q_lt_005": "Cacna1c-Kcnj11 (Aug26) q=0.014; Kcnj11-Ptbp1 (Aug26) q=0.009",
+    "consensus_pairs_lost": "Glp1r-Ryr3 (Jun24/Nov09); Tcf7-Wnt9a (Jun24); Tcf7l2-Wnt5b (Aug26/Jun24)",
+    "consensus_pairs_new": "Cacna1c-Glp1r (Aug26/Jun24); Glp1r-Ryr2 (Jun24/Nov09); Glp1r-Wnt9a (Jun24); Itpr1-Wnt5a (Jun24/Nov09); Ptbp1-Tcf7l2 (Aug26); Ryr2-Tcf7l2 (Aug26/Nov09); Ryr2-Wnt5b (Jun24/Nov09); Ryr3-Wnt5b (Jun24/Nov09); Wnt5b-Wnt9a (Jun24)"
+   },
+   {
+    "version": "(b) reference = run-wide mean (no normalization)",
+    "consensus_pairs": 19,
+    "kept": 8,
+    "lost": 13,
+    "new": 11,
+    "null_mean": 19.4204,
+    "p_null_ge": 0.6753,
+    "pooled_raw": 55,
+    "pooled_Ins1": 61,
+    "pooled_Kcnj11": 59,
+    "pooled_Hes1": 120,
+    "adj_raw": 2,
+    "adj_Ins1": 14,
+    "adj_Kcnj11": 9,
+    "adj_Hes1": 23,
+    "hubs_deg_ge_5": "Tcf7l2 6; Cacna1c 5",
+    "max_degree": 6,
+    "T_r2": 0.15235368023709195,
+    "T_r2_null_mean": 0.10924512061166956,
+    "T_r2_p": 0.0010998900109989002,
+    "T_p": 17.0,
+    "T_p_null_mean": 6.8005,
+    "T_p_p": 0.00039996000399960006,
+    "share_median": 0.9770695993072974,
+    "D_same_minus_between": 0.3051320759171263,
+    "D_p": 0.0014999250037498126,
+    "mean_r_same_run": 0.21538194689465295,
+    "mean_r_between_run": -0.08975012902247337,
+    "mean_inside_Jun24": 0.06135582877639129,
+    "D_Jun24": 0.16873797770363388,
+    "p_Jun24": 0.03874806259687016,
+    "mean_inside_Aug26": 0.7769587264762011,
+    "D_Aug26": 0.8526178923144386,
+    "p_Aug26": 0.00044997750112494374,
+    "mean_inside_Nov09": 0.19177276570863214,
+    "D_Nov09": 0.2714265223004095,
+    "p_Nov09": 0.19929003549822508,
+    "raw_scheme_pairs_q_lt_005": "Cacna1c-Kcnj11 (Aug26) q=0.048; Kcnj11-Ptbp1 (Aug26) q=0.002",
+    "consensus_pairs_lost": "Cacna1c-Wnt5a (Aug26/Jun24); Cacna1d-Glp1r (Aug26/Jun24); Cacna1d-Glut2 (Aug26/Jun24); Cacna1d-Wnt5a (Aug26/Jun24); Glp1r-Ptbp1 (Aug26/Jun24); Glp1r-Ryr3 (Jun24/Nov09); Glp1r-Tcf7l2 (Aug26/Jun24); Glut2-Ptbp1 (Aug26/Jun24); Itpr1-Ryr2 (Nov09); Itpr1-Tcf7l2 (Aug26/Nov09); Ptbp1-Wnt5a (Aug26/Jun24); Tcf7-Wnt9a (Jun24); Tcf7l2-Wnt5b (Aug26/Jun24)",
+    "consensus_pairs_new": "Cacna1c-Ryr2 (Aug26/Nov09); Cacna1c-Ryr3 (Aug26/Nov09); Cacna1d-Ryr3 (Aug26/Nov09); Cacna1d-Tcf7l2 (Aug26); Glp1r-Glut2 (Jun24); Glut2-Wnt5a (Jun24); Ptbp1-Ryr2 (Aug26/Nov09); Ptbp1-Tcf7l2 (Aug26); Ryr2-Tcf7l2 (Aug26/Nov09); Tcf7l2-Wnt5a (Aug26/Jun24); Wnt5a-Wnt5b (Jun24)"
+   }
+  ]
+ },
+ "2_5_adjusted_calibrated": {
+  "schemes": [
+   {
+    "scheme": "raw",
+    "observed_q_lt_005": 0,
+    "null_mean": 0.0675,
+    "null_sd": 0.2809693043732714,
+    "null_q95": 1.0,
+    "excess": -0.0675,
+    "p_null_ge_obs": 1.0,
+    "p_plus1": 1.0,
+    "calibrated": true,
+    "reading": "calibrated: no pair has q < 0.05 (null mean ~0)"
+   },
+   {
+    "scheme": "Ins1-normalized",
+    "observed_q_lt_005": 51,
+    "null_mean": 29.319,
+    "null_sd": 14.354171484275922,
+    "null_q95": 54.0,
+    "excess": 21.681,
+    "p_null_ge_obs": 0.079,
+    "p_plus1": 0.07946026986506746,
+    "calibrated": false,
+    "reading": "artefact-prone: shared denominator, observed count not above its null"
+   },
+   {
+    "scheme": "Kcnj11-normalized",
+    "observed_q_lt_005": 11,
+    "null_mean": 11.296,
+    "null_sd": 9.229592840423676,
+    "null_q95": 30.0,
+    "excess": -0.2959999999999994,
+    "p_null_ge_obs": 0.4395,
+    "p_plus1": 0.4397801099450275,
+    "calibrated": false,
+    "reading": "artefact-prone: shared denominator, observed count not above its null"
+   },
+   {
+    "scheme": "Hes1-normalized",
+    "observed_q_lt_005": 15,
+    "null_mean": 6.5315,
+    "null_sd": 5.231730856036078,
+    "null_q95": 17.0,
+    "excess": 8.468499999999999,
+    "p_null_ge_obs": 0.0785,
+    "p_plus1": 0.07896051974012994,
+    "calibrated": false,
+    "reading": "artefact-prone: shared denominator, observed count not above its null"
+   }
+  ],
+  "raw_scheme_min_q": 0.11374107089497622,
+  "raw_scheme_pairs_q_lt_005": 0,
+  "smallest_raw_q_pairs": [
+   {
+    "gene_a": "Cacna1c",
+    "gene_b": "Kcnj11",
+    "r_adjusted_partial_linear": 0.8779267967659168,
+    "p_adjusted": 0.000836331403639531,
+    "q_raw": 0.11374107089497622
+   },
+   {
+    "gene_a": "Wnt5a",
+    "gene_b": "Cacna1d",
+    "r_adjusted_partial_linear": 0.8049968030090092,
+    "p_adjusted": 0.004962798619384424,
+    "q_raw": 0.16873515305907041
+   },
+   {
+    "gene_a": "Ryr2",
+    "gene_b": "Ryr3",
+    "r_adjusted_partial_linear": 0.813238521675758,
+    "p_adjusted": 0.0042201145831854015,
+    "q_raw": 0.16873515305907041
+   },
+   {
+    "gene_a": "Ins1",
+    "gene_b": "Glp1r",
+    "r_adjusted_partial_linear": 0.8096485201537464,
+    "p_adjusted": 0.0045330602627894805,
+    "q_raw": 0.16873515305907041
+   },
+   {
+    "gene_a": "Kcnj11",
+    "gene_b": "Ptbp1",
+    "r_adjusted_partial_linear": 0.7287162645372822,
+    "p_adjusted": 0.016820076577063765,
+    "q_raw": 0.33137553756785715
+   }
+  ]
+ },
+ "2_6_coupling": {
+  "independent": {
+   "T_r2": {
+    "observed": 0.13290465491606648,
+    "null_mean": 0.11377497408738377,
+    "null_sd": 0.011504880127501844,
+    "null_q05": 0.09675184042817012,
+    "null_q95": 0.13400564082035016,
+    "p_ge": 0.0606,
+    "p_ge_plus1": 0.060693930606939304
+   },
+   "T_p": {
+    "observed": 13.0,
+    "null_mean": 7.3126,
+    "null_sd": 2.5903824505273345,
+    "null_q05": 3.0,
+    "null_q95": 12.0,
+    "p_ge": 0.0312,
+    "p_ge_plus1": 0.031296870312968704
+   },
+   "T_eig": {
+    "observed": 5.060574163946567,
+    "null_mean": 4.39214638687139,
+    "null_sd": 0.45068312121471427,
+    "null_q05": 3.730029724393215,
+    "null_q95": 5.2027627750548335,
+    "p_ge": 0.0809,
+    "p_ge_plus1": 0.08099190080991901
+   },
+   "T_r2_same_run": {
+    "observed": 0.17923893321873566,
+    "null_mean": 0.12965784111908352,
+    "null_sd": 0.0207290291860046,
+    "null_q05": 0.09930057571948893,
+    "null_q95": 0.166412757572099,
+    "p_ge": 0.0195,
+    "p_ge_plus1": 0.019598040195980403
+   },
+   "T_r2_between_run": {
+    "observed": 0.10680833725134473,
+    "null_mean": 0.10482945127642643,
+    "null_sd": 0.013445710522048921,
+    "null_q05": 0.08394290317539606,
+    "null_q95": 0.1277364591409384,
+    "p_ge": 0.4197,
+    "p_ge_plus1": 0.41975802419758024
+   }
+  },
+  "run_block": {
+   "T_r2": {
+    "observed": 0.13290465491606648,
+    "null_mean": 0.13148447297319527,
+    "null_sd": 0.010965528423722802,
+    "null_q05": 0.11503400777412702,
+    "null_q95": 0.15075184585594248,
+    "p_ge": 0.4183,
+    "p_ge_plus1": 0.4183581641835816
+   },
+   "T_p": {
+    "observed": 13.0,
+    "null_mean": 10.8257,
+    "null_sd": 2.152096538262166,
+    "null_q05": 8.0,
+    "null_q95": 15.0,
+    "p_ge": 0.2039,
+    "p_ge_plus1": 0.203979602039796
+   },
+   "T_eig": {
+    "observed": 5.060574163946567,
+    "null_mean": 5.006188638744335,
+    "null_sd": 0.4863699704685196,
+    "null_q05": 4.257585816580946,
+    "null_q95": 5.8466578201576205,
+    "p_ge": 0.4321,
+    "p_ge_plus1": 0.43215678432156784
+   },
+   "T_r2_same_run": {
+    "observed": 0.17923893321873566,
+    "null_mean": 0.1792389332187356,
+    "null_sd": 5.511840828139181e-17,
+    "null_q05": 0.17923893321873563,
+    "null_q95": 0.17923893321873566,
+    "p_ge": 1.0,
+    "p_ge_plus1": 1.0
+   },
+   "T_r2_between_run": {
+    "observed": 0.10680833725134473,
+    "null_mean": 0.10458828271995983,
+    "null_sd": 0.017141515696854036,
+    "null_q05": 0.07887261298348537,
+    "null_q95": 0.13470739435276005,
+    "p_ge": 0.4183,
+    "p_ge_plus1": 0.4183581641835816
+   }
+  },
+  "consensus_independent": {
+   "observed": 21,
+   "null_mean": 22.1004,
+   "null_sd": 3.031125177223798,
+   "null_q05": 18.0,
+   "null_q95": 27.0,
+   "z": -0.36303350592991834,
+   "p_ge": 0.6825,
+   "p_ge_plus1": 0.6825317468253175,
+   "n_eligible_pairs": 91,
+   "same_sign": {
+    "observed": 21,
+    "null_mean": 21.7428,
+    "null_sd": 2.9067590474616227,
+    "null_q05": 17.0,
+    "null_q95": 27.0,
+    "p_ge": 0.6425,
+    "p_ge_plus1": 0.6425357464253575
+   },
+   "nperm": 10000,
+   "kind": "pearson"
+  },
+  "consensus_run_block": {
+   "observed": 21,
+   "null_mean": 23.5905,
+   "null_sd": 2.987910599398851,
+   "null_q05": 19.0,
+   "null_q95": 29.0,
+   "z": -0.8669938118366698,
+   "p_ge": 0.845,
+   "p_ge_plus1": 0.845015498450155,
+   "n_eligible_pairs": 91,
+   "same_sign": {
+    "observed": 21,
+    "null_mean": 23.5905,
+    "null_sd": 2.987910599398851,
+    "null_q05": 19.0,
+    "null_q95": 29.0,
+    "p_ge": 0.845,
+    "p_ge_plus1": 0.845015498450155
+   },
+   "nperm": 10000,
+   "kind": "pearson"
+  },
+  "consensus_same_run_pairs_observed": 9,
+  "consensus_between_run_pairs_observed": 12
+ },
+ "2_7_geometry": {
+  "ins1": {
+   "ANOVA on log scale": {
+    "r_crit": 0.575982986442264,
+    "expected": 0.6092388840318556,
+    "n_pairs_all": 136,
+    "n_sig_all": 66,
+    "share_sig_all": 0.4852941176470588,
+    "n_group_effect_genes": 15,
+    "n_pairs_group_effect": 105,
+    "n_sig_group_effect": 61,
+    "share_sig_group_effect": 0.580952380952381
+   },
+   "ANOVA on linear scale": {
+    "r_crit": 0.575982986442264,
+    "expected": 0.6092388840318556,
+    "n_pairs_all": 136,
+    "n_sig_all": 66,
+    "share_sig_all": 0.4852941176470588,
+    "n_group_effect_genes": 15,
+    "n_pairs_group_effect": 105,
+    "n_sig_group_effect": 61,
+    "share_sig_group_effect": 0.580952380952381
+   }
+  },
+  "benchmark_set_A": {
+   "n_series": 37,
+   "median_share": 0.7941176470588235,
+   "q25": 0.6102941176470589,
+   "q75": 0.9044117647058824,
+   "mean_share": 0.7408585055643879,
+   "expected": 0.6092388840318556,
+   "n_above_expected": 28,
+   "by_platform": {
+    "GPL1261": {
+     "n": 20,
+     "median": 0.8014705882352942
+    },
+    "GPL570": {
+     "n": 17,
+     "median": 0.7205882352941176
+    }
+   }
+  },
+  "note": "anchor, not a test; assumes the pooled correlation is carried by the group means with uniform orientation of the centred group-mean vectors"
+ },
+ "2_8_scale_sensitivity": [
+  {
+   "scale": "linear-scale Pearson (the manuscript)",
+   "pooled_raw": 66,
+   "pooled_Ins1": 80,
+   "pooled_Kcnj11": 84,
+   "pooled_Hes1": 120,
+   "consensus_pairs": 21,
+   "same_sign": 21,
+   "null_mean": 22.1004,
+   "null_sd": 3.031125177223798,
+   "p_null_ge": 0.6825,
+   "covariance_share_median": 0.9713605788093822,
+   "covariance_share_n_pairs": 66,
+   "adj_q_raw": 0,
+   "adj_q_Ins1": 51,
+   "adj_q_Kcnj11": 11,
+   "adj_q_Hes1": 15,
+   "consensus_with_adj_q_any": 13,
+   "hubs_deg_ge_5": "Glp1r 6; Tcf7l2 5; Cacna1d 5; Ptbp1 5"
+  },
+  {
+   "scale": "log-scale Pearson",
+   "pooled_raw": 63,
+   "pooled_Ins1": 77,
+   "pooled_Kcnj11": 86,
+   "pooled_Hes1": 120,
+   "consensus_pairs": 24,
+   "same_sign": 24,
+   "null_mean": 22.1106,
+   "null_sd": 2.8965786093251467,
+   "p_null_ge": 0.2968,
+   "covariance_share_median": 0.9761172267012531,
+   "covariance_share_n_pairs": 63,
+   "adj_q_raw": 0,
+   "adj_q_Ins1": 45,
+   "adj_q_Kcnj11": 2,
+   "adj_q_Hes1": 8,
+   "consensus_with_adj_q_any": 13,
+   "hubs_deg_ge_5": "Tcf7l2 8; Ptbp1 6; Wnt5a 5; Glp1r 5"
+  },
+  {
+   "scale": "Spearman",
+   "pooled_raw": 62,
+   "pooled_Ins1": 77,
+   "pooled_Kcnj11": 75,
+   "pooled_Hes1": 120,
+   "consensus_pairs": 18,
+   "same_sign": 18,
+   "null_mean": 16.4244,
+   "null_sd": 2.9836361440363337,
+   "p_null_ge": 0.3412,
+   "covariance_share_median": 0.928157059110894,
+   "covariance_share_n_pairs": 62,
+   "adj_q_raw": 0,
+   "adj_q_Ins1": 31,
+   "adj_q_Kcnj11": 1,
+   "adj_q_Hes1": 3,
+   "consensus_with_adj_q_any": 11,
+   "hubs_deg_ge_5": ""
+  }
+ ],
+ "runtime_seconds": 216.4
+}

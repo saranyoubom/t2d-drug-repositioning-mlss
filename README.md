@@ -9,7 +9,13 @@
 
 ## Update (November 2026)
 
-The folder [`CMBL_Sub2/`](CMBL_Sub2/) holds the analysis for the revised 17-gene version of the manuscript (scripts, inputs and results). Earlier folders are unchanged.
+The folder [`CMBL_Sub2/`](CMBL_Sub2/) holds the analysis for the revised 17-gene version of the manuscript (scripts, inputs and results). Its subfolder [`CMBL_Sub2/strengthen_v2/`](CMBL_Sub2/strengthen_v2/) holds the pre-specified version-2 analyses (calibrated checks, benchmark in public data, public islet cross-check, pharmacovigilance annotation, database-version sensitivity, plate provenance) with their protocol and fingerprints. Earlier folders are unchanged.
+
+| Folder | Content | Archived release |
+|---|---|---|
+| root `Fig_*.r`, `README_fig*.md` | npj Systems Biology and Applications revisions (20 genes) | - |
+| `BiologyDirect_Sub1/` | Biology Direct submission (October 2026) | release v1.0.0, DOI 10.5281/zenodo.23430561 |
+| `CMBL_Sub2/` | 17-gene analysis and version-2 analyses (`strengthen_v2/`) | release v2.0.0 (the DOI is shown on the release page) |
 
 ---
 

@@ -1,0 +1,20 @@
+drug,queried_name,applications_total_in_Drugs_at_FDA,NDA_or_BLA_applications,products_by_marketing_status,products_not_discontinued,US_status,first_US_NDA_BLA_approval,NDA_BLA_brands,DrugCentral_FDA,DrugCentral_EMA,DrugCentral_PMDA
+albiglutide,albiglutide,1,1,"{""Discontinued"": 1}",0,"application(s) present, all products discontinued or tentative",20140415,TANZEUM,True,False,False
+amlodipine,amlodipine,121,19,"{""Discontinued"": 178, ""None (Tentative Approval)"": 12, ""Prescription"": 300}",300,listed as marketed (not discontinued),19920731,AMLODIPINE BESYLATE|AMLODIPINE MALEATE; BENAZEPRIL HYDROCHLORIDE|AMTURNIDE|AMVAZ|AZOR|CADUET|CONSENSI|EXFORGE|EXFORGE HCT|KATERZIA|LOTREL|NORLIQVA|NORVASC|PRESTALIA|SDAMLO|TEKAMLO|TRIBENZOR|TWYNSTA|WIDAPLIK,True,False,False
+bepridil,bepridil,2,2,"{""Discontinued"": 6}",0,"application(s) present, all products discontinued or tentative",19901228,BEPADIN|VASCOR,True,False,False
+clevidipine,clevidipine,1,1,"{""Discontinued"": 1, ""Prescription"": 2}",2,listed as marketed (not discontinued),20080801,CLEVIPREX,True,False,False
+dulaglutide,dulaglutide,1,1,"{""Prescription"": 4}",4,listed as marketed (not discontinued),20140918,TRULICITY,True,True,False
+exenatide,exenatide,5,4,"{""Discontinued"": 7, ""Prescription"": 2}",2,listed as marketed (not discontinued),20050428,BYDUREON|BYDUREON BCISE|BYDUREON PEN|BYETTA,True,False,False
+felodipine,felodipine,15,2,"{""Discontinued"": 20, ""Prescription"": 24}",24,listed as marketed (not discontinued),19910725,LEXXEL|PLENDIL,True,False,False
+glucagon,glucagon,12,6,"{""Discontinued"": 9, ""Prescription"": 11}",11,listed as marketed (not discontinued),19601114,BAQSIMI|GLUCAGEN|GLUCAGON|GVOKE HYPOPEN|GVOKE KIT|GVOKE PFS|GVOKE VIALDX,True,True,True
+isradipine,isradipine,5,2,"{""Discontinued"": 6, ""Prescription"": 4}",4,listed as marketed (not discontinued),19901220,DYNACIRC|DYNACIRC CR,True,False,False
+liraglutide,liraglutide,14,3,"{""Prescription"": 14}",14,listed as marketed (not discontinued),20100125,SAXENDA|VICTOZA|XULTOPHY 100/3.6,True,True,True
+lixisenatide,lixisenatide,2,2,"{""Prescription"": 3}",3,listed as marketed (not discontinued),20160727,ADLYXIN|SOLIQUA 100/33,True,True,True
+nifedipine,nifedipine,36,4,"{""Discontinued"": 30, ""Prescription"": 45}",45,listed as marketed (not discontinued),19811231,ADALAT|ADALAT CC|PROCARDIA|PROCARDIA XL,True,False,False
+nilvadipine,nilvadipine,0,0,{},0,no FDA application,,,False,False,False
+nimodipine,nimodipine,9,2,"{""Discontinued"": 4, ""None (Tentative Approval)"": 1, ""Prescription"": 6}",6,listed as marketed (not discontinued),19881228,NIMOTOP|NYMALIZE,True,False,False
+nisoldipine,nisoldipine,4,1,"{""Discontinued"": 14, ""Prescription"": 3}",3,listed as marketed (not discontinued),19950202,SULAR,True,False,False
+nitrendipine,nitrendipine,0,0,{},0,no FDA application,,,False,False,False
+(s)-nitrendipine,nitrendipine,0,0,{},0,no FDA application,,,False,False,False
+semaglutide,semaglutide,6,5,"{""Discontinued"": 1, ""None (Tentative Approval)"": 3, ""Prescription"": 30}",30,listed as marketed (not discontinued),20171205,OZEMPIC|RYBELSUS|WEGOVY|WEGOVY FLEXTOUCH|WEGOVY HD,True,True,True
+tirzepatide,tirzepatide,2,2,"{""Prescription"": 48}",48,listed as marketed (not discontinued),20220513,MOUNJARO|MOUNJARO (AUTOINJECTOR)|MOUNJARO KWIKPEN|ZEPBOUND|ZEPBOUND (AUTOINJECTOR)|ZEPBOUND KWIKPEN,True,False,False

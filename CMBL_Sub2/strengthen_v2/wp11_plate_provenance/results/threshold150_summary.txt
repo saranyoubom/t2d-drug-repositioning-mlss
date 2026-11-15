@@ -1,0 +1,71 @@
+=== exports with the threshold 150 (After) ===
+  Wnt2   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt2b  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt5a  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt5b  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt9a  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Lef1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Tcf7   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Hes1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Hey1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Glut2  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Ins1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Glp1r  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  reference (Gapdh) vector of each gene against the Gapdh wells of the exports:
+  Wnt2   reference blocks equal to Gapdh of: - / - / -
+  Wnt2b  reference blocks equal to Gapdh of: - / - / -
+  Wnt5a  reference blocks equal to Gapdh of: - / - / -
+  Wnt5b  reference blocks equal to Gapdh of: - / - / -
+  Wnt9a  reference blocks equal to Gapdh of: - / - / -
+  Lef1   reference blocks equal to Gapdh of: - / - / -
+  Tcf7   reference blocks equal to Gapdh of: - / - / -
+  Hes1   reference blocks equal to Gapdh of: - / - / -
+  Hey1   reference blocks equal to Gapdh of: - / - / -
+  Glut2  reference blocks equal to Gapdh of: - / - / -
+  Ins1   reference blocks equal to Gapdh of: - / - / -
+  Glp1r  reference blocks equal to Gapdh of: - / - / -
+
+=== exports with the threshold as found (Before) ===
+  Wnt2   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt2b  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt5a  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt5b  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Wnt9a  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Lef1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Tcf7   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): - / - / -
+  Hes1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): Round2 / Round2 / Round2
+  Hey1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): Round2 / Round2 / Round2
+  Glut2  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): Round2 / Round2 / Round2
+  Ins1   target Cq blocks equal to the export (CTRL / DAPT / DKK-1): Round2 / Round2 / Round2
+  Glp1r  target Cq blocks equal to the export (CTRL / DAPT / DKK-1): Round2 / Round2 / Round2
+  reference (Gapdh) vector of each gene against the Gapdh wells of the exports:
+  Wnt2   reference blocks equal to Gapdh of: - / - / -
+  Wnt2b  reference blocks equal to Gapdh of: - / - / -
+  Wnt5a  reference blocks equal to Gapdh of: - / - / -
+  Wnt5b  reference blocks equal to Gapdh of: - / - / -
+  Wnt9a  reference blocks equal to Gapdh of: - / - / -
+  Lef1   reference blocks equal to Gapdh of: - / - / -
+  Tcf7   reference blocks equal to Gapdh of: - / - / -
+  Hes1   reference blocks equal to Gapdh of: Round2 / Round2 / Round2
+  Hey1   reference blocks equal to Gapdh of: Round2 / Round2 / Round2
+  Glut2  reference blocks equal to Gapdh of: Round2 / Round2 / Round2
+  Ins1   reference blocks equal to Gapdh of: Round2 / Round2 / Round2
+  Glp1r  reference blocks equal to Gapdh of: Round2 / Round2 / Round2
+
+=== shift of the Cq values by the threshold (After minus Before, same wells, all targets) ===
+  Gr1     n 78  median +2.23  range +1.89 to +3.36
+  Gr2     n 78  median +1.97  range +1.63 to +2.37
+  Round2  n 72  median +0.16  range +0.12 to +0.21
+=== which plate and well carries each sheet replicate (After exports; value match within 0.005) ===
+  Wnt2   CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Wnt2b  CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Wnt5a  CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Wnt5b  CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Wnt9a  CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Lef1   CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Tcf7   CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Hes1   CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Hey1   CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=Gr2:E08 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Glut2  CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=Round2:C09
+  Ins1   CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=Round2:E05 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?
+  Glp1r  CTRL 1=? 2=? 3=? 4=? | DAPT 1=? 2=? 3=? 4=? | DKK-1 1=? 2=? 3=? 4=?

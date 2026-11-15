@@ -1,0 +1,14 @@
+null,statistic,observed,null_mean,null_sd,null_q95,p_ge_plus1,p_ge
+independent genes (protocol null),T_r2,0.132905,0.113775,0.0115049,0.134006,0.0606939,
+independent genes (protocol null),T_p,13,7.3126,2.59038,12,0.0312969,
+independent genes (protocol null),T_eig,5.06057,4.39215,0.450683,5.20276,0.0809919,
+independent genes (protocol null),T_r2_same_run,0.179239,0.129658,0.020729,0.166413,0.019598,
+independent genes (protocol null),T_r2_between_run,0.106808,0.104829,0.0134457,0.127736,0.419758,
+run-block (replicate labels permuted jointly within each run),T_r2,0.132905,0.131484,0.0109655,0.150752,0.418358,
+run-block (replicate labels permuted jointly within each run),T_p,13,10.8257,2.1521,15,0.20398,
+run-block (replicate labels permuted jointly within each run),T_eig,5.06057,5.00619,0.48637,5.84666,0.432157,
+run-block (replicate labels permuted jointly within each run),T_r2_same_run,0.179239,0.179239,5.51184e-17,0.179239,1,
+run-block (replicate labels permuted jointly within each run),T_r2_between_run,0.106808,0.104588,0.0171415,0.134707,0.418358,
+independent genes (protocol null),consensus_count,21,22.1004,3.03113,27,0.682532,0.6825
+run-block (replicate labels permuted jointly within each run),consensus_count,21,23.5905,2.98791,29,0.845015,0.845
+run-block (replicate labels permuted jointly within each run),consensus_count_between_run_only,12,14.5905,2.98791,20,0.845015,0.845

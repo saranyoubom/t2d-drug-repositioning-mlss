@@ -1,0 +1,4 @@
+run,eligible_pairs_involving_run,consensus_pairs_involving_run,consensus_expected,hypergeometric_p_ge
+Jun24,70,13,16.1538,0.981661
+Aug26,46,15,10.6154,0.0257318
+Nov09,36,5,8.30769,0.976259

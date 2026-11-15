@@ -1,0 +1,29 @@
+drug,in_top15,hub_drug,gene_field,target_organism,act_type,act_value_pActivity,relation,source_database,action_type,assay_description_in_record,assay_class,used_as_pIC50_in_mlss,reason_not_used,source_url,pIC50_used_by_the_R_script
+(S)-nitrendipine,True,True,CACNA1D,Homo sapiens,IC50,8.4,=,IUPHAR,GATING INHIBITOR,Recombinant Cav1.3 calcium channel complexes expressed in tsA-cells,IC50 in a recombinant expression system,True,,,8.4
+albiglutide,True,True,GLP1R,Homo sapiens,EC50,9.699,=,SCIENTIFIC LITERATURE,AGONIST,,functional potency (EC50); assay not described in the record,True,,https://pubmed.ncbi.nlm.nih.gov/15331566,9.699
+albiglutide,True,True,Glp1r,Rattus norvegicus,EC50,7.7,=,IUPHAR,AGONIST,,functional potency (EC50); assay not described in the record,False,"target organism is Rattus norvegicus, not Homo sapiens",,
+exenatide,True,False,GLP1R,Homo sapiens,IC50,9.18,=,CHEMBL,AGONIST,Displacement of [125I]GLP1 from human GLP1R expressed in CHOK1 cells,binding affinity (IC50 of displacement),True,,,9.18
+exenatide,True,False,Glp1r,Rattus norvegicus,IC50,9.85,=,CHEMBL,,Displacement of [125I]exendin-4 from GLP1 receptor in rat RINm5F cells after 2 hrs by gamma counting,binding affinity (IC50 of displacement),False,"target organism is Rattus norvegicus, not Homo sapiens",,
+isradipine,True,True,CACNA1D,Homo sapiens,IC50,9.3,=,IUPHAR,GATING INHIBITOR,Recombinant Cav1.3 calcium channel complexes expressed in tsA201-cells,IC50 in a recombinant expression system,True,,,9.3
+isradipine,True,True,Cacna1d,Rattus norvegicus,IC50,6.66,=,CHEMBL,,Antagonist activity at rat voltage-dependent L-type calcium channel Cav1.3alpha-1D expressed in HEK293 cells by FLIPR assay,IC50 in a recombinant expression system,False,"target organism is Rattus norvegicus, not Homo sapiens",,
+liraglutide,True,True,GLP1R,Homo sapiens,EC50,10.2,=,WOMBAT-PK,AGONIST,,functional potency (EC50); assay not described in the record,True,,,10.2
+lixisenatide,True,False,GLP1R,Homo sapiens,IC50,8.845,=,SCIENTIFIC LITERATURE,AGONIST,CHO cells transfected with the human GLP-1 receptor binding affinity,binding affinity (IC50 of displacement),True,,https://pubmed.ncbi.nlm.nih.gov/18417092,8.845
+nifedipine,True,False,CACNA1D,Homo sapiens,IC50,7.7,=,IUPHAR,GATING INHIBITOR,Recombinant Cav1.3 calcium channel complexes expressed in tsA-cells,IC50 in a recombinant expression system,True,,,7.7
+nifedipine,True,False,Cacna1d,Rattus norvegicus,Ki,8.92,=,CHEMBL,,Binding affinity for L-type [Ca2+] channels was measured through displacement of [3H]nitrendipine on rat cortex homogenates.,binding constant (Ki),False,"target organism is Rattus norvegicus, not Homo sapiens",,
+nifedipine,True,False,Cacna1c|Cacna1d|Cacna1s,Rattus norvegicus,Ki,8.33,=,CHEMBL,,Inhibition of [3H]nitrendipine binding to L-type calcium channel from rat brain cortex homogenate,binding constant (Ki),False,"target organism is Rattus norvegicus, not Homo sapiens",,
+nitrendipine,True,True,CACNA1D,Homo sapiens,IC50,8.4,=,IUPHAR,GATING INHIBITOR,Recombinant Cav1.3 calcium channel complexes expressed in tsA-cells,IC50 in a recombinant expression system,True,,,8.4
+semaglutide,True,False,GLP1R,Homo sapiens,IC50,9.42,=,SCIENTIFIC LITERATURE,AGONIST,,IC50; assay not described in the record,True,,https://pubmed.ncbi.nlm.nih.gov/26308095,9.42
+amlodipine,False,False,CACNA1D,Homo sapiens,Ki,7.0,=,WOMBAT-PK,BLOCKER,,binding constant (Ki); assay not described in the record,True,,,7.0
+bepridil,False,False,CACNA1D,Homo sapiens,,,,SCIENTIFIC LITERATURE,BLOCKER,Mechanism of Action,no value,False,no activity value (mechanism-of-action record),https://pubmed.ncbi.nlm.nih.gov/1281221,
+clevidipine,False,False,CACNA1D,Homo sapiens,,,,WOMBAT-PK,BLOCKER,,no value,False,no activity value (mechanism-of-action record),,
+dulaglutide,False,False,GLP1R,Homo sapiens,,,,DRUG LABEL,AGONIST,Mechanism of Action,no value,False,no activity value (mechanism-of-action record),http://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/125469Orig1s000Lbl.pdf,
+felodipine,False,False,CACNA1D,Homo sapiens,,,,WOMBAT-PK,BLOCKER,,no value,False,no activity value (mechanism-of-action record),,
+glucagon,False,False,GLP1R,Homo sapiens,Ki,7.0,=,IUPHAR,AGONIST,,binding constant (Ki); assay not described in the record,True,,,7.0
+glucagon,False,False,GLP1R,Macaca fascicularis,EC50,10.51,=,CHEMBL,,Agonist activity at monkey GLP1R expressed in HEK293 cells assessed as cAMP accumulation after 30 mins by HTRF assay,functional potency (EC50); cAMP assay,False,"target organism is Macaca fascicularis, not Homo sapiens",,
+glucagon,False,False,Glp1r,Mus musculus,EC50,10.36,=,CHEMBL,,Agonist activity at mouse GLP-1 receptor expressed in HEK293 cells assessed as cAMP accumulation after 30 mins by HTRF assay,functional potency (EC50); cAMP assay,False,"target organism is Mus musculus, not Homo sapiens",,
+nilvadipine,False,False,CACNA1D,Homo sapiens,,,,WOMBAT-PK,,,no value,False,no activity value (mechanism-of-action record),,
+nilvadipine,False,False,CACNA1D|CACNA1C,Homo sapiens,,,,SCIENTIFIC LITERATURE,BLOCKER,Mechanism of Action,no value,False,GENE field lists several genes (CACNA1D|CACNA1C); exact match to a hub gene fails,,
+nimodipine,False,False,CACNA1D,Homo sapiens,,,,UNKNOWN,BLOCKER,,no value,False,no activity value (mechanism-of-action record),,
+nimodipine,False,False,Cacna1d,Rattus norvegicus,IC50,6.6,=,IUPHAR,GATING INHIBITOR,,IC50; assay not described in the record,False,"target organism is Rattus norvegicus, not Homo sapiens",,
+nisoldipine,False,False,CACNA1D,Homo sapiens,,,,UNKNOWN,BLOCKER,,no value,False,no activity value (mechanism-of-action record),,
+nisoldipine,False,False,Cacna1d,Mus musculus,IC50,7.0,=,IUPHAR,GATING INHIBITOR,,IC50; assay not described in the record,False,"target organism is Mus musculus, not Homo sapiens",,

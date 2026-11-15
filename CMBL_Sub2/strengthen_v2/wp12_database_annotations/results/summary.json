@@ -1,0 +1,550 @@
+{
+ "hubs": [
+  {
+   "gene": "GLP1R",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 8,
+   "reported_file_records_human": 7,
+   "reported_file_distinct_drugs_human": 7,
+   "reported_file_moa_records_human": 6,
+   "reported_file_TDL_values": "Tclin",
+   "file_25Sep2026_records_all_species": 9,
+   "file_25Sep2026_records_human": 8,
+   "file_25Sep2026_distinct_drugs_human": 8,
+   "file_25Sep2026_moa_records_human": 7,
+   "file_25Sep2026_TDL_values": "Tclin",
+   "MLSS_drugs_reported_file": 7,
+   "MLSS_drugs_25Sep2026_file": 8
+  },
+  {
+   "gene": "TCF7L2",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 0,
+   "reported_file_records_human": 0,
+   "reported_file_distinct_drugs_human": 0,
+   "reported_file_moa_records_human": 0,
+   "reported_file_TDL_values": "no record in the file",
+   "file_25Sep2026_records_all_species": 0,
+   "file_25Sep2026_records_human": 0,
+   "file_25Sep2026_distinct_drugs_human": 0,
+   "file_25Sep2026_moa_records_human": 0,
+   "file_25Sep2026_TDL_values": "no record in the file",
+   "MLSS_drugs_reported_file": 0,
+   "MLSS_drugs_25Sep2026_file": 0
+  },
+  {
+   "gene": "CACNA1D",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 25,
+   "reported_file_records_human": 25,
+   "reported_file_distinct_drugs_human": 24,
+   "reported_file_moa_records_human": 24,
+   "reported_file_TDL_values": "Tclin",
+   "file_25Sep2026_records_all_species": 25,
+   "file_25Sep2026_records_human": 25,
+   "file_25Sep2026_distinct_drugs_human": 24,
+   "file_25Sep2026_moa_records_human": 24,
+   "file_25Sep2026_TDL_values": "Tclin",
+   "MLSS_drugs_reported_file": 11,
+   "MLSS_drugs_25Sep2026_file": 11
+  },
+  {
+   "gene": "PTBP1",
+   "role": "hub (degree >= 5)",
+   "reported_file_records_all_species": 0,
+   "reported_file_records_human": 0,
+   "reported_file_distinct_drugs_human": 0,
+   "reported_file_moa_records_human": 0,
+   "reported_file_TDL_values": "no record in the file",
+   "file_25Sep2026_records_all_species": 0,
+   "file_25Sep2026_records_human": 0,
+   "file_25Sep2026_distinct_drugs_human": 0,
+   "file_25Sep2026_moa_records_human": 0,
+   "file_25Sep2026_TDL_values": "no record in the file",
+   "MLSS_drugs_reported_file": 0,
+   "MLSS_drugs_25Sep2026_file": 0
+  },
+  {
+   "gene": "WNT5A",
+   "role": "context (degree 4)",
+   "reported_file_records_all_species": 0,
+   "reported_file_records_human": 0,
+   "reported_file_distinct_drugs_human": 0,
+   "reported_file_moa_records_human": 0,
+   "reported_file_TDL_values": "no record in the file",
+   "file_25Sep2026_records_all_species": 0,
+   "file_25Sep2026_records_human": 0,
+   "file_25Sep2026_distinct_drugs_human": 0,
+   "file_25Sep2026_moa_records_human": 0,
+   "file_25Sep2026_TDL_values": "no record in the file",
+   "MLSS_drugs_reported_file": "",
+   "MLSS_drugs_25Sep2026_file": ""
+  },
+  {
+   "gene": "CACNA1C",
+   "role": "context (degree 4)",
+   "reported_file_records_all_species": 41,
+   "reported_file_records_human": 35,
+   "reported_file_distinct_drugs_human": 33,
+   "reported_file_moa_records_human": 26,
+   "reported_file_TDL_values": "Tclin",
+   "file_25Sep2026_records_all_species": 41,
+   "file_25Sep2026_records_human": 35,
+   "file_25Sep2026_distinct_drugs_human": 34,
+   "file_25Sep2026_moa_records_human": 27,
+   "file_25Sep2026_TDL_values": "Tclin",
+   "MLSS_drugs_reported_file": "",
+   "MLSS_drugs_25Sep2026_file": ""
+  }
+ ],
+ "quartiles": {
+  "n_reported": 153,
+  "n_171": 171,
+  "thresholds_reported_153": {
+   "t75": 7.879365,
+   "t50": 7.65,
+   "t25": 2.754
+  },
+  "thresholds_171": {
+   "t75": 7.879365,
+   "t50": 7.65,
+   "t25": 2.8674
+  },
+  "class_sizes_reported_153": {
+   "Q1": 42,
+   "Q2": 35,
+   "Q3": 48,
+   "Q4": 28
+  },
+  "class_sizes_171": {
+   "Q1": 47,
+   "Q2": 41,
+   "Q3": 40,
+   "Q4": 43
+  },
+  "reported_combinations_changing_class_when_171_used": [
+   [
+    "dulaglutide + exenatide",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "dulaglutide + lixisenatide",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + bepridil",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + clevidipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + felodipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + nilvadipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + nimodipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "(S)-nitrendipine + nisoldipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "bepridil + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "clevidipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "felodipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "nilvadipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "nimodipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ],
+   [
+    "nisoldipine + nitrendipine",
+    "Q3",
+    "Q4"
+   ]
+  ],
+  "top15_reported_classes": [
+   [
+    "(S)-nitrendipine + albiglutide",
+    1,
+    "Q1"
+   ],
+   [
+    "albiglutide + isradipine",
+    2,
+    "Q1"
+   ],
+   [
+    "exenatide + isradipine",
+    3,
+    "Q1"
+   ],
+   [
+    "(S)-nitrendipine + liraglutide",
+    4,
+    "Q1"
+   ],
+   [
+    "isradipine + liraglutide",
+    5,
+    "Q1"
+   ],
+   [
+    "isradipine + lixisenatide",
+    6,
+    "Q1"
+   ],
+   [
+    "albiglutide + nitrendipine",
+    7,
+    "Q1"
+   ],
+   [
+    "liraglutide + nitrendipine",
+    8,
+    "Q1"
+   ],
+   [
+    "isradipine + semaglutide",
+    9,
+    "Q1"
+   ],
+   [
+    "liraglutide + nifedipine",
+    10,
+    "Q1"
+   ],
+   [
+    "(S)-nitrendipine + semaglutide",
+    11,
+    "Q1"
+   ],
+   [
+    "nitrendipine + semaglutide",
+    12,
+    "Q1"
+   ],
+   [
+    "(S)-nitrendipine + exenatide",
+    13,
+    "Q1"
+   ],
+   [
+    "exenatide + nitrendipine",
+    14,
+    "Q1"
+   ],
+   [
+    "albiglutide + nifedipine",
+    15,
+    "Q1"
+   ]
+  ],
+  "distinct_scores_reported_153": 47,
+  "max_abs_score_difference_shared": 0.0
+ },
+ "market": [
+  {
+   "drug": "albiglutide",
+   "queried_name": "albiglutide",
+   "applications_total_in_Drugs_at_FDA": 1,
+   "NDA_or_BLA_applications": 1,
+   "products_by_marketing_status": "{\"Discontinued\": 1}",
+   "products_not_discontinued": 0,
+   "US_status": "application(s) present, all products discontinued or tentative",
+   "first_US_NDA_BLA_approval": "20140415",
+   "NDA_BLA_brands": "TANZEUM",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "amlodipine",
+   "queried_name": "amlodipine",
+   "applications_total_in_Drugs_at_FDA": 121,
+   "NDA_or_BLA_applications": 19,
+   "products_by_marketing_status": "{\"Discontinued\": 178, \"None (Tentative Approval)\": 12, \"Prescription\": 300}",
+   "products_not_discontinued": 300,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "19920731",
+   "NDA_BLA_brands": "AMLODIPINE BESYLATE|AMLODIPINE MALEATE; BENAZEPRIL HYDROCHLORIDE|AMTURNIDE|AMVAZ|AZOR|CADUET|CONSENSI|EXFORGE|EXFORGE HCT|KATERZIA|LOTREL|NORLIQVA|NORVASC|PRESTALIA|SDAMLO|TEKAMLO|TRIBENZOR|TWYNSTA|WIDAPLIK",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "bepridil",
+   "queried_name": "bepridil",
+   "applications_total_in_Drugs_at_FDA": 2,
+   "NDA_or_BLA_applications": 2,
+   "products_by_marketing_status": "{\"Discontinued\": 6}",
+   "products_not_discontinued": 0,
+   "US_status": "application(s) present, all products discontinued or tentative",
+   "first_US_NDA_BLA_approval": "19901228",
+   "NDA_BLA_brands": "BEPADIN|VASCOR",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "clevidipine",
+   "queried_name": "clevidipine",
+   "applications_total_in_Drugs_at_FDA": 1,
+   "NDA_or_BLA_applications": 1,
+   "products_by_marketing_status": "{\"Discontinued\": 1, \"Prescription\": 2}",
+   "products_not_discontinued": 2,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "20080801",
+   "NDA_BLA_brands": "CLEVIPREX",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "dulaglutide",
+   "queried_name": "dulaglutide",
+   "applications_total_in_Drugs_at_FDA": 1,
+   "NDA_or_BLA_applications": 1,
+   "products_by_marketing_status": "{\"Prescription\": 4}",
+   "products_not_discontinued": 4,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "20140918",
+   "NDA_BLA_brands": "TRULICITY",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "True",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "exenatide",
+   "queried_name": "exenatide",
+   "applications_total_in_Drugs_at_FDA": 5,
+   "NDA_or_BLA_applications": 4,
+   "products_by_marketing_status": "{\"Discontinued\": 7, \"Prescription\": 2}",
+   "products_not_discontinued": 2,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "20050428",
+   "NDA_BLA_brands": "BYDUREON|BYDUREON BCISE|BYDUREON PEN|BYETTA",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "felodipine",
+   "queried_name": "felodipine",
+   "applications_total_in_Drugs_at_FDA": 15,
+   "NDA_or_BLA_applications": 2,
+   "products_by_marketing_status": "{\"Discontinued\": 20, \"Prescription\": 24}",
+   "products_not_discontinued": 24,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "19910725",
+   "NDA_BLA_brands": "LEXXEL|PLENDIL",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "glucagon",
+   "queried_name": "glucagon",
+   "applications_total_in_Drugs_at_FDA": 12,
+   "NDA_or_BLA_applications": 6,
+   "products_by_marketing_status": "{\"Discontinued\": 9, \"Prescription\": 11}",
+   "products_not_discontinued": 11,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "19601114",
+   "NDA_BLA_brands": "BAQSIMI|GLUCAGEN|GLUCAGON|GVOKE HYPOPEN|GVOKE KIT|GVOKE PFS|GVOKE VIALDX",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "True",
+   "DrugCentral_PMDA": "True"
+  },
+  {
+   "drug": "isradipine",
+   "queried_name": "isradipine",
+   "applications_total_in_Drugs_at_FDA": 5,
+   "NDA_or_BLA_applications": 2,
+   "products_by_marketing_status": "{\"Discontinued\": 6, \"Prescription\": 4}",
+   "products_not_discontinued": 4,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "19901220",
+   "NDA_BLA_brands": "DYNACIRC|DYNACIRC CR",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "liraglutide",
+   "queried_name": "liraglutide",
+   "applications_total_in_Drugs_at_FDA": 14,
+   "NDA_or_BLA_applications": 3,
+   "products_by_marketing_status": "{\"Prescription\": 14}",
+   "products_not_discontinued": 14,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "20100125",
+   "NDA_BLA_brands": "SAXENDA|VICTOZA|XULTOPHY 100/3.6",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "True",
+   "DrugCentral_PMDA": "True"
+  },
+  {
+   "drug": "lixisenatide",
+   "queried_name": "lixisenatide",
+   "applications_total_in_Drugs_at_FDA": 2,
+   "NDA_or_BLA_applications": 2,
+   "products_by_marketing_status": "{\"Prescription\": 3}",
+   "products_not_discontinued": 3,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "20160727",
+   "NDA_BLA_brands": "ADLYXIN|SOLIQUA 100/33",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "True",
+   "DrugCentral_PMDA": "True"
+  },
+  {
+   "drug": "nifedipine",
+   "queried_name": "nifedipine",
+   "applications_total_in_Drugs_at_FDA": 36,
+   "NDA_or_BLA_applications": 4,
+   "products_by_marketing_status": "{\"Discontinued\": 30, \"Prescription\": 45}",
+   "products_not_discontinued": 45,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "19811231",
+   "NDA_BLA_brands": "ADALAT|ADALAT CC|PROCARDIA|PROCARDIA XL",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "nilvadipine",
+   "queried_name": "nilvadipine",
+   "applications_total_in_Drugs_at_FDA": 0,
+   "NDA_or_BLA_applications": 0,
+   "products_by_marketing_status": "{}",
+   "products_not_discontinued": 0,
+   "US_status": "no FDA application",
+   "first_US_NDA_BLA_approval": "",
+   "NDA_BLA_brands": "",
+   "DrugCentral_FDA": "False",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "nimodipine",
+   "queried_name": "nimodipine",
+   "applications_total_in_Drugs_at_FDA": 9,
+   "NDA_or_BLA_applications": 2,
+   "products_by_marketing_status": "{\"Discontinued\": 4, \"None (Tentative Approval)\": 1, \"Prescription\": 6}",
+   "products_not_discontinued": 6,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "19881228",
+   "NDA_BLA_brands": "NIMOTOP|NYMALIZE",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "nisoldipine",
+   "queried_name": "nisoldipine",
+   "applications_total_in_Drugs_at_FDA": 4,
+   "NDA_or_BLA_applications": 1,
+   "products_by_marketing_status": "{\"Discontinued\": 14, \"Prescription\": 3}",
+   "products_not_discontinued": 3,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "19950202",
+   "NDA_BLA_brands": "SULAR",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "nitrendipine",
+   "queried_name": "nitrendipine",
+   "applications_total_in_Drugs_at_FDA": 0,
+   "NDA_or_BLA_applications": 0,
+   "products_by_marketing_status": "{}",
+   "products_not_discontinued": 0,
+   "US_status": "no FDA application",
+   "first_US_NDA_BLA_approval": "",
+   "NDA_BLA_brands": "",
+   "DrugCentral_FDA": "False",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "(s)-nitrendipine",
+   "queried_name": "nitrendipine",
+   "applications_total_in_Drugs_at_FDA": 0,
+   "NDA_or_BLA_applications": 0,
+   "products_by_marketing_status": "{}",
+   "products_not_discontinued": 0,
+   "US_status": "no FDA application",
+   "first_US_NDA_BLA_approval": "",
+   "NDA_BLA_brands": "",
+   "DrugCentral_FDA": "False",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  },
+  {
+   "drug": "semaglutide",
+   "queried_name": "semaglutide",
+   "applications_total_in_Drugs_at_FDA": 6,
+   "NDA_or_BLA_applications": 5,
+   "products_by_marketing_status": "{\"Discontinued\": 1, \"None (Tentative Approval)\": 3, \"Prescription\": 30}",
+   "products_not_discontinued": 30,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "20171205",
+   "NDA_BLA_brands": "OZEMPIC|RYBELSUS|WEGOVY|WEGOVY FLEXTOUCH|WEGOVY HD",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "True",
+   "DrugCentral_PMDA": "True"
+  },
+  {
+   "drug": "tirzepatide",
+   "queried_name": "tirzepatide",
+   "applications_total_in_Drugs_at_FDA": 2,
+   "NDA_or_BLA_applications": 2,
+   "products_by_marketing_status": "{\"Prescription\": 48}",
+   "products_not_discontinued": 48,
+   "US_status": "listed as marketed (not discontinued)",
+   "first_US_NDA_BLA_approval": "20220513",
+   "NDA_BLA_brands": "MOUNJARO|MOUNJARO (AUTOINJECTOR)|MOUNJARO KWIKPEN|ZEPBOUND|ZEPBOUND (AUTOINJECTOR)|ZEPBOUND KWIKPEN",
+   "DrugCentral_FDA": "True",
+   "DrugCentral_EMA": "False",
+   "DrugCentral_PMDA": "False"
+  }
+ ],
+ "market_retrieval": {
+  "responses_saved": 19,
+  "first_retrieved": "2026-11-09 00:34:46 +0700",
+  "last_retrieved": "2026-11-09 00:35:15 +0700"
+ }
+}

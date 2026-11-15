@@ -1,0 +1,16 @@
+rank,pair,MLSS,term_A,term_B,reports_listing_both,status,signals_drug_A,signals_drug_B,co_report_excess
+1,(S)-nitrendipine + albiglutide,9.9604,nitrendipine,albiglutide,0,fewer than 20 co-reports,n/e,n/e,n/a
+2,albiglutide + isradipine,9.9604,albiglutide,isradipine,0,fewer than 20 co-reports,n/e,HYPO PANC GI HYPOT OEDEMA,n/a
+3,exenatide + isradipine,9.9604,exenatide,isradipine,3,fewer than 20 co-reports,HYPO HYPER PANC GI BILI,HYPO PANC GI HYPOT OEDEMA,n/a
+4,(S)-nitrendipine + liraglutide,9.9604,nitrendipine,liraglutide,0,fewer than 20 co-reports,n/e,HYPO HYPER PANC GI BILI,n/a
+5,isradipine + liraglutide,9.9604,isradipine,liraglutide,1,fewer than 20 co-reports,HYPO PANC GI HYPOT OEDEMA,HYPO HYPER PANC GI BILI,n/a
+6,isradipine + lixisenatide,9.9604,isradipine,lixisenatide,0,fewer than 20 co-reports,HYPO PANC GI HYPOT OEDEMA,HYPO HYPER PANC,n/a
+7,albiglutide + nitrendipine,9.9604,albiglutide,nitrendipine,0,fewer than 20 co-reports,n/e,n/e,n/a
+8,liraglutide + nitrendipine,9.9604,liraglutide,nitrendipine,0,fewer than 20 co-reports,HYPO HYPER PANC GI BILI,n/e,n/a
+9,isradipine + semaglutide,9.9604,isradipine,semaglutide,2,fewer than 20 co-reports,HYPO PANC GI HYPOT OEDEMA,HYPO HYPER PANC GI BILI,n/a
+10,liraglutide + nifedipine,9.9469,liraglutide,nifedipine,167,evaluable,HYPO HYPER PANC GI BILI,HYPO HYPER PANC GI BILI HYPOT OEDEMA CARD,-
+11,(S)-nitrendipine + semaglutide,9.9361,nitrendipine,semaglutide,0,fewer than 20 co-reports,n/e,HYPO HYPER PANC GI BILI,n/a
+12,nitrendipine + semaglutide,9.9361,nitrendipine,semaglutide,0,fewer than 20 co-reports,n/e,HYPO HYPER PANC GI BILI,n/a
+13,(S)-nitrendipine + exenatide,9.9037,nitrendipine,exenatide,0,fewer than 20 co-reports,n/e,HYPO HYPER PANC GI BILI,n/a
+14,exenatide + nitrendipine,9.9037,exenatide,nitrendipine,0,fewer than 20 co-reports,HYPO HYPER PANC GI BILI,n/e,n/a
+15,albiglutide + nifedipine,9.8792,albiglutide,nifedipine,0,fewer than 20 co-reports,n/e,HYPO HYPER PANC GI BILI HYPOT OEDEMA CARD,n/a

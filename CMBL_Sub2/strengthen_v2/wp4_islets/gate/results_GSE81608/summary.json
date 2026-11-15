@@ -1,0 +1,59 @@
+{
+ "beta_cells": 503,
+ "donors": 18,
+ "df_for_p": 483,
+ "genes_evaluable": 11,
+ "genes_not_evaluable": [
+  "Wnt5a",
+  "Wnt5b",
+  "Wnt9a",
+  "Lef1",
+  "Tcf7",
+  "Ryr3"
+ ],
+ "consensus_pairs_total": 21,
+ "consensus_pairs_evaluable": 11,
+ "other_pairs_evaluable": 44,
+ "median_rho_consensus": -0.02073172303047318,
+ "median_rho_other": 0.01820078389109981,
+ "mannwhitney_p_consensus_vs_other": 0.15552263145480963,
+ "consensus_positive": 5,
+ "consensus_sig_positive_q05": 0,
+ "consensus_sig_negative_q05": 1,
+ "binomial_p_positive_vs_half": 1.0,
+ "null_median_rho_mean": 0.019922852425364245,
+ "null_median_rho_95pct": 0.0494774832407798,
+ "observed_median_rho": -0.02073172303047318,
+ "empirical_p_median_ge_observed": 0.9850074962518741,
+ "empirical_p_mean_ge_observed": 0.9920039980009995,
+ "human_edges_q05_rho02": 0,
+ "spearman_degree_invitro_vs_human": NaN,
+ "spearman_degree_p": NaN,
+ "human_top3_degree": [
+  [
+   "Hes1",
+   0
+  ],
+  [
+   "Wnt5a",
+   0
+  ],
+  [
+   "Wnt5b",
+   0
+  ]
+ ],
+ "invitro_hubs_human_degree": {
+  "Glp1r": 0,
+  "Tcf7l2": 0,
+  "Cacna1d": 0,
+  "Ptbp1": 0
+ },
+ "Cacna1d_Glp1r": {
+  "rho": 0.0018596620985600505,
+  "p": 0.9674161434911941,
+  "evaluable": true,
+  "detected_pct_Glp1r": 18.687872763419485,
+  "detected_pct_Cacna1d": 69.38369781312127
+ }
+}

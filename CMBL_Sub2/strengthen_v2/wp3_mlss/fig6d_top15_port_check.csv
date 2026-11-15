@@ -1,0 +1,6 @@
+component,avg_rank_shift,avg_score_drop,top5_as_coded_five_lowest,top5_five_largest,n_distinct_scores_after_ablation
+Without_C,0.0,0.013998272727272602,1.0,1.0,5
+Without_B,0.0,0.007332428571428077,1.0,1.0,5
+Without_V,0.0,0.0019010000000012183,1.0,1.0,5
+Without_P,3.6,-0.01710900000000019,0.0,1.0,1
+Base_Only,0.0,0.9603569490417243,1.0,1.0,5

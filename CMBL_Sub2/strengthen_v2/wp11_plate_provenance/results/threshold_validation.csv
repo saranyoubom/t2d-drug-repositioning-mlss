@@ -1,0 +1,5 @@
+export_version,plate,known_threshold_RFU,fitted_threshold_RFU,mean_abs_difference_cycles,max_abs_difference_cycles
+After,2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2,150.000,150.000,0.0000,0.0000
+Before,2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2,138.061,138.060,0.0000,0.0000
+Before,2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1,36.072,36.070,0.0001,0.0001
+After,2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1,150.000,150.000,0.0000,0.0000

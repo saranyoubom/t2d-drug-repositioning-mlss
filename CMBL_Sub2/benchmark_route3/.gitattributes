@@ -1,0 +1,3 @@
+# Keep the bytes of every file exactly as archived: the SHA-256 fingerprints of this folder were recorded on the original bytes,
+# and some of the files use Windows line endings (CRLF). Without this rule, git on Windows would store them with LF.
+* -text

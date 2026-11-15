@@ -1,0 +1,9 @@
+PASS  efficiencies of the 17 genes and Gapdh found; Gapdh 70.1%; range of the 17 genes 53.9 to 74.6% 
+PASS  17 rows in the result table 
+PASS  all 17 x 2 fold changes, ratios recomputed independently (tolerance 0.0006) 0 mismatches
+PASS  exactly one direction flip: Tcf7l2 under DKK-1, 1.002 to 0.943 [('Tcf7l2', 'DKK1', np.float64(1.002), np.float64(0.943))]
+PASS  flagged genes: 5 of 17 (4 shifts above 1.25 and 1 flip) 
+PASS  largest shift 2.0-fold (Hes1 DAPT 0.137 to 0.275) 
+PASS  33 of 34 gene-by-treatment pairs on the same side of 1 as the reported fold change 33
+PASS  old table quoted for Cacna1d under DAPT: 1.46 against 0.76 reported 
+8 checks, 0 failures

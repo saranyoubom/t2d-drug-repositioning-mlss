@@ -1,0 +1,7 @@
+"""rp_list.py - the fixed list of cytosolic ribosomal protein genes of the real-gene positive control (PRESPEC_WP4b_positive_control_and_wider_search.md, A2). Human symbols; mouse symbols are the same names with only the
+first letter in capitals. No side effects at import."""
+RP = ('RPL3 RPL4 RPL5 RPL6 RPL7 RPL7A RPL8 RPL9 RPL10 RPL10A RPL11 RPL12 RPL13 RPL13A RPL14 RPL15 RPL17 RPL18 RPL18A RPL19 RPL21 RPL22 RPL23 RPL23A RPL24 RPL26 RPL27 RPL27A RPL28 RPL29 RPL30 RPL31 RPL32 RPL34 RPL35 RPL35A RPL36 '
+      'RPL37 RPL37A RPL38 RPL39 RPLP0 RPLP1 RPLP2 RPS2 RPS3 RPS3A RPS4X RPS5 RPS6 RPS7 RPS8 RPS9 RPS10 RPS11 RPS12 RPS13 RPS14 RPS15 RPS15A RPS16 RPS17 RPS18 RPS19 RPS20 RPS21 RPS23 RPS24 RPS25 RPS26 RPS27 RPS27A RPS28 RPS29 RPSA FAU UBA52').split()
+
+
+def mouse_symbol(s): return s[0] + s[1:].lower()

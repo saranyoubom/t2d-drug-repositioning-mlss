@@ -1,0 +1,49 @@
+Inputs read by the WP11 scripts; sha256, then description; fingerprinted 2026-11-08 16:38:10 +0700
+30e4eec858d7d6e3ed648891359c352520f542b5b9520cb2173d2ea2deaeb22d *Exported_data/Before/2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1 -  Quantification Cq Results.xlsx
+user export of 8 Nov 2026, threshold as found
+bd879a116b45560d30ff6dee1fbecef94bab5464c24c4498dcd961b2cfb4a9f5 *Exported_data/Before/2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1 -  Quantification Amplification Results.xlsx
+user export of 8 Nov 2026, threshold as found
+178116f547543e2999f51e441d7c60e14c48364ae143adc633ffe0a5713a36c3 *Exported_data/Before/2020-Jun-03_Gr2_13genes-Ctrl-DAPT-DKK1 -  Quantification Cq Results.xlsx
+user export of 8 Nov 2026, threshold as found
+ff366f0ac3764fdb902e87aab59cd60d7f84e97f369f62096836e7244c269b36 *Exported_data/Before/2020-Jun-03_Gr2_13genes-Ctrl-DAPT-DKK1 -  Quantification Amplification Results.xlsx
+user export of 8 Nov 2026, threshold as found
+494a04848216ca10a79a2e83cbbf601a3bc4852f840bec5bda5727df7abce8aa *Exported_data/Before/2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2 -  Quantification Cq Results.xlsx
+user export of 8 Nov 2026, threshold as found
+2b0ec0e62dfc2178eb091b7f16d350b2c5683c71ad5135e682c76d2c2bb22222 *Exported_data/Before/2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2 -  Quantification Amplification Results.xlsx
+user export of 8 Nov 2026, threshold as found
+1d1eb98c22273a1156ad966c0fbf72c1917c9bf85e113d6b0b3cf8d7f85dab6f *Exported_data/After/2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1 -  Quantification Cq Results.xlsx
+user export of 8 Nov 2026, threshold 150
+0cbd7d8b5f6591da586d62190eaf71ccfaf9229dc71e88d412ace7e5c4a10af9 *Exported_data/After/2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1 -  Quantification Amplification Results.xlsx
+user export of 8 Nov 2026, threshold 150
+47ae3ddee6f1571d716a1b836c69b0eb86c8691990c8354b916f36a66ad023e8 *Exported_data/After/2020-Jun-03_Gr2_13genes-Ctrl-DAPT-DKK1 -  Quantification Cq Results.xlsx
+user export of 8 Nov 2026, threshold 150
+1f6c7c1c3bec0f29ed10f141eb11c5ffe1cd7aeb1650637bb14a0a70ce580561 *Exported_data/After/2020-Jun-03_Gr2_13genes-Ctrl-DAPT-DKK1 -  Quantification Amplification Results.xlsx
+user export of 8 Nov 2026, threshold 150
+24a0eeb09a3b6b108f7d882aec098ec8d073b11f9ee4b2181cadfcc9dd60977e *Exported_data/After/2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2 -  Quantification Cq Results.xlsx
+user export of 8 Nov 2026, threshold 150
+d91b7f67e939277684bd572fe4e4bc63f77f7a315bdca05948a355041060ce18 *Exported_data/After/2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2 -  Quantification Amplification Results.xlsx
+user export of 8 Nov 2026, threshold 150
+89791bfb8c6b631df81ade47de2151c4652165ca5be552425d3eaaab91a1aced *Exported_data/After/2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1_Threshold150.pcrd
+user file saved with threshold 150 (8 Nov 2026)
+d369f38aafe096d3bdfd7a370df59213cb5c82a688179f8bdd1f2352af897e29 *Exported_data/After/2020-Jun-03_Gr2_13genes-Ctrl-DAPT-DKK1_Threshold150.pcrd
+user file saved with threshold 150 (8 Nov 2026)
+890730fcb81fc51ecccc6fc530b46fba9f01e1482994cf59a4e9d6809e07adf1 *Exported_data/After/2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1_Threshold150.pcrd
+user file saved with threshold 150 (8 Nov 2026)
+f569c4a8564174187f91f5bf80df3adb49345189eff2f3202fd6a2f3262ad2fe *Database/STRING12.5/string_interactions_21_nodes.tsv
+user's STRING 12.5 web export, 8 Nov 2026
+ffcf22e280af059f062ef486b53deb9bed673bd22d9c4ad23206d4cf58a8bc95 *Database/STRING12.5/STRING12.5.txt
+network URL of that export
+349b02daa92f5660e808f32778a062fa84ef285f29f1cd2f2a6dc835908ef108 *../../Undergrad_Glucose uptake signaling/RT-PCR/2020-08-26_INS-1_DAPT-DKK_Tcf7L2-Knj11-Cacna1d-Cacna1c-Ptbp1 -  Quantification Cq Results.xlsx
+26 Aug instrument export (2025 re-export of the .pcrd, wells in plate order)
+306a61c817edf899b79c5c0dc02e0a4c87735101ce593dc131a3d744867a8735 *../../Undergrad_Glucose uptake signaling/RT-PCR/2020-08-26_INS-1_DAPT-DKK_Tcf7L2-Knj11-Cacna1d-Cacna1c-Ptbp1 -  Quantification Summary.xlsx
+26 Aug workbook with the user's calculation columns
+9296098a10b1576471e978376a471626f6beb7a127943d9c457a70d48f1465f0 *../../Undergrad_Glucose uptake signaling/RT-PCR/2020-11-09_ITPR, RYR1-3 -  Quantification Cq Results.xlsx
+9 Nov instrument export
+0f72bf1dec1aaca474fa941951fbf09c09a04adb08bb5fde73b55d8d07b97027 *../SBA/Rev2_250626/Export_qPCR/2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 -  Quantification Cq Results.xlsx
+24 June plate 1, 2025 re-export
+f4262ef9552bf0d400e439dfbd52dc509b4d281325d297061e186ac47eca9b1d *../SBA/Rev2_250626/Export_qPCR/2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 -  Quantification Amplification Results.xlsx
+24 June plate 1, 2025 re-export (curves)
+60b2c3e81c83a9d9df5fc7c3a4eadc5f566b3549b95842a4cc1af8a724c438de *Analysis_outputs/strengthen_v2/wp1_ins1_structure/ins1_sheet_cq.csv
+WP1 matrix rows
+45f175ab6d5169dd7451c223dcb38b57c2b0ae2c9ce5c6cb02d67e0d21585766 *Analysis_outputs/strengthen_v2/wp1_ins1_structure/gene_run_map.csv
+WP1 matrix rows

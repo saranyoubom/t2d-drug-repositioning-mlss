@@ -1,0 +1,10 @@
+d61be1ba70413444aea7b504eb41658757d9de18e6db51dc2605dbb8867c0223 *PRESPEC_WP10_database_versions.md
+WP10 pre-specification (before the STRING 12.5 retrieval and before the MLSS run on the new DrugCentral file): 2026-11-08 01:11:40 +0700
+1908684983a79a067a44da952e1f6fd26b0f34cc36560cd9be0f0843bbfee1e1 *Database/drug.target.interaction.tsv.gz
+new DrugCentral drug-target file as downloaded by the user (7 Nov 2026 15:55): 2026-11-08 01:11:40 +0700
+986378142f49e721b3fb021f6a5b0e9fcd5fb192e0c5c744c7a4eeb9999216ad *Database/FDA+EMA+PMDA_Approved.csv
+new DrugCentral FDA+EMA+PMDA approval list (7 Nov 2026 15:57): 2026-11-08 01:11:40 +0700
+25e12669b1a030ef069a0404378e507005df6ca60de2cce52b22a115bfdf6f21 *R_17genes/string_interactions.csv
+reported STRING 12.0 export (input of Fig. 5): 2026-11-08 01:11:40 +0700
+b54bc596406afd9f53939d70ef6df656cd6bb7701eca9cf3c8d16fae4034404a *R_17genes/drug.target.interaction.csv
+reported DrugCentral drug-target file (input of Fig. 6c): 2026-11-08 01:11:40 +0700

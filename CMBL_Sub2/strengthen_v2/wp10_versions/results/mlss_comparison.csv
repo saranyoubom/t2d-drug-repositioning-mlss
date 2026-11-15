@@ -1,0 +1,172 @@
+combination,rank_old,MLSS_old,rank_new,MLSS_new,status
+(S)-nitrendipine + albiglutide,1,9.960357,1,9.960357,both
+albiglutide + isradipine,2,9.960357,2,9.960357,both
+exenatide + isradipine,3,9.960357,3,9.960357,both
+(S)-nitrendipine + liraglutide,4,9.960357,4,9.960357,both
+isradipine + liraglutide,5,9.960357,5,9.960357,both
+isradipine + lixisenatide,6,9.960357,6,9.960357,both
+albiglutide + nitrendipine,7,9.960357,7,9.960357,both
+liraglutide + nitrendipine,8,9.960357,8,9.960357,both
+isradipine + semaglutide,9,9.960357,9,9.960357,both
+liraglutide + nifedipine,10,9.946857,10,9.946857,both
+(S)-nitrendipine + semaglutide,11,9.936057,11,9.936057,both
+nitrendipine + semaglutide,12,9.936057,12,9.936057,both
+isradipine + tirzepatide,,,13,9.915807,new only
+(S)-nitrendipine + exenatide,13,9.903657,14,9.903657,both
+exenatide + nitrendipine,14,9.903657,15,9.903657,both
+albiglutide + nifedipine,15,9.879222,16,9.879222,both
+amlodipine + liraglutide,16,9.852357,17,9.852357,both
+(S)-nitrendipine + lixisenatide,17,9.841892,18,9.841892,both
+lixisenatide + nitrendipine,18,9.841892,19,9.841892,both
+nifedipine + semaglutide,19,9.841557,20,9.841557,both
+exenatide + nifedipine,20,9.809157,21,9.809157,both
+albiglutide + amlodipine,21,9.784722,22,9.784722,both
+lixisenatide + nifedipine,22,9.747392,23,9.747392,both
+amlodipine + semaglutide,23,9.747057,24,9.747057,both
+glucagon + isradipine,24,9.730857,25,9.730857,both
+(S)-nitrendipine + tirzepatide,,,26,9.730283,new only
+nitrendipine + tirzepatide,,,27,9.730283,new only
+amlodipine + exenatide,25,9.714657,28,9.714657,both
+amlodipine + lixisenatide,26,9.652892,29,9.652892,both
+nifedipine + tirzepatide,,,30,9.632582,new only
+(S)-nitrendipine + glucagon,27,9.545333,31,9.545333,both
+glucagon + nitrendipine,28,9.545333,32,9.545333,both
+amlodipine + tirzepatide,,,33,9.538082,new only
+glucagon + nifedipine,29,9.376139,34,9.376139,both
+amlodipine + glucagon,30,9.206944,35,9.206944,both
+bepridil + liraglutide,31,7.947000,36,7.947000,both
+clevidipine + liraglutide,32,7.947000,37,7.947000,both
+felodipine + liraglutide,33,7.947000,38,7.947000,both
+liraglutide + nilvadipine,34,7.947000,39,7.947000,both
+liraglutide + nimodipine,35,7.947000,40,7.947000,both
+liraglutide + nisoldipine,36,7.947000,41,7.947000,both
+albiglutide + bepridil,37,7.879365,42,7.879365,both
+albiglutide + clevidipine,38,7.879365,43,7.879365,both
+albiglutide + felodipine,39,7.879365,44,7.879365,both
+albiglutide + nilvadipine,40,7.879365,45,7.879365,both
+albiglutide + nimodipine,41,7.879365,46,7.879365,both
+albiglutide + nisoldipine,42,7.879365,47,7.879365,both
+bepridil + semaglutide,43,7.841700,48,7.841700,both
+clevidipine + semaglutide,44,7.841700,49,7.841700,both
+felodipine + semaglutide,45,7.841700,50,7.841700,both
+nilvadipine + semaglutide,46,7.841700,51,7.841700,both
+nimodipine + semaglutide,47,7.841700,52,7.841700,both
+nisoldipine + semaglutide,48,7.841700,53,7.841700,both
+dulaglutide + isradipine,49,7.825500,54,7.825500,both
+bepridil + exenatide,50,7.809300,55,7.809300,both
+clevidipine + exenatide,51,7.809300,56,7.809300,both
+exenatide + felodipine,52,7.809300,57,7.809300,both
+exenatide + nilvadipine,53,7.809300,58,7.809300,both
+exenatide + nimodipine,54,7.809300,59,7.809300,both
+exenatide + nisoldipine,55,7.809300,60,7.809300,both
+bepridil + lixisenatide,56,7.764075,61,7.764075,both
+clevidipine + lixisenatide,57,7.764075,62,7.764075,both
+felodipine + lixisenatide,58,7.764075,63,7.764075,both
+lixisenatide + nilvadipine,59,7.764075,64,7.764075,both
+lixisenatide + nimodipine,60,7.764075,65,7.764075,both
+lixisenatide + nisoldipine,61,7.764075,66,7.764075,both
+(S)-nitrendipine + dulaglutide,62,7.704000,67,7.704000,both
+dulaglutide + nitrendipine,63,7.704000,68,7.704000,both
+bepridil + tirzepatide,,,69,7.699950,new only
+clevidipine + tirzepatide,,,70,7.699950,new only
+felodipine + tirzepatide,,,71,7.699950,new only
+nilvadipine + tirzepatide,,,72,7.699950,new only
+nimodipine + tirzepatide,,,73,7.699950,new only
+nisoldipine + tirzepatide,,,74,7.699950,new only
+amlodipine + dulaglutide,64,7.650000,75,7.650000,both
+bepridil + dulaglutide,65,7.650000,76,7.650000,both
+clevidipine + dulaglutide,66,7.650000,77,7.650000,both
+dulaglutide + felodipine,67,7.650000,78,7.650000,both
+bepridil + glucagon,68,7.650000,79,7.650000,both
+clevidipine + glucagon,69,7.650000,80,7.650000,both
+felodipine + glucagon,70,7.650000,81,7.650000,both
+dulaglutide + nifedipine,71,7.650000,82,7.650000,both
+dulaglutide + nilvadipine,72,7.650000,83,7.650000,both
+glucagon + nilvadipine,73,7.650000,84,7.650000,both
+dulaglutide + nimodipine,74,7.650000,85,7.650000,both
+glucagon + nimodipine,75,7.650000,86,7.650000,both
+dulaglutide + nisoldipine,76,7.650000,87,7.650000,both
+glucagon + nisoldipine,77,7.650000,88,7.650000,both
+albiglutide + exenatide,78,4.050000,89,4.050000,both
+albiglutide + liraglutide,79,4.050000,90,4.050000,both
+exenatide + liraglutide,80,4.050000,91,4.050000,both
+albiglutide + lixisenatide,81,4.050000,92,4.050000,both
+exenatide + lixisenatide,82,4.050000,93,4.050000,both
+liraglutide + lixisenatide,83,4.050000,94,4.050000,both
+albiglutide + semaglutide,84,4.050000,95,4.050000,both
+exenatide + semaglutide,85,4.050000,96,4.050000,both
+liraglutide + semaglutide,86,4.050000,97,4.050000,both
+lixisenatide + semaglutide,87,4.050000,98,4.050000,both
+albiglutide + tirzepatide,,,99,4.050000,new only
+liraglutide + tirzepatide,,,100,4.050000,new only
+semaglutide + tirzepatide,,,101,4.021650,new only
+(S)-nitrendipine + isradipine,88,4.009500,102,4.009500,both
+isradipine + nitrendipine,89,4.009500,103,4.009500,both
+exenatide + tirzepatide,,,104,3.989250,new only
+lixisenatide + tirzepatide,,,105,3.944025,new only
+glucagon + liraglutide,90,3.942000,106,3.942000,both
+isradipine + nifedipine,91,3.915000,107,3.915000,both
+(S)-nitrendipine + nitrendipine,92,3.888000,108,3.888000,both
+albiglutide + glucagon,93,3.874365,109,3.874365,both
+glucagon + semaglutide,94,3.836700,110,3.836700,both
+amlodipine + isradipine,95,3.820500,111,3.820500,both
+exenatide + glucagon,96,3.804300,112,3.804300,both
+(S)-nitrendipine + nifedipine,97,3.793500,113,3.793500,both
+nifedipine + nitrendipine,98,3.793500,114,3.793500,both
+glucagon + lixisenatide,99,3.759075,115,3.759075,both
+(S)-nitrendipine + amlodipine,100,3.699000,116,3.699000,both
+amlodipine + nitrendipine,101,3.699000,117,3.699000,both
+glucagon + tirzepatide,,,118,3.694950,new only
+amlodipine + nifedipine,102,3.604500,119,3.604500,both
+dulaglutide + liraglutide,103,2.997000,120,2.997000,both
+albiglutide + dulaglutide,104,2.929365,121,2.929365,both
+dulaglutide + semaglutide,105,2.891700,122,2.891700,both
+bepridil + isradipine,106,2.875500,123,2.875500,both
+clevidipine + isradipine,107,2.875500,124,2.875500,both
+felodipine + isradipine,108,2.875500,125,2.875500,both
+isradipine + nilvadipine,109,2.875500,126,2.875500,both
+isradipine + nimodipine,110,2.875500,127,2.875500,both
+isradipine + nisoldipine,111,2.875500,128,2.875500,both
+dulaglutide + exenatide,112,2.859300,129,2.859300,both
+dulaglutide + lixisenatide,113,2.814075,130,2.814075,both
+(S)-nitrendipine + bepridil,114,2.754000,131,2.754000,both
+(S)-nitrendipine + clevidipine,115,2.754000,132,2.754000,both
+(S)-nitrendipine + felodipine,116,2.754000,133,2.754000,both
+(S)-nitrendipine + nilvadipine,117,2.754000,134,2.754000,both
+(S)-nitrendipine + nimodipine,118,2.754000,135,2.754000,both
+(S)-nitrendipine + nisoldipine,119,2.754000,136,2.754000,both
+bepridil + nitrendipine,120,2.754000,137,2.754000,both
+clevidipine + nitrendipine,121,2.754000,138,2.754000,both
+felodipine + nitrendipine,122,2.754000,139,2.754000,both
+nilvadipine + nitrendipine,123,2.754000,140,2.754000,both
+nimodipine + nitrendipine,124,2.754000,141,2.754000,both
+nisoldipine + nitrendipine,125,2.754000,142,2.754000,both
+dulaglutide + tirzepatide,,,143,2.749950,new only
+amlodipine + bepridil,126,2.700000,144,2.700000,both
+amlodipine + clevidipine,127,2.700000,145,2.700000,both
+bepridil + clevidipine,128,2.700000,146,2.700000,both
+amlodipine + felodipine,129,2.700000,147,2.700000,both
+bepridil + felodipine,130,2.700000,148,2.700000,both
+clevidipine + felodipine,131,2.700000,149,2.700000,both
+dulaglutide + glucagon,132,2.700000,150,2.700000,both
+bepridil + nifedipine,133,2.700000,151,2.700000,both
+clevidipine + nifedipine,134,2.700000,152,2.700000,both
+felodipine + nifedipine,135,2.700000,153,2.700000,both
+amlodipine + nilvadipine,136,2.700000,154,2.700000,both
+bepridil + nilvadipine,137,2.700000,155,2.700000,both
+clevidipine + nilvadipine,138,2.700000,156,2.700000,both
+felodipine + nilvadipine,139,2.700000,157,2.700000,both
+nifedipine + nilvadipine,140,2.700000,158,2.700000,both
+amlodipine + nimodipine,141,2.700000,159,2.700000,both
+bepridil + nimodipine,142,2.700000,160,2.700000,both
+clevidipine + nimodipine,143,2.700000,161,2.700000,both
+felodipine + nimodipine,144,2.700000,162,2.700000,both
+nifedipine + nimodipine,145,2.700000,163,2.700000,both
+nilvadipine + nimodipine,146,2.700000,164,2.700000,both
+amlodipine + nisoldipine,147,2.700000,165,2.700000,both
+bepridil + nisoldipine,148,2.700000,166,2.700000,both
+clevidipine + nisoldipine,149,2.700000,167,2.700000,both
+felodipine + nisoldipine,150,2.700000,168,2.700000,both
+nifedipine + nisoldipine,151,2.700000,169,2.700000,both
+nilvadipine + nisoldipine,152,2.700000,170,2.700000,both
+nimodipine + nisoldipine,153,2.700000,171,2.700000,both

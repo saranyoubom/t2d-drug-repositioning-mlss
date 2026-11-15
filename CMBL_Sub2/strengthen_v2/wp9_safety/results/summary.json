@@ -1,0 +1,196 @@
+{
+ "last_updated": "2026-10-28",
+ "N_reports": 21054159,
+ "terms": 17,
+ "evaluable_drugs": 13,
+ "not_evaluable_drugs": [
+  "albiglutide",
+  "bepridil",
+  "nilvadipine",
+  "nitrendipine"
+ ],
+ "drug_reports": {
+  "albiglutide": 0,
+  "amlodipine": 434732,
+  "bepridil": 0,
+  "clevidipine": 367,
+  "dulaglutide": 89369,
+  "exenatide": 52322,
+  "felodipine": 11420,
+  "glucagon": 4235,
+  "isradipine": 560,
+  "liraglutide": 51303,
+  "lixisenatide": 3660,
+  "nifedipine": 41738,
+  "nilvadipine": 0,
+  "nimodipine": 1122,
+  "nisoldipine": 1198,
+  "nitrendipine": 0,
+  "semaglutide": 78023
+ },
+ "single_signals_total": 70,
+ "single_tests_total": 104,
+ "per_group": {
+  "HYPO": {
+   "E_g": 99568,
+   "signalled_drugs": [
+    "amlodipine",
+    "dulaglutide",
+    "exenatide",
+    "felodipine",
+    "glucagon",
+    "isradipine",
+    "liraglutide",
+    "lixisenatide",
+    "nifedipine",
+    "semaglutide"
+   ],
+   "pairs_top15_with_signalled_drug": 13,
+   "pairs_all77_with_signalled_drug": 70
+  },
+  "HYPER": {
+   "E_g": 275161,
+   "signalled_drugs": [
+    "amlodipine",
+    "dulaglutide",
+    "exenatide",
+    "felodipine",
+    "glucagon",
+    "liraglutide",
+    "lixisenatide",
+    "nifedipine",
+    "nisoldipine",
+    "semaglutide"
+   ],
+   "pairs_top15_with_signalled_drug": 12,
+   "pairs_all77_with_signalled_drug": 70
+  },
+  "PANC": {
+   "E_g": 86297,
+   "signalled_drugs": [
+    "amlodipine",
+    "clevidipine",
+    "dulaglutide",
+    "exenatide",
+    "felodipine",
+    "glucagon",
+    "isradipine",
+    "liraglutide",
+    "lixisenatide",
+    "nifedipine",
+    "semaglutide"
+   ],
+   "pairs_top15_with_signalled_drug": 13,
+   "pairs_all77_with_signalled_drug": 71
+  },
+  "GI": {
+   "E_g": 1934366,
+   "signalled_drugs": [
+    "amlodipine",
+    "dulaglutide",
+    "exenatide",
+    "felodipine",
+    "glucagon",
+    "isradipine",
+    "liraglutide",
+    "nifedipine",
+    "nisoldipine",
+    "semaglutide"
+   ],
+   "pairs_top15_with_signalled_drug": 13,
+   "pairs_all77_with_signalled_drug": 65
+  },
+  "BILI": {
+   "E_g": 48694,
+   "signalled_drugs": [
+    "amlodipine",
+    "dulaglutide",
+    "exenatide",
+    "felodipine",
+    "glucagon",
+    "liraglutide",
+    "nifedipine",
+    "semaglutide"
+   ],
+   "pairs_top15_with_signalled_drug": 11,
+   "pairs_all77_with_signalled_drug": 61
+  },
+  "HYPOT": {
+   "E_g": 383889,
+   "signalled_drugs": [
+    "amlodipine",
+    "clevidipine",
+    "felodipine",
+    "glucagon",
+    "isradipine",
+    "nifedipine",
+    "nimodipine",
+    "nisoldipine"
+   ],
+   "pairs_top15_with_signalled_drug": 7,
+   "pairs_all77_with_signalled_drug": 53
+  },
+  "OEDEMA": {
+   "E_g": 316781,
+   "signalled_drugs": [
+    "amlodipine",
+    "felodipine",
+    "glucagon",
+    "isradipine",
+    "nifedipine",
+    "nisoldipine"
+   ],
+   "pairs_top15_with_signalled_drug": 7,
+   "pairs_all77_with_signalled_drug": 41
+  },
+  "CARD": {
+   "E_g": 115742,
+   "signalled_drugs": [
+    "amlodipine",
+    "clevidipine",
+    "felodipine",
+    "glucagon",
+    "nifedipine",
+    "nimodipine",
+    "nisoldipine"
+   ],
+   "pairs_top15_with_signalled_drug": 2,
+   "pairs_all77_with_signalled_drug": 47
+  }
+ },
+ "pairs_total": 77,
+ "pairs_with_20_or_more_co_reports": 16,
+ "pairs_evaluable": 16,
+ "pairs_evaluable_top15": 1,
+ "co_report_flags": 8,
+ "co_report_flagged_pair_count": 5,
+ "co_report_flagged_pairs": [
+  [
+   23,
+   "amlodipine + semaglutide",
+   "BILI"
+  ],
+  [
+   25,
+   "amlodipine + exenatide",
+   "PANC BILI"
+  ],
+  [
+   30,
+   "amlodipine + glucagon",
+   "HYPOT CARD"
+  ],
+  [
+   52,
+   "exenatide + felodipine",
+   "PANC"
+  ],
+  [
+   64,
+   "amlodipine + dulaglutide",
+   "GI BILI"
+  ]
+ ],
+ "pair_group_tests": 128,
+ "warnings": []
+}

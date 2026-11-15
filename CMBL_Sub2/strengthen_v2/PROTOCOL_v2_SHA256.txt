@@ -1,0 +1,106 @@
+51c7d7ef4977c2b7b6fd08b029e5abfc8aa43b0570a895bb6bbc2ead3b224684 *PROTOCOL_v2_prespecified.md
+Protocol v2 frozen: 2026-11-04 13:39:33 +0700
+0be6889d2e7d794f10ae672f58ed411bc7d2d771fc9c5537211db7822000de8f *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8 updated by WP1 (additions logged, no rule changed): 2026-11-04 19:12:58 +0700
+71ae9a1e5cf8615c2b4a51b340762524fb0fee03436b46f4fecaf8f9f2561aac *wp2_benchmark2/frozen_heldout_arrays.csv
+WP2 held-out microarray list frozen BEFORE any expression value was read: 2026-11-05 00:56:35 +0700
+39ec5dc86e0607c6345c537ac8f8a54e2a5d20e29fdd709fa85383a683ba421b *wp2_benchmark2/frozen_heldout_rnaseq.csv
+WP2 held-out RNA-seq list frozen BEFORE any count was read: 2026-11-05 01:09:49 +0700
+fbce6895e41405b044c81fa7788cffde7f41c560917ec958ac5ea0418f3cd8d3 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8 updated by WP2 (calibration verdict, diagnosis, sensitivity add-on, RNA-seq arm status; no rule changed): 2026-11-05 01:26:29 +0700
+2886926cee838233dc9a39e421b05ebd12e435bad32f267f2bf01bd47371ce69 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8 (WP2 entry) re-saved with corrected clock times in its text, content otherwise identical: 2026-11-05 01:27:31 +0700
+c396fa74a2ae5ec621059fc2818dd31b6e879de967b1d462143f68cc52807863 *PROTOCOL_v2_prespecified.md
+Protocol v2 final text of the WP2 section 8 entry (one clock time in its text corrected): 2026-11-05 01:27:52 +0700
+687a2d4c12fc805f476630db977964685a2b9a17933e37398ea72976bd075654 *wp4_islets/frozen_islet_datasets.csv
+ba2bc9eed0d43bf3ebee787587cbec439849f6f0ab4c0fd1470957d238f745eb *wp4_islets/frozen_beta_cells.csv
+WP4 dataset table and beta-cell lists (built from metadata only: GEO series matrices and the ArrayExpress SDRF) frozen BEFORE any expression value of GSE86469, GSE81547 or E-MTAB-5061 was read or downloaded: 2026-11-06 00:17:00 +0700
+e08f3333cb511d47d86cca9142e1298a69ee0aae9822023ea75bd8d2e6ae9270 *wp4_islets/PRESPEC_WP4_choices.md
+34ff16fd3be21ba1d2c223198f4a9f219e10a3f9cfcb0224cdb897ca3119e5bf *wp4_islets/ensembl_ids_17genes.csv
+WP4 implementation choices (PRESPEC_WP4_choices.md) and the Ensembl id key for the 17 genes fixed BEFORE any expression value of GSE86469, GSE81547 or E-MTAB-5061 was read for analysis and before any depth-adjusted statistic, meta-analysis or metacell number existed: 2026-11-06 13:40:58 +0700
+06d4462be9c07296a8ed307a75fe1dba77d949ee88bb8126655b870720ef4e9b *wp4_islets/PRESPEC_WP4_choices.md
+WP4 choices note: addendum F (E-MTAB-5061 layout from the IDF; library size over the RefSeq gene rows; identity check) added BEFORE any count value of E-MTAB-5061 was read: 2026-11-06 13:43:29 +0700
+363326a9ab7d0ccb6c7ed8b05a32571d3dfe9cec05a4ec2e128757574f893211 *wp4_islets/PRESPEC_WP4_choices.md
+WP4 choices note: F2 (identity-check criterion corrected for the authors' multi-hormone categories) added after the first E-MTAB-5061 parser run stopped and before any analysis statistic of that dataset existed: 2026-11-06 13:45:32 +0700
+463a637c2e5c261de40201f020875f6457413abd4045fdd6c0c0b0d4a1702141 *wp4_islets/PRESPEC_WP4_choices.md
+WP4 choices note: wording of F2 corrected (GCG ratio statement), content otherwise identical: 2026-11-06 13:46:05 +0700
+58fd1eb2e0d9c3d02b23e4a01ef264b58edc1408a65ec0480f3b7ca25185e575 *wp4_islets/PRESPEC_WP4_choices.md
+WP4 choices note: addendum G (GSE60803 design and contrast, confounding statement) added BEFORE any expression value of GSE60803 was read: 2026-11-06 13:51:14 +0700
+db8f535666baa5e66c50e6ca6a64251331ada11e6bdd292ae66c97903cd2b78e *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8 updated by WP4 (gate, frozen lists, choices note, refinements, perturbation search status, metacell sampler, code fixes; no rule changed): 2026-11-06 14:18:16 +0700
+77f98e11b73215248673234ee1e65d466cb88088b0b587c2d0bc15021f5ddf5d *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP4 post hoc add-on (gene-graph null) logged before its result was seen: 2026-11-06 14:19:23 +0700
+61a34bde7a2db0571eba7aa2dc1cb091e7e554a984bb42bc8e801418b1c9517f *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: clock time of the WP4 gene-graph add-on entry corrected to 14:19, content otherwise identical: 2026-11-06 14:19:38 +0700
+f7ce63524eaffbb05acda0d7f71af744251641d6f2058eda37105d57bcfc42c6 *wp4_islets/PRESPEC_WP4b_positive_control_and_wider_search.md
+WP4 extension note (PRESPEC_WP4b_positive_control_and_wider_search.md: positive control A1-A3, wider search B1-B5, framing) fixed BEFORE any of its analyses was run, after the primary WP4 result was known and at the user's request: 2026-11-06 16:10:43 +0700
+29c4a42e4f4308fc49589472b867768e25161a5ab67b6d65b0e12aced0fcfc5a *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP4 extension (positive control and wider search, post hoc, pre-specified before any analysis of it): 2026-11-06 16:11:33 +0700
+3e109103fc75f16370cdb8e2af68b014518dffad0d6a57f241c3b84009aca933 *wp4_islets/PRESPEC_WP4_choices.md
+WP4 choices note: addendum H (correction: GSE44045 and GSE44046 are diet comparisons, not Sfrp5 silencing); no expression value of either series was read: 2026-11-06 16:40:34 +0700
+775e5c13561c163bb24cc246029ff4257da41b436a969db11cc373665081d2a0 *wp4_islets/wider_search/frozen_candidates.csv
+77e3bdcdd96bee8d46df814a4a934a99ab8552ab787efcd854a53e1800985b0e *wp4_islets/wider_search/candidates_all.csv
+51d238a9ad92942708eb25450cebb6257c878101678308f70b14e4ae935be3e8 *wp4_islets/wider_search/queries.json
+WP4 wider search: queries (queries.json), all 135 returned records (candidates_all.csv) and the frozen keep/drop decisions with contrasts (frozen_candidates.csv; 6 kept, 129 dropped) fixed BEFORE any expression value of the new candidates was read (GSE60803 values were read in the first search): 2026-11-06 16:40:36 +0700
+82cb190171b6b1d054dbf663225953a41ebf0a6cc8274b720301b77e3d6a2fc5 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP4 extension results and deviations (positive control run, wider search, correction of the Sfrp5 description): 2026-11-06 18:35:56 +0700
+a773f2c2cd4ecea36d23afa2659fcf347fe14a566bb21c249de4d25fddccf816 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: exact shares of the positive control (rounding correction): 2026-11-06 18:39:26 +0700
+e58af7c32602373aa4f28a942b2be1a6d3e8ed1a44bad44c36fe2f9f74120107 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP9 (pharmacovigilance safety screen) added as a new work package, entry written before any count of an MLSS drug was retrieved: 2026-11-07 15:10:40 +0700
+c3561dee8552a9f8f70c6fae3e00ebd560a03b20dc2b6b78bc58bc12ae9a81e3 *wp9_safety/PRESPEC_WP9_safety_screen.md
+WP9 pre-specification frozen BEFORE any report count of an MLSS drug was retrieved (probe with metformin and sitagliptin only): 2026-11-07 15:10:40 +0700
+9fb1bcb86ccb612b10e564fb168839c81ab66c6445229071b6891f7089f13cbd *wp9_safety/PRESPEC_WP9_safety_screen.md
+WP9 pre-specification, section 9 clarifications added BEFORE any drug count was retrieved: 2026-11-07 15:12:40 +0700
+f1f9e4fadf1809de0647f65be576627897c24e0daa77fdaba144b6b673513b16 *wp9_safety/PRESPEC_WP9_safety_screen.md
+WP9 pre-specification, section 9: secondary post hoc free-text fallback for drugs without harmonized openfda fields, logged before any event-level count or analysis: 2026-11-07 15:22:54 +0700
+f6bc37a6e020f63b406b31565eccd72e759a37e1a8d3a65f15dc59128cf78ed9 *wp9_safety/PRESPEC_WP9_safety_screen.md
+WP9 pre-specification, section 9: nitrendipine added to the secondary free-text fallback (rule unchanged), logged before any fallback retrieval and any analysis: 2026-11-07 15:53:52 +0700
+d3635ab15c6b2ed08c0c915dded59bc70e997486ddcafdf2a01a6686757f2ddd *wp9_safety/results/RAW_SHA256.txt
+WP9 raw openFDA responses (443 files) fingerprinted BEFORE the analysis: 2026-11-07 16:04:43 +0700
+e28ddd04bdd1fbf461c6655398d52de369fad67f040332b67253d2d6dce60469 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP9 results and deviations (safety screen): 2026-11-07 19:52:45 +0700
+d61be1ba70413444aea7b504eb41658757d9de18e6db51dc2605dbb8867c0223 *wp10_versions/PRESPEC_WP10_database_versions.md
+WP10 pre-specification (before the STRING 12.5 retrieval and before the MLSS run on the new DrugCentral file): 2026-11-08 01:11:40 +0700
+1908684983a79a067a44da952e1f6fd26b0f34cc36560cd9be0f0843bbfee1e1 *Database/drug.target.interaction.tsv.gz
+new DrugCentral drug-target file as downloaded by the user (7 Nov 2026 15:55): 2026-11-08 01:11:40 +0700
+986378142f49e721b3fb021f6a5b0e9fcd5fb192e0c5c744c7a4eeb9999216ad *Database/FDA+EMA+PMDA_Approved.csv
+new DrugCentral FDA+EMA+PMDA approval list (7 Nov 2026 15:57): 2026-11-08 01:11:40 +0700
+25e12669b1a030ef069a0404378e507005df6ca60de2cce52b22a115bfdf6f21 *R_17genes/string_interactions.csv
+reported STRING 12.0 export (input of Fig. 5): 2026-11-08 01:11:40 +0700
+b54bc596406afd9f53939d70ef6df656cd6bb7701eca9cf3c8d16fae4034404a *R_17genes/drug.target.interaction.csv
+reported DrugCentral drug-target file (input of Fig. 6c): 2026-11-08 01:11:40 +0700
+3151ddecff4cdc1308f524534584ea17e3d7671f243d9a13468472366a254499 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP10 (database-version sensitivity) entry: 2026-11-08 05:59:16 +0700
+acfb83a691470119fdf2c36e87043c4fa583fe60a9875d90e110aa779d647d74 *wp11_plate_provenance/INPUT_FINGERPRINTS.txt
+WP11 raw inputs (24 files, sha256 list): 2026-11-08 16:54:02 +0700
+85556cb5310b862b44c7fea6a41c8403d7a9d41287420676cb59bca25d643c32 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP11 (plate provenance) entry: 2026-11-08 16:54:02 +0700
+59560c98f4f5d48654c9670559303b0e7dba653b5fe05e54e62ca27bbe0ea8fc *wp12_database_annotations/PRESPEC_WP12_annotations.md
+WP12 pre-specification (before the openFDA Drugs@FDA retrieval): 2026-11-09 00:33:22 +0700
+c36fa2ab9d5ec45256390dc6122846df3d877562fd0d0d4ea2ad3a4d4c1390c4 *wp12_database_annotations/INPUT_FINGERPRINTS.txt
+WP12 inputs and raw openFDA responses: 2026-11-09 00:43:33 +0700
+23f492d54b12655bacfde7462bf271d34560b027a20ed6d32292c55f568845b9 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP12 (database annotations) entry: 2026-11-09 00:43:33 +0700
+0cb68cc80e6cc7855d55a4e70a44299a501eb64abef390ce0adc5217f9291314 *wp12_database_annotations/INPUT_FINGERPRINTS.txt
+WP12 inputs and raw openFDA responses, CORRECTED list (replaces the entry of 00:43:33 that had two inputs without hash because of a path error; same day, no result changed): 2026-11-09 00:43:55 +0700
+e5ad83adb145312d9d3acd3c1e885d791089db8f632e70d40fdc4de39f419662 *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP12 entry (time of the entry corrected to 00:43): 2026-11-09 00:43:55 +0700
+4a57912b0f284e28f33a14082dac85907c51e2cb66eb269f351490dd9783544c *wp13_gapdh_corrected/results/gapdh_versions.json
+WP13 stored result of wp13_gapdh_versions.py: 2026-11-09 11:24:06 +0700
+e7ee07c28973b2c10a6fc4837726c46541bc2d3a99cb8578df17033a69517eff *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP13 (Gapdh corrected versions) entry: 2026-11-09 11:24:06 +0700
+20d4a2590f8b507a7f0dcc472df29a14819f280bcd71b183dc4cc2fd954c3fab *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP13 entry (time of the entry corrected to 11:24): 2026-11-09 11:25:04 +0700
+30f7bdabacf07be959424d3021baa72804e20e55a33c85b76d7fa43129973c48 *wp14_table_s8/results/efficiency_sensitivity_analyzed_matrix.csv
+WP14 result of wp14_effsens_analyzed_matrix.py: 2026-11-10 06:55:27 +0700
+6ce13de4bd269bbe85e0a558cd535e62c99192becc749c3c32521782cb441aff *PROTOCOL_v2_prespecified.md
+Protocol v2 section 8: WP14 (Table S8 recomputed) entry: 2026-11-10 06:55:27 +0700
+dbb9e597f500b0cdaed5eee6dbba743a636911e49b855975be42b141f3b07225 *Submission_package_JTM_v2/PACKAGE_MANIFEST.txt
+Submission package v2 manifest (17 files; manuscript Manuscript_JTM.docx sha256 7596a1dfa035746fe61419e4f78c7a963afe9274ff5bd590ba18f7dc74e9fbcd): 2026-11-10 21:20:05 +0700
+a97e55f76634cf9790ef62cfe4c9ba70c571cefe45ca305163e5a17fdda45d53 *Submission_package_JTM_v2/PACKAGE_MANIFEST.txt
+Submission package v2 manifest after the FINAL TOUCHES rebuild (17 files; manuscript Manuscript_JTM.docx sha256 af1d31aad0d0ee8aa34ea46966a7e2152f5f2dbc4846d00c7a5348260cf037ba; final title, 112 references, access dates, policy paragraph in the cover letter; the 10 Nov package is in Submission_package_JTM_v2_prev): 2026-11-11 09:57:44 +0700
+aa175b6d7a6772cd05a881216cc133439bd9bb2ffd7e52cc98d6e45bfc3d8262 *Submission_package_JTM_v2/PACKAGE_MANIFEST.txt
+Submission package v2 manifest after the second FINAL TOUCHES rebuild (17 files; manuscript Manuscript_JTM.docx sha256 985e5e68b692d3ca1d469aa843e44b473ecdd19cec7ce4471d6c7a0eb5711484; title of 18 words, abstract without parentheses, STRING 12.5 and DrugCentral 25 Sep 2026 dump cited with download dates 8 and 7 Nov): 2026-11-11 11:47:20 +0700
+a907da4aeac339208da737917e53cc6240b092d5680d26e3e5ede71261d5c6e5 *Submission_package_JTM_v2/PACKAGE_MANIFEST.txt
+Submission package v2 manifest after the third FINAL TOUCHES rebuild (17 files; manuscript Manuscript_JTM.docx sha256 27104c0e0b1eff0b03d473f11bd3f9e3b50f28c0e73345d58e9ed605c846f469; 113 references, supporting reference on multireceptor agents added): 2026-11-11 12:04:25 +0700

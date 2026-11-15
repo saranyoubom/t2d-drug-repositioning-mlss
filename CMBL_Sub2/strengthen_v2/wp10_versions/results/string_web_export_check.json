@@ -1,0 +1,171 @@
+{
+ "network_url_file": "https://version-12-5.string-db.org/cgi/network?networkId=beSoaw2hyqcw",
+ "rows": {
+  "web_12_5": 118,
+  "old_12_0": 118,
+  "api_12_5": 59
+ },
+ "nodes": {
+  "web_12_5": [
+   "Cacna1c",
+   "Cacna1d",
+   "Glp1r",
+   "Hes1",
+   "Hey1",
+   "Ins1",
+   "Itpr1",
+   "Kcnj11",
+   "Lef1",
+   "Ryr1",
+   "Ryr2",
+   "Ryr3",
+   "Slc2a2",
+   "Tcf7",
+   "Tcf7l2",
+   "Wnt2",
+   "Wnt2b",
+   "Wnt5a",
+   "Wnt5b",
+   "Wnt9a"
+  ],
+  "old_12_0": [
+   "Cacna1c",
+   "Cacna1d",
+   "Glp1r",
+   "Hes1",
+   "Hey1",
+   "Ins1",
+   "Itpr1",
+   "Kcnj11",
+   "Lef1",
+   "Ryr1",
+   "Ryr2",
+   "Ryr3",
+   "Slc2a2",
+   "Tcf7",
+   "Tcf7l2",
+   "Wnt2",
+   "Wnt2b",
+   "Wnt5a",
+   "Wnt5b",
+   "Wnt9a"
+  ],
+  "api_12_5": [
+   "Cacna1c",
+   "Cacna1d",
+   "Glp1r",
+   "Hes1",
+   "Hey1",
+   "Ins1",
+   "Itpr1",
+   "Kcnj11",
+   "Lef1",
+   "Ryr1",
+   "Ryr2",
+   "Ryr3",
+   "Slc2a2",
+   "Tcf7",
+   "Tcf7l2",
+   "Wnt2",
+   "Wnt2b",
+   "Wnt5a",
+   "Wnt5b",
+   "Wnt9a"
+  ]
+ },
+ "distinct_pairs": {
+  "web_12_5": 59,
+  "old_12_0": 59,
+  "api_12_5": 59
+ },
+ "pairs_with_two_different_scores_in_one_file": {
+  "web_12_5": [],
+  "old_12_0": [],
+  "api_12_5": []
+ },
+ "min_score_in_file": {
+  "web_12_5": 0.411,
+  "old_12_0": 0.408,
+  "api_12_5": 0.411
+ },
+ "web_vs_api_12_5": {
+  "pairs_only_in_web": [],
+  "pairs_only_in_api": [],
+  "pairs_in_both": 59,
+  "max_abs_score_difference_in_common_pairs": 0.0
+ },
+ "web_12_5_vs_old_12_0": {
+  "pairs_gained_in_12_5": [
+   "Kcnj11-Ryr2",
+   "Wnt2-Wnt9a",
+   "Wnt5a-Wnt9a",
+   "Wnt5b-Wnt9a"
+  ],
+  "pairs_lost_in_12_5": [
+   "Cacna1c-Itpr1",
+   "Cacna1d-Itpr1",
+   "Hey1-Lef1",
+   "Itpr1-Ryr1"
+  ],
+  "pairs_in_both": 55,
+  "score_change_in_common_pairs": {
+   "n_changed": 54,
+   "min": -0.112,
+   "max": 0.463,
+   "min_pair": "Wnt2b-Wnt5a",
+   "max_pair": "Cacna1d-Ryr3"
+  }
+ },
+ "classification_from_web_export_12_5": {
+  "as_reported": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 30,
+   "Not Validated": 69,
+   "in_STRING": 35,
+   "coverage_percent": 29.2
+  },
+  "alias": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 34,
+   "Not Validated": 65,
+   "in_STRING": 39,
+   "coverage_percent": 32.5
+  }
+ },
+ "classification_from_api_12_5_saved": {
+  "as_reported": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 30,
+   "Not Validated": 69,
+   "in_STRING": 35,
+   "coverage_percent": 29.2
+  },
+  "alias": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 34,
+   "Not Validated": 65,
+   "in_STRING": 39,
+   "coverage_percent": 32.5
+  }
+ },
+ "classification_web_equals_api": true,
+ "edges_among_17_genes": {
+  "web_12_5": 39,
+  "api_12_5": 39,
+  "old_12_0": 38,
+  "web_equals_api": true,
+  "gained_vs_12_0": [
+   "Kcnj11-Ryr2",
+   "Wnt5a-Wnt9a",
+   "Wnt5b-Wnt9a"
+  ],
+  "lost_vs_12_0": [
+   "Cacna1c-Itpr1",
+   "Cacna1d-Itpr1"
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+S00_reported_port                  rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S01_gapdh_C0                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S01_gapdh_C1                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_kcnj11                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_ins1                         rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_raw_pooled                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_raw_adj_linear               rho 0.9999  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_raw_adj_linear_nofilter      rho 0.9999  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_raw_adj_log                  rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_raw_adj_log_nofilter         rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_none                         rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S02_r_none_all                     rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S03_hub_ge4                        rho 0.9537  top15 overlap 9  top albiglutide + isradipine (8 tied)  targets 3  drugs 27
+S03_hub_ge5                        rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+S03_hub_ge6                        rho 1.0000  top15 overlap 0  top albiglutide + exenatide (10 tied)  targets 1  drugs 7
+S04_perm_potency                   rho mean 0.755 (2.5-97.5%: 0.648 to 0.871; max 0.924)  top15 overlap mean 2.87 (0 to 7; max 11)  top pair in reported top 15: 22.9%  R2 potency all 0.242, within C=1 0.980, C+potency 0.994
+S04_perm_target                    rho mean 0.322 (2.5-97.5%: 0.232 to 0.518; max 0.728)  top15 overlap mean 7.36 (4 to 11; max 15)  top pair in reported top 15: 68.2%  R2 potency all 0.244, within C=1 0.980, C+potency 0.994
+X1_r_sweep_-1.00                   rho 0.9791  top15 overlap 12  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_-0.75                   rho 0.9996  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_-0.50                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_-0.25                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_+0.00                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_+0.25                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_+0.50                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_+0.75                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X1_r_sweep_+1.00                   rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X2_r_any_pair_120                  rho mean 1.0000 (min 1.0000, max 1.0000), top15 overlap mean 15.0 (min 15, max 15) over 120 replacements of r(Cacna1d,Glp1r) [0.752 to 0.996]
+X3_weights_0                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X3_weights_1                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X3_weights_2                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X3_weights_3                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X3_weights_4                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X3_weights_5                       rho 0.9943  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X3_weights_6                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X3_weights_7                       rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X4_ablation_Without_C              rho 0.8927  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X4_ablation_Without_B              rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X4_ablation_Without_V              rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+X4_ablation_Without_P              rho 0.9226  top15 overlap 10  top (S)-nitrendipine + albiglutide (22 tied)  targets 2  drugs 18
+X4_ablation_Base_Only              rho 1.0000  top15 overlap 15  top (S)-nitrendipine + albiglutide (9 tied)  targets 2  drugs 18
+
+written: mlss_scenarios.csv (40 rows), mlss_permutation_draws.csv (2000 rows), mlss_scenario_scores.csv, mlss_scenarios_log.txt

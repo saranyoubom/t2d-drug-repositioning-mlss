@@ -1,0 +1,5 @@
+scheme,observed_q_lt_005,null_mean,null_sd,null_q95,excess,p_null_ge_obs,p_plus1,calibrated,reading
+raw,0,0.0675,0.280969,1,-0.0675,1,1,True,calibrated: no pair has q < 0.05 (null mean ~0)
+Ins1-normalized,51,29.319,14.3542,54,21.681,0.079,0.0794603,False,"artefact-prone: shared denominator, observed count not above its null"
+Kcnj11-normalized,11,11.296,9.22959,30,-0.296,0.4395,0.43978,False,"artefact-prone: shared denominator, observed count not above its null"
+Hes1-normalized,15,6.5315,5.23173,17,8.4685,0.0785,0.0789605,False,"artefact-prone: shared denominator, observed count not above its null"

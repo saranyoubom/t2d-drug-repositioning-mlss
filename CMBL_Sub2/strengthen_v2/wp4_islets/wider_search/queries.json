@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-06 16:19:23 +0700",
+ "terms": {
+  "CELL": "(islet OR islets OR \"beta cell\" OR \"beta cells\" OR \"beta-cell\" OR \"INS-1\" OR INS1 OR \"INS-1E\" OR MIN6 OR EndoC OR betaTC OR \"BRIN-BD11\" OR RINm5F OR insulinoma OR \"pancreatic beta\")",
+  "NOTCH": "(Notch OR \"gamma-secretase\" OR \"gamma secretase\" OR DAPT OR LY411575 OR RO4929097 OR \"compound E\" OR \"MK-0752\" OR RBPJ OR Jagged OR Jag1 OR Dll1 OR Dll4 OR Notch1 OR Notch2)",
+  "WNT": "(Wnt OR DKK1 OR Dickkopf OR \"beta-catenin\" OR CTNNB1 OR TCF7L2 OR TCF4 OR IWP OR \"IWP-2\" OR IWR OR XAV939 OR LGK974 OR \"ICG-001\" OR CHIR99021 OR GSK3 OR Wnt3a OR Axin OR SFRP OR Frizzled)"
+ },
+ "S1": {
+  "query": "gse[ETYP] AND ((Notch OR \"gamma-secretase\" OR \"gamma secretase\" OR DAPT OR LY411575 OR RO4929097 OR \"compound E\" OR \"MK-0752\" OR RBPJ OR Jagged OR Jag1 OR Dll1 OR Dll4 OR Notch1 OR Notch2) OR (Wnt OR DKK1 OR Dickkopf OR \"beta-catenin\" OR CTNNB1 OR TCF7L2 OR TCF4 OR IWP OR \"IWP-2\" OR IWR OR XAV939 OR LGK974 OR \"ICG-001\" OR CHIR99021 OR GSK3 OR Wnt3a OR Axin OR SFRP OR Frizzled)) AND (islet OR islets OR \"beta cell\" OR \"beta cells\" OR \"beta-cell\" OR \"INS-1\" OR INS1 OR \"INS-1E\" OR MIN6 OR EndoC OR betaTC OR \"BRIN-BD11\" OR RINm5F OR insulinoma OR \"pancreatic beta\")",
+  "count": 88,
+  "ids": 88
+ },
+ "S2": {
+  "query": "(islet OR islets OR \"beta cell\" OR \"beta cells\" OR \"beta-cell\" OR \"INS-1\" OR INS1 OR \"INS-1E\" OR MIN6 OR EndoC OR betaTC OR \"BRIN-BD11\" OR RINm5F OR insulinoma OR \"pancreatic beta\") AND ((Notch OR \"gamma-secretase\" OR \"gamma secretase\" OR DAPT OR LY411575 OR RO4929097 OR \"compound E\" OR \"MK-0752\" OR RBPJ OR Jagged OR Jag1 OR Dll1 OR Dll4 OR Notch1 OR Notch2) OR (Wnt OR DKK1 OR Dickkopf OR \"beta-catenin\" OR CTNNB1 OR TCF7L2 OR TCF4 OR IWP OR \"IWP-2\" OR IWR OR XAV939 OR LGK974 OR \"ICG-001\" OR CHIR99021 OR GSK3 OR Wnt3a OR Axin OR SFRP OR Frizzled))",
+  "count": 23,
+  "hits": 23
+ },
+ "S3": {
+  "query": "(islet OR islets OR \"beta cell\" OR \"beta cells\" OR \"beta-cell\" OR \"INS-1\" OR INS1 OR \"INS-1E\" OR MIN6 OR EndoC OR betaTC OR \"BRIN-BD11\" OR RINm5F OR insulinoma OR \"pancreatic beta\") AND ((Notch OR \"gamma-secretase\" OR \"gamma secretase\" OR DAPT OR LY411575 OR RO4929097 OR \"compound E\" OR \"MK-0752\" OR RBPJ OR Jagged OR Jag1 OR Dll1 OR Dll4 OR Notch1 OR Notch2) OR (Wnt OR DKK1 OR Dickkopf OR \"beta-catenin\" OR CTNNB1 OR TCF7L2 OR TCF4 OR IWP OR \"IWP-2\" OR IWR OR XAV939 OR LGK974 OR \"ICG-001\" OR CHIR99021 OR GSK3 OR Wnt3a OR Axin OR SFRP OR Frizzled)) AND (transcriptom* OR \"RNA-seq\" OR \"RNA sequencing\" OR microarray OR \"expression profiling\" OR \"gene expression\")",
+  "cap": 1500,
+  "count": 371,
+  "pmids": 371,
+  "linked_gds_uids": 65
+ },
+ "unique_records": 135,
+ "by_source_combination": {
+  "S1": 60,
+  "S3": 35,
+  "S1+S3": 17,
+  "S2": 9,
+  "S1+S2+S3": 7,
+  "S1+S2": 4,
+  "S2+S3": 3
+ }
+}

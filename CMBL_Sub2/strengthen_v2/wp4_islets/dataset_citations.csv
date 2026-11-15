@@ -1,0 +1,8 @@
+dataset,pmid,first_author,title,journal,year,volume,pages,doi
+GSE81608,27667665,Xin Y,RNA Sequencing of Single Human Islet Cells Reveals Type 2 Diabetes Genes.,Cell Metab,2016,24,608-615,10.1016/j.cmet.2016.08.018
+GSE84133,27667365,Baron M,A Single-Cell Transcriptomic Map of the Human and Mouse Pancreas Reveals Inter- and Intra-cell Population Structure.,Cell Syst,2016,3,346-360.e4,10.1016/j.cels.2016.08.011
+GSE86469,27864352,Lawlor N,Single-cell transcriptomes identify human islet cell signatures and reveal cell-type-specific expression changes in type 2 diabetes.,Genome Res,2017,27,208-222,10.1101/gr.212720.116
+GSE81547,28965763,Enge M,Single-Cell Analysis of Human Pancreas Reveals Transcriptional Signatures of Aging and Somatic Mutation Patterns.,Cell,2017,171,321-330.e14,10.1016/j.cell.2017.09.004
+GSE60803,25393025,Lenz A,Redifferentiation of adult human β cells expanded in vitro by inhibition of the WNT pathway.,PLoS One,2014,9,e112914,10.1371/journal.pone.0112914
+GSE60803,26418361,Toren-Haritan G,TGFβ Pathway Inhibition Redifferentiates Human Pancreatic Islet β Cells Expanded In Vitro.,PLoS One,2015,10,e0139168,10.1371/journal.pone.0139168
+E-MTAB-5061,27667667,Segerstolpe Å,Single-Cell Transcriptome Profiling of Human Pancreatic Islets in Health and Type 2 Diabetes.,Cell Metab,2016,24,593-607,10.1016/j.cmet.2016.08.020

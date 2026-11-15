@@ -1,0 +1,703 @@
+arm,gene_set,endpoint,scheme,k,n,estimate,lo,hi
+Development arrays (37),A,E1_count_not_above_null,,32.0,37,0.8648648648648649,0.7202258821599021,0.9408670557426799
+Development arrays (37),A,E1_count_flagged,,5.0,37,0.13513513513513514,0.059132944257320144,0.2797741178400979
+Development arrays (37),A,coupling_T_r2,,25.0,37,0.6756756756756757,0.514636672419722,0.8036673347185581
+Development arrays (37),A,coupling_T_p,,21.0,37,0.5675675675675675,0.4091418109016808,0.7132828072284269
+Development arrays (37),A,coupling_T_eig,,21.0,37,0.5675675675675675,0.4091418109016808,0.7132828072284269
+Development arrays (37),A,T_r2_observed,,,37,0.1449293500167955,0.1228082611988475,0.1820720622925028
+Development arrays (37),A,T_r2_null_mean,,,37,0.1136398957848904,0.1105590288466509,0.1198749331188151
+Development arrays (37),A,E2_retained_any_scheme,,,37,0.6,0.2413793103448276,0.875
+Development arrays (37),A,E2_retained_all_schemes,,,37,0.0,0.0,0.0
+Development arrays (37),A,E2_retained_raw_scheme,,,37,0.0,0.0,0.0555555555555555
+Development arrays (37),A,E2_pairs_sig_all_after_adjustment,,,37,0.0,0.0,1.0
+Development arrays (37),A,E2_raw_any_consensus_pair_retained,,14.0,37,0.3783783783783784,0.24063999175798256,0.5389956956078235
+Development arrays (37),A,E3_share_between,,,37,0.9762319733446654,0.955112711895004,0.9923732822061434
+Development arrays (37),A,raw_sig_share_group_effect,,,35,0.8088235294117647,0.6176470588235294,0.9080882352941175
+Development arrays (37),A,raw_sig_share_all_pairs,,,37,0.7941176470588235,0.6102941176470589,0.9044117647058824
+Development arrays (37),A,raw_sig_share_above_expectation,,27.0,35,0.7714285714285715,0.6098268310800975,0.8793412016580832
+Development arrays (37),A,observed_consensus,,,37,22.0,13.0,34.0
+Development arrays (37),A,null_mean_consensus,,,37,20.214,12.766,32.37
+Development arrays (37),A,consensus_minus_null,,,37,0.6319999999999979,-0.6015000000000015,2.6514999999999986
+Development arrays (37),A,adj_share_P_lt_0_05,raw,10.0,37,0.2702702702702703,0.15397461511049088,0.42978168324714267
+Development arrays (37),A,adj_median_observed,raw,,37,0.0,0.0,2.0
+Development arrays (37),A,adj_median_null_mean,raw,,37,0.102,0.076,0.196
+Development arrays (37),A,adj_median_ratio_obs_over_null,raw,,37,0.0,0.0,13.157894736842106
+Development arrays (37),A,adj_median_excess,raw,,37,-0.046,-0.1,1.85
+Development arrays (37),A,adj_share_P_lt_0_05,den1,8.0,37,0.21621621621621623,0.11386511993385587,0.37195148391969146
+Development arrays (37),A,adj_median_observed,den1,,37,6.0,2.0,49.0
+Development arrays (37),A,adj_median_null_mean,den1,,37,4.998,0.658,27.342
+Development arrays (37),A,adj_median_ratio_obs_over_null,den1,,37,1.0085220109928899,0.796431984708506,2.5138925641704155
+Development arrays (37),A,adj_median_excess,den1,,37,0.5880000000000001,-0.674,3.532
+Development arrays (37),A,adj_share_P_lt_0_05,den2,11.0,37,0.2972972972972973,0.1748947864983201,0.45783135911135653
+Development arrays (37),A,adj_median_observed,den2,,37,12.0,3.0,38.0
+Development arrays (37),A,adj_median_null_mean,den2,,37,8.172,2.506,23.934
+Development arrays (37),A,adj_median_ratio_obs_over_null,den2,,37,0.99117534211536,0.38513383400731754,2.4855993056103527
+Development arrays (37),A,adj_median_excess,den2,,37,-0.214,-1.934000000000001,7.158000000000001
+Development arrays (37),A,adj_share_P_lt_0_05,den3,5.0,37,0.13513513513513514,0.059132944257320144,0.2797741178400979
+Development arrays (37),A,adj_median_observed,den3,,37,14.0,4.0,51.0
+Development arrays (37),A,adj_median_null_mean,den3,,37,13.864,2.192,49.732
+Development arrays (37),A,adj_median_ratio_obs_over_null,den3,,37,1.0254966621089037,0.4532064355313845,1.8761726078799248
+Development arrays (37),A,adj_median_excess,den3,,37,0.612,-6.756,6.808
+Held-out GPL1261,A,E1_count_not_above_null,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+Held-out GPL1261,A,E1_count_flagged,,4.0,20,0.2,0.080657662579798,0.4160174322518936
+Held-out GPL1261,A,coupling_T_r2,,15.0,20,0.75,0.5312991223812559,0.8881382985923344
+Held-out GPL1261,A,coupling_T_p,,8.0,20,0.4,0.21880653237281705,0.6134184992377469
+Held-out GPL1261,A,coupling_T_eig,,10.0,20,0.5,0.2992980081982123,0.7007019918017877
+Held-out GPL1261,A,T_r2_observed,,,20,0.14650932893209037,0.13625887072851078,0.16454330654978436
+Held-out GPL1261,A,T_r2_null_mean,,,20,0.11327272717117456,0.11194590817658473,0.11854802055865671
+Held-out GPL1261,A,E2_retained_any_scheme,,,20,0.6933333333333334,0.5838859416445623,0.8522727272727273
+Held-out GPL1261,A,E2_retained_all_schemes,,,20,0.0,0.0,0.0
+Held-out GPL1261,A,E2_retained_raw_scheme,,,20,0.0,0.0,0.009615384615384616
+Held-out GPL1261,A,E2_pairs_sig_all_after_adjustment,,,20,0.0,0.0,1.0
+Held-out GPL1261,A,E2_raw_any_consensus_pair_retained,,5.0,20,0.25,0.11186170140766563,0.4687008776187441
+Held-out GPL1261,A,E3_share_between,,,20,0.9726934781198119,0.9469338055085744,0.9824666381538992
+Held-out GPL1261,A,raw_sig_share_group_effect,,,20,0.7279411764705882,0.6838235294117647,0.8805147058823529
+Held-out GPL1261,A,raw_sig_share_all_pairs,,,20,0.7279411764705882,0.6838235294117647,0.8805147058823529
+Held-out GPL1261,A,raw_sig_share_above_expectation,,18.0,20,0.9,0.6989663547715127,0.9721335187862318
+Held-out GPL1261,A,observed_consensus,,,20,24.5,19.25,29.0
+Held-out GPL1261,A,null_mean_consensus,,,20,22.06975,19.466,25.76575
+Held-out GPL1261,A,consensus_minus_null,,,20,0.9782499999999992,-0.38900000000000023,4.215874999999999
+Held-out GPL1261,A,adj_share_P_lt_0_05,raw,3.0,20,0.15,0.052368745896216595,0.36041886474075696
+Held-out GPL1261,A,adj_median_observed,raw,,20,1.0,0.0,2.0
+Held-out GPL1261,A,adj_median_null_mean,raw,,20,0.144,0.0685,0.28950000000000004
+Held-out GPL1261,A,adj_median_ratio_obs_over_null,raw,,20,2.507973032982116,0.0,8.56348637015782
+Held-out GPL1261,A,adj_median_excess,raw,,20,0.644,-0.0655,1.121
+Held-out GPL1261,A,adj_share_P_lt_0_05,den1,4.0,20,0.2,0.080657662579798,0.4160174322518936
+Held-out GPL1261,A,adj_median_observed,den1,,20,25.5,3.5,37.5
+Held-out GPL1261,A,adj_median_null_mean,den1,,20,12.492,1.3975,42.4955
+Held-out GPL1261,A,adj_median_ratio_obs_over_null,den1,,20,0.9806365780360586,0.6784453665682656,2.352365936035291
+Held-out GPL1261,A,adj_median_excess,den1,,20,-0.43999999999999684,-3.0624999999999982,5.1075
+Held-out GPL1261,A,adj_share_P_lt_0_05,den2,4.0,20,0.2,0.080657662579798,0.4160174322518936
+Held-out GPL1261,A,adj_median_observed,den2,,20,24.0,8.0,43.0
+Held-out GPL1261,A,adj_median_null_mean,den2,,20,15.213999999999999,1.6035,27.939500000000002
+Held-out GPL1261,A,adj_median_ratio_obs_over_null,den2,,20,1.302795683534065,0.7232932008111792,1.9607718790442166
+Held-out GPL1261,A,adj_median_excess,den2,,20,5.477,-1.7265000000000001,11.399000000000001
+Held-out GPL1261,A,adj_share_P_lt_0_05,den3,3.0,20,0.15,0.052368745896216595,0.36041886474075696
+Held-out GPL1261,A,adj_median_observed,den3,,20,23.5,9.5,49.25
+Held-out GPL1261,A,adj_median_null_mean,den3,,20,17.801000000000002,5.7515,30.898
+Held-out GPL1261,A,adj_median_ratio_obs_over_null,den3,,20,1.256553740673523,0.9536903506208498,2.1351668549801808
+Held-out GPL1261,A,adj_median_excess,den3,,20,3.406000000000001,-1.404,10.8915
+Held-out GPL570,A,E1_count_not_above_null,,18.0,20,0.9,0.6989663547715127,0.9721335187862318
+Held-out GPL570,A,E1_count_flagged,,2.0,20,0.1,0.027866481213768196,0.3010336452284873
+Held-out GPL570,A,coupling_T_r2,,17.0,20,0.85,0.639581135259243,0.9476312541037833
+Held-out GPL570,A,coupling_T_p,,15.0,20,0.75,0.5312991223812559,0.8881382985923344
+Held-out GPL570,A,coupling_T_eig,,13.0,20,0.65,0.43285427668523624,0.818808175898918
+Held-out GPL570,A,T_r2_observed,,,20,0.17333979867541205,0.15419942333316056,0.20290036403150413
+Held-out GPL570,A,T_r2_null_mean,,,20,0.11502406225097861,0.1111881074346212,0.12600033041750042
+Held-out GPL570,A,E2_retained_any_scheme,,,20,0.7321428571428572,0.5285714285714286,1.0
+Held-out GPL570,A,E2_retained_all_schemes,,,20,0.0,0.0,0.0
+Held-out GPL570,A,E2_retained_raw_scheme,,,20,0.0,0.0,0.0
+Held-out GPL570,A,E2_pairs_sig_all_after_adjustment,,,20,0.0,0.0,1.0
+Held-out GPL570,A,E2_raw_any_consensus_pair_retained,,4.0,20,0.2,0.080657662579798,0.4160174322518936
+Held-out GPL570,A,E3_share_between,,,20,0.9759495894595709,0.9598003825424628,0.9972826259425396
+Held-out GPL570,A,raw_sig_share_group_effect,,,20,0.7279411764705883,0.5992647058823529,0.8823529411764706
+Held-out GPL570,A,raw_sig_share_all_pairs,,,20,0.7279411764705883,0.5992647058823529,0.8823529411764706
+Held-out GPL570,A,raw_sig_share_above_expectation,,14.0,20,0.7,0.48102718164647645,0.8545227551323957
+Held-out GPL570,A,observed_consensus,,,20,17.0,13.0,22.5
+Held-out GPL570,A,null_mean_consensus,,,20,16.500999999999998,10.356875,23.88825
+Held-out GPL570,A,consensus_minus_null,,,20,-0.17549999999999955,-1.4345,2.8280000000000003
+Held-out GPL570,A,adj_share_P_lt_0_05,raw,7.0,20,0.35,0.18119182410108203,0.5671457233147638
+Held-out GPL570,A,adj_median_observed,raw,,20,0.5,0.0,3.25
+Held-out GPL570,A,adj_median_null_mean,raw,,20,0.24,0.071,0.452
+Held-out GPL570,A,adj_median_ratio_obs_over_null,raw,,20,0.16371971185330714,0.0,9.709385910864654
+Held-out GPL570,A,adj_median_excess,raw,,20,-0.052,-0.16349999999999998,3.013
+Held-out GPL570,A,adj_share_P_lt_0_05,den1,4.0,20,0.2,0.080657662579798,0.4160174322518936
+Held-out GPL570,A,adj_median_observed,den1,,20,10.5,1.0,22.5
+Held-out GPL570,A,adj_median_null_mean,den1,,20,6.26,1.0185,19.0895
+Held-out GPL570,A,adj_median_ratio_obs_over_null,den1,,20,0.9262349622236723,0.38250615899747537,1.2551250414720263
+Held-out GPL570,A,adj_median_excess,den1,,20,-0.08499999999999999,-2.0069999999999992,3.9369999999999985
+Held-out GPL570,A,adj_share_P_lt_0_05,den2,4.0,20,0.2,0.080657662579798,0.4160174322518936
+Held-out GPL570,A,adj_median_observed,den2,,20,14.0,3.0,50.75
+Held-out GPL570,A,adj_median_null_mean,den2,,20,20.687,1.258,47.102500000000006
+Held-out GPL570,A,adj_median_ratio_obs_over_null,den2,,20,0.9550558538170126,0.342197888150176,1.3523881730596379
+Held-out GPL570,A,adj_median_excess,den2,,20,-0.273,-5.624000000000002,4.509
+Held-out GPL570,A,adj_share_P_lt_0_05,den3,3.0,20,0.15,0.052368745896216595,0.36041886474075696
+Held-out GPL570,A,adj_median_observed,den3,,20,25.5,20.0,43.75
+Held-out GPL570,A,adj_median_null_mean,den3,,20,24.924999999999997,8.051,51.0115
+Held-out GPL570,A,adj_median_ratio_obs_over_null,den3,,20,0.9974094198625645,0.8707281023438822,1.8502932354389579
+Held-out GPL570,A,adj_median_excess,den3,,20,-0.2950000000000017,-3.3504999999999994,5.836500000000001
+Held-out arrays pooled,A,E1_count_not_above_null,,34.0,40,0.85,0.7092767563351029,0.9293881228267965
+Held-out arrays pooled,A,E1_count_flagged,,6.0,40,0.15,0.07061187717320357,0.2907232436648971
+Held-out arrays pooled,A,coupling_T_r2,,32.0,40,0.8,0.652426936536005,0.895000102745623
+Held-out arrays pooled,A,coupling_T_p,,23.0,40,0.575,0.42195068541991065,0.7149060744004962
+Held-out arrays pooled,A,coupling_T_eig,,23.0,40,0.575,0.42195068541991065,0.7149060744004962
+Held-out arrays pooled,A,T_r2_observed,,,40,0.15946705583112566,0.13815497095323204,0.1861402414641719
+Held-out arrays pooled,A,T_r2_null_mean,,,40,0.11421017566864361,0.11177403962224079,0.12246262848103225
+Held-out arrays pooled,A,E2_retained_any_scheme,,,40,0.7171428571428571,0.5755494505494505,0.9491626794258373
+Held-out arrays pooled,A,E2_retained_all_schemes,,,40,0.0,0.0,0.0
+Held-out arrays pooled,A,E2_retained_raw_scheme,,,40,0.0,0.0,0.0
+Held-out arrays pooled,A,E2_pairs_sig_all_after_adjustment,,,40,0.0,0.0,1.0
+Held-out arrays pooled,A,E2_raw_any_consensus_pair_retained,,9.0,40,0.225,0.1231609132354074,0.37503096742310027
+Held-out arrays pooled,A,E3_share_between,,,40,0.9746478587908811,0.9526899551648569,0.9930087699314581
+Held-out arrays pooled,A,raw_sig_share_group_effect,,,40,0.7279411764705882,0.6452205882352942,0.8823529411764706
+Held-out arrays pooled,A,raw_sig_share_all_pairs,,,40,0.7279411764705882,0.6452205882352942,0.8823529411764706
+Held-out arrays pooled,A,raw_sig_share_above_expectation,,32.0,40,0.8,0.652426936536005,0.895000102745623
+Held-out arrays pooled,A,observed_consensus,,,40,21.0,14.75,26.5
+Held-out arrays pooled,A,null_mean_consensus,,,40,20.81375,13.208499999999999,24.613125
+Held-out arrays pooled,A,consensus_minus_null,,,40,0.30799999999999983,-1.2653750000000006,3.6710000000000007
+Held-out arrays pooled,A,adj_share_P_lt_0_05,raw,10.0,40,0.25,0.14187118639096305,0.4019396142076803
+Held-out arrays pooled,A,adj_median_observed,raw,,40,1.0,0.0,3.0
+Held-out arrays pooled,A,adj_median_null_mean,raw,,40,0.2,0.0695,0.382
+Held-out arrays pooled,A,adj_median_ratio_obs_over_null,raw,,40,0.8600985419368726,0.0,9.709385910864654
+Held-out arrays pooled,A,adj_median_excess,raw,,40,0.18,-0.0765,1.8199999999999998
+Held-out arrays pooled,A,adj_share_P_lt_0_05,den1,8.0,40,0.2,0.10499989725437704,0.3475730634639951
+Held-out arrays pooled,A,adj_median_observed,den1,,40,12.0,1.75,31.0
+Held-out arrays pooled,A,adj_median_null_mean,den1,,40,9.234,1.0270000000000001,27.0565
+Held-out arrays pooled,A,adj_median_ratio_obs_over_null,den1,,40,0.9578359263277509,0.5742665189835227,1.7389830897895413
+Held-out arrays pooled,A,adj_median_excess,den1,,40,-0.209,-2.963999999999999,4.412499999999999
+Held-out arrays pooled,A,adj_share_P_lt_0_05,den2,8.0,40,0.2,0.10499989725437704,0.3475730634639951
+Held-out arrays pooled,A,adj_median_observed,den2,,40,20.0,4.75,46.75
+Held-out arrays pooled,A,adj_median_null_mean,den2,,40,15.841000000000001,1.351,42.767
+Held-out arrays pooled,A,adj_median_ratio_obs_over_null,den2,,40,1.035955632194622,0.4511398438761652,1.8109416380963481
+Held-out arrays pooled,A,adj_median_excess,den2,,40,1.094,-4.259500000000001,7.833
+Held-out arrays pooled,A,adj_share_P_lt_0_05,den3,6.0,40,0.15,0.07061187717320357,0.2907232436648971
+Held-out arrays pooled,A,adj_median_observed,den3,,40,25.0,14.75,49.0
+Held-out arrays pooled,A,adj_median_null_mean,den3,,40,20.096,7.0895,36.232
+Held-out arrays pooled,A,adj_median_ratio_obs_over_null,den3,,40,1.0064161155100835,0.8747670744559808,2.1351668549801808
+Held-out arrays pooled,A,adj_median_excess,den3,,40,0.714999999999997,-1.9480000000000004,9.5675
+RNA-seq human,A,E1_count_not_above_null,,11.0,19,0.5789473684210527,0.3627590353425503,0.7685810871754577
+RNA-seq human,A,E1_count_flagged,,8.0,19,0.42105263157894735,0.23141891282454233,0.6372409646574497
+RNA-seq human,A,coupling_T_r2,,15.0,19,0.7894736842105263,0.5666572155618583,0.9149232336708375
+RNA-seq human,A,coupling_T_p,,14.0,19,0.7368421052631579,0.5120844910218488,0.8819358765321749
+RNA-seq human,A,coupling_T_eig,,15.0,19,0.7894736842105263,0.5666572155618583,0.9149232336708375
+RNA-seq human,A,T_r2_observed,,,19,0.21304610608291832,0.16426758078826764,0.29014910627754176
+RNA-seq human,A,T_r2_null_mean,,,19,0.12359317786297455,0.11464692323831788,0.1400763622625349
+RNA-seq human,A,E2_retained_any_scheme,,,19,0.84,0.5875331564986738,1.0
+RNA-seq human,A,E2_retained_all_schemes,,,19,0.0,0.0,0.06227106227106227
+RNA-seq human,A,E2_retained_raw_scheme,,,19,0.0,0.0,0.18990384615384615
+RNA-seq human,A,E2_pairs_sig_all_after_adjustment,,,19,0.0,0.0,5.5
+RNA-seq human,A,E2_raw_any_consensus_pair_retained,,9.0,19,0.47368421052631576,0.27329805161179566,0.6829219075488684
+RNA-seq human,A,E3_share_between,,,19,0.9824282302182772,0.948846223066964,0.9900241336043982
+RNA-seq human,A,raw_sig_share_group_effect,,,19,0.8014705882352942,0.6176470588235294,0.875
+RNA-seq human,A,raw_sig_share_all_pairs,,,19,0.8014705882352942,0.6176470588235294,0.875
+RNA-seq human,A,raw_sig_share_above_expectation,,15.0,19,0.7894736842105263,0.5666572155618583,0.9149232336708375
+RNA-seq human,A,observed_consensus,,,19,20.0,13.0,25.5
+RNA-seq human,A,null_mean_consensus,,,19,14.668,10.186499999999999,23.788249999999998
+RNA-seq human,A,consensus_minus_null,,,19,3.5249999999999986,-0.07525000000000048,6.252
+RNA-seq human,A,adj_share_P_lt_0_05,raw,10.0,19,0.5263157894736842,0.31707809245113155,0.7267019483882042
+RNA-seq human,A,adj_median_observed,raw,,19,2.0,0.0,21.5
+RNA-seq human,A,adj_median_null_mean,raw,,19,0.146,0.08299999999999999,0.258
+RNA-seq human,A,adj_median_ratio_obs_over_null,raw,,19,4.787100025195263,0.0,30.934641139300197
+RNA-seq human,A,adj_median_excess,raw,,19,1.908,-0.077,21.183
+RNA-seq human,A,adj_share_P_lt_0_05,den1,5.0,19,0.2631578947368421,0.11806412346782508,0.4879155089781511
+RNA-seq human,A,adj_median_observed,den1,,19,32.0,13.0,80.0
+RNA-seq human,A,adj_median_null_mean,den1,,19,10.258,4.303,70.18199999999999
+RNA-seq human,A,adj_median_ratio_obs_over_null,den1,,19,1.423125794155019,0.9739381109937073,3.4993592531934175
+RNA-seq human,A,adj_median_excess,den1,,19,5.141999999999996,-0.3409999999999983,19.532
+RNA-seq human,A,adj_share_P_lt_0_05,den2,7.0,19,0.3684210526315789,0.19149512745135072,0.5896046683519693
+RNA-seq human,A,adj_median_observed,den2,,19,20.0,11.0,46.0
+RNA-seq human,A,adj_median_null_mean,den2,,19,6.97,2.673,32.925
+RNA-seq human,A,adj_median_ratio_obs_over_null,den2,,19,2.027132387338219,1.0275995487062808,7.07285111386817
+RNA-seq human,A,adj_median_excess,den2,,19,8.704,-0.8869999999999999,15.408999999999999
+RNA-seq human,A,adj_share_P_lt_0_05,den3,8.0,19,0.42105263157894735,0.23141891282454233,0.6372409646574497
+RNA-seq human,A,adj_median_observed,den3,,19,29.0,8.5,66.0
+RNA-seq human,A,adj_median_null_mean,den3,,19,4.252,1.235,40.739000000000004
+RNA-seq human,A,adj_median_ratio_obs_over_null,den3,,19,2.0689655172413794,1.096668488237833,11.214992453463022
+RNA-seq human,A,adj_median_excess,den3,,19,3.283999999999999,1.494,14.924
+RNA-seq pooled,A,E1_count_not_above_null,,11.0,19,0.5789473684210527,0.3627590353425503,0.7685810871754577
+RNA-seq pooled,A,E1_count_flagged,,8.0,19,0.42105263157894735,0.23141891282454233,0.6372409646574497
+RNA-seq pooled,A,coupling_T_r2,,15.0,19,0.7894736842105263,0.5666572155618583,0.9149232336708375
+RNA-seq pooled,A,coupling_T_p,,14.0,19,0.7368421052631579,0.5120844910218488,0.8819358765321749
+RNA-seq pooled,A,coupling_T_eig,,15.0,19,0.7894736842105263,0.5666572155618583,0.9149232336708375
+RNA-seq pooled,A,T_r2_observed,,,19,0.21304610608291832,0.16426758078826764,0.29014910627754176
+RNA-seq pooled,A,T_r2_null_mean,,,19,0.12359317786297455,0.11464692323831788,0.1400763622625349
+RNA-seq pooled,A,E2_retained_any_scheme,,,19,0.84,0.5875331564986738,1.0
+RNA-seq pooled,A,E2_retained_all_schemes,,,19,0.0,0.0,0.06227106227106227
+RNA-seq pooled,A,E2_retained_raw_scheme,,,19,0.0,0.0,0.18990384615384615
+RNA-seq pooled,A,E2_pairs_sig_all_after_adjustment,,,19,0.0,0.0,5.5
+RNA-seq pooled,A,E2_raw_any_consensus_pair_retained,,9.0,19,0.47368421052631576,0.27329805161179566,0.6829219075488684
+RNA-seq pooled,A,E3_share_between,,,19,0.9824282302182772,0.948846223066964,0.9900241336043982
+RNA-seq pooled,A,raw_sig_share_group_effect,,,19,0.8014705882352942,0.6176470588235294,0.875
+RNA-seq pooled,A,raw_sig_share_all_pairs,,,19,0.8014705882352942,0.6176470588235294,0.875
+RNA-seq pooled,A,raw_sig_share_above_expectation,,15.0,19,0.7894736842105263,0.5666572155618583,0.9149232336708375
+RNA-seq pooled,A,observed_consensus,,,19,20.0,13.0,25.5
+RNA-seq pooled,A,null_mean_consensus,,,19,14.668,10.186499999999999,23.788249999999998
+RNA-seq pooled,A,consensus_minus_null,,,19,3.5249999999999986,-0.07525000000000048,6.252
+RNA-seq pooled,A,adj_share_P_lt_0_05,raw,10.0,19,0.5263157894736842,0.31707809245113155,0.7267019483882042
+RNA-seq pooled,A,adj_median_observed,raw,,19,2.0,0.0,21.5
+RNA-seq pooled,A,adj_median_null_mean,raw,,19,0.146,0.08299999999999999,0.258
+RNA-seq pooled,A,adj_median_ratio_obs_over_null,raw,,19,4.787100025195263,0.0,30.934641139300197
+RNA-seq pooled,A,adj_median_excess,raw,,19,1.908,-0.077,21.183
+RNA-seq pooled,A,adj_share_P_lt_0_05,den1,5.0,19,0.2631578947368421,0.11806412346782508,0.4879155089781511
+RNA-seq pooled,A,adj_median_observed,den1,,19,32.0,13.0,80.0
+RNA-seq pooled,A,adj_median_null_mean,den1,,19,10.258,4.303,70.18199999999999
+RNA-seq pooled,A,adj_median_ratio_obs_over_null,den1,,19,1.423125794155019,0.9739381109937073,3.4993592531934175
+RNA-seq pooled,A,adj_median_excess,den1,,19,5.141999999999996,-0.3409999999999983,19.532
+RNA-seq pooled,A,adj_share_P_lt_0_05,den2,7.0,19,0.3684210526315789,0.19149512745135072,0.5896046683519693
+RNA-seq pooled,A,adj_median_observed,den2,,19,20.0,11.0,46.0
+RNA-seq pooled,A,adj_median_null_mean,den2,,19,6.97,2.673,32.925
+RNA-seq pooled,A,adj_median_ratio_obs_over_null,den2,,19,2.027132387338219,1.0275995487062808,7.07285111386817
+RNA-seq pooled,A,adj_median_excess,den2,,19,8.704,-0.8869999999999999,15.408999999999999
+RNA-seq pooled,A,adj_share_P_lt_0_05,den3,8.0,19,0.42105263157894735,0.23141891282454233,0.6372409646574497
+RNA-seq pooled,A,adj_median_observed,den3,,19,29.0,8.5,66.0
+RNA-seq pooled,A,adj_median_null_mean,den3,,19,4.252,1.235,40.739000000000004
+RNA-seq pooled,A,adj_median_ratio_obs_over_null,den3,,19,2.0689655172413794,1.096668488237833,11.214992453463022
+RNA-seq pooled,A,adj_median_excess,den3,,19,3.283999999999999,1.494,14.924
+All validation sets pooled,A,E1_count_not_above_null,,45.0,59,0.7627118644067796,0.6402510929359725,0.853053814075376
+All validation sets pooled,A,E1_count_flagged,,14.0,59,0.23728813559322035,0.14694618592462405,0.3597489070640275
+All validation sets pooled,A,coupling_T_r2,,47.0,59,0.7966101694915254,0.677319877279501,0.8796372757978281
+All validation sets pooled,A,coupling_T_p,,37.0,59,0.6271186440677966,0.4995359106706382,0.7391600120767886
+All validation sets pooled,A,coupling_T_eig,,38.0,59,0.6440677966101694,0.5165549598185499,0.753967085961867
+All validation sets pooled,A,T_r2_observed,,,59,0.1658148151779758,0.13892239308316412,0.21398017279816456
+All validation sets pooled,A,T_r2_null_mean,,,59,0.11542516385416386,0.11193851337009178,0.1285445698911963
+All validation sets pooled,A,E2_retained_any_scheme,,,59,0.7727272727272727,0.5741758241758241,0.9772727272727273
+All validation sets pooled,A,E2_retained_all_schemes,,,59,0.0,0.0,0.0
+All validation sets pooled,A,E2_retained_raw_scheme,,,59,0.0,0.0,0.04173913043478261
+All validation sets pooled,A,E2_pairs_sig_all_after_adjustment,,,59,0.0,0.0,1.0
+All validation sets pooled,A,E2_raw_any_consensus_pair_retained,,18.0,59,0.3050847457627119,0.2025363198011606,0.4314632653194519
+All validation sets pooled,A,E3_share_between,,,59,0.9759257135144678,0.9513671586525163,0.9919357168293159
+All validation sets pooled,A,raw_sig_share_group_effect,,,59,0.7279411764705882,0.6286764705882353,0.8786764705882353
+All validation sets pooled,A,raw_sig_share_all_pairs,,,59,0.7279411764705882,0.6286764705882353,0.8786764705882353
+All validation sets pooled,A,raw_sig_share_above_expectation,,47.0,59,0.7966101694915254,0.677319877279501,0.8796372757978281
+All validation sets pooled,A,observed_consensus,,,59,21.0,14.0,26.0
+All validation sets pooled,A,null_mean_consensus,,,59,19.467,11.780750000000001,24.82125
+All validation sets pooled,A,consensus_minus_null,,,59,1.4974999999999987,-1.2222500000000007,4.2315
+All validation sets pooled,A,adj_share_P_lt_0_05,raw,20.0,59,0.3389830508474576,0.23137653685587656,0.46627529433071635
+All validation sets pooled,A,adj_median_observed,raw,,59,1.0,0.0,3.0
+All validation sets pooled,A,adj_median_null_mean,raw,,59,0.184,0.072,0.368
+All validation sets pooled,A,adj_median_ratio_obs_over_null,raw,,59,1.392757660167131,0.0,14.59750566893424
+All validation sets pooled,A,adj_median_excess,raw,,59,0.392,-0.077,2.83
+All validation sets pooled,A,adj_share_P_lt_0_05,den1,13.0,59,0.22033898305084745,0.1335419762792904,0.341326993676371
+All validation sets pooled,A,adj_median_observed,den1,,59,21.0,3.0,41.5
+All validation sets pooled,A,adj_median_null_mean,den1,,59,10.258,1.826,34.346000000000004
+All validation sets pooled,A,adj_median_ratio_obs_over_null,den1,,59,1.0451615169772874,0.7302057614502954,2.378429142542046
+All validation sets pooled,A,adj_median_excess,den1,,59,0.352,-2.6529999999999987,8.751000000000003
+All validation sets pooled,A,adj_share_P_lt_0_05,den2,15.0,59,0.2542372881355932,0.16055977573236904,0.3779614402892728
+All validation sets pooled,A,adj_median_observed,den2,,59,20.0,6.0,46.0
+All validation sets pooled,A,adj_median_null_mean,den2,,59,12.826,1.5230000000000001,42.816
+All validation sets pooled,A,adj_median_ratio_obs_over_null,den2,,59,1.149534260861321,0.7227402311779139,2.6978864371304447
+All validation sets pooled,A,adj_median_excess,den2,,59,3.638,-3.269,10.688
+All validation sets pooled,A,adj_share_P_lt_0_05,den3,14.0,59,0.23728813559322035,0.14694618592462405,0.3597489070640275
+All validation sets pooled,A,adj_median_observed,den3,,59,25.0,11.0,58.5
+All validation sets pooled,A,adj_median_null_mean,den3,,59,19.146,3.5060000000000002,38.456
+All validation sets pooled,A,adj_median_ratio_obs_over_null,den3,,59,1.1922740640648597,0.9430354344919614,2.8757494314657848
+All validation sets pooled,A,adj_median_excess,den3,,59,2.732,-1.6780000000000006,9.74
+Development arrays without degenerate series (post hoc),A,E1_count_not_above_null,,30.0,35,0.8571428571428571,0.7062444591340484,0.9373976892056628
+Development arrays without degenerate series (post hoc),A,E1_count_flagged,,5.0,35,0.14285714285714285,0.06260231079433712,0.29375554086595146
+Development arrays without degenerate series (post hoc),A,coupling_T_r2,,23.0,35,0.6571428571428571,0.4915194951399626,0.7916830501295105
+Development arrays without degenerate series (post hoc),A,coupling_T_p,,20.0,35,0.5714285714285714,0.40857411143974914,0.7201543182281931
+Development arrays without degenerate series (post hoc),A,coupling_T_eig,,20.0,35,0.5714285714285714,0.40857411143974914,0.7201543182281931
+Development arrays without degenerate series (post hoc),A,T_r2_observed,,,35,0.1449293500167955,0.1216832766747726,0.1779363001632109
+Development arrays without degenerate series (post hoc),A,T_r2_null_mean,,,35,0.1137074296621721,0.11121422632687,0.12032947443178345
+Development arrays without degenerate series (post hoc),A,E2_retained_any_scheme,,,35,0.6,0.2925646551724138,0.8875
+Development arrays without degenerate series (post hoc),A,E2_retained_all_schemes,,,35,0.0,0.0,0.0
+Development arrays without degenerate series (post hoc),A,E2_retained_raw_scheme,,,35,0.0,0.0,0.04501915708812255
+Development arrays without degenerate series (post hoc),A,E2_pairs_sig_all_after_adjustment,,,35,0.0,0.0,1.0
+Development arrays without degenerate series (post hoc),A,E2_raw_any_consensus_pair_retained,,12.0,35,0.34285714285714286,0.2083169498704896,0.5084805048600374
+Development arrays without degenerate series (post hoc),A,E3_share_between,,,35,0.9762319733446654,0.955803383399734,0.9926634008323143
+Development arrays without degenerate series (post hoc),A,raw_sig_share_group_effect,,,35,0.8088235294117647,0.6176470588235294,0.9080882352941175
+Development arrays without degenerate series (post hoc),A,raw_sig_share_all_pairs,,,35,0.8088235294117647,0.6176470588235294,0.9080882352941175
+Development arrays without degenerate series (post hoc),A,raw_sig_share_above_expectation,,27.0,35,0.7714285714285715,0.6098268310800975,0.8793412016580832
+Development arrays without degenerate series (post hoc),A,observed_consensus,,,35,22.0,13.5,33.0
+Development arrays without degenerate series (post hoc),A,null_mean_consensus,,,35,20.214,13.07875,32.05075
+Development arrays without degenerate series (post hoc),A,consensus_minus_null,,,35,0.6285000000000007,-0.7365000000000013,2.735999999999999
+Development arrays without degenerate series (post hoc),A,adj_share_P_lt_0_05,raw,9.0,35,0.2571428571428571,0.14163027069060447,0.42069306843839177
+Development arrays without degenerate series (post hoc),A,adj_median_observed,raw,,35,0.0,0.0,2.0
+Development arrays without degenerate series (post hoc),A,adj_median_null_mean,raw,,35,0.1,0.076,0.193
+Development arrays without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,raw,,35,0.0,0.0,13.24561403508772
+Development arrays without degenerate series (post hoc),A,adj_median_excess,raw,,35,-0.048,-0.101,1.905
+Development arrays without degenerate series (post hoc),A,adj_share_P_lt_0_05,den1,8.0,35,0.22857142857142856,0.12065879834191684,0.3901731689199025
+Development arrays without degenerate series (post hoc),A,adj_median_observed,den1,,35,6.0,1.5,50.0
+Development arrays without degenerate series (post hoc),A,adj_median_null_mean,den1,,35,4.998,0.642,36.351
+Development arrays without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,den1,,35,1.0082696612583946,0.6295189992933432,3.459589453891375
+Development arrays without degenerate series (post hoc),A,adj_median_excess,den1,,35,0.5880000000000001,-0.6810000000000012,3.624
+Development arrays without degenerate series (post hoc),A,adj_share_P_lt_0_05,den2,10.0,35,0.2857142857142857,0.1632653623643469,0.4505493486318262
+Development arrays without degenerate series (post hoc),A,adj_median_observed,den2,,35,9.0,2.5,35.5
+Development arrays without degenerate series (post hoc),A,adj_median_null_mean,den2,,35,6.576,1.684,21.512999999999998
+Development arrays without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,den2,,35,0.9589663352344421,0.3632930722506426,2.5222834089244466
+Development arrays without degenerate series (post hoc),A,adj_median_excess,den2,,35,-0.22,-2.4370000000000003,7.791
+Development arrays without degenerate series (post hoc),A,adj_share_P_lt_0_05,den3,4.0,35,0.11428571428571428,0.04535179333097357,0.25951468646213816
+Development arrays without degenerate series (post hoc),A,adj_median_observed,den3,,35,14.0,4.5,53.5
+Development arrays without degenerate series (post hoc),A,adj_median_null_mean,den3,,35,13.864,2.701,50.357
+Development arrays without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,den3,,35,1.001401962747847,0.41575832495358633,2.017461926656668
+Development arrays without degenerate series (post hoc),A,adj_median_excess,den3,,35,0.16800000000000637,-7.697,6.893
+All validation sets pooled without degenerate series (post hoc),A,E1_count_not_above_null,,45.0,59,0.7627118644067796,0.6402510929359725,0.853053814075376
+All validation sets pooled without degenerate series (post hoc),A,E1_count_flagged,,14.0,59,0.23728813559322035,0.14694618592462405,0.3597489070640275
+All validation sets pooled without degenerate series (post hoc),A,coupling_T_r2,,47.0,59,0.7966101694915254,0.677319877279501,0.8796372757978281
+All validation sets pooled without degenerate series (post hoc),A,coupling_T_p,,37.0,59,0.6271186440677966,0.4995359106706382,0.7391600120767886
+All validation sets pooled without degenerate series (post hoc),A,coupling_T_eig,,38.0,59,0.6440677966101694,0.5165549598185499,0.753967085961867
+All validation sets pooled without degenerate series (post hoc),A,T_r2_observed,,,59,0.1658148151779758,0.13892239308316412,0.21398017279816456
+All validation sets pooled without degenerate series (post hoc),A,T_r2_null_mean,,,59,0.11542516385416386,0.11193851337009178,0.1285445698911963
+All validation sets pooled without degenerate series (post hoc),A,E2_retained_any_scheme,,,59,0.7727272727272727,0.5741758241758241,0.9772727272727273
+All validation sets pooled without degenerate series (post hoc),A,E2_retained_all_schemes,,,59,0.0,0.0,0.0
+All validation sets pooled without degenerate series (post hoc),A,E2_retained_raw_scheme,,,59,0.0,0.0,0.04173913043478261
+All validation sets pooled without degenerate series (post hoc),A,E2_pairs_sig_all_after_adjustment,,,59,0.0,0.0,1.0
+All validation sets pooled without degenerate series (post hoc),A,E2_raw_any_consensus_pair_retained,,18.0,59,0.3050847457627119,0.2025363198011606,0.4314632653194519
+All validation sets pooled without degenerate series (post hoc),A,E3_share_between,,,59,0.9759257135144678,0.9513671586525163,0.9919357168293159
+All validation sets pooled without degenerate series (post hoc),A,raw_sig_share_group_effect,,,59,0.7279411764705882,0.6286764705882353,0.8786764705882353
+All validation sets pooled without degenerate series (post hoc),A,raw_sig_share_all_pairs,,,59,0.7279411764705882,0.6286764705882353,0.8786764705882353
+All validation sets pooled without degenerate series (post hoc),A,raw_sig_share_above_expectation,,47.0,59,0.7966101694915254,0.677319877279501,0.8796372757978281
+All validation sets pooled without degenerate series (post hoc),A,observed_consensus,,,59,21.0,14.0,26.0
+All validation sets pooled without degenerate series (post hoc),A,null_mean_consensus,,,59,19.467,11.780750000000001,24.82125
+All validation sets pooled without degenerate series (post hoc),A,consensus_minus_null,,,59,1.4974999999999987,-1.2222500000000007,4.2315
+All validation sets pooled without degenerate series (post hoc),A,adj_share_P_lt_0_05,raw,20.0,59,0.3389830508474576,0.23137653685587656,0.46627529433071635
+All validation sets pooled without degenerate series (post hoc),A,adj_median_observed,raw,,59,1.0,0.0,3.0
+All validation sets pooled without degenerate series (post hoc),A,adj_median_null_mean,raw,,59,0.184,0.072,0.368
+All validation sets pooled without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,raw,,59,1.392757660167131,0.0,14.59750566893424
+All validation sets pooled without degenerate series (post hoc),A,adj_median_excess,raw,,59,0.392,-0.077,2.83
+All validation sets pooled without degenerate series (post hoc),A,adj_share_P_lt_0_05,den1,13.0,59,0.22033898305084745,0.1335419762792904,0.341326993676371
+All validation sets pooled without degenerate series (post hoc),A,adj_median_observed,den1,,59,21.0,3.0,41.5
+All validation sets pooled without degenerate series (post hoc),A,adj_median_null_mean,den1,,59,10.258,1.826,34.346000000000004
+All validation sets pooled without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,den1,,59,1.0451615169772874,0.7302057614502954,2.378429142542046
+All validation sets pooled without degenerate series (post hoc),A,adj_median_excess,den1,,59,0.352,-2.6529999999999987,8.751000000000003
+All validation sets pooled without degenerate series (post hoc),A,adj_share_P_lt_0_05,den2,15.0,59,0.2542372881355932,0.16055977573236904,0.3779614402892728
+All validation sets pooled without degenerate series (post hoc),A,adj_median_observed,den2,,59,20.0,6.0,46.0
+All validation sets pooled without degenerate series (post hoc),A,adj_median_null_mean,den2,,59,12.826,1.5230000000000001,42.816
+All validation sets pooled without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,den2,,59,1.149534260861321,0.7227402311779139,2.6978864371304447
+All validation sets pooled without degenerate series (post hoc),A,adj_median_excess,den2,,59,3.638,-3.269,10.688
+All validation sets pooled without degenerate series (post hoc),A,adj_share_P_lt_0_05,den3,14.0,59,0.23728813559322035,0.14694618592462405,0.3597489070640275
+All validation sets pooled without degenerate series (post hoc),A,adj_median_observed,den3,,59,25.0,11.0,58.5
+All validation sets pooled without degenerate series (post hoc),A,adj_median_null_mean,den3,,59,19.146,3.5060000000000002,38.456
+All validation sets pooled without degenerate series (post hoc),A,adj_median_ratio_obs_over_null,den3,,59,1.1922740640648597,0.9430354344919614,2.8757494314657848
+All validation sets pooled without degenerate series (post hoc),A,adj_median_excess,den3,,59,2.732,-1.6780000000000006,9.74
+Development arrays (37),B,E1_count_not_above_null,,24.0,37,0.6486486486486487,0.4875902312255084,0.7817439286607287
+Development arrays (37),B,E1_count_flagged,,13.0,37,0.35135135135135137,0.21825607133927125,0.5124097687744916
+Development arrays (37),B,coupling_T_r2,,29.0,37,0.7837837837837838,0.6280485160803084,0.8861348800661442
+Development arrays (37),B,coupling_T_p,,28.0,37,0.7567567567567568,0.5988270787855735,0.8663864701088361
+Development arrays (37),B,coupling_T_eig,,27.0,37,0.7297297297297297,0.5702183167528573,0.8460253848895091
+Development arrays (37),B,T_r2_observed,,,37,0.1587108590942295,0.1349939874239476,0.2392804804279376
+Development arrays (37),B,T_r2_null_mean,,,37,0.1135258633332583,0.110569217170414,0.1192290034282631
+Development arrays (37),B,E2_retained_any_scheme,,,37,1.0,0.6666666666666666,1.0
+Development arrays (37),B,E2_retained_all_schemes,,,37,0.0,0.0,0.0
+Development arrays (37),B,E2_retained_raw_scheme,,,37,0.0,0.0,0.2
+Development arrays (37),B,E2_pairs_sig_all_after_adjustment,,,37,0.0,0.0,1.0
+Development arrays (37),B,E2_raw_any_consensus_pair_retained,,13.0,37,0.35135135135135137,0.21825607133927125,0.5124097687744916
+Development arrays (37),B,E3_share_between,,,37,0.6907587005094532,0.4237291524984151,0.8635079084586785
+Development arrays (37),B,raw_sig_share_group_effect,,,27,0.7047619047619048,0.40476190476190466,0.938949938949939
+Development arrays (37),B,raw_sig_share_all_pairs,,,37,0.2647058823529412,0.1838235294117647,0.4485294117647059
+Development arrays (37),B,raw_sig_share_above_expectation,,15.0,27,0.5555555555555556,0.3731302451322448,0.72414141822977
+Development arrays (37),B,observed_consensus,,,37,9.0,5.0,14.0
+Development arrays (37),B,null_mean_consensus,,,37,5.1655,3.526,8.0155
+Development arrays (37),B,consensus_minus_null,,,37,2.5214999999999996,-0.16549999999999976,5.6335
+Development arrays (37),B,adj_share_P_lt_0_05,raw,14.0,37,0.3783783783783784,0.24063999175798256,0.5389956956078235
+Development arrays (37),B,adj_median_observed,raw,,37,1.0,0.0,6.0
+Development arrays (37),B,adj_median_null_mean,raw,,37,0.094,0.064,0.172
+Development arrays (37),B,adj_median_ratio_obs_over_null,raw,,37,4.642525533890437,0.0,31.25
+Development arrays (37),B,adj_median_excess,raw,,37,0.8280000000000001,-0.064,5.912
+Development arrays (37),B,adj_share_P_lt_0_05,den1,12.0,37,0.32432432432432434,0.19633266528144178,0.485363327580278
+Development arrays (37),B,adj_median_observed,den1,,37,19.0,2.0,68.0
+Development arrays (37),B,adj_median_null_mean,den1,,37,7.766,1.164,50.786
+Development arrays (37),B,adj_median_ratio_obs_over_null,den1,,37,1.6129032258064517,0.9559707199825194,5.600133734536944
+Development arrays (37),B,adj_median_excess,den1,,37,2.4939999999999998,-0.118,11.962
+Development arrays (37),B,adj_share_P_lt_0_05,den2,8.0,37,0.21621621621621623,0.11386511993385587,0.37195148391969146
+Development arrays (37),B,adj_median_observed,den2,,37,29.0,4.0,67.0
+Development arrays (37),B,adj_median_null_mean,den2,,37,10.026,2.494,52.66
+Development arrays (37),B,adj_median_ratio_obs_over_null,den2,,37,1.0810690323874907,0.9831460674157303,1.8134067033516756
+Development arrays (37),B,adj_median_excess,den2,,37,1.346,-0.056,7.274000000000001
+Development arrays (37),B,adj_share_P_lt_0_05,den3,7.0,37,0.1891891891891892,0.09479978730312012,0.34204696929838413
+Development arrays (37),B,adj_median_observed,den3,,37,20.0,4.0,49.0
+Development arrays (37),B,adj_median_null_mean,den3,,37,6.952,1.772,22.732
+Development arrays (37),B,adj_median_ratio_obs_over_null,den3,,37,1.2254901960784315,0.8411688790560471,2.8310684785504927
+Development arrays (37),B,adj_median_excess,den3,,37,2.2620000000000005,-0.33,12.533999999999999
+Held-out GPL1261,B,E1_count_not_above_null,,12.0,20,0.6,0.3865815007622531,0.781193467627183
+Held-out GPL1261,B,E1_count_flagged,,8.0,20,0.4,0.21880653237281705,0.6134184992377469
+Held-out GPL1261,B,coupling_T_r2,,15.0,20,0.75,0.5312991223812559,0.8881382985923344
+Held-out GPL1261,B,coupling_T_p,,10.0,20,0.5,0.2992980081982123,0.7007019918017877
+Held-out GPL1261,B,coupling_T_eig,,14.0,20,0.7,0.48102718164647645,0.8545227551323957
+Held-out GPL1261,B,T_r2_observed,,,20,0.15373230952953434,0.12984072044958797,0.21743363250909084
+Held-out GPL1261,B,T_r2_null_mean,,,20,0.1140616723403317,0.11107995198346064,0.12026199048449332
+Held-out GPL1261,B,E2_retained_any_scheme,,,20,0.9545454545454546,0.6948051948051948,1.0
+Held-out GPL1261,B,E2_retained_all_schemes,,,20,0.0,0.0,0.12878787878787878
+Held-out GPL1261,B,E2_retained_raw_scheme,,,20,0.0,0.0,0.14583333333333331
+Held-out GPL1261,B,E2_pairs_sig_all_after_adjustment,,,20,0.0,0.0,2.5
+Held-out GPL1261,B,E2_raw_any_consensus_pair_retained,,7.0,20,0.35,0.18119182410108203,0.5671457233147638
+Held-out GPL1261,B,E3_share_between,,,20,0.8963664137631056,0.6370388676152658,0.945915417900201
+Held-out GPL1261,B,raw_sig_share_group_effect,,,17,0.6,0.5454545454545454,0.8
+Held-out GPL1261,B,raw_sig_share_all_pairs,,,20,0.25,0.20404411764705882,0.3786764705882353
+Held-out GPL1261,B,raw_sig_share_above_expectation,,8.0,17,0.47058823529411764,0.26165106442409436,0.6903676493999558
+Held-out GPL1261,B,observed_consensus,,,20,9.0,4.0,13.0
+Held-out GPL1261,B,null_mean_consensus,,,20,4.2509999999999994,3.4604999999999997,8.209
+Held-out GPL1261,B,consensus_minus_null,,,20,2.21375,0.2729999999999999,3.909375
+Held-out GPL1261,B,adj_share_P_lt_0_05,raw,8.0,20,0.4,0.21880653237281705,0.6134184992377469
+Held-out GPL1261,B,adj_median_observed,raw,,20,0.0,0.0,4.25
+Held-out GPL1261,B,adj_median_null_mean,raw,,20,0.135,0.0715,0.2325
+Held-out GPL1261,B,adj_median_ratio_obs_over_null,raw,,20,0.0,0.0,36.49020807833537
+Held-out GPL1261,B,adj_median_excess,raw,,20,-0.039,-0.072,4.1405
+Held-out GPL1261,B,adj_share_P_lt_0_05,den1,5.0,20,0.25,0.11186170140766563,0.4687008776187441
+Held-out GPL1261,B,adj_median_observed,den1,,20,14.0,1.0,63.75
+Held-out GPL1261,B,adj_median_null_mean,den1,,20,6.609,1.338,32.546
+Held-out GPL1261,B,adj_median_ratio_obs_over_null,den1,,20,1.1282314643737266,0.43287594850744066,2.934393469580382
+Held-out GPL1261,B,adj_median_excess,den1,,20,0.05100000000000002,-2.91,17.0015
+Held-out GPL1261,B,adj_share_P_lt_0_05,den2,5.0,20,0.25,0.11186170140766563,0.4687008776187441
+Held-out GPL1261,B,adj_median_observed,den2,,20,21.0,7.25,74.5
+Held-out GPL1261,B,adj_median_null_mean,den2,,20,19.346,1.3735,68.4175
+Held-out GPL1261,B,adj_median_ratio_obs_over_null,den2,,20,1.104540161889834,0.9822637057196246,3.68198110133594
+Held-out GPL1261,B,adj_median_excess,den2,,20,1.686,-0.825999999999999,6.751999999999998
+Held-out GPL1261,B,adj_share_P_lt_0_05,den3,5.0,20,0.25,0.11186170140766563,0.4687008776187441
+Held-out GPL1261,B,adj_median_observed,den3,,20,25.5,12.0,64.75
+Held-out GPL1261,B,adj_median_null_mean,den3,,20,16.985,3.0164999999999997,72.7125
+Held-out GPL1261,B,adj_median_ratio_obs_over_null,den3,,20,0.9944070101070507,0.6903878333263623,2.2979918718623
+Held-out GPL1261,B,adj_median_excess,den3,,20,-0.22299999999999914,-4.292,11.2055
+Held-out GPL570,B,E1_count_not_above_null,,13.0,20,0.65,0.43285427668523624,0.818808175898918
+Held-out GPL570,B,E1_count_flagged,,7.0,20,0.35,0.18119182410108203,0.5671457233147638
+Held-out GPL570,B,coupling_T_r2,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+Held-out GPL570,B,coupling_T_p,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+Held-out GPL570,B,coupling_T_eig,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+Held-out GPL570,B,T_r2_observed,,,20,0.21471675875780138,0.18517858946269458,0.26596631377039504
+Held-out GPL570,B,T_r2_null_mean,,,20,0.11449748832493328,0.11108357619812567,0.12249235401847562
+Held-out GPL570,B,E2_retained_any_scheme,,,20,0.9565217391304348,0.7443181818181819,1.0
+Held-out GPL570,B,E2_retained_all_schemes,,,20,0.0,0.0,0.21875
+Held-out GPL570,B,E2_retained_raw_scheme,,,20,0.0,0.0,0.40625
+Held-out GPL570,B,E2_pairs_sig_all_after_adjustment,,,20,0.5,0.0,4.0
+Held-out GPL570,B,E2_raw_any_consensus_pair_retained,,9.0,20,0.45,0.2581978582556242,0.6579146575496577
+Held-out GPL570,B,E3_share_between,,,20,0.8211605057780869,0.33468758353089934,0.932008765285066
+Held-out GPL570,B,raw_sig_share_group_effect,,,15,0.7047619047619048,0.509090909090909,0.9363636363636364
+Held-out GPL570,B,raw_sig_share_all_pairs,,,20,0.2977941176470588,0.22977941176470587,0.4338235294117647
+Held-out GPL570,B,raw_sig_share_above_expectation,,10.0,15,0.6666666666666666,0.41713547738519763,0.8482367556028527
+Held-out GPL570,B,observed_consensus,,,20,11.0,6.75,14.0
+Held-out GPL570,B,null_mean_consensus,,,20,4.56475,3.599,9.561875
+Held-out GPL570,B,consensus_minus_null,,,20,2.2145,-0.5101249999999982,5.7605
+Held-out GPL570,B,adj_share_P_lt_0_05,raw,9.0,20,0.45,0.2581978582556242,0.6579146575496577
+Held-out GPL570,B,adj_median_observed,raw,,20,1.0,0.0,17.0
+Held-out GPL570,B,adj_median_null_mean,raw,,20,0.201,0.10750000000000001,0.34500000000000003
+Held-out GPL570,B,adj_median_ratio_obs_over_null,raw,,20,5.377782534246576,0.0,45.86134050316882
+Held-out GPL570,B,adj_median_excess,raw,,20,0.7989999999999999,-0.0605,16.767
+Held-out GPL570,B,adj_share_P_lt_0_05,den1,9.0,20,0.45,0.2581978582556242,0.6579146575496577
+Held-out GPL570,B,adj_median_observed,den1,,20,37.0,26.25,66.5
+Held-out GPL570,B,adj_median_null_mean,den1,,20,10.533000000000001,1.216,43.06
+Held-out GPL570,B,adj_median_ratio_obs_over_null,den1,,20,2.4975780388463473,1.1788249519288396,4.382112815437902
+Held-out GPL570,B,adj_median_excess,den1,,20,19.675,0.718,30.118
+Held-out GPL570,B,adj_share_P_lt_0_05,den2,11.0,20,0.55,0.34208534245034233,0.7418021417443759
+Held-out GPL570,B,adj_median_observed,den2,,20,28.5,5.5,56.25
+Held-out GPL570,B,adj_median_null_mean,den2,,20,1.031,0.383,13.9025
+Held-out GPL570,B,adj_median_ratio_obs_over_null,den2,,20,2.5388246903938088,1.0831444735428417,20.114435649240402
+Held-out GPL570,B,adj_median_excess,den2,,20,8.926,4.079499999999995,27.5305
+Held-out GPL570,B,adj_share_P_lt_0_05,den3,8.0,20,0.4,0.21880653237281705,0.6134184992377469
+Held-out GPL570,B,adj_median_observed,den3,,20,41.0,22.25,77.5
+Held-out GPL570,B,adj_median_null_mean,den3,,20,28.1,5.989,76.028
+Held-out GPL570,B,adj_median_ratio_obs_over_null,den3,,20,1.3501676140062315,0.9944949381488014,3.118327379156339
+Held-out GPL570,B,adj_median_excess,den3,,20,8.627000000000002,-0.44500000000000384,18.6965
+Held-out arrays pooled,B,E1_count_not_above_null,,25.0,40,0.625,0.47032439137301096,0.7577702083276673
+Held-out arrays pooled,B,E1_count_flagged,,15.0,40,0.375,0.2422297916723327,0.529675608626989
+Held-out arrays pooled,B,coupling_T_r2,,31.0,40,0.775,0.6249690325768998,0.8768390867645927
+Held-out arrays pooled,B,coupling_T_p,,26.0,40,0.65,0.4950588083725769,0.7786547112682372
+Held-out arrays pooled,B,coupling_T_eig,,30.0,40,0.75,0.5980603857923197,0.858128813609037
+Held-out arrays pooled,B,T_r2_observed,,,40,0.20667482899873701,0.14224566045116693,0.23960972928397928
+Held-out arrays pooled,B,T_r2_null_mean,,,40,0.11430953611547015,0.11107995198346064,0.12249235401847562
+Held-out arrays pooled,B,E2_retained_any_scheme,,,40,0.9565217391304348,0.7272727272727273,1.0
+Held-out arrays pooled,B,E2_retained_all_schemes,,,40,0.0,0.0,0.17045454545454544
+Held-out arrays pooled,B,E2_retained_raw_scheme,,,40,0.0,0.0,0.28787878787878785
+Held-out arrays pooled,B,E2_pairs_sig_all_after_adjustment,,,40,0.0,0.0,4.0
+Held-out arrays pooled,B,E2_raw_any_consensus_pair_retained,,16.0,40,0.4,0.2634832568429192,0.5540410633965382
+Held-out arrays pooled,B,E3_share_between,,,40,0.8492473840354298,0.41238978475353155,0.945915417900201
+Held-out arrays pooled,B,raw_sig_share_group_effect,,,32,0.6619047619047619,0.5263736263736264,0.8729166666666667
+Held-out arrays pooled,B,raw_sig_share_all_pairs,,,40,0.28308823529411764,0.21323529411764705,0.40625
+Held-out arrays pooled,B,raw_sig_share_above_expectation,,18.0,32,0.5625,0.3932559113685198,0.7183466888495963
+Held-out arrays pooled,B,observed_consensus,,,40,10.0,5.75,13.75
+Held-out arrays pooled,B,null_mean_consensus,,,40,4.4775,3.4604999999999997,9.561875
+Held-out arrays pooled,B,consensus_minus_null,,,40,2.2145,-0.2881250000000003,4.618
+Held-out arrays pooled,B,adj_share_P_lt_0_05,raw,17.0,40,0.425,0.28509392559950375,0.5780493145800893
+Held-out arrays pooled,B,adj_median_observed,raw,,40,1.0,0.0,10.25
+Held-out arrays pooled,B,adj_median_null_mean,raw,,40,0.153,0.072,0.267
+Held-out arrays pooled,B,adj_median_ratio_obs_over_null,raw,,40,3.3655543785310735,0.0,40.88910947249008
+Held-out arrays pooled,B,adj_median_excess,raw,,40,0.6950000000000001,-0.072,9.948
+Held-out arrays pooled,B,adj_share_P_lt_0_05,den1,14.0,40,0.35,0.22134528873176293,0.5049411916274231
+Held-out arrays pooled,B,adj_median_observed,den1,,40,30.5,3.5,66.5
+Held-out arrays pooled,B,adj_median_null_mean,den1,,40,9.311,1.216,36.4745
+Held-out arrays pooled,B,adj_median_ratio_obs_over_null,den1,,40,1.5582223426075081,0.7813694411339018,4.040352339888111
+Held-out arrays pooled,B,adj_median_excess,den1,,40,10.783000000000001,-1.1804999999999999,25.638
+Held-out arrays pooled,B,adj_share_P_lt_0_05,den2,16.0,40,0.4,0.2634832568429192,0.5540410633965382
+Held-out arrays pooled,B,adj_median_observed,den2,,40,25.0,6.5,72.0
+Held-out arrays pooled,B,adj_median_null_mean,den2,,40,3.794,0.657,45.605
+Held-out arrays pooled,B,adj_median_ratio_obs_over_null,den2,,40,1.3828055893773308,1.0061816598210138,7.2524748535777945
+Held-out arrays pooled,B,adj_median_excess,den2,,40,5.433,0.04849999999999993,17.671
+Held-out arrays pooled,B,adj_share_P_lt_0_05,den3,13.0,40,0.325,0.20084502231782703,0.4798225381012234
+Held-out arrays pooled,B,adj_median_observed,den3,,40,30.5,19.75,71.5
+Held-out arrays pooled,B,adj_median_null_mean,den3,,40,25.262,4.4125,75.9525
+Held-out arrays pooled,B,adj_median_ratio_obs_over_null,den3,,40,1.1538546558598446,0.9150509733074412,2.8280341292945272
+Held-out arrays pooled,B,adj_median_excess,den3,,40,3.515999999999999,-4.258000000000001,15.267999999999995
+RNA-seq human,B,E1_count_not_above_null,,9.0,19,0.47368421052631576,0.27329805161179566,0.6829219075488684
+RNA-seq human,B,E1_count_flagged,,10.0,19,0.5263157894736842,0.31707809245113155,0.7267019483882042
+RNA-seq human,B,coupling_T_r2,,17.0,19,0.8947368421052632,0.6860591728889099,0.9706414397011299
+RNA-seq human,B,coupling_T_p,,17.0,19,0.8947368421052632,0.6860591728889099,0.9706414397011299
+RNA-seq human,B,coupling_T_eig,,17.0,19,0.8947368421052632,0.6860591728889099,0.9706414397011299
+RNA-seq human,B,T_r2_observed,,,19,0.2600974899336921,0.1969850166874777,0.3861029844044658
+RNA-seq human,B,T_r2_null_mean,,,19,0.12553317192537558,0.11247216679716876,0.1374781860492161
+RNA-seq human,B,E2_retained_any_scheme,,,19,1.0,0.8402255639097744,1.0
+RNA-seq human,B,E2_retained_all_schemes,,,19,0.08333333333333333,0.0,0.16666666666666666
+RNA-seq human,B,E2_retained_raw_scheme,,,19,0.21428571428571427,0.038461538461538464,0.4222222222222222
+RNA-seq human,B,E2_pairs_sig_all_after_adjustment,,,19,3.0,1.0,8.5
+RNA-seq human,B,E2_raw_any_consensus_pair_retained,,14.0,19,0.7368421052631579,0.5120844910218488,0.8819358765321749
+RNA-seq human,B,E3_share_between,,,19,0.7974094339160769,0.30503109908864157,0.9696259692706255
+RNA-seq human,B,raw_sig_share_group_effect,,,15,0.7051282051282052,0.4642857142857143,0.7863636363636364
+RNA-seq human,B,raw_sig_share_all_pairs,,,19,0.36764705882352944,0.3382352941176471,0.5477941176470589
+RNA-seq human,B,raw_sig_share_above_expectation,,10.0,15,0.6666666666666666,0.41713547738519763,0.8482367556028527
+RNA-seq human,B,observed_consensus,,,19,12.0,9.0,14.0
+RNA-seq human,B,null_mean_consensus,,,19,6.293,2.47375,10.78725
+RNA-seq human,B,consensus_minus_null,,,19,3.474500000000001,0.8602500000000006,6.72525
+RNA-seq human,B,adj_share_P_lt_0_05,raw,14.0,19,0.7368421052631579,0.5120844910218488,0.8819358765321749
+RNA-seq human,B,adj_median_observed,raw,,19,10.0,1.5,41.5
+RNA-seq human,B,adj_median_null_mean,raw,,19,0.264,0.096,0.849
+RNA-seq human,B,adj_median_ratio_obs_over_null,raw,,19,18.867924528301888,6.521869403635556,79.6956482647006
+RNA-seq human,B,adj_median_excess,raw,,19,9.948,1.419,39.004999999999995
+RNA-seq human,B,adj_share_P_lt_0_05,den1,7.0,19,0.3684210526315789,0.19149512745135072,0.5896046683519693
+RNA-seq human,B,adj_median_observed,den1,,19,52.0,24.5,80.5
+RNA-seq human,B,adj_median_null_mean,den1,,19,38.44,3.65,77.604
+RNA-seq human,B,adj_median_ratio_obs_over_null,den1,,19,1.2360197763164211,0.9959922074730683,2.5330262119564058
+RNA-seq human,B,adj_median_excess,den1,,19,5.225999999999999,-0.47699999999999676,17.559000000000005
+RNA-seq human,B,adj_share_P_lt_0_05,den2,10.0,19,0.5263157894736842,0.31707809245113155,0.7267019483882042
+RNA-seq human,B,adj_median_observed,den2,,19,39.0,24.5,57.5
+RNA-seq human,B,adj_median_null_mean,den2,,19,8.332,1.772,32.822
+RNA-seq human,B,adj_median_ratio_obs_over_null,den2,,19,1.9234879247702499,1.0192823534456812,9.193063796215242
+RNA-seq human,B,adj_median_excess,den2,,19,13.302,1.7859999999999978,31.125999999999998
+RNA-seq human,B,adj_share_P_lt_0_05,den3,7.0,19,0.3684210526315789,0.19149512745135072,0.5896046683519693
+RNA-seq human,B,adj_median_observed,den3,,19,51.0,24.0,79.0
+RNA-seq human,B,adj_median_null_mean,den3,,19,28.08,5.427,57.204
+RNA-seq human,B,adj_median_ratio_obs_over_null,den3,,19,1.3532763532763534,0.9632398841509332,3.9512678574810765
+RNA-seq human,B,adj_median_excess,den3,,19,9.604,-0.9189999999999987,22.864
+RNA-seq pooled,B,E1_count_not_above_null,,9.0,19,0.47368421052631576,0.27329805161179566,0.6829219075488684
+RNA-seq pooled,B,E1_count_flagged,,10.0,19,0.5263157894736842,0.31707809245113155,0.7267019483882042
+RNA-seq pooled,B,coupling_T_r2,,17.0,19,0.8947368421052632,0.6860591728889099,0.9706414397011299
+RNA-seq pooled,B,coupling_T_p,,17.0,19,0.8947368421052632,0.6860591728889099,0.9706414397011299
+RNA-seq pooled,B,coupling_T_eig,,17.0,19,0.8947368421052632,0.6860591728889099,0.9706414397011299
+RNA-seq pooled,B,T_r2_observed,,,19,0.2600974899336921,0.1969850166874777,0.3861029844044658
+RNA-seq pooled,B,T_r2_null_mean,,,19,0.12553317192537558,0.11247216679716876,0.1374781860492161
+RNA-seq pooled,B,E2_retained_any_scheme,,,19,1.0,0.8402255639097744,1.0
+RNA-seq pooled,B,E2_retained_all_schemes,,,19,0.08333333333333333,0.0,0.16666666666666666
+RNA-seq pooled,B,E2_retained_raw_scheme,,,19,0.21428571428571427,0.038461538461538464,0.4222222222222222
+RNA-seq pooled,B,E2_pairs_sig_all_after_adjustment,,,19,3.0,1.0,8.5
+RNA-seq pooled,B,E2_raw_any_consensus_pair_retained,,14.0,19,0.7368421052631579,0.5120844910218488,0.8819358765321749
+RNA-seq pooled,B,E3_share_between,,,19,0.7974094339160769,0.30503109908864157,0.9696259692706255
+RNA-seq pooled,B,raw_sig_share_group_effect,,,15,0.7051282051282052,0.4642857142857143,0.7863636363636364
+RNA-seq pooled,B,raw_sig_share_all_pairs,,,19,0.36764705882352944,0.3382352941176471,0.5477941176470589
+RNA-seq pooled,B,raw_sig_share_above_expectation,,10.0,15,0.6666666666666666,0.41713547738519763,0.8482367556028527
+RNA-seq pooled,B,observed_consensus,,,19,12.0,9.0,14.0
+RNA-seq pooled,B,null_mean_consensus,,,19,6.293,2.47375,10.78725
+RNA-seq pooled,B,consensus_minus_null,,,19,3.474500000000001,0.8602500000000006,6.72525
+RNA-seq pooled,B,adj_share_P_lt_0_05,raw,14.0,19,0.7368421052631579,0.5120844910218488,0.8819358765321749
+RNA-seq pooled,B,adj_median_observed,raw,,19,10.0,1.5,41.5
+RNA-seq pooled,B,adj_median_null_mean,raw,,19,0.264,0.096,0.849
+RNA-seq pooled,B,adj_median_ratio_obs_over_null,raw,,19,18.867924528301888,6.521869403635556,79.6956482647006
+RNA-seq pooled,B,adj_median_excess,raw,,19,9.948,1.419,39.004999999999995
+RNA-seq pooled,B,adj_share_P_lt_0_05,den1,7.0,19,0.3684210526315789,0.19149512745135072,0.5896046683519693
+RNA-seq pooled,B,adj_median_observed,den1,,19,52.0,24.5,80.5
+RNA-seq pooled,B,adj_median_null_mean,den1,,19,38.44,3.65,77.604
+RNA-seq pooled,B,adj_median_ratio_obs_over_null,den1,,19,1.2360197763164211,0.9959922074730683,2.5330262119564058
+RNA-seq pooled,B,adj_median_excess,den1,,19,5.225999999999999,-0.47699999999999676,17.559000000000005
+RNA-seq pooled,B,adj_share_P_lt_0_05,den2,10.0,19,0.5263157894736842,0.31707809245113155,0.7267019483882042
+RNA-seq pooled,B,adj_median_observed,den2,,19,39.0,24.5,57.5
+RNA-seq pooled,B,adj_median_null_mean,den2,,19,8.332,1.772,32.822
+RNA-seq pooled,B,adj_median_ratio_obs_over_null,den2,,19,1.9234879247702499,1.0192823534456812,9.193063796215242
+RNA-seq pooled,B,adj_median_excess,den2,,19,13.302,1.7859999999999978,31.125999999999998
+RNA-seq pooled,B,adj_share_P_lt_0_05,den3,7.0,19,0.3684210526315789,0.19149512745135072,0.5896046683519693
+RNA-seq pooled,B,adj_median_observed,den3,,19,51.0,24.0,79.0
+RNA-seq pooled,B,adj_median_null_mean,den3,,19,28.08,5.427,57.204
+RNA-seq pooled,B,adj_median_ratio_obs_over_null,den3,,19,1.3532763532763534,0.9632398841509332,3.9512678574810765
+RNA-seq pooled,B,adj_median_excess,den3,,19,9.604,-0.9189999999999987,22.864
+All validation sets pooled,B,E1_count_not_above_null,,34.0,59,0.576271186440678,0.4493448280003429,0.6938727256481132
+All validation sets pooled,B,E1_count_flagged,,25.0,59,0.423728813559322,0.3061272743518869,0.5506551719996572
+All validation sets pooled,B,coupling_T_r2,,48.0,59,0.8135593220338984,0.6962104955303725,0.8925727805799468
+All validation sets pooled,B,coupling_T_p,,43.0,59,0.7288135593220338,0.6040223703245485,0.8256302906208196
+All validation sets pooled,B,coupling_T_eig,,47.0,59,0.7966101694915254,0.677319877279501,0.8796372757978281
+All validation sets pooled,B,T_r2_observed,,,59,0.2130112623033833,0.15080965859322065,0.29358343683287913
+All validation sets pooled,B,T_r2_null_mean,,,59,0.11487728981996446,0.11136455316193361,0.12751196036132487
+All validation sets pooled,B,E2_retained_any_scheme,,,59,1.0,0.75,1.0
+All validation sets pooled,B,E2_retained_all_schemes,,,59,0.0,0.0,0.16666666666666666
+All validation sets pooled,B,E2_retained_raw_scheme,,,59,0.029411764705882353,0.0,0.3484848484848485
+All validation sets pooled,B,E2_pairs_sig_all_after_adjustment,,,59,1.0,0.0,5.0
+All validation sets pooled,B,E2_raw_any_consensus_pair_retained,,30.0,59,0.5084745762711864,0.38435143059389654,0.6315616309225985
+All validation sets pooled,B,E3_share_between,,,59,0.8454129894844291,0.4049079734349149,0.9522363399874597
+All validation sets pooled,B,raw_sig_share_group_effect,,,47,0.6666666666666666,0.5027472527472527,0.8348484848484848
+All validation sets pooled,B,raw_sig_share_all_pairs,,,59,0.3382352941176471,0.23529411764705882,0.5073529411764706
+All validation sets pooled,B,raw_sig_share_above_expectation,,28.0,47,0.5957446808510638,0.4534212295011095,0.7235996548079124
+All validation sets pooled,B,observed_consensus,,,59,11.0,6.5,14.0
+All validation sets pooled,B,null_mean_consensus,,,59,4.7255,3.40225,10.39875
+All validation sets pooled,B,consensus_minus_null,,,59,2.4029999999999996,0.49975,4.922000000000001
+All validation sets pooled,B,adj_share_P_lt_0_05,raw,31.0,59,0.5254237288135594,0.4003979517001709,0.6473412328493148
+All validation sets pooled,B,adj_median_observed,raw,,59,3.0,0.0,16.5
+All validation sets pooled,B,adj_median_null_mean,raw,,59,0.154,0.075,0.34299999999999997
+All validation sets pooled,B,adj_median_ratio_obs_over_null,raw,,59,8.771929824561402,0.0,50.956130483689535
+All validation sets pooled,B,adj_median_excess,raw,,59,2.658,-0.061,16.238
+All validation sets pooled,B,adj_share_P_lt_0_05,den1,21.0,59,0.3559322033898305,0.2460329140381331,0.48344504018145007
+All validation sets pooled,B,adj_median_observed,den1,,59,36.0,9.5,71.5
+All validation sets pooled,B,adj_median_null_mean,den1,,59,13.76,2.001,49.958
+All validation sets pooled,B,adj_median_ratio_obs_over_null,den1,,59,1.5144091577212595,0.9550827392809105,3.769572921578827
+All validation sets pooled,B,adj_median_excess,den1,,59,5.225999999999999,-1.1369999999999978,21.951999999999998
+All validation sets pooled,B,adj_share_P_lt_0_05,den2,26.0,59,0.4406779661016949,0.3215021176761209,0.5671064517084133
+All validation sets pooled,B,adj_median_observed,den2,,59,31.0,8.0,64.0
+All validation sets pooled,B,adj_median_null_mean,den2,,59,7.082,0.716,41.712
+All validation sets pooled,B,adj_median_ratio_obs_over_null,den2,,59,1.404494382022472,1.0127192034748145,7.402676979882862
+All validation sets pooled,B,adj_median_excess,den2,,59,5.635999999999999,0.15799999999999992,23.808
+All validation sets pooled,B,adj_share_P_lt_0_05,den3,20.0,59,0.3389830508474576,0.23137653685587656,0.46627529433071635
+All validation sets pooled,B,adj_median_observed,den3,,59,40.0,20.0,77.0
+All validation sets pooled,B,adj_median_null_mean,den3,,59,26.594,4.593999999999999,72.24000000000001
+All validation sets pooled,B,adj_median_ratio_obs_over_null,den3,,59,1.1952591402169546,0.9385718823914316,2.889679347298207
+All validation sets pooled,B,adj_median_excess,den3,,59,5.07,-3.605999999999998,18.546
+Development arrays without degenerate series (post hoc),B,E1_count_not_above_null,,23.0,35,0.6571428571428571,0.4915194951399626,0.7916830501295105
+Development arrays without degenerate series (post hoc),B,E1_count_flagged,,12.0,35,0.34285714285714286,0.2083169498704896,0.5084805048600374
+Development arrays without degenerate series (post hoc),B,coupling_T_r2,,28.0,35,0.8,0.6410838693433438,0.8995755352620138
+Development arrays without degenerate series (post hoc),B,coupling_T_p,,27.0,35,0.7714285714285715,0.6098268310800975,0.8793412016580832
+Development arrays without degenerate series (post hoc),B,coupling_T_eig,,26.0,35,0.7428571428571429,0.5793069315616083,0.8583697293093956
+Development arrays without degenerate series (post hoc),B,T_r2_observed,,,35,0.1587108590942295,0.1392022650046722,0.23772440755280128
+Development arrays without degenerate series (post hoc),B,T_r2_null_mean,,,35,0.1138032869075505,0.11104786940210525,0.11925210586639975
+Development arrays without degenerate series (post hoc),B,E2_retained_any_scheme,,,35,0.9523809523809524,0.641025641025641,1.0
+Development arrays without degenerate series (post hoc),B,E2_retained_all_schemes,,,35,0.0,0.0,0.0
+Development arrays without degenerate series (post hoc),B,E2_retained_raw_scheme,,,35,0.0,0.0,0.16521739130434782
+Development arrays without degenerate series (post hoc),B,E2_pairs_sig_all_after_adjustment,,,35,0.0,0.0,1.0
+Development arrays without degenerate series (post hoc),B,E2_raw_any_consensus_pair_retained,,12.0,35,0.34285714285714286,0.2083169498704896,0.5084805048600374
+Development arrays without degenerate series (post hoc),B,E3_share_between,,,35,0.6907587005094532,0.45499698200984484,0.8477834817716697
+Development arrays without degenerate series (post hoc),B,raw_sig_share_group_effect,,,26,0.6959706959706959,0.3928571428571428,0.963980463980464
+Development arrays without degenerate series (post hoc),B,raw_sig_share_all_pairs,,,35,0.2647058823529412,0.1764705882352941,0.36029411764705876
+Development arrays without degenerate series (post hoc),B,raw_sig_share_above_expectation,,14.0,26,0.5384615384615384,0.3545793874685879,0.7124414646960879
+Development arrays without degenerate series (post hoc),B,observed_consensus,,,35,9.0,5.0,13.0
+Development arrays without degenerate series (post hoc),B,null_mean_consensus,,,35,5.1655,3.55825,8.008
+Development arrays without degenerate series (post hoc),B,consensus_minus_null,,,35,2.5214999999999996,-0.004249999999999865,5.05375
+Development arrays without degenerate series (post hoc),B,adj_share_P_lt_0_05,raw,13.0,35,0.37142857142857144,0.23165819503365714,0.5366306315640468
+Development arrays without degenerate series (post hoc),B,adj_median_observed,raw,,35,1.0,0.0,4.5
+Development arrays without degenerate series (post hoc),B,adj_median_null_mean,raw,,35,0.094,0.065,0.16899999999999998
+Development arrays without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,raw,,35,4.642525533890437,0.0,30.330882352941174
+Development arrays without degenerate series (post hoc),B,adj_median_excess,raw,,35,0.8280000000000001,-0.065,4.428
+Development arrays without degenerate series (post hoc),B,adj_share_P_lt_0_05,den1,11.0,35,0.3142857142857143,0.1855084467426582,0.47979763612069193
+Development arrays without degenerate series (post hoc),B,adj_median_observed,den1,,35,18.0,2.0,61.0
+Development arrays without degenerate series (post hoc),B,adj_median_null_mean,den1,,35,3.944,1.016,47.051
+Development arrays without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,den1,,35,1.6129032258064517,0.9354172833579586,4.518279925687716
+Development arrays without degenerate series (post hoc),B,adj_median_excess,den1,,35,1.768,-0.493,10.804
+Development arrays without degenerate series (post hoc),B,adj_share_P_lt_0_05,den2,7.0,35,0.2,0.10042446473798627,0.35891613065665623
+Development arrays without degenerate series (post hoc),B,adj_median_observed,den2,,35,29.0,3.5,67.0
+Development arrays without degenerate series (post hoc),B,adj_median_null_mean,den2,,35,10.624,2.2800000000000002,53.917
+Development arrays without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,den2,,35,1.0810690323874907,0.991589700930106,1.7748117890806505
+Development arrays without degenerate series (post hoc),B,adj_median_excess,den2,,35,1.346,-0.025999999999997556,7.128
+Development arrays without degenerate series (post hoc),B,adj_share_P_lt_0_05,den3,6.0,35,0.17142857142857143,0.08102640053701589,0.3268228229904497
+Development arrays without degenerate series (post hoc),B,adj_median_observed,den3,,35,17.0,4.0,41.0
+Development arrays without degenerate series (post hoc),B,adj_median_null_mean,den3,,35,6.952,1.76,22.099
+Development arrays without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,den3,,35,1.2254901960784315,0.7893160029498525,2.8121822839679838
+Development arrays without degenerate series (post hoc),B,adj_median_excess,den3,,35,2.01,-1.0180000000000002,12.158999999999999
+All validation sets pooled without degenerate series (post hoc),B,E1_count_not_above_null,,34.0,59,0.576271186440678,0.4493448280003429,0.6938727256481132
+All validation sets pooled without degenerate series (post hoc),B,E1_count_flagged,,25.0,59,0.423728813559322,0.3061272743518869,0.5506551719996572
+All validation sets pooled without degenerate series (post hoc),B,coupling_T_r2,,48.0,59,0.8135593220338984,0.6962104955303725,0.8925727805799468
+All validation sets pooled without degenerate series (post hoc),B,coupling_T_p,,43.0,59,0.7288135593220338,0.6040223703245485,0.8256302906208196
+All validation sets pooled without degenerate series (post hoc),B,coupling_T_eig,,47.0,59,0.7966101694915254,0.677319877279501,0.8796372757978281
+All validation sets pooled without degenerate series (post hoc),B,T_r2_observed,,,59,0.2130112623033833,0.15080965859322065,0.29358343683287913
+All validation sets pooled without degenerate series (post hoc),B,T_r2_null_mean,,,59,0.11487728981996446,0.11136455316193361,0.12751196036132487
+All validation sets pooled without degenerate series (post hoc),B,E2_retained_any_scheme,,,59,1.0,0.75,1.0
+All validation sets pooled without degenerate series (post hoc),B,E2_retained_all_schemes,,,59,0.0,0.0,0.16666666666666666
+All validation sets pooled without degenerate series (post hoc),B,E2_retained_raw_scheme,,,59,0.029411764705882353,0.0,0.3484848484848485
+All validation sets pooled without degenerate series (post hoc),B,E2_pairs_sig_all_after_adjustment,,,59,1.0,0.0,5.0
+All validation sets pooled without degenerate series (post hoc),B,E2_raw_any_consensus_pair_retained,,30.0,59,0.5084745762711864,0.38435143059389654,0.6315616309225985
+All validation sets pooled without degenerate series (post hoc),B,E3_share_between,,,59,0.8454129894844291,0.4049079734349149,0.9522363399874597
+All validation sets pooled without degenerate series (post hoc),B,raw_sig_share_group_effect,,,47,0.6666666666666666,0.5027472527472527,0.8348484848484848
+All validation sets pooled without degenerate series (post hoc),B,raw_sig_share_all_pairs,,,59,0.3382352941176471,0.23529411764705882,0.5073529411764706
+All validation sets pooled without degenerate series (post hoc),B,raw_sig_share_above_expectation,,28.0,47,0.5957446808510638,0.4534212295011095,0.7235996548079124
+All validation sets pooled without degenerate series (post hoc),B,observed_consensus,,,59,11.0,6.5,14.0
+All validation sets pooled without degenerate series (post hoc),B,null_mean_consensus,,,59,4.7255,3.40225,10.39875
+All validation sets pooled without degenerate series (post hoc),B,consensus_minus_null,,,59,2.4029999999999996,0.49975,4.922000000000001
+All validation sets pooled without degenerate series (post hoc),B,adj_share_P_lt_0_05,raw,31.0,59,0.5254237288135594,0.4003979517001709,0.6473412328493148
+All validation sets pooled without degenerate series (post hoc),B,adj_median_observed,raw,,59,3.0,0.0,16.5
+All validation sets pooled without degenerate series (post hoc),B,adj_median_null_mean,raw,,59,0.154,0.075,0.34299999999999997
+All validation sets pooled without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,raw,,59,8.771929824561402,0.0,50.956130483689535
+All validation sets pooled without degenerate series (post hoc),B,adj_median_excess,raw,,59,2.658,-0.061,16.238
+All validation sets pooled without degenerate series (post hoc),B,adj_share_P_lt_0_05,den1,21.0,59,0.3559322033898305,0.2460329140381331,0.48344504018145007
+All validation sets pooled without degenerate series (post hoc),B,adj_median_observed,den1,,59,36.0,9.5,71.5
+All validation sets pooled without degenerate series (post hoc),B,adj_median_null_mean,den1,,59,13.76,2.001,49.958
+All validation sets pooled without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,den1,,59,1.5144091577212595,0.9550827392809105,3.769572921578827
+All validation sets pooled without degenerate series (post hoc),B,adj_median_excess,den1,,59,5.225999999999999,-1.1369999999999978,21.951999999999998
+All validation sets pooled without degenerate series (post hoc),B,adj_share_P_lt_0_05,den2,26.0,59,0.4406779661016949,0.3215021176761209,0.5671064517084133
+All validation sets pooled without degenerate series (post hoc),B,adj_median_observed,den2,,59,31.0,8.0,64.0
+All validation sets pooled without degenerate series (post hoc),B,adj_median_null_mean,den2,,59,7.082,0.716,41.712
+All validation sets pooled without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,den2,,59,1.404494382022472,1.0127192034748145,7.402676979882862
+All validation sets pooled without degenerate series (post hoc),B,adj_median_excess,den2,,59,5.635999999999999,0.15799999999999992,23.808
+All validation sets pooled without degenerate series (post hoc),B,adj_share_P_lt_0_05,den3,20.0,59,0.3389830508474576,0.23137653685587656,0.46627529433071635
+All validation sets pooled without degenerate series (post hoc),B,adj_median_observed,den3,,59,40.0,20.0,77.0
+All validation sets pooled without degenerate series (post hoc),B,adj_median_null_mean,den3,,59,26.594,4.593999999999999,72.24000000000001
+All validation sets pooled without degenerate series (post hoc),B,adj_median_ratio_obs_over_null,den3,,59,1.1952591402169546,0.9385718823914316,2.889679347298207
+All validation sets pooled without degenerate series (post hoc),B,adj_median_excess,den3,,59,5.07,-3.605999999999998,18.546

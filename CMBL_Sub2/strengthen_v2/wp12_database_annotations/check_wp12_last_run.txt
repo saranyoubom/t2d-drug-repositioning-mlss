@@ -1,0 +1,29 @@
+PASS  DrugCentral files: reported 19378 rows, 25 Sep 2026 22364 rows 
+PASS  hub GLP1R: reported file (8, 7, 7) | 25 Sep 2026 file (9, 8, 8) 
+PASS  hub TCF7L2: reported file (0, 0, 0) | 25 Sep 2026 file (0, 0, 0) 
+PASS  hub CACNA1D: reported file (25, 25, 24) | 25 Sep 2026 file (25, 25, 24) 
+PASS  hub PTBP1: reported file (0, 0, 0) | 25 Sep 2026 file (0, 0, 0) 
+PASS  hub WNT5A: reported file (0, 0, 0) | 25 Sep 2026 file (0, 0, 0) 
+PASS  hub CACNA1C: reported file (41, 35, 33) | 25 Sep 2026 file (41, 35, 34) 
+PASS  153 reported and 171 combinations; shared scores identical 
+PASS  thresholds of the 153: 7.879365 / 7.65 / 2.754 [7.879365, 7.65, 2.754]
+PASS  thresholds of the 171: 7.879365 / 7.65 / 2.8674 [7.879365, 7.65, 2.8674]
+PASS  class sizes of the 153: 42 / 35 / 48 / 28 
+PASS  class sizes of the 171: 47 / 41 / 40 / 43 
+PASS  14 reported combinations change class (all Q3 -> Q4) when the 171 are used 
+PASS  77 cross-target scores 7.65 to 9.960357; 76 same-target scores 2.70 to 4.05 (a gap) 
+PASS  Q1 and Q2 hold exactly the cross-target pairs, Q3 and Q4 the same-target pairs 
+PASS  the 15 combinations of Fig. 6 are all in Q1 
+PASS  18 new combinations all contain tirzepatide; 5 / 6 / 6 / 1 in Q1 / Q2 / Q3 / Q4 (171 classes) 
+PASS  saved responses: 19 files for 18 names (amlodipine has 2 pages) 19
+PASS  totals: albiglutide 1, bepridil 2, nilvadipine 0, nitrendipine 0, amlodipine 121 
+PASS  albiglutide: BLA125431, TANZEUM, GLAXOSMITHKLINE LLC, Discontinued, ORIG AP 20140415 
+PASS  bepridil: NDA019001 BEPADIN and NDA019002 VASCOR, all Discontinued, ORIG AP 19901228 
+PASS  retrieval on 9 Nov 2026 between 00:34 and 00:36 (+0700) 2026-11-09 00:34:46 +0700 .. 2026-11-09 00:35:15 +0700
+PASS  names with no product that is Prescription or Over-the-counter: albiglutide, bepridil, nilvadipine, nitrendipine ['albiglutide', 'bepridil', 'nilvadipine', 'nitrendipine']
+PASS  19 drug entries; the other 14 each have a Prescription product and none is Over-the-counter 14
+PASS  isradipine: both Dynacirc applications discontinued; ANDA077169 and ANDA077317 Prescription 
+PASS  47 distinct scores among the 153; 14 combinations score exactly 7.65 
+PASS  10 of the 15 top combinations, 75 of the 153 and 35 of the 77 cross-target pairs contain one of the four 
+PASS  summary.json thresholds and sizes equal the recomputation 
+28 checks, 0 failures

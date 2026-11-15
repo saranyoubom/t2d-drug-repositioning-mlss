@@ -1,0 +1,33 @@
+{
+ "pairs_abs_r_ge_0.7": 120,
+ "consensus_pairs": 21,
+ "string_export_edges": 118,
+ "string_export_distinct_pairs": 59,
+ "as_reported": {
+  "Known Validated": 5,
+  "Novel Discovery": 16,
+  "STRING Only": 29,
+  "Not Validated": 70,
+  "in_STRING": 34,
+  "coverage_percent": 28.3
+ },
+ "alias": {
+  "Known Validated": 5,
+  "Novel Discovery": 16,
+  "STRING Only": 33,
+  "Not Validated": 66,
+  "in_STRING": 38,
+  "coverage_percent": 31.7
+ },
+ "pairs_with_Glut2": 15,
+ "export_edges_with_Slc2a2_among_matrix_genes": [
+  "Glp1r-Slc2a2",
+  "Glp1r-Slc2a2",
+  "Ins1-Slc2a2",
+  "Ins1-Slc2a2",
+  "Kcnj11-Slc2a2",
+  "Kcnj11-Slc2a2",
+  "Slc2a2-Tcf7l2",
+  "Slc2a2-Tcf7l2"
+ ]
+}

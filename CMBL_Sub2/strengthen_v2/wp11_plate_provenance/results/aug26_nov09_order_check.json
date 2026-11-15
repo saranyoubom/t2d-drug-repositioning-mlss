@@ -1,0 +1,57 @@
+{
+ "summary_workbook": {
+  "rows": 72,
+  "cq_equal_to_instrument_value_of_named_well": 32,
+  "target_rows": [
+   26,
+   60
+  ],
+  "gapdh_rows": [
+   6,
+   12
+  ],
+  "blocks_same_value_set_as_instrument": 17,
+  "blocks_total": 18,
+  "blocks_different": [
+   "Gapdh DAPT"
+  ]
+ },
+ "matrix_aug26": {
+  "target_blocks_ascending": [
+   15,
+   15
+  ],
+  "target_blocks_same_set_as_instrument": [
+   15,
+   15
+  ],
+  "plate_order_ascending_instrument": [
+   1,
+   15
+  ]
+ },
+ "pairing_descriptive": {
+  "sheet": {
+   "within_group_sd_of_dCq": 0.132,
+   "mean_residual_r_between_genes": 0.536,
+   "mean_DAPT_minus_CTRL_dCq": 0.662
+  },
+  "rank_instrument": {
+   "within_group_sd_of_dCq": 0.397,
+   "mean_residual_r_between_genes": 0.975,
+   "mean_DAPT_minus_CTRL_dCq": -0.276
+  },
+  "plate_instrument": {
+   "within_group_sd_of_dCq": 0.481,
+   "mean_residual_r_between_genes": 0.938,
+   "mean_DAPT_minus_CTRL_dCq": -0.276
+  }
+ },
+ "nov09": {
+  "blocks": 11,
+  "same_sequence_as_export": 11,
+  "same_set_as_export": 11,
+  "ascending_in_sheet": 0,
+  "ascending_in_export": 0
+ }
+}

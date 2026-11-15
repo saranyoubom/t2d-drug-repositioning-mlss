@@ -1,0 +1,245 @@
+WP4 GATE (protocol 4.1) - stage 1: the existing scripts re-run on the cached data
+written 2026-11-06 07:54:41 (+0700) by gate_report.py
+
+A. Files: every output file of the two earlier cross-checks re-created and compared with the stored result (logs/gate_compare_*.txt)
+
+### GSE84133 (existing script islet_check_baron.py, unchanged, cached parsed data)
+stored: ../../islet_GSE84133/results
+re-run: gate/results_GSE84133
+  OK      human_consensus_pairs_vs_matched_null.csv  (max abs difference over numeric cells 0)
+  OK      human_genes_detection.csv  (max abs difference over numeric cells 0)
+  OK      human_hubs.csv  (max abs difference over numeric cells 0)
+  OK      human_nondiabetic_det5_consensus_pairs_vs_matched_null.csv  (max abs difference over numeric cells 0)
+  OK      human_nondiabetic_det5_genes_detection.csv  (max abs difference over numeric cells 0)
+  OK      human_nondiabetic_det5_hubs.csv  (max abs difference over numeric cells 0)
+  OK      human_nondiabetic_det5_pairs_136.csv  (max abs difference over numeric cells 0)
+  OK      human_nondiabetic_genes_detection.csv  (max abs difference over numeric cells 0)
+  OK      human_nondiabetic_hubs.csv  (max abs difference over numeric cells 0)
+  OK      human_nondiabetic_pairs_136.csv  (max abs difference over numeric cells 0)
+  OK      human_pairs_136.csv  (max abs difference over numeric cells 0)
+  OK      mouse_consensus_pairs_vs_matched_null.csv  (max abs difference over numeric cells 0)
+  OK      mouse_genes_detection.csv  (max abs difference over numeric cells 0)
+  OK      mouse_hubs.csv  (max abs difference over numeric cells 0)
+  OK      mouse_pairs_136.csv  (max abs difference over numeric cells 0)
+  OK      summary_GSE84133.json
+FILES: all identical within tolerance
+
+### GSE81608 (lean copy of human_islet_check.py: loading block only replaced; statistics verbatim)
+stored: ../../human_islet_GSE81608/results
+re-run: gate/results_GSE81608
+  OK      consensus_pairs_vs_matched_null.csv  (max abs difference over numeric cells 0)
+  OK      genes_expression_T2D_vs_ND.csv  (max abs difference over numeric cells 0)
+  OK      hubs_invitro_vs_human.csv  (max abs difference over numeric cells 0)
+  OK      pairs_136_human_beta_coexpression.csv  (max abs difference over numeric cells 0)
+  OK      summary.json
+FILES: all identical within tolerance
+
+  GSE84133: the existing script islet_check_baron.py was run UNCHANGED on the cached sparse beta-cell files (gate/results_GSE84133).
+  GSE81608: the existing script human_islet_check.py reads the whole 39851 x 1600 RPKM table as a dense float64 frame (about 510 MB, three to four copies at peak), which the 8 GB machine with 1-2 GB free should not do;
+  gate_human_islet_check_lean.py is a COPY in which only the loading block differs (same pandas C parser, chunks of 2500 rows, only the 503 beta-cell columns kept); every statistic line is verbatim.
+
+B. Numbers quoted in the READMEs and in the brief, against the re-run summaries (precision as quoted)
+
+  OK   GSE81608 beta-cells                                                      re-run 503                      reported 503
+  OK   GSE81608 donors                                                          re-run 18                       reported 18
+  OK   GSE81608 evaluable genes (of 17)                                         re-run 11                       reported 11
+  OK   GSE81608 evaluable consensus pairs (of 21)                               re-run 11                       reported 11
+  OK   GSE81608 evaluable other pairs (of 115)                                  re-run 44                       reported 44
+  OK   GSE81608 median rho, consensus pairs                                     re-run -0.0207317               reported -0.021
+  OK   GSE81608 median rho, other pairs                                         re-run 0.0182008                reported 0.018
+  OK   GSE81608 Mann-Whitney P consensus vs other                               re-run 0.155523                 reported 0.16
+  OK   GSE81608 matched random pairs, mean of the null medians                  re-run 0.0199229                reported 0.02
+  OK   GSE81608 95th percentile of the null median                              re-run 0.0494775                reported 0.049
+  OK   GSE81608 empirical P, median >= observed                                 re-run 0.985007                 reported 0.985
+  OK   GSE81608 consensus pairs with positive rho                               re-run 5                        reported 5
+  OK   GSE81608 significantly positive (q < 0.05)                               re-run 0                        reported 0
+  OK   GSE81608 significantly negative (q < 0.05)                               re-run 1                        reported 1
+  OK   GSE81608 edges q < 0.05 and abs(rho) >= 0.2                              re-run 0                        reported 0
+  OK   GSE81608 Cacna1d-Glp1r rho                                               re-run 0.00185966               reported 0.002
+  OK   GSE81608 Cacna1d-Glp1r P                                                 re-run 0.967416                 reported 0.97
+  OK   GSE84133 human beta-cells                                                re-run 2525                     reported 2525
+  OK   GSE84133 human donors                                                    re-run 4                        reported 4
+  OK   GSE84133 human evaluable genes                                           re-run 6                        reported 6
+  OK   GSE84133 human evaluable consensus pairs                                 re-run 3                        reported 3
+  OK   GSE84133 human median rho, consensus                                     re-run 0.239229                 reported 0.24
+  OK   GSE84133 human matched random median (mean of null medians)              re-run 0.0521479                reported 0.05
+  OK   GSE84133 human 95th percentile of the null median                        re-run 0.254093                 reported 0.25
+  OK   GSE84133 human empirical P (median)                                      re-run 0.0714643                reported 0.071
+  OK   GSE84133 human empirical P (mean)                                        re-run 0.013993                 reported 0.014
+  OK   GSE84133 human significantly positive / negative                         re-run (3, 0)                   reported (3, 0)
+  OK   GSE84133 human edges q < 0.05 and abs(rho) >= 0.2                        re-run 4                        reported 4
+  OK   GSE84133 human Cacna1d-Glp1r evaluable                                   re-run False                    reported False
+  OK   GSE84133 mouse beta-cells                                                re-run 894                      reported 894
+  OK   GSE84133 mouse evaluable genes                                           re-run 5                        reported 5
+  OK   GSE84133 mouse evaluable consensus pairs                                 re-run 5                        reported 5
+  OK   GSE84133 mouse median rho, consensus                                     re-run -0.0446399               reported -0.04
+  OK   GSE84133 mouse matched random median                                     re-run 0.0776699                reported 0.08
+  OK   GSE84133 mouse 95th percentile of the null median                        re-run 0.197528                 reported 0.2
+  OK   GSE84133 mouse empirical P (median)                                      re-run 0.805097                 reported 0.805
+  OK   GSE84133 mouse empirical P (mean)                                        re-run 0.521239                 reported 0.521
+  OK   GSE84133 mouse significantly positive / negative                         re-run (2, 2)                   reported (2, 2)
+  OK   GSE84133 mouse edges                                                     re-run 1                        reported 1
+  OK   GSE84133 human, non-diabetic donors only, 10%: beta-cells                re-run 2030                     reported 2030
+  OK     evaluable genes                                                        re-run 4                        reported 4
+  OK     evaluable consensus pairs                                              re-run 0                        reported 0
+  OK   GSE84133 human, non-diabetic donors only, 5%: evaluable genes            re-run 8                        reported 8
+  OK     evaluable consensus pairs                                              re-run 7                        reported 7
+  OK     median rho, consensus                                                  re-run 0.282243                 reported 0.28
+  OK     matched random median                                                  re-run 0.0770481                reported 0.08
+  OK     95th percentile of the null median                                     re-run 0.39923                  reported 0.4
+  OK     empirical P (median)                                                   re-run 0.0904548                reported 0.09
+  OK     empirical P (mean)                                                     re-run 0.0934533                reported 0.093
+
+STAGE 1 VERDICT: PASS (all 49 quoted numbers and all files reproduced)
+
+WP4 GATE - stage 2: new module wp4_core.py (unadjusted mode) against the stored results of the earlier scripts
+written 2026-11-06 07:58:31 (+0700) by gate_port.py
+
+GSE81608 (n = 503 beta-cells, 18 donors)
+   OK   136 pairs: gene order and evaluable flags
+   OK   136 pairs: rho (max abs diff 1.7e-16)
+   OK   136 pairs: p
+   OK   136 pairs: q
+   OK   detection of the 17 genes (%)
+   OK   pair-level null: pairs in order
+   OK   pair-level null: rho
+   OK   pair-level null: q
+   OK   pair-level null: null_mean
+   OK   pair-level null: null_95pct
+   OK   pair-level null: empirical_p_ge_observed
+   OK   summary beta_cells
+   OK   summary donors
+   OK   summary df_for_p
+   OK   summary genes_evaluable
+   OK   summary consensus_pairs_evaluable
+   OK   summary other_pairs_evaluable
+   OK   summary consensus_positive
+   OK   summary consensus_sig_positive_q05
+   OK   summary consensus_sig_negative_q05
+   OK   summary median_rho_consensus (-0.0207317 vs -0.0207317)
+   OK   summary median_rho_other (0.0182008 vs 0.0182008)
+   OK   summary mannwhitney_p_consensus_vs_other (0.155523 vs 0.155523)
+   OK   summary null_median_rho_mean (0.0199229 vs 0.0199229)
+   OK   summary null_median_rho_95pct (0.0494775 vs 0.0494775)
+   OK   summary observed_median_rho (-0.0207317 vs -0.0207317)
+   OK   summary empirical_p_median_ge_observed (0.985007 vs 0.985007)
+   OK   summary empirical_p_mean_ge_observed (0.992004 vs 0.992004)
+   OK   summary edges q<0.05 & |rho|>=0.2
+   OK   summary genes_not_evaluable
+
+GSE84133 human (n = 2525, 4 donors, threshold 0.10)
+   OK   136 pairs: gene order and evaluable flags
+   OK   136 pairs: rho (max abs diff 9e-17)
+   OK   136 pairs: p
+   OK   136 pairs: q
+   OK   detection of the 17 genes (%)
+   OK   pair-level null: pairs in order
+   OK   pair-level null: rho
+   OK   pair-level null: q
+   OK   pair-level null: null_mean
+   OK   pair-level null: null_95pct
+   OK   pair-level null: empirical_p_ge_observed
+   OK   summary beta_cells
+   OK   summary donors
+   OK   summary df_for_p
+   OK   summary genes_evaluable
+   OK   summary consensus_pairs_evaluable
+   OK   summary other_pairs_evaluable
+   OK   summary consensus_positive
+   OK   summary consensus_sig_positive_q05
+   OK   summary consensus_sig_negative_q05
+   OK   summary median_rho_consensus (0.239229 vs 0.239229)
+   OK   summary median_rho_other (-0.0422889 vs -0.0422889)
+   OK   summary mannwhitney_p_consensus_vs_other (0.0703297 vs 0.0703297)
+   OK   summary null_median_rho_mean (0.0521479 vs 0.0521479)
+   OK   summary null_median_rho_95pct (0.254093 vs 0.254093)
+   OK   summary observed_median_rho (0.239229 vs 0.239229)
+   OK   summary empirical_p_median_ge_observed (0.0714643 vs 0.0714643)
+   OK   summary empirical_p_mean_ge_observed (0.013993 vs 0.013993)
+   OK   summary edges q<0.05 & |rho|>=0.2
+   OK   summary genes_not_evaluable
+
+GSE84133 mouse (n = 894, 2 donors, threshold 0.10)
+   OK   136 pairs: gene order and evaluable flags
+   OK   136 pairs: rho (max abs diff 9e-17)
+   OK   136 pairs: p
+   OK   136 pairs: q
+   OK   detection of the 17 genes (%)
+   OK   pair-level null: pairs in order
+   OK   pair-level null: rho
+   OK   pair-level null: q
+   OK   pair-level null: null_mean
+   OK   pair-level null: null_95pct
+   OK   pair-level null: empirical_p_ge_observed
+   OK   summary beta_cells
+   OK   summary donors
+   OK   summary df_for_p
+   OK   summary genes_evaluable
+   OK   summary consensus_pairs_evaluable
+   OK   summary other_pairs_evaluable
+   OK   summary consensus_positive
+   OK   summary consensus_sig_positive_q05
+   OK   summary consensus_sig_negative_q05
+   OK   summary median_rho_consensus (-0.0446399 vs -0.0446399)
+   OK   summary median_rho_other (-0.0553776 vs -0.0553776)
+   OK   summary mannwhitney_p_consensus_vs_other (0.547619 vs 0.547619)
+   OK   summary null_median_rho_mean (0.0776699 vs 0.0776699)
+   OK   summary null_median_rho_95pct (0.197528 vs 0.197528)
+   OK   summary observed_median_rho (-0.0446399 vs -0.0446399)
+   OK   summary empirical_p_median_ge_observed (0.805097 vs 0.805097)
+   OK   summary empirical_p_mean_ge_observed (0.521239 vs 0.521239)
+   OK   summary edges q<0.05 & |rho|>=0.2
+   OK   summary genes_not_evaluable
+
+GSE84133 human_nondiabetic (n = 2030, 3 donors, threshold 0.10)
+   OK   136 pairs: gene order and evaluable flags
+   OK   136 pairs: rho (max abs diff 9.7e-17)
+   OK   136 pairs: p
+   OK   136 pairs: q
+   OK   detection of the 17 genes (%)
+   OK   summary beta_cells
+   OK   summary donors
+   OK   summary df_for_p
+   OK   summary genes_evaluable
+   OK   summary consensus_pairs_evaluable
+   OK   summary other_pairs_evaluable
+   OK   summary consensus_positive
+   OK   summary consensus_sig_positive_q05
+   OK   summary consensus_sig_negative_q05
+   OK   summary median_rho_other (-0.0592212 vs -0.0592212)
+   OK   summary edges q<0.05 & |rho|>=0.2
+   OK   summary genes_not_evaluable
+
+GSE84133 human_nondiabetic_det5 (n = 2030, 3 donors, threshold 0.05)
+   OK   136 pairs: gene order and evaluable flags
+   OK   136 pairs: rho (max abs diff 9.7e-17)
+   OK   136 pairs: p
+   OK   136 pairs: q
+   OK   detection of the 17 genes (%)
+   OK   pair-level null: pairs in order
+   OK   pair-level null: rho
+   OK   pair-level null: q
+   OK   pair-level null: null_mean
+   OK   pair-level null: null_95pct
+   OK   pair-level null: empirical_p_ge_observed
+   OK   summary beta_cells
+   OK   summary donors
+   OK   summary df_for_p
+   OK   summary genes_evaluable
+   OK   summary consensus_pairs_evaluable
+   OK   summary other_pairs_evaluable
+   OK   summary consensus_positive
+   OK   summary consensus_sig_positive_q05
+   OK   summary consensus_sig_negative_q05
+   OK   summary median_rho_consensus (0.282243 vs 0.282243)
+   OK   summary median_rho_other (-0.0315542 vs -0.0315542)
+   OK   summary mannwhitney_p_consensus_vs_other (0.0798098 vs 0.0798098)
+   OK   summary null_median_rho_mean (0.0770481 vs 0.0770481)
+   OK   summary null_median_rho_95pct (0.39923 vs 0.39923)
+   OK   summary observed_median_rho (0.282243 vs 0.282243)
+   OK   summary empirical_p_median_ge_observed (0.0904548 vs 0.0904548)
+   OK   summary empirical_p_mean_ge_observed (0.0934533 vs 0.0934533)
+   OK   summary edges q<0.05 & |rho|>=0.2
+   OK   summary genes_not_evaluable
+
+STAGE 2 VERDICT: PASS - wp4_core.py (unadjusted) reproduces every stored number

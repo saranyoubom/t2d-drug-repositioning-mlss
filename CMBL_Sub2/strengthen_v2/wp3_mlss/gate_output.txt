@@ -1,0 +1,35 @@
+MLSS port gate: Python port vs existing R output Fig_6c_MLSS_ALL_Combinations.csv
+Inputs (read only, R_17genes): Fig_6b_Gene_Centrality_Summary.csv (Degree >= 5 -> hubs ['GLP1R', 'TCF7L2', 'CACNA1D', 'PTBP1']), Fig_4e_Hes1_significant_correlations_only.csv (120 correlated pairs), drug.target.interaction.csv (19378 rows)
+Port: 153 combinations; R output: 153 rows
+Combinations matched by drug pair: 153 of 153
+MLSS score: max |difference| = 5.329e-15 (criterion < 0.005); mean |difference| = 8.679e-16
+  Complementarity_C    max |difference| = 0.000e+00
+  Balance_B            max |difference| = 0.000e+00
+  Network_Coverage_V   max |difference| = 0.000e+00
+  Potency_P            max |difference| = 3.331e-16
+  Mean_pIC50           max |difference| = 1.776e-15
+  Mean_Abs_r           max |difference| = 0.000e+00
+  Mean_Pos_r           max |difference| = 0.000e+00
+  Mean_Neg_r           max |difference| = 0.000e+00
+  Base_Score           max |difference| = 1.776e-15
+  Synergy_Bonus        max |difference| = 4.441e-16
+  Antagonism_Penalty   max |difference| = 0.000e+00
+Combination label (A + B order) identical: 153 of 153
+Target strings identical: 153 of 153
+Rank order: identical combination at the same rank in 153 of 153 positions
+Tie-tolerant check (score groups rounded to 9 decimals hold the same combinations): yes
+Absolute rank difference per combination: max 0, number differing 0
+Spearman rho of scores = 1.000000; of the printed ranks = 1.000000
+Number of combinations whose score is tied with another one in the R output: 125 (ties keep the original row order in R, and in the port)
+Top-15 sets identical: True; top combination in R: (S)-nitrendipine + albiglutide (9.960357); in port: (S)-nitrendipine + albiglutide (9.960357)
+GATE (153 scores within 0.005 and rank order reproduced): PASS
+
+Part 2: upstream network step (INS-1 matrix -> four schemes -> consensus -> degree) against stored results
+INS-1 matrix: <authors' files>/SBA\Figures\Fig_4b_Correlation_matrix_Relative_mRNA_expression.xlsx (12 x 17)
+  max |difference| to the R_17genes copy of the matrix: 5.33e-15
+  consensus pairs equal to Fig_4d_consensus_pairs.csv: True (21 vs 21)
+  degree table equal to Fig_6b_Gene_Centrality_Summary.csv: True
+  Hes1-normalized r (120 pairs, all p < 0.05) vs Fig_4e CSV: max |difference| = 1.55e-15; pairs with p >= 0.05 (NA): 0
+  reported consensus 21 (gapdh_exact.json 21, identical True); degree identical True; significant pairs {'Raw': 66, 'Hes1-normalized': 120, 'Kcnj11-normalized': 84, 'Ins1-normalized': 80}
+  C0       consensus 24 (gapdh_exact.json 24, identical True); degree identical True; significant pairs {'Raw': 63, 'Hes1-normalized': 120, 'Kcnj11-normalized': 86, 'Ins1-normalized': 80}
+  C1       consensus 21 (gapdh_exact.json 21, identical True); degree identical True; significant pairs {'Raw': 62, 'Hes1-normalized': 120, 'Kcnj11-normalized': 44, 'Ins1-normalized': 49}

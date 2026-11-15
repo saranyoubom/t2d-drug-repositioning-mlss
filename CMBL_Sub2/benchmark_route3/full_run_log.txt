@@ -1,0 +1,134 @@
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE307491 (#10): analysed | DE 105 | done {'GPL570': 1, 'GPL1261': 0} | 71s
+GPL570 GSE39889 (#15): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 1, 'GPL1261': 0} | 3s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE28645 (#21): analysed | DE 2066 | done {'GPL570': 2, 'GPL1261': 0} | 57s
+GPL570 GSE29881 (#26): not analysable: 3 DE genes (< 34) | DE 3 | done {'GPL570': 2, 'GPL1261': 0} | 3s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE11618 (#30): analysed | DE 1622 | done {'GPL570': 3, 'GPL1261': 0} | 61s
+GPL570 GSE27385 (#45): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 3, 'GPL1261': 0} | 6s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE7890 (#52): analysed | DE 1102 | done {'GPL570': 4, 'GPL1261': 0} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE32100 (#55): analysed | DE 1676 | done {'GPL570': 5, 'GPL1261': 0} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE58093 (#59): analysed | DE 7424 | done {'GPL570': 6, 'GPL1261': 0} | 75s
+GPL570 GSE63955 (#62): not analysable: 6 DE genes (< 34) | DE 6 | done {'GPL570': 6, 'GPL1261': 0} | 3s
+GPL570 GSE3059 (#63): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 6, 'GPL1261': 0} | 3s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE5883 (#65): analysed | DE 2404 | done {'GPL570': 7, 'GPL1261': 0} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE13274 (#68): analysed | DE 5445 | done {'GPL570': 8, 'GPL1261': 0} | 57s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE98078 (#73): analysed | DE 9496 | done {'GPL570': 9, 'GPL1261': 0} | 63s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE30536 (#81): analysed | DE 809 | done {'GPL570': 10, 'GPL1261': 0} | 60s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE26656 (#91): analysed | DE 9212 | done {'GPL570': 11, 'GPL1261': 0} | 60s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE36176 (#108): analysed | DE 5852 | done {'GPL570': 12, 'GPL1261': 0} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE53183 (#117): analysed | DE 10262 | done {'GPL570': 13, 'GPL1261': 0} | 58s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE20677 (#122): analysed | DE 1320 | done {'GPL570': 14, 'GPL1261': 0} | 56s
+GPL570 GSE48498 (#124): not analysable: 5 DE genes (< 34) | DE 5 | done {'GPL570': 14, 'GPL1261': 0} | 6s
+GPL570 GSE75232 (#127): not analysable: 1 DE genes (< 34) | DE 1 | done {'GPL570': 14, 'GPL1261': 0} | 3s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE34112 (#136): analysed | DE 1134 | done {'GPL570': 15, 'GPL1261': 0} | 58s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE11942 (#140): analysed | DE 3667 | done {'GPL570': 16, 'GPL1261': 0} | 68s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL570 GSE37265 (#143): analysed | DE 1318 | done {'GPL570': 17, 'GPL1261': 0} | 58s
+GPL570 GSE53185 (#145): not analysable: duplicate of GSE53183 | DE - | done {'GPL570': 17, 'GPL1261': 0} | 0s
+GPL1261 GSE93864 (#3): not analysable: 17 DE genes (< 34) | DE 17 | done {'GPL570': 17, 'GPL1261': 0} | 14s
+GPL1261 GSE88799 (#6): not analysable: 5 DE genes (< 34) | DE 5 | done {'GPL570': 17, 'GPL1261': 0} | 3s
+GPL1261 GSE68361 (#7): not analysable: 6 DE genes (< 34) | DE 6 | done {'GPL570': 17, 'GPL1261': 0} | 4s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE49079 (#8): analysed | DE 262 | done {'GPL570': 17, 'GPL1261': 1} | 59s
+GPL1261 GSE5500 (#13): not analysable: 5 DE genes (< 34) | DE 5 | done {'GPL570': 17, 'GPL1261': 1} | 4s
+GPL1261 GSE8733 (#14): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 17, 'GPL1261': 1} | 2s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE65461 (#24): analysed | DE 2864 | done {'GPL570': 17, 'GPL1261': 2} | 61s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE2924 (#31): analysed | DE 279 | done {'GPL570': 17, 'GPL1261': 3} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE31851 (#36): analysed | DE 6503 | done {'GPL570': 17, 'GPL1261': 4} | 58s
+GPL1261 GSE64658 (#45): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 17, 'GPL1261': 4} | 4s
+GPL1261 GSE106581 (#46): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 17, 'GPL1261': 4} | 3s
+GPL1261 GSE14499 (#50): not analysable: 2 DE genes (< 34) | DE 2 | done {'GPL570': 17, 'GPL1261': 4} | 4s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE15892 (#53): analysed | DE 2881 | done {'GPL570': 17, 'GPL1261': 5} | 60s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE56483 (#62): analysed | DE 2175 | done {'GPL570': 17, 'GPL1261': 6} | 59s
+GPL1261 GSE46169 (#63): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 17, 'GPL1261': 6} | 5s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE51925 (#65): analysed | DE 48 | done {'GPL570': 17, 'GPL1261': 7} | 63s
+GPL1261 GSE47516 (#72): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 17, 'GPL1261': 7} | 3s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE55238 (#73): analysed | DE 1079 | done {'GPL570': 17, 'GPL1261': 8} | 64s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE28477 (#82): analysed | DE 8834 | done {'GPL570': 17, 'GPL1261': 9} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE39820 (#86): analysed | DE 3727 | done {'GPL570': 17, 'GPL1261': 10} | 64s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE34773 (#87): analysed | DE 1922 | done {'GPL570': 17, 'GPL1261': 11} | 61s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE26695 (#88): analysed | DE 142 | done {'GPL570': 17, 'GPL1261': 12} | 62s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE140954 (#98): analysed | DE 4321 | done {'GPL570': 17, 'GPL1261': 13} | 61s
+GPL1261 GSE89935 (#101): not analysable: 0 DE genes (< 34) | DE 0 | done {'GPL570': 17, 'GPL1261': 13} | 2s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE6858 (#102): analysed | DE 144 | done {'GPL570': 17, 'GPL1261': 14} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE144145 (#105): analysed | DE 2582 | done {'GPL570': 17, 'GPL1261': 15} | 59s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE18224 (#106): analysed | DE 56 | done {'GPL570': 17, 'GPL1261': 16} | 63s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE16790 (#110): analysed | DE 637 | done {'GPL570': 17, 'GPL1261': 17} | 65s
+GPL1261 GSE51365 (#112): not analysable: 1 DE genes (< 34) | DE 1 | done {'GPL570': 17, 'GPL1261': 17} | 4s
+GPL1261 GSE15325 (#121): not analysable: 1 DE genes (< 34) | DE 1 | done {'GPL570': 17, 'GPL1261': 17} | 3s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE52644 (#124): analysed | DE 1882 | done {'GPL570': 17, 'GPL1261': 18} | 64s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE51432 (#130): analysed | DE 208 | done {'GPL570': 17, 'GPL1261': 19} | 57s
+CMBL_Sub2\benchmark_route3\bench_pipeline.py:82: RuntimeWarning: All-NaN slice encountered
+  qmin = np.nanmin(np.stack(Q), axis=0); qall = np.nanmax(np.stack(Q), axis=0)           # q in the best scheme / in the worst scheme (nan if the pair is absent from a scheme)
+GPL1261 GSE53480 (#132): analysed | DE 161 | done {'GPL570': 17, 'GPL1261': 20} | 62s
+finished {'GPL570': 17, 'GPL1261': 20}
+exit 0

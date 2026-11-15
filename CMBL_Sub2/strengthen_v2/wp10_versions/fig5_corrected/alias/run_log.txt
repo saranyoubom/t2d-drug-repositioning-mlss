@@ -1,0 +1,138 @@
+
+================================================================================
+FIGURE 5: GENE INTERACTION NETWORK & STRING DATABASE NOVELTY DISCOVERY
+Publication-Ready with NPG Color Palette
+4-Panel Comprehensive Analysis
+================================================================================
+
+Loading packages...
+Warning messages:
+1: package 'ggplot2' was built under R version 4.4.3 
+2: package 'igraph' was built under R version 4.4.3 
+3: package 'ggraph' was built under R version 4.4.3 
+✓ Packages loaded
+
+✓ Output directories created
+  → Figures: ./figures_publication/
+  → Data export: ./figures_publication/data_export/
+
+Loading data files...
+✓ STRING interactions: 59 pairs
+✓ Validated pairs (4-method consensus): 21 pairs
+✓ Correlation data: 120 significant pairs (p < 0.05)
+
+Classifying gene pairs...
+--------------------------------------------------------------------------------
+PAIR CLASSIFICATION SUMMARY
+--------------------------------------------------------------------------------
+# A tibble: 4 × 7
+  Category        Count Mean_r Median_r Min_r Max_r Strong_r_0.9
+  <chr>           <int>  <dbl>    <dbl> <dbl> <dbl>        <int>
+1 Not Validated      66  0.932    0.943 0.752 0.988           54
+2 STRING Only        33  0.955    0.966 0.854 0.991           30
+3 Novel Discovery    16  0.968    0.975 0.890 0.996           15
+4 Known Validated     5  0.956    0.965 0.923 0.975            5
+
+✓ Total pairs analyzed (|r| ≥ 0.7): 120
+✓ Novel discoveries: 16 (13.3%)
+✓ Known validated (STRING + 4-method): 5
+✓ STRING only (not in 4-method): 33
+✓ Not validated (not in STRING, not in 4-method): 66
+
+Creating Panel A: Gene Interaction Network...
+Network composition:
+  STRING-validated: 5 pairs
+  Novel discoveries: 16 pairs
+  Supplemental (STRING Only/Not Validated): 29 pairs
+Network: 16 nodes, 50 edges
+  (svg save skipped in this copy)
+✓ Panel A created
+
+Creating Panel B: STRING Database Coverage...
+  (svg save skipped in this copy)
+✓ Panel B created
+  → Exported: Fig5B_Coverage_Summary.csv
+
+Creating Panel C: Correlation Distribution...
+  (svg save skipped in this copy)
+✓ Panel C created
+  → Exported: Fig5C_All_Pairs_Classified.csv
+
+Creating Panel D: Top Novel Discoveries...
+✓ Panel D created (showing 15 novel discoveries)
+  → Exported: Fig5D_Novel_Discoveries.csv
+
+  (svg save skipped in this copy)
+================================================================================
+NETWORK ANALYSIS SUMMARY
+================================================================================
+
+Network Connectivity:
+  Connected: Yes
+  Components: 1
+  Nodes: 16 genes
+  Edges: 50 interactions
+  Density: 0.417
+  Average degree: 6.25
+
+Gene Pair Classification:
+# A tibble: 4 × 7
+  Category        Count Mean_r Median_r Min_r Max_r Strong_r_0.9
+  <chr>           <int>  <dbl>    <dbl> <dbl> <dbl>        <int>
+1 Not Validated      66  0.932    0.943 0.752 0.988           54
+2 STRING Only        33  0.955    0.966 0.854 0.991           30
+3 Novel Discovery    16  0.968    0.975 0.890 0.996           15
+4 Known Validated     5  0.956    0.965 0.923 0.975            5
+
+Hub Genes (Top 5 by connectivity):
+     Gene Degree Betweenness NodeType
+1   Glp1r     11          24    Novel
+2  Tcf7l2     11          30    Novel
+3 Cacna1d      9           3    Novel
+4   Ptbp1      9           5    Novel
+5    Ins1      9           3    Known
+
+Novel Discovery Statistics:
+  Total novel pairs: 16
+  Mean |r|: 0.968
+  Median |r|: 0.975
+  Pairs with |r| ≥ 0.9: 15 (93.8%)
+  Pairs with |r| ≥ 0.95: 13 (81.2%)
+
+Exporting network analysis data...
+✓ Fig5_Network_Nodes.csv
+✓ Fig5_Network_Edges.csv
+✓ Fig5_Summary_Statistics.csv
+
+================================================================================
+FIGURE 5 COMPLETE - PUBLICATION READY
+================================================================================
+
+INDIVIDUAL PANEL FIGURES SAVED:
+  Format: PNG (600 DPI) + SVG
+  Dimensions: 9.16 × 9.16 cm each
+
+  ✓ Fig5a_Network.png / .svg
+      → 16 nodes, 50 edges
+      → 5 STRING-validated, 16 novel discoveries
+
+  ✓ Fig5b_Coverage.png / .svg
+      → 120 pairs classified into 4 categories
+
+  ✓ Fig5c_Distribution.png / .svg
+      → Correlation strength histograms by category
+
+  ✓ Fig5d_Novel_Discoveries.png / .svg
+      → Top 15 novel gene pairs ranked by |r|
+
+DATA EXPORTS:
+  ✓ Fig5B_Coverage_Summary.csv
+  ✓ Fig5C_All_Pairs_Classified.csv
+  ✓ Fig5D_Novel_Discoveries.csv
+  ✓ Fig5_Network_Nodes.csv
+  ✓ Fig5_Network_Edges.csv
+  ✓ Fig5_Summary_Statistics.csv
+
+All panels saved individually. Ready for manuscript submission.
+
+exit code 0

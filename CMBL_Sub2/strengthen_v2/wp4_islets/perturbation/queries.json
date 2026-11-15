@@ -1,0 +1,62 @@
+{
+ "notch": {
+  "term": "gse[ETYP] AND (Notch OR \"gamma-secretase\" OR \"gamma secretase\" OR DAPT) AND (islet OR islets OR \"beta cell\" OR \"beta cells\" OR \"beta-cell\" OR INS-1 OR INS1 OR MIN6 OR \"pancreatic beta\")",
+  "count": 19,
+  "ids": [
+   "200237280",
+   "200195647",
+   "200249170",
+   "200175613",
+   "200156711",
+   "200156710",
+   "200156709",
+   "200193888",
+   "200196118",
+   "200168071",
+   "200143783",
+   "200129653",
+   "200128331",
+   "200106813",
+   "200076678",
+   "200076482",
+   "200060803",
+   "200030802",
+   "200003653"
+  ],
+  "translation": "gse[ETYP] AND (Notch[All Fields] OR \"gamma-secretase\"[All Fields] OR \"gamma secretase\"[All Fields] OR (\"2'-deoxythymidylyl-(3'-5')-2'-deoxyadenosine\"[All Fields] OR \"1,2-dilinolenoyl-3-(4-aminobutyryl)propane-1,2,3-triol\"[All Fields] OR DAPT[All Fields])) AND (islet[All Fields] OR islets[All Fields] OR \"beta cell\"[All Fields] OR \"beta cells\"[All Fields] OR \"beta-cell\"[All Fields] OR INS-1[All Fields] OR INS1[All Fields] OR MIN6[All Fields] OR \"pancreatic beta\"[All Fields])"
+ },
+ "wnt": {
+  "term": "gse[ETYP] AND (DKK1 OR Dickkopf OR \"Wnt inhibitor\" OR \"beta-catenin\" OR TCF7L2 OR TCF4 OR \"Wnt signaling\" OR \"Wnt signalling\") AND (islet OR islets OR \"beta cell\" OR \"beta cells\" OR \"beta-cell\" OR INS-1 OR INS1 OR MIN6 OR \"pancreatic beta\")",
+  "count": 27,
+  "ids": [
+   "200343366",
+   "200323299",
+   "200323218",
+   "200308943",
+   "200242776",
+   "200224490",
+   "200239329",
+   "200228663",
+   "200228662",
+   "200228665",
+   "200136887",
+   "200118725",
+   "200143783",
+   "200113791",
+   "200139147",
+   "200123136",
+   "200126550",
+   "200106813",
+   "200053352",
+   "200044046",
+   "200044045",
+   "200060803",
+   "200050103",
+   "200041284",
+   "200030526",
+   "200012802",
+   "200000014"
+  ],
+  "translation": "gse[ETYP] AND (DKK1[All Fields] OR Dickkopf[All Fields] OR \"Wnt inhibitor\"[All Fields] OR \"beta-catenin\"[All Fields] OR TCF7L2[All Fields] OR TCF4[All Fields] OR \"Wnt signaling\"[All Fields] OR \"Wnt signalling\"[All Fields]) AND (islet[All Fields] OR islets[All Fields] OR \"beta cell\"[All Fields] OR \"beta cells\"[All Fields] OR \"beta-cell\"[All Fields] OR INS-1[All Fields] OR INS1[All Fields] OR MIN6[All Fields] OR \"pancreatic beta\"[All Fields])"
+ }
+}

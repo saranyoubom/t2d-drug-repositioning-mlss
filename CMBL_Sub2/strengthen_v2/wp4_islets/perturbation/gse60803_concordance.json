@@ -1,0 +1,109 @@
+{
+ "series": "GSE60803",
+ "platform": "GPL11532",
+ "donors": [
+  "S108",
+  "S109",
+  "S112",
+  "S114"
+ ],
+ "arrays": 12,
+ "genes_with_probe": 17,
+ "genes_without_probe": [],
+ "ins1_arm": "DKK-1 vs CTRL, as reported",
+ "confounded": "controls are not expanded cells (untreated and nontarget arrays are described as intact islet cells; nontarget exists for one donor)",
+ "all_donors": {
+  "n_genes": 17,
+  "n_same_sign": 7,
+  "binomial_p": 0.629058837890625,
+  "spearman_rho": -0.03676470588235294,
+  "spearman_p": 0.8885928675683452,
+  "genes": [
+   "Hes1",
+   "Wnt5a",
+   "Wnt5b",
+   "Wnt9a",
+   "Lef1",
+   "Tcf7",
+   "Tcf7l2",
+   "Itpr1",
+   "Ryr2",
+   "Ryr3",
+   "Cacna1c",
+   "Cacna1d",
+   "Kcnj11",
+   "Ptbp1",
+   "Glut2",
+   "Ins1",
+   "Glp1r"
+  ],
+  "same_sign_genes": [
+   "Wnt5a",
+   "Wnt5b",
+   "Tcf7l2",
+   "Kcnj11",
+   "Glut2",
+   "Ins1",
+   "Glp1r"
+  ],
+  "opposite_sign_genes": [
+   "Hes1",
+   "Wnt9a",
+   "Lef1",
+   "Tcf7",
+   "Itpr1",
+   "Ryr2",
+   "Ryr3",
+   "Cacna1c",
+   "Cacna1d",
+   "Ptbp1"
+  ]
+ },
+ "S114_only": {
+  "n_genes": 17,
+  "n_same_sign": 10,
+  "binomial_p": 0.629058837890625,
+  "spearman_rho": -0.007352941176470588,
+  "spearman_p": 0.9776558930236224,
+  "genes": [
+   "Hes1",
+   "Wnt5a",
+   "Wnt5b",
+   "Wnt9a",
+   "Lef1",
+   "Tcf7",
+   "Tcf7l2",
+   "Itpr1",
+   "Ryr2",
+   "Ryr3",
+   "Cacna1c",
+   "Cacna1d",
+   "Kcnj11",
+   "Ptbp1",
+   "Glut2",
+   "Ins1",
+   "Glp1r"
+  ],
+  "same_sign_genes": [
+   "Hes1",
+   "Wnt5a",
+   "Wnt5b",
+   "Tcf7",
+   "Tcf7l2",
+   "Cacna1d",
+   "Kcnj11",
+   "Glut2",
+   "Ins1",
+   "Glp1r"
+  ],
+  "opposite_sign_genes": [
+   "Wnt9a",
+   "Lef1",
+   "Itpr1",
+   "Ryr2",
+   "Ryr3",
+   "Cacna1c",
+   "Ptbp1"
+  ]
+ }
+}

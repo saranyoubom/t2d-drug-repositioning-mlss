@@ -1,0 +1,1147 @@
+{
+ "n_rows_processed": 58,
+ "n_in_part1_log": 58,
+ "n_part1_records": 58,
+ "n_all_ok": 58,
+ "n_analysed": 37,
+ "analysed_per_platform": {
+  "GPL570": 17,
+  "GPL1261": 20
+ },
+ "checks": [
+  {
+   "gse": "GSE307491",
+   "platform": "GPL570",
+   "order": 10,
+   "status": "analysed",
+   "n_de": 105,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 2.1
+  },
+  {
+   "gse": "GSE39889",
+   "platform": "GPL570",
+   "order": 15,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE28645",
+   "platform": "GPL570",
+   "order": 21,
+   "status": "analysed",
+   "n_de": 2066,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.7
+  },
+  {
+   "gse": "GSE29881",
+   "platform": "GPL570",
+   "order": 26,
+   "status": "not analysable: 3 DE genes (< 34)",
+   "n_de": 3,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.7
+  },
+  {
+   "gse": "GSE11618",
+   "platform": "GPL570",
+   "order": 30,
+   "status": "analysed",
+   "n_de": 1622,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.1
+  },
+  {
+   "gse": "GSE27385",
+   "platform": "GPL570",
+   "order": 45,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 1.5
+  },
+  {
+   "gse": "GSE7890",
+   "platform": "GPL570",
+   "order": 52,
+   "status": "analysed",
+   "n_de": 1102,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.1
+  },
+  {
+   "gse": "GSE32100",
+   "platform": "GPL570",
+   "order": 55,
+   "status": "analysed",
+   "n_de": 1676,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.2
+  },
+  {
+   "gse": "GSE58093",
+   "platform": "GPL570",
+   "order": 59,
+   "status": "analysed",
+   "n_de": 7424,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.1
+  },
+  {
+   "gse": "GSE63955",
+   "platform": "GPL570",
+   "order": 62,
+   "status": "not analysable: 6 DE genes (< 34)",
+   "n_de": 6,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 1.1
+  },
+  {
+   "gse": "GSE3059",
+   "platform": "GPL570",
+   "order": 63,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 1.3
+  },
+  {
+   "gse": "GSE5883",
+   "platform": "GPL570",
+   "order": 65,
+   "status": "analysed",
+   "n_de": 2404,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.4
+  },
+  {
+   "gse": "GSE13274",
+   "platform": "GPL570",
+   "order": 68,
+   "status": "analysed",
+   "n_de": 5445,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.3
+  },
+  {
+   "gse": "GSE98078",
+   "platform": "GPL570",
+   "order": 73,
+   "status": "analysed",
+   "n_de": 9496,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.8
+  },
+  {
+   "gse": "GSE30536",
+   "platform": "GPL570",
+   "order": 81,
+   "status": "analysed",
+   "n_de": 809,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.2
+  },
+  {
+   "gse": "GSE26656",
+   "platform": "GPL570",
+   "order": 91,
+   "status": "analysed",
+   "n_de": 9212,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.2
+  },
+  {
+   "gse": "GSE36176",
+   "platform": "GPL570",
+   "order": 108,
+   "status": "analysed",
+   "n_de": 5852,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.2
+  },
+  {
+   "gse": "GSE53183",
+   "platform": "GPL570",
+   "order": 117,
+   "status": "analysed",
+   "n_de": 10262,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.8
+  },
+  {
+   "gse": "GSE20677",
+   "platform": "GPL570",
+   "order": 122,
+   "status": "analysed",
+   "n_de": 1320,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.7
+  },
+  {
+   "gse": "GSE48498",
+   "platform": "GPL570",
+   "order": 124,
+   "status": "not analysable: 5 DE genes (< 34)",
+   "n_de": 5,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 1.1
+  },
+  {
+   "gse": "GSE75232",
+   "platform": "GPL570",
+   "order": 127,
+   "status": "not analysable: 1 DE genes (< 34)",
+   "n_de": 1,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.8
+  },
+  {
+   "gse": "GSE34112",
+   "platform": "GPL570",
+   "order": 136,
+   "status": "analysed",
+   "n_de": 1134,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.9
+  },
+  {
+   "gse": "GSE11942",
+   "platform": "GPL570",
+   "order": 140,
+   "status": "analysed",
+   "n_de": 3667,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.9
+  },
+  {
+   "gse": "GSE37265",
+   "platform": "GPL570",
+   "order": 143,
+   "status": "analysed",
+   "n_de": 1318,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 1.0
+  },
+  {
+   "gse": "GSE53185",
+   "platform": "GPL570",
+   "order": 145,
+   "status": "not analysable: duplicate of GSE53183",
+   "n_de": null,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.0
+  },
+  {
+   "gse": "GSE93864",
+   "platform": "GPL1261",
+   "order": 3,
+   "status": "not analysable: 17 DE genes (< 34)",
+   "n_de": 17,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 1.8
+  },
+  {
+   "gse": "GSE88799",
+   "platform": "GPL1261",
+   "order": 6,
+   "status": "not analysable: 5 DE genes (< 34)",
+   "n_de": 5,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE68361",
+   "platform": "GPL1261",
+   "order": 7,
+   "status": "not analysable: 6 DE genes (< 34)",
+   "n_de": 6,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.9
+  },
+  {
+   "gse": "GSE49079",
+   "platform": "GPL1261",
+   "order": 8,
+   "status": "analysed",
+   "n_de": 262,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.8
+  },
+  {
+   "gse": "GSE5500",
+   "platform": "GPL1261",
+   "order": 13,
+   "status": "not analysable: 5 DE genes (< 34)",
+   "n_de": 5,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.8
+  },
+  {
+   "gse": "GSE8733",
+   "platform": "GPL1261",
+   "order": 14,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE65461",
+   "platform": "GPL1261",
+   "order": 24,
+   "status": "analysed",
+   "n_de": 2864,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE2924",
+   "platform": "GPL1261",
+   "order": 31,
+   "status": "analysed",
+   "n_de": 279,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.4
+  },
+  {
+   "gse": "GSE31851",
+   "platform": "GPL1261",
+   "order": 36,
+   "status": "analysed",
+   "n_de": 6503,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE64658",
+   "platform": "GPL1261",
+   "order": 45,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE106581",
+   "platform": "GPL1261",
+   "order": 46,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE14499",
+   "platform": "GPL1261",
+   "order": 50,
+   "status": "not analysable: 2 DE genes (< 34)",
+   "n_de": 2,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE15892",
+   "platform": "GPL1261",
+   "order": 53,
+   "status": "analysed",
+   "n_de": 2881,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.7
+  },
+  {
+   "gse": "GSE56483",
+   "platform": "GPL1261",
+   "order": 62,
+   "status": "analysed",
+   "n_de": 2175,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE46169",
+   "platform": "GPL1261",
+   "order": 63,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.7
+  },
+  {
+   "gse": "GSE51925",
+   "platform": "GPL1261",
+   "order": 65,
+   "status": "analysed",
+   "n_de": 48,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.9
+  },
+  {
+   "gse": "GSE47516",
+   "platform": "GPL1261",
+   "order": 72,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE55238",
+   "platform": "GPL1261",
+   "order": 73,
+   "status": "analysed",
+   "n_de": 1079,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.9
+  },
+  {
+   "gse": "GSE28477",
+   "platform": "GPL1261",
+   "order": 82,
+   "status": "analysed",
+   "n_de": 8834,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE39820",
+   "platform": "GPL1261",
+   "order": 86,
+   "status": "analysed",
+   "n_de": 3727,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.7
+  },
+  {
+   "gse": "GSE34773",
+   "platform": "GPL1261",
+   "order": 87,
+   "status": "analysed",
+   "n_de": 1922,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.7
+  },
+  {
+   "gse": "GSE26695",
+   "platform": "GPL1261",
+   "order": 88,
+   "status": "analysed",
+   "n_de": 142,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE140954",
+   "platform": "GPL1261",
+   "order": 98,
+   "status": "analysed",
+   "n_de": 4321,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.4
+  },
+  {
+   "gse": "GSE89935",
+   "platform": "GPL1261",
+   "order": 101,
+   "status": "not analysable: 0 DE genes (< 34)",
+   "n_de": 0,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.3
+  },
+  {
+   "gse": "GSE6858",
+   "platform": "GPL1261",
+   "order": 102,
+   "status": "analysed",
+   "n_de": 144,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE144145",
+   "platform": "GPL1261",
+   "order": 105,
+   "status": "analysed",
+   "n_de": 2582,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.4
+  },
+  {
+   "gse": "GSE18224",
+   "platform": "GPL1261",
+   "order": 106,
+   "status": "analysed",
+   "n_de": 56,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE16790",
+   "platform": "GPL1261",
+   "order": 110,
+   "status": "analysed",
+   "n_de": 637,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE51365",
+   "platform": "GPL1261",
+   "order": 112,
+   "status": "not analysable: 1 DE genes (< 34)",
+   "n_de": 1,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.6
+  },
+  {
+   "gse": "GSE15325",
+   "platform": "GPL1261",
+   "order": 121,
+   "status": "not analysable: 1 DE genes (< 34)",
+   "n_de": 1,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE52644",
+   "platform": "GPL1261",
+   "order": 124,
+   "status": "analysed",
+   "n_de": 1882,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.8
+  },
+  {
+   "gse": "GSE51432",
+   "platform": "GPL1261",
+   "order": 130,
+   "status": "analysed",
+   "n_de": 208,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  },
+  {
+   "gse": "GSE53480",
+   "platform": "GPL1261",
+   "order": 132,
+   "status": "analysed",
+   "n_de": 161,
+   "ok": {
+    "status": true,
+    "n_de": true,
+    "n_expressed": true,
+    "n_genes_mapped": true,
+    "scale": true,
+    "q99": true,
+    "genes_A": true,
+    "n_de_in_set_A": true,
+    "genes_B": true,
+    "n_de_in_set_B": true
+   },
+   "all_ok": true,
+   "seconds": 0.5
+  }
+ ]
+}

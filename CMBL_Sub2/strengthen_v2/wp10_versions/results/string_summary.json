@@ -1,0 +1,122 @@
+{
+ "version_response": [
+  {
+   "string_version": "12.5",
+   "stable_address": "https://version-12-5.string-db.org"
+  }
+ ],
+ "edges_v12_0": 59,
+ "edges_v12_5": 59,
+ "as_reported": {
+  "v12_0": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 29,
+   "Not Validated": 70,
+   "in_STRING": 34,
+   "coverage_percent": 28.3
+  },
+  "v12_5": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 30,
+   "Not Validated": 69,
+   "in_STRING": 35,
+   "coverage_percent": 29.2
+  },
+  "pairs_gained": [
+   "Kcnj11-Ryr2",
+   "Wnt5a-Wnt9a",
+   "Wnt5b-Wnt9a"
+  ],
+  "pairs_lost": [
+   "Cacna1c-Itpr1",
+   "Cacna1d-Itpr1"
+  ],
+  "category_changes": {
+   "Wnt5a-Wnt9a": [
+    "Not Validated",
+    "STRING Only"
+   ],
+   "Wnt5b-Wnt9a": [
+    "Not Validated",
+    "STRING Only"
+   ],
+   "Cacna1c-Itpr1": [
+    "STRING Only",
+    "Not Validated"
+   ],
+   "Cacna1d-Itpr1": [
+    "STRING Only",
+    "Not Validated"
+   ],
+   "Kcnj11-Ryr2": [
+    "Not Validated",
+    "STRING Only"
+   ]
+  }
+ },
+ "alias": {
+  "v12_0": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 33,
+   "Not Validated": 66,
+   "in_STRING": 38,
+   "coverage_percent": 31.7
+  },
+  "v12_5": {
+   "Known Validated": 5,
+   "Novel Discovery": 16,
+   "STRING Only": 34,
+   "Not Validated": 65,
+   "in_STRING": 39,
+   "coverage_percent": 32.5
+  },
+  "pairs_gained": [
+   "Kcnj11-Ryr2",
+   "Wnt5a-Wnt9a",
+   "Wnt5b-Wnt9a"
+  ],
+  "pairs_lost": [
+   "Cacna1c-Itpr1",
+   "Cacna1d-Itpr1"
+  ],
+  "category_changes": {
+   "Wnt5a-Wnt9a": [
+    "Not Validated",
+    "STRING Only"
+   ],
+   "Wnt5b-Wnt9a": [
+    "Not Validated",
+    "STRING Only"
+   ],
+   "Cacna1c-Itpr1": [
+    "STRING Only",
+    "Not Validated"
+   ],
+   "Cacna1d-Itpr1": [
+    "STRING Only",
+    "Not Validated"
+   ],
+   "Kcnj11-Ryr2": [
+    "Not Validated",
+    "STRING Only"
+   ]
+  }
+ },
+ "edges_among_17_genes": {
+  "v12_0": 38,
+  "v12_5": 39,
+  "gained": [
+   "Kcnj11-Ryr2",
+   "Wnt5a-Wnt9a",
+   "Wnt5b-Wnt9a"
+  ],
+  "lost": [
+   "Cacna1c-Itpr1",
+   "Cacna1d-Itpr1"
+  ]
+ },
+ "pairs": 120
+}

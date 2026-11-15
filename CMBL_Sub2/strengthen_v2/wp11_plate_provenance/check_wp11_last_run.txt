@@ -1,0 +1,32 @@
+PASS  fit: best T 209.91, mean 0.0398 (0.040), 92 values T = 209.91 RFU, mean |recomputed - sheet| = 0.0398 cycles over 92 values
+PASS  fit: plate-1 export threshold 45.700 
+PASS  fit validation: known 150.000 returns 150.000 
+PASS  fit validation: known 138.061 returns 138.060 
+PASS  fit validation: known 36.072 returns 36.070 
+PASS  fit: Gapdh-only T 211.59, target-only 209.53, five genes 209.91 (0.0293) 
+PASS  fit: failed well G04 of Wnt2b DAPT, peak 89.6 
+PASS  refA: dCq re-export diff +0.22 (SD 0.11; +0.06 to +0.51) ('+0.22', '0.11', '+0.06', '+0.51')
+PASS  refA: dCq diff at 209.91 -0.03 (SD 0.04; -0.10 to +0.02) ('-0.03', '0.04', '-0.10', '+0.02')
+PASS  refA: ddCq diff re-export -0.14 (SD 0.09; 0.30) ('-0.14', '0.09', '0.30')
+PASS  refA: ddCq diff at 209.91 +0.007 (SD 0.025; 0.042) ('+0.007', '0.025', '0.042')
+PASS  26 Aug: 32 of 72 rows equal the instrument value of the named well (target 26 of 60, Gapdh 6 of 12) 
+PASS  26 Aug: 40 of 72 rows no longer match 
+PASS  26 Aug: 17 of 18 blocks ascending in the workbook; plate order ascending 1 of 15 
+PASS  26 Aug: matrix target blocks ascending 15 of 15 and same set 15 of 15 
+PASS  26 Aug: only the Gapdh DAPT block differs in value set 
+PASS  pairing table: as analyzed 0.132 / +0.536 / +0.662 
+PASS  pairing table: rank instrument 0.397 / +0.975 / -0.276 
+PASS  pairing table: plate-order instrument 0.481 / +0.938 / -0.276 
+PASS  9 Nov: 11 blocks, same sequence 11, ascending 0 
+PASS  threshold-150 shifts: Gr1 +2.23, Gr2 +1.97, Round2 +0.16 
+PASS  Before: Hes1, Hey1, Glut2, Ins1, Glp1r target and Gapdh blocks = Round2 (plate 2) in all three groups 
+PASS  Wnt-family genes match no block of Gr1, Gr2 or plate 2 at either threshold 
+PASS  STRING: web export = API 12.5 (59 pairs, 0 score difference, same classification) 
+PASS  STRING: old 12.0 export, 54 of 55 common pairs changed score, 4 gained, 4 lost 
+PASS  raw: 26 Aug Gapdh DAPT wells A10 24.987, B10 24.132, C10 22.569, D10 22.798 [24.987, 24.132, 22.569, 22.798]
+PASS  raw: workbook Cq equals the instrument Cq of the named well in 32 of 72 rows (target 26 of 60) (72, 32, 60, 26)
+PASS  raw: workbook Gapdh DAPT cells 22.569, 22.798, 22.569, 22.798 [22.569, 22.798, 22.569, 22.798]
+PASS  raw: plate-2 export (threshold as found) equals the sheet in 15 of 15 target blocks and 15 of 15 Gapdh vectors (15, 15)
+PASS  export_tables: aug26 csv has 72 rows, 32 with the Cq of the named well, 4 rows outside a matching value set (Gapdh DAPT) 
+PASS  export_tables: 4 validation rows, 15 dCq rows (mean sheet-minus-curves -0.03), 24 residual rows 
+31 checks, 0 failures

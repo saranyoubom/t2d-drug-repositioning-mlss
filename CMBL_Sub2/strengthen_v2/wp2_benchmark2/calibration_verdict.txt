@@ -1,0 +1,14 @@
+PROTOCOL 3.2 REQUIREMENT (T_r2 type I error <= 0.06 and power >= 80% at r = 0.7, m = 6; pooled over 37 series)
+
+T_r2 type I error: 276/3700 = 0.0746 (Wilson 95% CI 0.0666 to 0.0835) -> FAIL
+T_r2 power at r = 0.7, m = 6: 671/740 = 0.9068 (Wilson 95% CI 0.8837 to 0.9257) -> PASS; per series: min 0.75, median 0.90, 35 of 37 series at or above 0.80
+OVERALL: FAIL
+
+All pre-listed statistics (type I error, power at r = 0.7, m = 6): T_r2 0.075, 0.907; T_p 0.058, 0.908; T_eig 0.074, 0.908; count 0.041, 0.282
+Secondary statistic named by the fixed rule (highest power at r = 0.7, m = 6 among statistics with type I error <= 0.06): T_p
+
+POST HOC SENSITIVITY (not the pre-specified analysis): without the 2 series whose gene set A has genes with no within-group variation (GSE20677, GSE28477); 35 series remain
+  T_r2   type I error 175/3500 = 0.0500 (0.0433 to 0.0577); power at r = 0.7, m = 6: 636/700 = 0.9086 (0.8849 to 0.9278)
+  T_p    type I error 115/3500 = 0.0329 (0.0274 to 0.0393); power at r = 0.7, m = 6: 638/700 = 0.9114 (0.8881 to 0.9303)
+  T_eig  type I error 171/3500 = 0.0489 (0.0422 to 0.0565); power at r = 0.7, m = 6: 635/700 = 0.9071 (0.8834 to 0.9265)
+  count  type I error 30/700 = 0.0429 (0.0302 to 0.0605); power at r = 0.7, m = 6: 205/700 = 0.2929 (0.2603 to 0.3276)

@@ -1,0 +1,301 @@
+platform,order,gse,status,how,n_groups,groups
+GPL570,1,GSE27182,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,2,GSE10718,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,3,GSE23343,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,4,GSE139643,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,5,GSE44723,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,6,GSE7305,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,7,GSE110369,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,8,GSE125059,ineligible: 9 samples,,,
+GPL570,9,GSE106532,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,10,GSE307491,eligible,title,6,HPMEC_EtOH_0h|HPMEC_EtOH_40min|HPMEC_EtOH_4h
+GPL570,11,GSE16416,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,12,GSE67557,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,13,GSE18043,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,14,GSE64085,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,15,GSE39889,eligible,title,4,PMN NS|PMN R-Mab|PMN Sm-Mab
+GPL570,16,GSE5809,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,17,GSE29959,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,18,GSE51395,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,19,GSE53223,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,20,GSE7888,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,21,GSE28645,eligible,title,3,LY2 control-siRNA tamoxifen treated|LY2 SRC1-siRNA untreated|LY2 control-siRNA untreated
+GPL570,22,GSE27198,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,23,GSE23630,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,24,GSE48573,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,25,GSE36766,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,26,GSE29881,eligible,characteristic: treatment,4,ethanol control|17β-estradiol|oxLDL
+GPL570,27,GSE42697,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,28,GSE13791,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,29,GSE48841,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,30,GSE11618,eligible,title,4,L_p4|X_p4|X_p8
+GPL570,31,GSE8717,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,32,GSE28603,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,33,GSE57728,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,34,GSE21369,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,35,GSE47972,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,36,GSE20266,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,37,GSE27094,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,38,GSE53059,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,39,GSE39354,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,40,GSE25427,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,41,GSE7562,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,42,GSE32526,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,43,GSE49353,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,44,GSE57634,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,45,GSE27385,eligible,characteristic: agent,3,FIBRATE|FISHOIL|PLACEBO
+GPL570,46,GSE67342,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,47,GSE12709,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,48,GSE27661,ineligible: 8 samples,,,
+GPL570,49,GSE42261,ineligible: 6 samples,,,
+GPL570,50,GSE13433,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,51,GSE56049,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,52,GSE7890,eligible,title,4,keloid treated with hydrocortisone|keloid with no hydrocortisone treatment|normal scar treated with hydrocortisone
+GPL570,53,GSE40904,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,54,GSE85180,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,55,GSE32100,eligible,title,3,"Glio6 at 0.3% O2 with serum, biological|Glio6 serum-free at 3% O2, biological|Glio6 serum-free at 0.3% O2, biological"
+GPL570,56,GSE55512,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,57,GSE30391,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,58,GSE66384,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,59,GSE58093,eligible,characteristic: culture conditions,3,"hmsc encapsulated by conjugate addition at 3,000,000 cells/100uL|hmsc plated in T75 flask at 500,000 cells|hmsc encapsulated by radical polymerization at 3,000,000 cells/100uL"
+GPL570,60,GSE8665,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,61,GSE35621,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,62,GSE63955,eligible,characteristic: transfection,3,siEGFP|siFFLuc|siOMD
+GPL570,63,GSE3059,eligible,title,4,MC0|MC1|MC2
+GPL570,64,GSE14973,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,65,GSE5883,eligible,title,6,HMVEC-L stimulated with LPS for 24 hours L24R|HMVEC-L stimulated with LPS for 4 hours L04R|HMVEC-L stimulated with LPS for 8 hours L08R
+GPL570,66,GSE41671,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,67,GSE87437,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,68,GSE13274,eligible,title,3,Quiescent HMEC A|Quiescent HMEC B|Quiescent HMEC C
+GPL570,69,GSE64593,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,70,GSE99861,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,71,GSE32160,ineligible: 8 samples,,,
+GPL570,72,GSE12679,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,73,GSE98078,eligible,characteristic: treatment,3,None|AKT|VEH
+GPL570,74,GSE10896,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,75,GSE8514,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,76,GSE4217,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,77,GSE37750,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,78,GSE39186,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,79,GSE138322,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,80,GSE34972,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,81,GSE30536,eligible,title,3,MDMs CTL at T|MDMs with IFN at T|MDMs with IFN infected with HIV at T
+GPL570,82,GSE13525,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,83,GSE64264,ineligible: 2 samples,,,
+GPL570,84,GSE24468,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,85,GSE4773,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,86,GSE61795,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,87,GSE27280,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,88,GSE26224,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,89,GSE133715,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,90,GSE94801,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,91,GSE26656,eligible,title,4,A375 control|A375 control+CsA|M24met_control
+GPL570,92,GSE50677,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,93,GSE116459,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,94,GSE53012,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,95,GSE52915,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,96,GSE272045,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,97,GSE47751,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,98,GSE18454,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,99,GSE26787,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,100,GSE85260,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,101,GSE27431,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,102,GSE32108,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,103,GSE33658,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,104,GSE53795,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,105,GSE12917,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,106,GSE21222,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,107,GSE59526,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,108,GSE36176,eligible,title,8,A549 Vehicle 6hr|A549 RO4929097 6hr|A549 Vehicle 24hr
+GPL570,109,GSE6728,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,110,GSE13313,ineligible: 4 samples,,,
+GPL570,111,GSE16149,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,112,GSE21834,ineligible: 9 samples,,,
+GPL570,113,GSE29828,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,114,GSE61513,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,115,GSE17708,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,116,GSE40301,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,117,GSE53183,eligible,title,4,HEK293-EGFP-ZFP36_Mock|HEK293-Parental_Dox|HEK293-EGFP-ZFP36_ZFP36
+GPL570,118,GSE20081,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,119,GSE17482,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,120,GSE83259,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,121,GSE8896,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,122,GSE20677,eligible,characteristic: treatment group,3,control|treated with AuNP EGFP oligonucleotide complex for 24 hours|treated with AuNP EGFP oligonucleotide complex for 48 hours
+GPL570,123,GSE23618,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,124,GSE48498,eligible,characteristic: treatment,4,untreated (pre-IFX treatment)|IFX|untreated (pre-IVIG treatment)
+GPL570,125,GSE52478,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,126,GSE27328,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,127,GSE75232,eligible,characteristic: treatment,3,"untreated, grow at 34oC in BM|untreated, grow at 39oC in BM|OIM treated, grow at 39oC"
+GPL570,128,GSE178243,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,129,GSE12090,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,130,GSE107465,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,131,GSE15619,ineligible: 6 samples,,,
+GPL570,132,GSE142008,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,133,GSE27189,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,134,GSE4218,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,135,GSE89710,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,136,GSE34112,eligible,characteristic: treatment,4,DMSO|NO-sulindac|sulindac
+GPL570,137,GSE12205,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,138,GSE133153,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,139,GSE44867,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,140,GSE11942,eligible,title,3,"Human Hepatocytes_Control, Donor|Human Hepatocytes_Doxorubicin, Donor|Human Hepatocytes_Trovafloxacin, Donor"
+GPL570,141,GSE46642,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,142,GSE25330,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,143,GSE37265,eligible,characteristic: condition,3,Control|Normal|Ulcer
+GPL570,144,GSE22025,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,145,GSE53185,eligible,title,4,HEK293-EGFP-ZFP36_Mock|HEK293-Parental_Dox|HEK293-EGFP-ZFP36_ZFP36
+GPL570,146,GSE13762,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,147,GSE58173,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,148,GSE9350,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL570,149,GSE8166,ineligible: 8 samples,,,
+GPL570,150,GSE122698,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,1,GSE243228,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,2,GSE22005,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,3,GSE93864,eligible,characteristic: genotype,4,"wild type (C57BL/6J background)|Thyroid hormone receptor beta knock out (C57BL/6J background)|Thyroid hormone receptor beta E125G, G126S mutant (C57BL/6J background)"
+GPL1261,4,GSE63264,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,5,GSE39886,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,6,GSE88799,eligible,characteristic: genotype,3,Crebbp+/+ Cg1-Cre|Crebbpfl/+ Cg1-Cre|Crebbpfl/fl Cg1-Cre
+GPL1261,7,GSE68361,eligible,title,4,CMC_28d|PB_28d|CMC_90d
+GPL1261,8,GSE49079,eligible,characteristic: treatment,3,untreated|Maternal inflamtion by LPS|PBS control for maternal inflammation
+GPL1261,9,GSE8582,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,10,GSE49383,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,11,GSE13707,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,12,GSE174155,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,13,GSE5500,eligible,title,4,Wildtype_Sham|Wildtype_TAC|G4D_Sham
+GPL1261,14,GSE8733,eligible,title,6,folatedeficientAs0ppm|folatesufficientAs0ppm|folatesufficientAs1ppm
+GPL1261,15,GSE40702,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,16,GSE14698,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,17,GSE73617,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,18,GSE85858,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,19,GSE28292,ineligible: 2 samples,,,
+GPL1261,20,GSE21013,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,21,GSE44091,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,22,GSE71348,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,23,GSE54215,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,24,GSE65461,eligible,characteristic: genotype,3,AhCre-positive control (wild-type) mice|AhCre-positive APCflox hom mice|ApcMin mouse
+GPL1261,25,GSE1074,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,26,GSE16104,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,27,GSE28500,ineligible: 5 samples,,,
+GPL1261,28,GSE9297,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,29,GSE13874,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,30,GSE13062,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,31,GSE2924,eligible,title,3,CD8+H7aTet+|CD8+Tet|CD8+HYTet+
+GPL1261,32,GSE53145,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,33,GSE13285,ineligible: 10 samples,,,
+GPL1261,34,GSE35332,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,35,GSE17617,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,36,GSE31851,eligible,characteristic: condition,3,1 hr KCl depolarized|unstimulated|6 hr KCl depolarized
+GPL1261,37,GSE75808,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,38,GSE122399,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,39,GSE27848,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,40,GSE4926,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,41,GSE183849,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,42,GSE24625,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,43,GSE58915,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,44,GSE53167,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,45,GSE64658,eligible,title,4,PROXIMAL COLON - UNTREATED - BIOLOGICAL|DISTAL COLON - UNTREATED - BIOLOGICAL|PROXIMAL COLON - AOM/DSS LATE TREATMENT GROUP - BIOLOGICAL
+GPL1261,46,GSE106581,eligible,characteristic: genotype,4,WT|CCAT2-G overexpressing|CCAT2-GT overexpressing
+GPL1261,47,GSE31313,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,48,GSE64696,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,49,GSE213574,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,50,GSE14499,eligible,characteristic: treatment,3,Sham lesion|BDNF|GFP
+GPL1261,51,GSE25765,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,52,GSE58262,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,53,GSE15892,eligible,title,4,"R26P+/0, pdgfb+/+ brain (cerebellum) microvascular fragments, 1 year old, biological|R26P+/0, pdgfb+/+ brain (cerebrum) microvascular fragments, 1 year old, biological|Tie2Cre, R26P+/0, pdgfb-/- brain (cerebrum) microvascular fragments, 1 year old, biological"
+GPL1261,54,GSE51355,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,55,GSE21594,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,56,GSE12999,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,57,GSE58654,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,58,GSE24574,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,59,GSE21841,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,60,GSE60344,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,61,GSE18010,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,62,GSE56483,eligible,title,4,In vivo B cell activation PF-303:5974|In vivo B cell activation PF-303:5980|In vivo B cell activation PF-303:5979
+GPL1261,63,GSE46169,eligible,characteristic: genotype/variation,3,"B1 fl/fl, K18 tg, p53 fl/fl|B2 fl/fl, K18 tg, p53 m/fl|K18 tg, p53 fl/fl"
+GPL1261,64,GSE39453,ineligible: 9 samples,,,
+GPL1261,65,GSE51925,eligible,title,7,Control r|CLP OLD 2hr r|CLP OLD Day1 r
+GPL1261,66,GSE36838,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,67,GSE104792,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,68,GSE18993,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,69,GSE31280,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,70,GSE3296,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,71,GSE25574,ineligible: 8 samples,,,
+GPL1261,72,GSE47516,eligible,title,3,mouse cerebellum at P7 wild type|mouse cerebellum at P7 knockout|mouse cerebellar granule cells wild type
+GPL1261,73,GSE55238,eligible,title,7,Control_r|CS YNG 2hr_r|CS YNG Day1_r
+GPL1261,74,GSE37191,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,75,GSE13386,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,76,GSE83754,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,77,GSE8966,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,78,GSE68298,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,79,GSE61937,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,80,GSE7475,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,81,GSE55304,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,82,GSE28477,eligible,characteristic: treatment,3,mouse dorsal skin with tape stripping|mouse dorsal skin without tape stripping|mouse dorsal skin with tape stripping and oral administration of winged bean extract
+GPL1261,83,GSE4142,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,84,GSE72166,ineligible: 6 samples,,,
+GPL1261,85,GSE65256,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,86,GSE39820,eligible,characteristic: cytokine activation,4,"none|IL-1beta, IL-6, IL-23|TGF-beta1, IL-6"
+GPL1261,87,GSE34773,eligible,title,4,Control diet FLOX|Control diet MKO|CR diet FLOX
+GPL1261,88,GSE26695,eligible,title,4,Liver_C|Liver_HS/T|Liver_HS/T+1.0R
+GPL1261,89,GSE24971,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,90,GSE32223,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,91,GSE9760,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,92,GSE56162,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,93,GSE14525,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,94,GSE13387,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,95,GSE15268,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,96,GSE43775,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,97,GSE143632,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,98,GSE140954,eligible,title,4,kidney_wt|kidney_ko|adipose_ko
+GPL1261,99,GSE19780,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,100,GSE69079,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,101,GSE89935,eligible,title,3,Vehicle 6 hrs|ABBV-075 1 mpk 6 hrs|ABBV-075 5 mpk 6 hrs
+GPL1261,102,GSE6858,eligible,title,4,BALB-RAG_PBS|BALB-RAG_OVA|BALB/c_PBS
+GPL1261,103,GSE13035,ineligible: 6 samples,,,
+GPL1261,104,GSE19401,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,105,GSE144145,eligible,characteristic: treatment groups,3,Vehicle+control IgG|Vehicle+CD40 mIgG1|MEKi+CD40 mIgG1
+GPL1261,106,GSE18224,eligible,title,8,sham female estrogen receptor beta knockout mice|hypertrophic female estrogen receptor beta knockout mice|hypertrophic male estrogen receptor beta knockout mice
+GPL1261,107,GSE48383,ineligible: 10 samples,,,
+GPL1261,108,GSE6689,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,109,GSE33942,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,110,GSE16790,eligible,title,4,wt|obobad|obobcr
+GPL1261,111,GSE44651,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,112,GSE51365,eligible,characteristic: infectious agent,3,MOCK|MHV-68|ORF73.stop
+GPL1261,113,GSE37030,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,114,GSE10343,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,115,GSE7657,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,116,GSE181068,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,117,GSE6837,ineligible: 8 samples,,,
+GPL1261,118,GSE10765,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,119,GSE134208,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,120,GSE30318,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,121,GSE15325,eligible,characteristic: genome/variation,4,wild type|K-ras mut|Wt1-null
+GPL1261,122,GSE29083,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,123,GSE36826,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,124,GSE52644,eligible,characteristic: agent,4,control|EtOH|Et+res
+GPL1261,125,GSE144146,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,126,GSE43055,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,127,GSE103414,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,128,GSE11961,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,129,GSE7773,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,130,GSE51432,eligible,title,3,liver_control diet|liver_CL diet|liver_CL diet_0.005%  β-cryptoxanthin
+GPL1261,131,GSE32536,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,132,GSE53480,eligible,title,4,Wild-type mouse injected with AAVTFEB|Tg4510 mouse injected with AAVTFEB|Tg4510 control mouse
+GPL1261,133,GSE85029,ineligible: 6 samples,,,
+GPL1261,134,GSE7863,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,135,GSE30164,eligible,title,3,astroTIPeR|fibroTIPeR|cardiomyocyte
+GPL1261,136,GSE20684,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,137,GSE22873,eligible,characteristic: genotype,4,WT|Ager null|Myd88 null
+GPL1261,138,GSE22432,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,139,GSE1999,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,140,GSE85849,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,141,GSE38531,eligible,characteristic: drug treatment  (linezolid/vancomycin/no),3,linezolid|no|vancomycin
+GPL1261,142,GSE127676,eligible,characteristic: treatment,3,45% HF diet added 5% propagules powder group (HF+P)|low-fat diet group (LF)|45% high-fat diet group (HF)
+GPL1261,143,GSE40412,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,144,GSE144128,eligible,characteristic: treatment groups,4,Vehicle+control IgG|Vehicle+CD40 mIgG1|GEM+control IgG
+GPL1261,145,GSE74680,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,146,GSE93214,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,147,GSE70160,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,148,GSE7762,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,149,GSE21031,ineligible: no grouping with >= 3 groups of >= 4 samples,,,
+GPL1261,150,GSE73265,eligible,title,6,BAT_CAAM_4hr_no|Liver_DW_4hr_no|Liver_CAAM_4hr_no

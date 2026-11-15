@@ -1,0 +1,11 @@
+scope,n_pairs,mean_r_target_cq,mean_r_dcq,mean_r_expected_shared_reference_only,mean_abs_r_target_cq,mean_abs_r_dcq,n_abs_r_ge_0632_target_cq,n_abs_r_ge_0632_dcq,wilcoxon_p_dcq_vs_target_cq
+all same-run pairs,49,0.215382,0.148591,0.231954,0.416032,0.358977,14,7,0.259326
+all between-run pairs,87,-0.0897501,-0.0189813,0.0357305,0.263526,0.257072,3,6,0.04955
+same run: Aug26,10,0.776959,0.536464,0.342855,0.776959,0.536464,10,2,0.00195312
+same run: Jun24,36,0.0613558,0.0141319,0.191543,0.325841,0.30049,3,4,0.489056
+same run: Nov09,3,0.191773,0.469195,0.347223,0.295234,0.469195,1,1,
+same reference set: Aug26-refA,10,0.776959,0.536464,0.342855,0.776959,0.536464,10,2,0.00195312
+same reference set: Jun24-refA,10,0.122974,0.332651,0.412731,0.245506,0.392729,1,2,0.0371094
+same reference set: Jun24-refC,6,-0.163807,0.176017,0.29708,0.426083,0.316165,1,1,0.03125
+same reference set: Nov09-refA,3,0.191773,0.469195,0.347223,0.295234,0.469195,1,1,
+"same run, different reference sets (Jun24 refA x refC)",20,0.0980958,-0.193693,0.049288,0.335936,0.249668,1,1,0.00168991

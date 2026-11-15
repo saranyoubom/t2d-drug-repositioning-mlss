@@ -1,0 +1,12 @@
+# Python 3.14.4 (Windows 11); versions read from the installed packages on 6 Nov 2026
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.3
+statsmodels==0.14.6
+matplotlib==3.10.9
+openpyxl==3.1.5
+# only for the manuscript and Additional-file build scripts, not for the analyses
+python-docx==1.2.0
+lxml==6.1.0
+PyMuPDF==1.27.2.3
+# WP4 (islets v2) needs no further packages: downloads use the standard library (urllib, gzip, tarfile, zipfile); scanpy and anndata are not used

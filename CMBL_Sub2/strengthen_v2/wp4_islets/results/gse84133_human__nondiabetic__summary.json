@@ -1,0 +1,102 @@
+{
+ "unadjusted": {
+  "dataset": "GSE84133_human",
+  "mode": "unadjusted",
+  "detection_threshold": 0.1,
+  "beta_cells": 2030,
+  "donors": 3,
+  "df_for_p": 2025,
+  "genes_in_data": 17,
+  "genes_evaluable": 4,
+  "genes_not_evaluable": [
+   "Wnt5a",
+   "Wnt5b",
+   "Wnt9a",
+   "Lef1",
+   "Tcf7",
+   "Tcf7l2",
+   "Itpr1",
+   "Ryr2",
+   "Ryr3",
+   "Cacna1c",
+   "Cacna1d",
+   "Glut2",
+   "Glp1r"
+  ],
+  "eligible_genes_in_pool": 5460,
+  "consensus_pairs_total": 21,
+  "consensus_pairs_evaluable": 0,
+  "other_pairs_evaluable": 6,
+  "median_rho_consensus": null,
+  "median_rho_other": -0.05922115762047759,
+  "mannwhitney_p_consensus_vs_other": null,
+  "consensus_positive": 0,
+  "consensus_sig_positive_q05": 0,
+  "consensus_sig_negative_q05": 0,
+  "consensus_rho_ge_0_2": 0,
+  "edges_q05_rho02": 1,
+  "invitro_hubs_degree": {
+   "Glp1r": 0,
+   "Tcf7l2": 0,
+   "Cacna1d": 0,
+   "Ptbp1": 1
+  },
+  "Cacna1d_Glp1r": {
+   "evaluable": false,
+   "rho": null,
+   "p": null,
+   "detected_pct_Glp1r": 9.014778325123173,
+   "detected_pct_Cacna1d": 9.261083743842386
+  }
+ },
+ "adjusted": {
+  "dataset": "GSE84133_human",
+  "mode": "adjusted",
+  "detection_threshold": 0.1,
+  "beta_cells": 2030,
+  "donors": 3,
+  "df_for_p": 2023,
+  "genes_in_data": 17,
+  "genes_evaluable": 4,
+  "genes_not_evaluable": [
+   "Wnt5a",
+   "Wnt5b",
+   "Wnt9a",
+   "Lef1",
+   "Tcf7",
+   "Tcf7l2",
+   "Itpr1",
+   "Ryr2",
+   "Ryr3",
+   "Cacna1c",
+   "Cacna1d",
+   "Glut2",
+   "Glp1r"
+  ],
+  "eligible_genes_in_pool": 5460,
+  "consensus_pairs_total": 21,
+  "consensus_pairs_evaluable": 0,
+  "other_pairs_evaluable": 6,
+  "median_rho_consensus": null,
+  "median_rho_other": -0.03843989736229868,
+  "mannwhitney_p_consensus_vs_other": null,
+  "consensus_positive": 0,
+  "consensus_sig_positive_q05": 0,
+  "consensus_sig_negative_q05": 0,
+  "consensus_rho_ge_0_2": 0,
+  "edges_q05_rho02": 1,
+  "invitro_hubs_degree": {
+   "Glp1r": 0,
+   "Tcf7l2": 0,
+   "Cacna1d": 0,
+   "Ptbp1": 1
+  },
+  "Cacna1d_Glp1r": {
+   "evaluable": false,
+   "rho": null,
+   "p": null,
+   "detected_pct_Glp1r": 9.014778325123173,
+   "detected_pct_Cacna1d": 9.261083743842386
+  }
+ }
+}

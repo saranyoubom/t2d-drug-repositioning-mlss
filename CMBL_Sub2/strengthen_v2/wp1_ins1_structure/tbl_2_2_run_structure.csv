@@ -1,0 +1,29 @@
+labelling,statistic,scope,n_genes,n_inside_pairs,n_cross_pairs,mean_inside,mean_cross,D,null_sd,p_two_sided
+verified map (run = sheet): primary,r,all runs,17,49,87,0.148591,-0.0189813,0.167573,0.066543,0.019899
+verified map (run = sheet): primary,r,run Jun24,9,36,,0.0141319,-0.0324269,0.0465588,,0.548023
+verified map (run = sheet): primary,r,run Aug26,5,10,,0.536464,-0.0299149,0.566379,,0.00059997
+verified map (run = sheet): primary,r,run Nov09,3,3,,0.469195,0.0196877,0.449507,,0.0353982
+verified map (run = sheet): primary,abs_r,all runs,17,49,87,0.358977,0.257072,0.101905,0.039231,0.0119494
+verified map (run = sheet): primary,abs_r,run Jun24,9,36,,0.30049,0.272885,0.0276053,,0.549423
+verified map (run = sheet): primary,abs_r,run Aug26,5,10,,0.536464,0.273045,0.263419,,0.00159992
+verified map (run = sheet): primary,abs_r,run Nov09,3,3,,0.469195,0.207146,0.262049,,0.0451977
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",r,all runs,17,29,107,0.38465,-0.0516377,0.436287,0.0742985,4.99975e-05
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",r,run Jun24-refA,5,10,,0.332651,-0.0705522,0.403203,,0.00564972
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",r,run Aug26-refA,5,10,,0.536464,-0.0299149,0.566379,,0.00059997
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",r,run Jun24-refC,4,6,,0.176017,-0.112487,0.288505,,0.0549973
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",r,run Nov09-refA,3,3,,0.469195,0.0196877,0.449507,,0.0353982
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",abs_r,all runs,17,29,107,0.434362,0.255688,0.178674,0.0450822,0.000549973
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",abs_r,run Jun24-refA,5,10,,0.392729,0.240107,0.152622,,0.0379481
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",abs_r,run Aug26-refA,5,10,,0.536464,0.273045,0.263419,,0.00159992
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",abs_r,run Jun24-refC,4,6,,0.316165,0.292847,0.0233183,,0.79886
+"verified map, run = reference set (ADD-ON secondary: Jun24 splits in two Gapdh vectors)",abs_r,run Nov09-refA,3,3,,0.469195,0.207146,0.262049,,0.0451977
+provisional map of the planning reconnaissance (superseded),r,all runs,17,29,107,0.38465,-0.0516377,0.436287,0.0742985,4.99975e-05
+provisional map of the planning reconnaissance (superseded),r,run Jun24,5,10,,0.332651,-0.0705522,0.403203,,0.00564972
+provisional map of the planning reconnaissance (superseded),r,run Aug26,5,10,,0.536464,-0.0299149,0.566379,,0.00059997
+provisional map of the planning reconnaissance (superseded),r,run Jun03,4,6,,0.176017,-0.112487,0.288505,,0.0549973
+provisional map of the planning reconnaissance (superseded),r,run Nov09,3,3,,0.469195,0.0196877,0.449507,,0.0353982
+provisional map of the planning reconnaissance (superseded),abs_r,all runs,17,29,107,0.434362,0.255688,0.178674,0.0450822,0.000549973
+provisional map of the planning reconnaissance (superseded),abs_r,run Jun24,5,10,,0.392729,0.240107,0.152622,,0.0379481
+provisional map of the planning reconnaissance (superseded),abs_r,run Aug26,5,10,,0.536464,0.273045,0.263419,,0.00159992
+provisional map of the planning reconnaissance (superseded),abs_r,run Jun03,4,6,,0.316165,0.292847,0.0233183,,0.79886
+provisional map of the planning reconnaissance (superseded),abs_r,run Nov09,3,3,,0.469195,0.207146,0.262049,,0.0451977

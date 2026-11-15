@@ -1,0 +1,46 @@
+drugs below 100 reports through substance_name: ['albiglutide', 'bepridil', 'nilvadipine', 'nitrendipine']
+fallback albiglutide      8899 reports (free text ['TANZEUM', 'ALBIGLUTIDE'])
+  pair albiglutide  + nitrendipine         0 co-reports
+  pair albiglutide  + isradipine           0 co-reports
+  pair albiglutide  + nitrendipine         0 co-reports
+  pair albiglutide  + nifedipine           3 co-reports
+  pair albiglutide  + amlodipine          86 co-reports
+  pair albiglutide  + bepridil             0 co-reports
+  pair albiglutide  + clevidipine          0 co-reports
+  pair albiglutide  + felodipine           0 co-reports
+  pair albiglutide  + nilvadipine          0 co-reports
+  pair albiglutide  + nimodipine           0 co-reports
+  pair albiglutide  + nisoldipine          1 co-reports
+fallback bepridil          356 reports (free text ['VASCOR', 'BEPRIDIL'])
+  pair bepridil     + liraglutide          0 co-reports
+  pair bepridil     + albiglutide          0 co-reports
+  pair bepridil     + semaglutide          1 co-reports
+  pair bepridil     + exenatide            0 co-reports
+  pair bepridil     + lixisenatide         0 co-reports
+  pair bepridil     + dulaglutide          1 co-reports
+  pair bepridil     + glucagon             0 co-reports
+fallback nilvadipine       138 reports (free text ['NILVADIPINE'])
+  pair nilvadipine  + liraglutide          0 co-reports
+  pair nilvadipine  + albiglutide          0 co-reports
+  pair nilvadipine  + semaglutide          0 co-reports
+  pair nilvadipine  + exenatide            0 co-reports
+  pair nilvadipine  + lixisenatide         0 co-reports
+  pair nilvadipine  + dulaglutide          0 co-reports
+  pair nilvadipine  + glucagon             0 co-reports
+fallback nitrendipine     1523 reports (free text ['NITRENDIPINE'])
+  pair nitrendipine + albiglutide          0 co-reports
+  pair nitrendipine + liraglutide          5 co-reports
+  pair nitrendipine + albiglutide          0 co-reports
+  pair nitrendipine + liraglutide          5 co-reports
+  pair nitrendipine + semaglutide          4 co-reports
+  pair nitrendipine + semaglutide          4 co-reports
+  pair nitrendipine + exenatide            0 co-reports
+  pair nitrendipine + exenatide            0 co-reports
+  pair nitrendipine + lixisenatide         0 co-reports
+  pair nitrendipine + lixisenatide         0 co-reports
+  pair nitrendipine + glucagon             1 co-reports
+  pair nitrendipine + glucagon             1 co-reports
+  pair nitrendipine + dulaglutide          4 co-reports
+  pair nitrendipine + dulaglutide          4 co-reports
+fallback retrieval complete: 75 new requests, 25 from the saved files
+exit code 0

@@ -1,0 +1,31 @@
+Gapdh group means (4 wells): sheet refA CTRL 19.14 DAPT 19.96 DKK-1 19.14 | 2025 re-export (45.70 RFU) CTRL 16.76 DAPT 17.47 DKK-1 16.67 | curves at 209.91 RFU CTRL 19.11 DAPT 19.95 DKK-1 19.10
+
+gene   group   Cq sheet | dCq sheet dCq 45.70     diff |  Cq sheet   dCq 210     diff
+Wnt5a  CTRL       31.33 |     12.19     11.99    +0.21 |     31.33     12.22    -0.02
+Wnt5a  DAPT       33.01 |     13.05     12.93    +0.12 |     33.01     13.03    +0.02
+Wnt5a  DKK-1      32.05 |     12.91     12.76    +0.14 |     32.05     12.95    -0.05
+Wnt5b  CTRL       31.37 |     12.23     11.94    +0.29 |     31.37     12.26    -0.03
+Wnt5b  DAPT       32.73 |     12.77     12.71    +0.06 |     32.73     12.78    -0.00
+Wnt5b  DKK-1      31.49 |     12.35     12.16    +0.19 |     31.49     12.38    -0.03
+Wnt9a  CTRL       31.24 |     12.10     11.78    +0.33 |     31.24     12.12    -0.02
+Wnt9a  DAPT       31.12 |     11.16     11.03    +0.13 |     31.12     11.14    +0.02
+Wnt9a  DKK-1      31.14 |     12.00     11.77    +0.23 |     31.14     12.04    -0.04
+Lef1   CTRL       32.45 |     13.31     12.80    +0.51 |     32.45     13.41    -0.10
+Lef1   DAPT       33.02 |     13.07     12.86    +0.21 |     33.02     13.14    -0.07
+Lef1   DKK-1      32.47 |     13.32     13.05    +0.27 |     32.47     13.43    -0.10
+Tcf7   CTRL       31.51 |     12.37     12.15    +0.22 |     31.51     12.38    -0.01
+Tcf7   DAPT       31.98 |     12.02     11.82    +0.20 |     31.98     12.01    +0.01
+Tcf7   DKK-1      32.18 |     13.04     12.87    +0.16 |     32.18     13.06    -0.03
+
+dCq (target minus Gapdh), sheet minus re-export at 45.70 RFU, 15 gene-group means: mean +0.22, SD 0.11, range +0.06 to +0.51
+dCq (target minus Gapdh), sheet minus curves at 209.91 RFU, 15 gene-group means: mean -0.03, SD 0.04, range -0.10 to +0.02
+
+ddCq (group dCq minus CTRL dCq): sheet | re-export 45.70 | difference || curves at 210 | difference
+  Wnt5a  DAPT-CTRL +0.86 | +0.94 | -0.08 || +0.82 | +0.04      DKK-1-CTRL +0.71 | +0.78 | -0.07 || +0.73 | -0.02
+  Wnt5b  DAPT-CTRL +0.54 | +0.77 | -0.23 || +0.52 | +0.02      DKK-1-CTRL +0.12 | +0.22 | -0.10 || +0.12 | -0.01
+  Wnt9a  DAPT-CTRL -0.94 | -0.75 | -0.20 || -0.98 | +0.04      DKK-1-CTRL -0.10 | -0.01 | -0.09 || -0.08 | -0.02
+  Lef1   DAPT-CTRL -0.25 | +0.05 | -0.30 || -0.27 | +0.03      DKK-1-CTRL +0.01 | +0.25 | -0.24 || +0.01 | -0.00
+  Tcf7   DAPT-CTRL -0.35 | -0.32 | -0.03 || -0.36 | +0.01      DKK-1-CTRL +0.67 | +0.73 | -0.06 || +0.69 | -0.02
+difference of the 10 ddCq values, sheet minus re-export (45.70 RFU): mean -0.14, SD 0.09, largest absolute 0.30
+difference of the 10 ddCq values, sheet minus curves at 209.91 RFU: mean +0.007, SD 0.025, largest absolute 0.042
+mean SD of the four target Cq values per block: sheet 0.218, re-export 0.204

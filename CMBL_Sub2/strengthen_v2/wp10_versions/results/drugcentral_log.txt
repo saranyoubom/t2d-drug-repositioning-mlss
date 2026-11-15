@@ -1,0 +1,317 @@
+MLSS port gate: Python port vs existing R output Fig_6c_MLSS_ALL_Combinations.csv
+Inputs (read only, R_17genes): Fig_6b_Gene_Centrality_Summary.csv (Degree >= 5 -> hubs ['GLP1R', 'TCF7L2', 'CACNA1D', 'PTBP1']), Fig_4e_Hes1_significant_correlations_only.csv (120 correlated pairs), drug.target.interaction.csv (19378 rows)
+Port: 153 combinations; R output: 153 rows
+Combinations matched by drug pair: 153 of 153
+MLSS score: max |difference| = 5.329e-15 (criterion < 0.005); mean |difference| = 8.679e-16
+  Complementarity_C    max |difference| = 0.000e+00
+  Balance_B            max |difference| = 0.000e+00
+  Network_Coverage_V   max |difference| = 0.000e+00
+  Potency_P            max |difference| = 3.331e-16
+  Mean_pIC50           max |difference| = 1.776e-15
+  Mean_Abs_r           max |difference| = 0.000e+00
+  Mean_Pos_r           max |difference| = 0.000e+00
+  Mean_Neg_r           max |difference| = 0.000e+00
+  Base_Score           max |difference| = 1.776e-15
+  Synergy_Bonus        max |difference| = 4.441e-16
+  Antagonism_Penalty   max |difference| = 0.000e+00
+Combination label (A + B order) identical: 153 of 153
+Target strings identical: 153 of 153
+Rank order: identical combination at the same rank in 153 of 153 positions
+Tie-tolerant check (score groups rounded to 9 decimals hold the same combinations): yes
+Absolute rank difference per combination: max 0, number differing 0
+Spearman rho of scores = 1.000000; of the printed ranks = 1.000000
+Number of combinations whose score is tied with another one in the R output: 125 (ties keep the original row order in R, and in the port)
+Top-15 sets identical: True; top combination in R: (S)-nitrendipine + albiglutide (9.960357); in port: (S)-nitrendipine + albiglutide (9.960357)
+GATE (153 scores within 0.005 and rank order reproduced): PASS
+GATE on the old file: PASS
+{
+ "hubs": [
+  "GLP1R",
+  "TCF7L2",
+  "CACNA1D",
+  "PTBP1"
+ ],
+ "rows_old": 19378,
+ "rows_new": 22364,
+ "distinct_drugs_old": 2587,
+ "distinct_drugs_new": 2897,
+ "mlss_drugs_old": 18,
+ "mlss_drugs_new": 19,
+ "drugs_added": [
+  "tirzepatide"
+ ],
+ "drugs_removed": [],
+ "drugs_per_hub_old": {
+  "GLP1R": 7,
+  "TCF7L2": 0,
+  "CACNA1D": 11,
+  "PTBP1": 0
+ },
+ "drugs_per_hub_new": {
+  "GLP1R": 8,
+  "TCF7L2": 0,
+  "CACNA1D": 11,
+  "PTBP1": 0
+ },
+ "combinations_old": 153,
+ "combinations_new": 171,
+ "cross_target_old": 77,
+ "cross_target_new": 88,
+ "combinations_shared": 153,
+ "spearman_scores_shared": 1.0,
+ "spearman_ranks_shared": 1.0,
+ "score_changed_shared": 0,
+ "max_abs_score_change_shared": 0.0,
+ "top15_old_still_in_top15_new": 14,
+ "top15_old_ranks_in_new": [
+  [
+   "(S)-nitrendipine + albiglutide",
+   1,
+   1
+  ],
+  [
+   "albiglutide + isradipine",
+   2,
+   2
+  ],
+  [
+   "exenatide + isradipine",
+   3,
+   3
+  ],
+  [
+   "(S)-nitrendipine + liraglutide",
+   4,
+   4
+  ],
+  [
+   "isradipine + liraglutide",
+   5,
+   5
+  ],
+  [
+   "isradipine + lixisenatide",
+   6,
+   6
+  ],
+  [
+   "albiglutide + nitrendipine",
+   7,
+   7
+  ],
+  [
+   "liraglutide + nitrendipine",
+   8,
+   8
+  ],
+  [
+   "isradipine + semaglutide",
+   9,
+   9
+  ],
+  [
+   "liraglutide + nifedipine",
+   10,
+   10
+  ],
+  [
+   "(S)-nitrendipine + semaglutide",
+   11,
+   11
+  ],
+  [
+   "nitrendipine + semaglutide",
+   12,
+   12
+  ],
+  [
+   "(S)-nitrendipine + exenatide",
+   13,
+   14
+  ],
+  [
+   "exenatide + nitrendipine",
+   14,
+   15
+  ],
+  [
+   "albiglutide + nifedipine",
+   15,
+   16
+  ]
+ ],
+ "top15_new": [
+  [
+   1,
+   "(S)-nitrendipine + albiglutide",
+   9.9604
+  ],
+  [
+   2,
+   "albiglutide + isradipine",
+   9.9604
+  ],
+  [
+   3,
+   "exenatide + isradipine",
+   9.9604
+  ],
+  [
+   4,
+   "(S)-nitrendipine + liraglutide",
+   9.9604
+  ],
+  [
+   5,
+   "isradipine + liraglutide",
+   9.9604
+  ],
+  [
+   6,
+   "isradipine + lixisenatide",
+   9.9604
+  ],
+  [
+   7,
+   "albiglutide + nitrendipine",
+   9.9604
+  ],
+  [
+   8,
+   "liraglutide + nitrendipine",
+   9.9604
+  ],
+  [
+   9,
+   "isradipine + semaglutide",
+   9.9604
+  ],
+  [
+   10,
+   "liraglutide + nifedipine",
+   9.9469
+  ],
+  [
+   11,
+   "(S)-nitrendipine + semaglutide",
+   9.9361
+  ],
+  [
+   12,
+   "nitrendipine + semaglutide",
+   9.9361
+  ],
+  [
+   13,
+   "isradipine + tirzepatide",
+   9.9158
+  ],
+  [
+   14,
+   "(S)-nitrendipine + exenatide",
+   9.9037
+  ],
+  [
+   15,
+   "exenatide + nitrendipine",
+   9.9037
+  ]
+ ],
+ "tie_straddles_rank15_new": false,
+ "tie_straddles_rank15_old": false,
+ "combinations_with_new_drugs": 18,
+ "new_drug_combination_ranks": [
+  [
+   13,
+   "isradipine + tirzepatide",
+   9.9158
+  ],
+  [
+   26,
+   "(S)-nitrendipine + tirzepatide",
+   9.7303
+  ],
+  [
+   27,
+   "nitrendipine + tirzepatide",
+   9.7303
+  ],
+  [
+   30,
+   "nifedipine + tirzepatide",
+   9.6326
+  ],
+  [
+   33,
+   "amlodipine + tirzepatide",
+   9.5381
+  ],
+  [
+   69,
+   "bepridil + tirzepatide",
+   7.6999
+  ],
+  [
+   70,
+   "clevidipine + tirzepatide",
+   7.6999
+  ],
+  [
+   71,
+   "felodipine + tirzepatide",
+   7.6999
+  ],
+  [
+   72,
+   "nilvadipine + tirzepatide",
+   7.6999
+  ],
+  [
+   73,
+   "nimodipine + tirzepatide",
+   7.6999
+  ],
+  [
+   74,
+   "nisoldipine + tirzepatide",
+   7.6999
+  ],
+  [
+   99,
+   "albiglutide + tirzepatide",
+   4.05
+  ],
+  [
+   100,
+   "liraglutide + tirzepatide",
+   4.05
+  ],
+  [
+   101,
+   "semaglutide + tirzepatide",
+   4.0216
+  ],
+  [
+   104,
+   "exenatide + tirzepatide",
+   3.9892
+  ],
+  [
+   105,
+   "lixisenatide + tirzepatide",
+   3.944
+  ],
+  [
+   118,
+   "glucagon + tirzepatide",
+   3.6949
+  ],
+  [
+   143,
+   "dulaglutide + tirzepatide",
+   2.75
+  ]
+ ],
+ "new_drug_in_top15": 1,
+ "pic50_changes": 1
+}

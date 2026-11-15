@@ -1,0 +1,21 @@
+=== validation: the fitted threshold must come back as the known one ===
+  After  2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2    known T 150.000  fitted T 150.000  mean |recomputed - exported Cq| 0.0000 (max 0.0000)
+  Before 2020-Jun-24_Round2_13genes-Ctrl-DAPT-DKK1 2    known T 138.061  fitted T 138.060  mean |recomputed - exported Cq| 0.0000 (max 0.0000)
+  Before 2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1         known T 36.072  fitted T 36.070  mean |recomputed - exported Cq| 0.0001 (max 0.0001)
+  After  2020-Jun-03_Gr1_13genes-Ctrl-DAPT-DKK1         known T 150.000  fitted T 150.000  mean |recomputed - exported Cq| 0.0000 (max 0.0000)
+
+=== 24 June plate 1 (file without " 2", 2025 re-export): threshold of the export = 45.700 (mean |diff| 0.0001, max 0.0001) ===
+wells per gene and group on this plate: Wnt2:4, Wnt2b:4, Wnt5a:4, Wnt5b:4, Wnt9a:4, Lef1:4, Tcf7:4, Gapdh:4
+peak baseline-subtracted RFU over the 96 wells of the seven assays and Gapdh: median 691, minimum 89.6; wells with a peak below 150 RFU: G04 (wnt2b DAPT, 89.6 RFU)
+threshold that best reproduces the sheet values (seven assays and Gapdh refA, blocks of four wells): T = 209.91 RFU, mean |recomputed - sheet| = 0.0398 cycles over 92 values (blocks skipped because a well never reaches T: 1)
+mean |recomputed - sheet| at other thresholds: T 46: 2.509; T 100: 1.363; T 150: 0.678; T 180: 0.333; T 200: 0.110; T 210: 0.040; T 220: 0.128; T 250: 0.459
+thresholds fitted separately: Gapdh blocks T = 211.59 (mean 0.0209); target blocks T = 209.53 (mean 0.0418); the five analyzed genes only (Wnt5a, Wnt5b, Wnt9a, Lef1, Tcf7) T = 209.91 (mean 0.0293)
+per block at T = 209.91 (largest absolute difference of the four sorted values, in cycles; CTRL / DAPT / DKK-1):
+  Wnt2         0.053 / 0.156 / 0.036
+  Wnt2b        0.765 / skipped / 0.133
+  Wnt5a        0.035 / 0.049 / 0.033
+  Wnt5b        0.038 / 0.040 / 0.021
+  Wnt9a        0.035 / 0.032 / 0.043
+  Lef1         0.120 / 0.097 / 0.090
+  Tcf7         0.041 / 0.020 / 0.030
+  Gapdh(refA)  0.059 / 0.016 / 0.086

@@ -1,0 +1,288 @@
+database: all reports 21054159 , last updated 2026-10-28
+  PT HYPO    HYPOGLYCAEMIA                              48547
+  PT HYPO    HYPOGLYCAEMIC COMA                          2887
+  PT HYPO    HYPOGLYCAEMIC UNCONSCIOUSNESS               1982
+  PT HYPO    BLOOD GLUCOSE DECREASED                    48072
+  PT HYPER   HYPERGLYCAEMIA                             36474
+  PT HYPER   BLOOD GLUCOSE INCREASED                   188596
+  PT HYPER   DIABETES MELLITUS INADEQUATE CONTROL       17720
+  PT HYPER   DIABETIC KETOACIDOSIS                      24043
+  PT HYPER   GLYCOSYLATED HAEMOGLOBIN INCREASED         25256
+  PT PANC    PANCREATITIS                               52904
+  PT PANC    PANCREATITIS ACUTE                         22500
+  PT PANC    PANCREATITIS CHRONIC                        2368
+  PT PANC    PANCREATITIS NECROTISING                    2300
+  PT PANC    LIPASE INCREASED                            7669
+  PT PANC    AMYLASE INCREASED                           3694
+  PT GI      NAUSEA                                    792241
+  PT GI      VOMITING                                  470633
+  retry 1/9 after HTTP 500 (wait 3 s)
+  retry 2/9 after HTTP 500 (wait 6 s)
+  PT GI      DIARRHOEA                                 646163
+  PT GI      ABDOMINAL PAIN                            232881
+  PT GI      ABDOMINAL PAIN UPPER                      206101
+  PT GI      DECREASED APPETITE                        232517
+  PT GI      CONSTIPATION                              218303
+  PT BILI    CHOLELITHIASIS                             32821
+  PT BILI    CHOLECYSTITIS                              11922
+  PT BILI    CHOLECYSTITIS ACUTE                         5671
+  PT BILI    BILIARY COLIC                               2912
+  PT HYPOT   HYPOTENSION                               200789
+  PT HYPOT   ORTHOSTATIC HYPOTENSION                    17433
+  PT HYPOT   SYNCOPE                                   100165
+  PT HYPOT   PRESYNCOPE                                 24338
+  PT HYPOT   BLOOD PRESSURE DECREASED                   66515
+  PT OEDEMA  OEDEMA PERIPHERAL                         122028
+  PT OEDEMA  OEDEMA                                     54292
+  PT OEDEMA  PERIPHERAL SWELLING                       154212
+  PT CARD    BRADYCARDIA                                53076
+  PT CARD    ATRIOVENTRICULAR BLOCK                      7737
+  PT CARD    ATRIOVENTRICULAR BLOCK COMPLETE             6697
+  PT CARD    ELECTROCARDIOGRAM QT PROLONGED             36001
+  PT CARD    TORSADE DE POINTES                          7851
+  PT CARD    VENTRICULAR TACHYCARDIA                    16529
+group HYPO 99568
+group HYPER 275161
+group PANC 86297
+group GI 1934366
+group BILI 48694
+group HYPOT 383889
+group OEDEMA 316781
+group CARD 115742
+drug albiglutide            0 reports
+drug amlodipine        434732 reports
+drug bepridil               0 reports
+drug clevidipine          367 reports
+drug dulaglutide        89369 reports
+drug exenatide          52322 reports
+drug felodipine         11420 reports
+drug glucagon            4235 reports
+drug isradipine           560 reports
+drug liraglutide        51303 reports
+drug lixisenatide        3660 reports
+drug nifedipine         41738 reports
+drug nilvadipine            0 reports
+drug nimodipine          1122 reports
+drug nisoldipine         1198 reports
+drug nitrendipine           0 reports
+drug semaglutide        78023 reports
+pair  1/70 albiglutide    + nitrendipine          0 reports  (not evaluable)
+pair  2/70 albiglutide    + isradipine            0 reports  (not evaluable)
+pair  3/70 exenatide      + isradipine            3 reports  (not evaluable)
+pair  4/70 liraglutide    + nitrendipine          0 reports  (not evaluable)
+pair  5/70 isradipine     + liraglutide           1 reports  (not evaluable)
+pair  6/70 isradipine     + lixisenatide          0 reports  (not evaluable)
+pair  7/70 isradipine     + semaglutide           2 reports  (not evaluable)
+pair  8/70 liraglutide    + nifedipine          167 reports
+pair  9/70 nitrendipine   + semaglutide           0 reports  (not evaluable)
+pair 10/70 exenatide      + nitrendipine          0 reports  (not evaluable)
+pair 11/70 albiglutide    + nifedipine            0 reports  (not evaluable)
+pair 12/70 amlodipine     + liraglutide        2063 reports
+pair 13/70 lixisenatide   + nitrendipine          0 reports  (not evaluable)
+pair 14/70 nifedipine     + semaglutide         224 reports
+pair 15/70 exenatide      + nifedipine           83 reports
+pair 16/70 albiglutide    + amlodipine            0 reports  (not evaluable)
+pair 17/70 lixisenatide   + nifedipine            7 reports  (not evaluable)
+pair 18/70 amlodipine     + semaglutide        2921 reports
+pair 19/70 glucagon       + isradipine            1 reports  (not evaluable)
+pair 20/70 amlodipine     + exenatide          1381 reports
+pair 21/70 amlodipine     + lixisenatide         65 reports
+pair 22/70 glucagon       + nitrendipine          0 reports  (not evaluable)
+pair 23/70 glucagon       + nifedipine           63 reports
+pair 24/70 amlodipine     + glucagon            654 reports
+pair 25/70 bepridil       + liraglutide           0 reports  (not evaluable)
+pair 26/70 clevidipine    + liraglutide           0 reports  (not evaluable)
+pair 27/70 felodipine     + liraglutide          40 reports
+  retry 1/9 after URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a (wait 3 s)
+pair 28/70 liraglutide    + nilvadipine           0 reports  (not evaluable)
+pair 29/70 liraglutide    + nimodipine            3 reports  (not evaluable)
+pair 30/70 liraglutide    + nisoldipine          14 reports  (not evaluable)
+pair 31/70 albiglutide    + bepridil              0 reports  (not evaluable)
+pair 32/70 albiglutide    + clevidipine           0 reports  (not evaluable)
+pair 33/70 albiglutide    + felodipine            0 reports  (not evaluable)
+pair 34/70 albiglutide    + nilvadipine           0 reports  (not evaluable)
+pair 35/70 albiglutide    + nimodipine            0 reports  (not evaluable)
+pair 36/70 albiglutide    + nisoldipine           0 reports  (not evaluable)
+pair 37/70 bepridil       + semaglutide           0 reports  (not evaluable)
+pair 38/70 clevidipine    + semaglutide           0 reports  (not evaluable)
+pair 39/70 felodipine     + semaglutide          47 reports
+pair 40/70 nilvadipine    + semaglutide           0 reports  (not evaluable)
+pair 41/70 nimodipine     + semaglutide           0 reports  (not evaluable)
+pair 42/70 nisoldipine    + semaglutide           0 reports  (not evaluable)
+  retry 1/9 after ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host (wait 3 s)
+  retry 2/9 after URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a (wait 6 s)
+pair 43/70 dulaglutide    + isradipine            1 reports  (not evaluable)
+pair 44/70 bepridil       + exenatide             0 reports  (not evaluable)
+pair 45/70 clevidipine    + exenatide             0 reports  (not evaluable)
+pair 46/70 exenatide      + felodipine           48 reports
+pair 47/70 exenatide      + nilvadipine           0 reports  (not evaluable)
+pair 48/70 exenatide      + nimodipine            1 reports  (not evaluable)
+pair 49/70 exenatide      + nisoldipine          20 reports
+pair 50/70 bepridil       + lixisenatide          0 reports  (not evaluable)
+pair 51/70 clevidipine    + lixisenatide          0 reports  (not evaluable)
+pair 52/70 felodipine     + lixisenatide          0 reports  (not evaluable)
+pair 53/70 lixisenatide   + nilvadipine           0 reports  (not evaluable)
+pair 54/70 lixisenatide   + nimodipine            0 reports  (not evaluable)
+pair 55/70 lixisenatide   + nisoldipine           0 reports  (not evaluable)
+pair 56/70 dulaglutide    + nitrendipine          0 reports  (not evaluable)
+  retry 1/9 after URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host> (wait 3 s)
+  retry 2/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 6 s)
+  retry 3/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 12 s)
+  retry 4/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 24 s)
+  retry 5/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 48 s)
+  retry 6/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 96 s)
+  retry 7/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 120 s)
+  retry 8/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 120 s)
+  retry 9/9 after URLError: <urlopen error [Errno 11001] getaddrinfo failed> (wait 120 s)
+Traceback (most recent call last):
+  File "CMBL_Sub2\strengthen_v2\wp9_safety\wp9_screen.py", line 235, in <module>
+    retrieve()
+    ~~~~~~~~^^
+  File "CMBL_Sub2\strengthen_v2\wp9_safety\wp9_screen.py", line 109, in retrieve
+    n = ff.total(pq(a, b))
+  File "CMBL_Sub2\strengthen_v2\wp9_safety\fda_fetch.py", line 87, in total
+    return fetch(url_for(search, None, 1))['meta']['results']['total']
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "CMBL_Sub2\strengthen_v2\wp9_safety\fda_fetch.py", line 82, in fetch
+    raise RuntimeError('giving up on %s: %s' % (url, last_err))
+RuntimeError: giving up on https://api.fda.gov/drug/event.json?search=patient.drug.openfda.substance_name%3A%22amlodipine%22+AND+patient.drug.openfda.substance_name%3A%22dulaglutide%22&limit=1: URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+exit code 1
+=== resume 15:54:07
+database: all reports 21054159 , last updated 2026-10-28
+  PT HYPO    HYPOGLYCAEMIA                              48547
+  PT HYPO    HYPOGLYCAEMIC COMA                          2887
+  PT HYPO    HYPOGLYCAEMIC UNCONSCIOUSNESS               1982
+  PT HYPO    BLOOD GLUCOSE DECREASED                    48072
+  PT HYPER   HYPERGLYCAEMIA                             36474
+  PT HYPER   BLOOD GLUCOSE INCREASED                   188596
+  PT HYPER   DIABETES MELLITUS INADEQUATE CONTROL       17720
+  PT HYPER   DIABETIC KETOACIDOSIS                      24043
+  PT HYPER   GLYCOSYLATED HAEMOGLOBIN INCREASED         25256
+  PT PANC    PANCREATITIS                               52904
+  PT PANC    PANCREATITIS ACUTE                         22500
+  PT PANC    PANCREATITIS CHRONIC                        2368
+  PT PANC    PANCREATITIS NECROTISING                    2300
+  PT PANC    LIPASE INCREASED                            7669
+  PT PANC    AMYLASE INCREASED                           3694
+  PT GI      NAUSEA                                    792241
+  PT GI      VOMITING                                  470633
+  PT GI      DIARRHOEA                                 646163
+  PT GI      ABDOMINAL PAIN                            232881
+  PT GI      ABDOMINAL PAIN UPPER                      206101
+  PT GI      DECREASED APPETITE                        232517
+  PT GI      CONSTIPATION                              218303
+  PT BILI    CHOLELITHIASIS                             32821
+  PT BILI    CHOLECYSTITIS                              11922
+  PT BILI    CHOLECYSTITIS ACUTE                         5671
+  PT BILI    BILIARY COLIC                               2912
+  PT HYPOT   HYPOTENSION                               200789
+  PT HYPOT   ORTHOSTATIC HYPOTENSION                    17433
+  PT HYPOT   SYNCOPE                                   100165
+  PT HYPOT   PRESYNCOPE                                 24338
+  PT HYPOT   BLOOD PRESSURE DECREASED                   66515
+  PT OEDEMA  OEDEMA PERIPHERAL                         122028
+  PT OEDEMA  OEDEMA                                     54292
+  PT OEDEMA  PERIPHERAL SWELLING                       154212
+  PT CARD    BRADYCARDIA                                53076
+  PT CARD    ATRIOVENTRICULAR BLOCK                      7737
+  PT CARD    ATRIOVENTRICULAR BLOCK COMPLETE             6697
+  PT CARD    ELECTROCARDIOGRAM QT PROLONGED             36001
+  PT CARD    TORSADE DE POINTES                          7851
+  PT CARD    VENTRICULAR TACHYCARDIA                    16529
+group HYPO 99568
+group HYPER 275161
+group PANC 86297
+group GI 1934366
+group BILI 48694
+group HYPOT 383889
+group OEDEMA 316781
+group CARD 115742
+drug albiglutide            0 reports
+drug amlodipine        434732 reports
+drug bepridil               0 reports
+drug clevidipine          367 reports
+drug dulaglutide        89369 reports
+drug exenatide          52322 reports
+drug felodipine         11420 reports
+drug glucagon            4235 reports
+drug isradipine           560 reports
+drug liraglutide        51303 reports
+drug lixisenatide        3660 reports
+drug nifedipine         41738 reports
+drug nilvadipine            0 reports
+drug nimodipine          1122 reports
+drug nisoldipine         1198 reports
+drug nitrendipine           0 reports
+drug semaglutide        78023 reports
+pair  1/70 albiglutide    + nitrendipine          0 reports  (not evaluable)
+pair  2/70 albiglutide    + isradipine            0 reports  (not evaluable)
+pair  3/70 exenatide      + isradipine            3 reports  (not evaluable)
+pair  4/70 liraglutide    + nitrendipine          0 reports  (not evaluable)
+pair  5/70 isradipine     + liraglutide           1 reports  (not evaluable)
+pair  6/70 isradipine     + lixisenatide          0 reports  (not evaluable)
+pair  7/70 isradipine     + semaglutide           2 reports  (not evaluable)
+pair  8/70 liraglutide    + nifedipine          167 reports
+pair  9/70 nitrendipine   + semaglutide           0 reports  (not evaluable)
+pair 10/70 exenatide      + nitrendipine          0 reports  (not evaluable)
+pair 11/70 albiglutide    + nifedipine            0 reports  (not evaluable)
+pair 12/70 amlodipine     + liraglutide        2063 reports
+pair 13/70 lixisenatide   + nitrendipine          0 reports  (not evaluable)
+pair 14/70 nifedipine     + semaglutide         224 reports
+pair 15/70 exenatide      + nifedipine           83 reports
+pair 16/70 albiglutide    + amlodipine            0 reports  (not evaluable)
+pair 17/70 lixisenatide   + nifedipine            7 reports  (not evaluable)
+pair 18/70 amlodipine     + semaglutide        2921 reports
+pair 19/70 glucagon       + isradipine            1 reports  (not evaluable)
+pair 20/70 amlodipine     + exenatide          1381 reports
+pair 21/70 amlodipine     + lixisenatide         65 reports
+pair 22/70 glucagon       + nitrendipine          0 reports  (not evaluable)
+pair 23/70 glucagon       + nifedipine           63 reports
+pair 24/70 amlodipine     + glucagon            654 reports
+pair 25/70 bepridil       + liraglutide           0 reports  (not evaluable)
+pair 26/70 clevidipine    + liraglutide           0 reports  (not evaluable)
+pair 27/70 felodipine     + liraglutide          40 reports
+pair 28/70 liraglutide    + nilvadipine           0 reports  (not evaluable)
+pair 29/70 liraglutide    + nimodipine            3 reports  (not evaluable)
+pair 30/70 liraglutide    + nisoldipine          14 reports  (not evaluable)
+pair 31/70 albiglutide    + bepridil              0 reports  (not evaluable)
+pair 32/70 albiglutide    + clevidipine           0 reports  (not evaluable)
+pair 33/70 albiglutide    + felodipine            0 reports  (not evaluable)
+pair 34/70 albiglutide    + nilvadipine           0 reports  (not evaluable)
+pair 35/70 albiglutide    + nimodipine            0 reports  (not evaluable)
+pair 36/70 albiglutide    + nisoldipine           0 reports  (not evaluable)
+pair 37/70 bepridil       + semaglutide           0 reports  (not evaluable)
+pair 38/70 clevidipine    + semaglutide           0 reports  (not evaluable)
+pair 39/70 felodipine     + semaglutide          47 reports
+pair 40/70 nilvadipine    + semaglutide           0 reports  (not evaluable)
+pair 41/70 nimodipine     + semaglutide           0 reports  (not evaluable)
+pair 42/70 nisoldipine    + semaglutide           0 reports  (not evaluable)
+pair 43/70 dulaglutide    + isradipine            1 reports  (not evaluable)
+pair 44/70 bepridil       + exenatide             0 reports  (not evaluable)
+pair 45/70 clevidipine    + exenatide             0 reports  (not evaluable)
+pair 46/70 exenatide      + felodipine           48 reports
+pair 47/70 exenatide      + nilvadipine           0 reports  (not evaluable)
+pair 48/70 exenatide      + nimodipine            1 reports  (not evaluable)
+pair 49/70 exenatide      + nisoldipine          20 reports
+pair 50/70 bepridil       + lixisenatide          0 reports  (not evaluable)
+pair 51/70 clevidipine    + lixisenatide          0 reports  (not evaluable)
+pair 52/70 felodipine     + lixisenatide          0 reports  (not evaluable)
+pair 53/70 lixisenatide   + nilvadipine           0 reports  (not evaluable)
+pair 54/70 lixisenatide   + nimodipine            0 reports  (not evaluable)
+pair 55/70 lixisenatide   + nisoldipine           0 reports  (not evaluable)
+pair 56/70 dulaglutide    + nitrendipine          0 reports  (not evaluable)
+pair 57/70 amlodipine     + dulaglutide        2192 reports
+pair 58/70 bepridil       + dulaglutide           0 reports  (not evaluable)
+pair 59/70 clevidipine    + dulaglutide           0 reports  (not evaluable)
+pair 60/70 dulaglutide    + felodipine           62 reports
+pair 61/70 bepridil       + glucagon              0 reports  (not evaluable)
+pair 62/70 clevidipine    + glucagon              0 reports  (not evaluable)
+pair 63/70 felodipine     + glucagon             18 reports  (not evaluable)
+pair 64/70 dulaglutide    + nifedipine          194 reports
+pair 65/70 dulaglutide    + nilvadipine           0 reports  (not evaluable)
+pair 66/70 glucagon       + nilvadipine           0 reports  (not evaluable)
+pair 67/70 dulaglutide    + nimodipine            1 reports  (not evaluable)
+pair 68/70 glucagon       + nimodipine            0 reports  (not evaluable)
+pair 69/70 dulaglutide    + nisoldipine           5 reports  (not evaluable)
+pair 70/70 glucagon       + nisoldipine           1 reports  (not evaluable)
+retrieval complete: 38 new requests in this run, 331 answered from the saved files
+exit code 0

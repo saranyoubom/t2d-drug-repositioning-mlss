@@ -1,0 +1,8 @@
+{
+ "rp_genes_in_data": 77,
+ "rp_genes_eligible": 77,
+ "E_RP_mean": 0.10138580077850554,
+ "E_RP_sd": 0.027685745146918246,
+ "share_E_RP_ge_0_10": 0.52,
+ "mean_rho_RP_pairs": 0.1940641460815985
+}

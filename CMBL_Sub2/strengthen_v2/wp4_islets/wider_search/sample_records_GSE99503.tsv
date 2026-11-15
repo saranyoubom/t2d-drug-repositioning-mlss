@@ -1,0 +1,13 @@
+gsm	title	source	ch0	ch1	ch2	platform
+GSM2644902	Neg siRNA #1	EndoC-βH1 cell line	passages: 74	sirna: Scramble siRNA	treatment: DMSO	GPL11154
+GSM2644903	Neg siRNA #2	EndoC-βH1 cell line	passages: 74	sirna: Scramble siRNA	treatment: DMSO	GPL11154
+GSM2644904	Neg siRNA #3	EndoC-βH1 cell line	passages: 75	sirna: Scramble siRNA	treatment: DMSO	GPL11154
+GSM2644905	siTUNAR #1	EndoC-βH1 cell line	passages: 74	sirna: TUNAR siRNAs	treatment: DMSO	GPL11154
+GSM2644906	siTUNAR #2	EndoC-βH1 cell line	passages: 74	sirna: TUNAR siRNAs	treatment: DMSO	GPL11154
+GSM2644907	siTUNAR #3	EndoC-βH1 cell line	passages: 75	sirna: TUNAR siRNAs	treatment: DMSO	GPL11154
+GSM2644908	Neg siRNA + 1-AKP #1	EndoC-βH1 cell line	passages: 74	sirna: Scramble siRNA	treatment: 1-AKP	GPL11154
+GSM2644909	Neg siRNA + 1-AKP #2	EndoC-βH1 cell line	passages: 74	sirna: Scramble siRNA	treatment: 1-AKP	GPL11154
+GSM2644910	Neg siRNA + 1-AKP #3	EndoC-βH1 cell line	passages: 75	sirna: Scramble siRNA	treatment: 1-AKP	GPL11154
+GSM2644911	siTUNAR + 1-AKP #1	EndoC-βH1 cell line	passages: 74	sirna: TUNAR siRNAs	treatment: 1-AKP	GPL11154
+GSM2644912	siTUNAR + 1-AKP #2	EndoC-βH1 cell line	passages: 74	sirna: TUNAR siRNAs	treatment: 1-AKP	GPL11154
+GSM2644913	siTUNAR + 1-AKP #3	EndoC-βH1 cell line	passages: 75	sirna: TUNAR siRNAs	treatment: 1-AKP	GPL11154

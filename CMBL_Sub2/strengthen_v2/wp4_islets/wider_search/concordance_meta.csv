@@ -1,0 +1,6 @@
+set,k,applied,pooled_rho,lo,hi,I2,tau2,outcome
+PRIMARY: all analysable series,3,True,0.06189978695916715,-0.2164359262052037,0.3309296551225104,0.0,0.0,inconclusive
+Wnt series (DKK-1 arm),3,True,0.06189978695916715,-0.2164359262052037,0.3309296551225104,0.0,0.0,inconclusive
+Notch series (DAPT arm),0,False,,,,,,rule not applied (fewer than 3 analysable series)
+mirror designs excluded,2,False,,,,,,rule not applied (fewer than 3 analysable series)
+GSE60803 excluded,2,False,,,,,,rule not applied (fewer than 3 analysable series)

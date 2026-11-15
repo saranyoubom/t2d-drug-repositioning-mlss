@@ -1,0 +1,18 @@
+PASS  DAPT fold changes reported recomputed from the Cq values {'Tcf7l2': 0.778, 'Kcnj11': 0.396, 'Cacna1d': 0.763, 'Cacna1c': 0.712, 'Ptbp1': 0.616}
+PASS  DAPT fold changes C0 recomputed from the Cq values {'Tcf7l2': 0.779, 'Kcnj11': 0.398, 'Cacna1d': 0.762, 'Cacna1c': 0.715, 'Ptbp1': 0.616}
+PASS  DAPT fold changes C1 recomputed from the Cq values {'Tcf7l2': 1.493, 'Kcnj11': 0.763, 'Cacna1d': 1.459, 'Cacna1c': 1.371, 'Ptbp1': 1.18}
+PASS  fold changes quoted: C0 0.78 / 0.40 / 0.76 / 0.72 / 0.62; C1 1.49 / 0.76 / 1.46 / 1.37 / 1.18 
+PASS  gate: reported version = 21 consensus pairs, pooled 66/80/84/120, adjusted 0/51/11/15, hubs Glp1r 6 and 5/5/5 
+PASS  gate: Fig. 5 with the alias reproduces 5 / 16 / 33 / 66 and 38 in STRING 
+PASS  C0: 24 consensus pairs, 20 of the 21 kept, lost Itpr1-Tcf7l2, 4 new; hubs add Wnt5a (degree 5) 
+PASS  C0: pooled 63/80/86/120, adjusted 0/47/36/12, r(Cacna1d, Glp1r) 0.976 
+PASS  C1: 21 consensus pairs, only 11 kept (10 lost, 10 new); hubs Glp1r 5 and Cacna1d 5 only; reference = mean of the four wells = 23.6215 (README says so twice, never 23.6225) 
+PASS  120 pairs among the 16 genes other than Hes1 
+PASS  Fig. 5 categories reported recomputed: 5 / 16 / 33 / 66 
+PASS  Fig. 5 categories C0 recomputed: 6 / 18 / 32 / 64 
+PASS  Fig. 5 categories C1 recomputed: 5 / 16 / 33 / 66 
+PASS  Fig. 5 with C0: 6 / 18 / 32 / 64 (38 in STRING) 
+PASS  plateau RFU: A10 513, B10 725; the other ten Gapdh wells 1279 to 1507 
+PASS  A10 and B10 plateau as a share of the median of the other ten wells: 38% and 54% median 1354
+PASS  Gapdh replicate SD of Cq in the DAPT group with all four wells 1.14; CTRL 0.10; DKK-1 0.15 
+17 checks, 0 failures

@@ -1,0 +1,5 @@
+data,n_pairs,n_sig,share,expected
+"INS-1, genes with ANOVA group effect (log scale, BH q<0.05): 15 genes",105,61,0.580952,0.609239
+"INS-1, all 17 genes",136,66,0.485294,0.609239
+"INS-1, genes with ANOVA group effect (linear scale): 15 genes",105,61,0.580952,0.609239
+"benchmark part 1, gene set A (17 DE genes), median of 37 series",136,108,0.794118,0.609239
