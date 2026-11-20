@@ -1,0 +1,10 @@
+# Changes
+
+## 1.1.0 (19 Nov 2026), relative to the archived 1.0 module
+The archived module is `CMBL_Sub2/strengthen_v2/coexp_checks.py` of the study repository (release v2.0.0; SHA-256 `7e6c42aa7a27232ae4ff9bae6bbf8b2061abf8ac79352067bdd3f831a6d2b44d`, "1.0 (WP1, 4 Nov 2026)"). Three changes; no existing statistic changed.
+
+1. **New function `group_mean_share_expected`**: the share of the pooled covariance carried by group means against the value expected when within-group coupling is removed (every gene permuted independently within its group; the pooled-significant pairs are recomputed in every permuted matrix). It gives the same numbers as the post hoc script of the study (checked on 8 development matrices and on the INS-1 matrix: equal to 1e-12). `run_checks` returns it as `group_mean_share_expected` and the markdown report prints it.
+2. **A warning that was misleading was replaced.** Version 1.0 warned "group means carry X% of the pooled covariance of significant raw pairs: pooled networks mostly restate the design" whenever the share exceeded 0.9. In the study's development series the share was never above what independence gives (a post hoc analysis), so a share near 1 is not by itself evidence about the design. The warning now reports the share, the expected share and its 95% null interval, and says that a share near 1 reflects the group effects of the genes.
+3. **A new warning for genes without within-group variation** (pooled within-group SD on the log scale below 1e-6, the rule of the benchmark code). Such genes get residual correlations that are numerical noise; in the study's benchmark they were the cause of the excess type I error of T_r2.
+
+Checks run on this module: `tests/test_smoke.py` (10 known-answer tests, all passed) and the original 56-check validation suite of the study (`test_coexp_checks.py`, run against this module in a copy of the repository layout); the outputs are in `RUN_LOG.txt`. The package was not built or installed in a clean environment (that would download its dependencies).

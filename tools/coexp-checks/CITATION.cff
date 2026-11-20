@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it together with the article that describes the checks."
+title: "coexp-checks: calibrated checks for pooled co-expression analyses of small designed experiments"
+type: software
+version: 1.0.0
+authors:
+  - family-names: "Oontawee"
+    given-names: "Saranyou"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Rodprasert"
+    given-names: "Watchareewan"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Purbantoro"
+    given-names: "Steven Dwi"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Viriyakitkosol"
+    given-names: "Ratchanont"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Kasemsukprasert"
+    given-names: "Kamolchanok"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Patapeedusita"
+    given-names: "Kongpop"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Na Nan"
+    given-names: "Daneeya"
+    affiliation: "Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Osathanon"
+    given-names: "Thanaphum"
+    affiliation: "Faculty of Dentistry, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Adisakwattana"
+    given-names: "Sirichai"
+    affiliation: "Faculty of Allied Health Sciences, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Giachelli"
+    given-names: "Cecilia M"
+    affiliation: "Department of Bioengineering, University of Washington, Seattle, USA"
+  - family-names: "Sawangmake"
+    given-names: "Chenphop"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+  - family-names: "Rattanapuchpong"
+    given-names: "Sirirat"
+    affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
+repository-code: "https://github.com/saranyoubom/t2d-drug-repositioning-mlss"
+license: MIT
+abstract: "A single-file Python module with checks for pooled co-expression analyses of small designed experiments (for example 3 groups x 4 replicates and about 17 genes): share of the pooled covariance carried by group means, permutation nulls that keep the group means, a within-group coupling test, run structure, treatment-adjusted and ratio-scheme counts. The checks are candidate checks: their calibration in public data is reported in the associated article; whether they improve the conclusions drawn from small experiments has not been tested."
+keywords:
+  - co-expression network
+  - permutation test
+  - small experiments
+  - benchmark

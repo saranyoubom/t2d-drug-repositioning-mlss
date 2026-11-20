@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use these scripts or results, please cite the article and this software release."
 title: "t2d-drug-repositioning-mlss: analysis scripts, pre-specified protocol and results (17-gene analysis and version-2 checks)"
 type: software
+version: "2.1.0"
 authors:
   - family-names: "Oontawee"
     given-names: "Saranyou"
@@ -41,7 +42,7 @@ authors:
     affiliation: "Faculty of Veterinary Science, Chulalongkorn University, Bangkok, Thailand"
 repository-code: "https://github.com/saranyoubom/t2d-drug-repositioning-mlss"
 license: MIT
-abstract: "Analysis scripts, pre-specified protocol with SHA-256 fingerprints, results and saved openFDA responses for an exploratory study of co-expression networks in INS-1 cells after Notch (DAPT) and Wnt (DKK-1) inhibition and of a network-based drug-pair ranking. Exploratory and computational; no prediction of toxicity, efficacy or synergy."
+abstract: "Analysis scripts, pre-specified protocol with SHA-256 fingerprints, results and saved openFDA responses for an exploratory study of co-expression networks in INS-1 cells after treatment with the Notch inhibitor DAPT or the Wnt antagonist DKK-1, of a network-based drug-pair ranking and, from version 2.1.0, of post hoc checks of the benchmark (the share of covariance carried by group means against its expectation, and coupling after removal of one shared axis). Exploratory and computational; no prediction of toxicity, efficacy or synergy."
 keywords:
   - co-expression network
   - INS-1

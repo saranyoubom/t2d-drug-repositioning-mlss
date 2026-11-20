@@ -1,0 +1,135 @@
+{
+ "label": "validation sets, rnaseq human",
+ "methods_sha256": "dc88e898590bbf3c3b1a95ffd33c8ff6097d98d86387d972d24211ae52b18e2f",
+ "nperm": 2000,
+ "gate": {
+  "share_max_abs_diff": 0.0,
+  "tr2_p_mismatch": 0,
+  "n_checked": 118
+ },
+ "sets": {
+  "A": {
+   "n_matrices": 19,
+   "n_share_defined": 19,
+   "obs_share_quartiles": [
+    0.948846223066964,
+    0.9824282302182772,
+    0.9900241336043982
+   ],
+   "null_share_quartiles": [
+    0.985918612270414,
+    0.9950575363424436,
+    0.9990542207973794
+   ],
+   "excess_quartiles": [
+    -0.04606375665207468,
+    -0.012582283415804918,
+    -0.0011604463421405753
+   ],
+   "n_above_null_q975": 0,
+   "pc1_share_quartiles": [
+    0.5041475327421028,
+    0.6125712399893227,
+    0.7130934224323078
+   ],
+   "flagged_original": 15,
+   "flagged_original_ci": [
+    0.5666572155618583,
+    0.9149232336708375
+   ],
+   "flagged_pc1": 12,
+   "flagged_pc1_ci": [
+    0.41039533164803055,
+    0.8085048725486493
+   ],
+   "paired": {
+    "both": 12,
+    "only_original": 3,
+    "only_after_removal": 0,
+    "neither": 4
+   }
+  },
+  "B": {
+   "n_matrices": 19,
+   "n_share_defined": 19,
+   "obs_share_quartiles": [
+    0.30503109908864157,
+    0.7974094339160769,
+    0.9696259692706255
+   ],
+   "null_share_quartiles": [
+    0.5571144763340937,
+    0.9325658640983306,
+    0.9939307012519731
+   ],
+   "excess_quartiles": [
+    -0.22923558468646085,
+    -0.09160041616760856,
+    -0.020700748381784873
+   ],
+   "n_above_null_q975": 1,
+   "pc1_share_quartiles": [
+    0.4498874163338745,
+    0.6596486174820556,
+    0.7273022844556696
+   ],
+   "flagged_original": 17,
+   "flagged_original_ci": [
+    0.6860591728889099,
+    0.9706414397011299
+   ],
+   "flagged_pc1": 12,
+   "flagged_pc1_ci": [
+    0.41039533164803055,
+    0.8085048725486493
+   ],
+   "paired": {
+    "both": 11,
+    "only_original": 6,
+    "only_after_removal": 1,
+    "neither": 1
+   }
+  },
+  "A+B": {
+   "n_matrices": 38,
+   "n_share_defined": 38,
+   "obs_share_quartiles": [
+    0.7993917736053755,
+    0.9509814971057521,
+    0.9887142182480074
+   ],
+   "null_share_quartiles": [
+    0.9258785354778455,
+    0.9886149139351693,
+    0.9976342165136349
+   ],
+   "excess_quartiles": [
+    -0.1001552374874421,
+    -0.03952302494670429,
+    -0.0022972643291859773
+   ],
+   "n_above_null_q975": 1,
+   "pc1_share_quartiles": [
+    0.4597785293495311,
+    0.6132198732955376,
+    0.7389333150714397
+   ],
+   "flagged_original": 32,
+   "flagged_original_ci": [
+    0.6958318822077686,
+    0.9255613658484106
+   ],
+   "flagged_pc1": 24,
+   "flagged_pc1_ci": [
+    0.47283959557009003,
+    0.7661578075284404
+   ],
+   "paired": {
+    "both": 23,
+    "only_original": 9,
+    "only_after_removal": 1,
+    "neither": 5
+   }
+  }
+ }
+}

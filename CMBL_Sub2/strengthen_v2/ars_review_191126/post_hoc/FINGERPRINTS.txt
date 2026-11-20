@@ -1,0 +1,3 @@
+SHA-256 of the two method notes of the post hoc checks. Self-recorded (the script wrote the hash of the main note into every results file before any result; no third-party time stamp).
+dc88e898590bbf3c3b1a95ffd33c8ff6097d98d86387d972d24211ae52b18e2f  POSTHOC_METHODS_191126.md   written on 19 November 2026 before any run; recorded as main_methods_sha256 in results_*/summary.json
+02c7a9593fa5b3a71ac4af86a840dc81dd26780ce9d6d8c019c6939215e99f3d  POSTHOC_METHODS_ADDENDUM_191126.md   written on 19 November 2026 after the development results were known and before the INS-1 run (the INS-1 matrix was added at that point)

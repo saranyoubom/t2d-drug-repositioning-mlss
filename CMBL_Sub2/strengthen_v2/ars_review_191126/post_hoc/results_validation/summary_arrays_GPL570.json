@@ -1,0 +1,135 @@
+{
+ "label": "validation sets, arrays GPL570",
+ "methods_sha256": "dc88e898590bbf3c3b1a95ffd33c8ff6097d98d86387d972d24211ae52b18e2f",
+ "nperm": 2000,
+ "gate": {
+  "share_max_abs_diff": 0.0,
+  "tr2_p_mismatch": 0,
+  "n_checked": 118
+ },
+ "sets": {
+  "A": {
+   "n_matrices": 20,
+   "n_share_defined": 20,
+   "obs_share_quartiles": [
+    0.9598003825424628,
+    0.9759495894595709,
+    0.9972826259425396
+   ],
+   "null_share_quartiles": [
+    0.9850502032235928,
+    0.9906270675577267,
+    0.9977491898565661
+   ],
+   "excess_quartiles": [
+    -0.02647208735258258,
+    -0.0065660518722793215,
+    -0.00020122173525682907
+   ],
+   "n_above_null_q975": 0,
+   "pc1_share_quartiles": [
+    0.4147248110071662,
+    0.48014928207811847,
+    0.5641279941517936
+   ],
+   "flagged_original": 17,
+   "flagged_original_ci": [
+    0.639581135259243,
+    0.9476312541037833
+   ],
+   "flagged_pc1": 10,
+   "flagged_pc1_ci": [
+    0.2992980081982123,
+    0.7007019918017877
+   ],
+   "paired": {
+    "both": 10,
+    "only_original": 7,
+    "only_after_removal": 0,
+    "neither": 3
+   }
+  },
+  "B": {
+   "n_matrices": 20,
+   "n_share_defined": 20,
+   "obs_share_quartiles": [
+    0.33468758353089934,
+    0.8211605057780869,
+    0.932008765285066
+   ],
+   "null_share_quartiles": [
+    0.6504237152091688,
+    0.8875003753003594,
+    0.9661957781789279
+   ],
+   "excess_quartiles": [
+    -0.1419937999353187,
+    -0.06652779997978554,
+    -0.006744743231047623
+   ],
+   "n_above_null_q975": 0,
+   "pc1_share_quartiles": [
+    0.44729192870448253,
+    0.529630454671643,
+    0.7180930000571601
+   ],
+   "flagged_original": 16,
+   "flagged_original_ci": [
+    0.5839825677481064,
+    0.919342337420202
+   ],
+   "flagged_pc1": 9,
+   "flagged_pc1_ci": [
+    0.2581978582556242,
+    0.6579146575496577
+   ],
+   "paired": {
+    "both": 9,
+    "only_original": 7,
+    "only_after_removal": 0,
+    "neither": 4
+   }
+  },
+  "A+B": {
+   "n_matrices": 40,
+   "n_share_defined": 40,
+   "obs_share_quartiles": [
+    0.8255939550616954,
+    0.9576094626150219,
+    0.995467679153708
+   ],
+   "null_share_quartiles": [
+    0.8951937328846937,
+    0.9820729337175674,
+    0.9969580830099288
+   ],
+   "excess_quartiles": [
+    -0.08807347775739494,
+    -0.024163998735718062,
+    -0.0018222105589141557
+   ],
+   "n_above_null_q975": 0,
+   "pc1_share_quartiles": [
+    0.42879452811924146,
+    0.5133314436447247,
+    0.6129109129937438
+   ],
+   "flagged_original": 33,
+   "flagged_original_ci": [
+    0.6805000966821227,
+    0.9125458625396409
+   ],
+   "flagged_pc1": 19,
+   "flagged_pc1_ci": [
+    0.329354701126789,
+    0.6250263789330753
+   ],
+   "paired": {
+    "both": 19,
+    "only_original": 14,
+    "only_after_removal": 0,
+    "neither": 7
+   }
+  }
+ }
+}

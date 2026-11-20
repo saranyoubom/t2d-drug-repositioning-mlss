@@ -1,0 +1,161 @@
+﻿=== gate: new function equals the post hoc script
+tool version 1.1 (module of 4 Nov 2026 plus group_mean_share_expected and two warnings, 19 Nov 2026)
+GSE30536 B null_mean tool 0.863965 script 0.863965 | observed tool 0.819416 script 0.819416
+GSE34773 B null_mean tool 0.671904 script 0.671904 | observed tool 0.594037 script 0.594037
+GSE58093 A null_mean tool 0.967266 script 0.967266 | observed tool 0.933689 script 0.933689
+GSE51432 A null_mean tool 0.974334 script 0.974334 | observed tool 0.904417 script 0.904417
+GSE34773 A null_mean tool 0.993902 script 0.993902 | observed tool 0.977776 script 0.977776
+GSE20677 A null_mean tool 0.891792 script 0.891792 | observed tool 0.736060 script 0.736060
+GSE31851 A null_mean tool 0.998587 script 0.998587 | observed tool 0.993558 script 0.993558
+GSE37265 B null_mean tool 0.510894 script 0.510894 | observed tool 0.642761 script 0.642761
+INS-1 tool: observed 0.971361 null_mean 0.982585 q025 0.963623 q975 0.998276 | script: 0.971361 0.982585 0.963623 0.998276
+GATE passed | dev matrices compared: 8 mismatches: 0 | INS-1 equal: True
+gate exit=0
+=== smoke tests (v1.1)
+python.exe : test_command_line_on_the_example (__main__.SmokeTests.test_command_line_on_the_example) ... ok
+At line:19 char:1
++ & $py -I -W ignore tests/test_smoke.py *>> $out
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_command_li...example) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_constant_gene_is_reported (__main__.SmokeTests.test_constant_gene_is_reported) ... ok
+test_design (__main__.SmokeTests.test_design) ... ok
+test_expected_share_is_returned_and_the_warning_names_it 
+(__main__.SmokeTests.test_expected_share_is_returned_and_the_warning_names_it) ... ok
+test_group_mean_share_is_near_one_when_group_effects_dominate 
+(__main__.SmokeTests.test_group_mean_share_is_near_one_when_group_effects_dominate) ... ok
+test_independent_data_type_I_error_is_not_inflated_much 
+(__main__.SmokeTests.test_independent_data_type_I_error_is_not_inflated_much) ... ok
+test_injected_coupling_is_detected (__main__.SmokeTests.test_injected_coupling_is_detected) ... ok
+test_permutation_keeps_group_means (__main__.SmokeTests.test_permutation_keeps_group_means) ... ok
+test_run_checks_returns_report_parts (__main__.SmokeTests.test_run_checks_returns_report_parts) ... ok
+test_same_seed_same_result (__main__.SmokeTests.test_same_seed_same_result) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 16.359s
+
+OK
+tests exit=0
+=== example (v1.1)
+# Example (synthetic data)
+
+N = 12 samples, 3 groups (sizes [4, 4, 4]), 17 genes, denominators: none; residual df = 8; 2000 permutations (run test 2000), seed 2026.
+
+## Warnings
+
+- group means carry 98% of the pooled covariance of significant raw pairs; without any within-group coupling 97% would be expected (95% null interval 93% to 100%), so a share near 1 reflects the group effects of the genes and is not by itself evidence about within-group coupling
+- T_r2 = 0.175 is above the within-group permutation null (P = 0.0005): within-group coupling exists; it does not by itself identify biology
+- consensus count 35 is within the permutation null (mean 31.5, P = 0.13): weak evidence of no coupling, because the count test is insensitive to injected coupling in public benchmark data; read T_r2
+
+## Group-mean share
+
+Median share of the pooled covariance carried by group means (raw, pooled-significant pairs, n = 35): 0.98 (mean 0.89).
+Expected without within-group coupling (2000 permutations, mean of the null medians): 0.97 (2.5th to 97.5th percentile 0.93 to 1.00); observed minus expected +0.013.
+
+## Within-group coupling (log-scale residuals, raw scheme)
+
+| statistic | observed | null mean | null 95th pct | P (one-sided) |
+|---|---|---|---|---|
+| T_r2 | 0.1752 | 0.109 | 0.128 | 0.0005 |
+| T_p | 21 | 6.245 | 10 | 0.0005 |
+| T_eig | 6.684 | 4.243 | 4.994 | 0.0005 |
+
+## Consensus count
+
+Observed 35 (same sign 35) of 136 eligible pairs; permutation null mean 31.5 (SD 2.7), P(null >= obs) = 0.130.
+
+## Geometry
+
+r_crit 0.576; expected share if group means carry the correlation: 0.61; observed share of significant raw pairs: all 0.26, genes with a group effect 0.35 (n genes 13).
+
+example exit=0
+=== original 56-check suite on the modified module
+coexp_checks 1.1 (module of 4 Nov 2026 plus group_mean_share_expected and two warnings, 19 Nov 2026) | numpy 2.4.4 | python 3.14.4
+
+== 1. INS-1 regression: 17 genes, 3 groups x 4 wells, denominators Ins1, Kcnj11, Hes1
+PASS  consensus pairs, any sign = 21 | got 21
+PASS  consensus pairs, same sign in all four schemes = 21 | got 21
+PASS  same 21 consensus pairs as pipeline_17genes.json
+PASS  pooled significant pairs raw/Ins1/Kcnj11/Hes1 = 66/80/84/120 | [66, 80, 84, 120]
+PASS  adjusted q < 0.05 raw/Ins1/Kcnj11/Hes1 = 0/51/11/15 | [0, 51, 11, 15]
+PASS  13 consensus pairs with q < 0.05 in >= 1 scheme | got 13
+PASS  0 consensus pairs with q < 0.05 in all four schemes; 0 pairs significant after adjustment in all four
+PASS  91 eligible consensus pairs (14 non-denominator genes)
+PASS  hub degrees Glp1r 6; Tcf7l2, Cacna1d, Ptbp1 5; Wnt5a, Cacna1c 4
+PASS  pooled significance matrices identical to bench_pipeline.pooled
+PASS  adjusted q matrices equal bench_pipeline.adjusted (statsmodels BH) to 1e-12
+PASS  group-mean covariance share, median over 66 raw significant pairs = 0.97 | median 0.9714 mean 0.9676 pooled 0.9592
+PASS  consensus null mean 22.1 (10000 permutations; manuscript 22.1) | mean 22.10 sd 3.03 (manuscript 22.11, 3.06)
+PASS  consensus null SD within 0.3 of the manuscript
+PASS  P(null >= 21) about 0.69 | got 0.682 (manuscript 0.688)
+PASS  same-sign null mean within 0.4 of the manuscript | got 21.74 (manuscript 21.76)
+PASS  vectorized null agrees with the loop null (300 loop permutations): means within 3 SE, SDs within 25% | loop 21.90 (sd 2.93), vectorized 22.24 (sd 3.01)
+PASS  calibrated adjusted counts: observed 0/51/11/15 from the threshold counter equals the exact BH counts
+      adjusted q<0.05 [raw, Ins1, Kcnj11, Hes1]: observed [0, 51, 11, 15] | null mean [0.1, 29.3, 11.3, 6.5] | P(null >= obs) [1.0, 0.079, 0.44, 0.079] | excess [-0.1, 21.7, -0.3, 8.5]
+PASS  adjusted nulls close to the planning reconnaissance (1000 permutations: 0.1, 29.0, 11.6, 6.4; P 1.0, 0.087, 0.465, 0.074)
+      INS-1 coupling (10000 permutations): T_r2 0.1329 (null 0.1138, P 0.0607) | T_p 13 (null 7.313, P 0.0313) | T_eig 5.061 (null 4.392, P 0.0810)
+PASS  run_checks warns: consensus count within null, ratio schemes not calibrated, group means carry > 90% of covariance | 5 warnings
+
+== 2. vectorized primitives against reference implementations
+PASS  BH adjusted p equals statsmodels fdr_bh (ties and zeros included)
+PASS  threshold BH counter equals exact BH count on 150 data sets with many significant pairs | total significant pairs 1684
+PASS  T_r2, T_p, T_eig equal explicit np.corrcoef / eigvalsh computations (G > N via the Gram matrix, G < N directly)
+PASS  Spearman pooled counts per scheme equal scipy.stats.spearmanr | [62, 77, 75, 120]
+PASS  log-scale Pearson pooled counts per scheme equal np.corrcoef of log values | [63, 77, 86, 120]
+PASS  critical values: r_crit(10) = 0.576, r_crit(8) = 0.632 for 3 x 4
+PASS  Design handles K = 2 unequal sizes (df_resid 5) and K = 4 (df_resid 13)
+PASS  geometric expectation K = 3: (2/pi) arccos(0.576) = 0.609 and Monte Carlo | formula 0.6092 MC 0.6089
+PASS  geometric expectation K = 4: 1 - r_crit = 0.424 and Monte Carlo; K = 2: 1 | MC 0.4241
+
+== 3. permutation engine
+PASS  every permutation stays inside its group (each gene a full within-group permutation)
+PASS  genes of one block share the permutation, different blocks differ
+PASS  result does not depend on the memory chunking (max_elems)
+PASS  group of 4: all 24 permutations occur equally often (chi-square P > 0.001) | P 0.145
+PASS  group of 10 (random-key path): each source row lands in each position with probability 0.1 | max deviation 0.0046
+PASS  one block holding all genes leaves every correlation unchanged (null equals observed, P = 1)
+PASS  run-block permutation keeps same-block gene pairs exactly and breaks between-block pairs
+
+== 4. synthetic known-answer tests (3 groups x 4, 17 genes, group effects SD 1.0, noise SD 0.3 on the log scale)
+      250 independent data sets, 199 permutations each (34s)
+PASS  independent data, T_r2: P approximately uniform (mean 0.5 +- 0.07, type I error at 0.05 within 0.015-0.09) | mean P 0.497, KS D 0.034, P(P <= 0.05) = 0.052 (Wilson 0.031-0.087)
+PASS  independent data, T_eig: P approximately uniform (mean 0.5 +- 0.07, type I error at 0.05 within 0.015-0.09) | mean P 0.494, KS D 0.056, P(P <= 0.05) = 0.040 (Wilson 0.022-0.072)
+PASS  independent data, T_p: P approximately uniform (mean 0.5 +- 0.07, type I error at 0.05 within 0.015-0.09) | mean P 0.561, KS D 0.112, P(P <= 0.05) = 0.028 (Wilson 0.014-0.057)
+PASS  independent data, count: P approximately uniform (mean 0.5 +- 0.07, type I error at 0.05 within 0.015-0.09) | mean P 0.600, KS D 0.176, P(P <= 0.05) = 0.052 (Wilson 0.031-0.087)
+PASS  independent data, T_r2: Kolmogorov-Smirnov against uniform P > 0.01 | KS P 0.925
+      injected factor r = 0.7 in m = 6 genes (decoupled data, 100 replicates): detection T_r2 0.92, T_p 0.95, T_eig 0.92, consensus count 0.20
+      injected factor r = 0.9 in m = 10 genes (decoupled data, 100 replicates): detection T_r2 1.00, T_p 1.00, T_eig 1.00, consensus count 1.00
+      injected factor r = 0.5 in m = 3 genes (decoupled data, 100 replicates): detection T_r2 0.06, T_p 0.04, T_eig 0.05, consensus count 0.04
+PASS  injected coupling r = 0.7 in 6 genes is detected by T_r2 in >= 80% of data sets (protocol 3.2 requirement, here on synthetic data) | 0.92
+PASS  injected coupling r = 0.9 in 10 genes is detected by T_r2 in >= 95% of data sets
+PASS  the consensus count is less sensitive than T_r2 to the same injected coupling (r = 0.7, m = 6), as in benchmark part 1 | count 0.20 vs T_r2 0.92
+PASS  inject_factor: mean residual correlation among the 6 injected genes = 0.7 +- 0.08 (3 x 30 samples); decoupled genes about 0 | injected 0.680, decoupled -0.009
+PASS  decouple keeps every group mean of the log values exactly
+      noisy shared denominators (extra log SD 0.6): adjusted q<0.05 count mean raw 0.77, ratio schemes 45.3 (of 120 pairs); null mean of the ratio schemes 45.5; share of ratio-scheme P <= 0.05: 0.039
+PASS  independent genes with noisy shared denominators: ratio-scheme adjusted counts are inflated (>= 10x the raw count, > 20 pairs)
+PASS  the calibrated null reproduces that inflation: P(null >= obs) of the ratio schemes is not small (share <= 0.05 is at most 0.10)
+PASS  run-structure test: P approximately uniform on independent genes (mean 0.5 +- 0.1, P <= 0.05 in at most 12%) | mean 0.459, share 0.033
+PASS  run-structure test: detects within-run coupling (P <= 0.05 in >= 70% of data sets with r = 0.6 inside runs A and B) | share 1.00
+
+== 5. other designs and the command line
+PASS  run_checks runs for K = 2 (unequal sizes) and K = 4 with run labels; geometry expectation 1.0 and 0.42 at the pooled r_crit
+PASS  command line: exit code 0, json with warnings/coupling/run_structure, markdown report, unresolved gene excluded from the run test
+PASS  command line: one label per sample accepted; no denominators gives the raw scheme only
+PASS  non-positive input is refused with a clear message | X must be finite and strictly positive (linear scale); add a
+
+== 6. speed (this machine, G = 17, N = 12, 3 x 4, single process)
+      T_r2_T_p                       6959 permutations/s
+      T_r2_T_p_T_eig                 3870 permutations/s
+      consensus                      3417 permutations/s
+      adjusted_4_schemes             1982 permutations/s
+      permutation_generation        14118 permutations/s
+      spearman_consensus              954 permutations/s
+      run_label_permutations         6759 permutations/s
+      loop null of bench_pipeline.permutation_counts (consensus): 75 permutations/s -> vectorized consensus null is 46x faster
+PASS  T_r2 null runs at several thousand permutations per second (>= 3000/s without T_eig) | 6959/s
+PASS  vectorized consensus counting is at least 20x faster than the loop | 46x
+
+56 checks, 0 failed
+ALL TESTS PASSED
+regression exit=0

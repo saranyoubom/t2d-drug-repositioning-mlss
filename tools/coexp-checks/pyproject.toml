@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coexp-checks"
+version = "1.0.0"
+description = "Calibrated checks for pooled co-expression analyses of small designed experiments: group-mean share, permutation nulls, within-group coupling, run structure."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas"]
+keywords = ["co-expression network", "permutation test", "small experiments", "RT-qPCR", "benchmark"]
+
+[project.scripts]
+coexp-checks = "coexp_checks:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = ["coexp_checks"]

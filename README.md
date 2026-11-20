@@ -9,13 +9,14 @@
 
 ## Update (November 2026)
 
-The folder [`CMBL_Sub2/`](CMBL_Sub2/) holds the analysis for the revised 17-gene version of the manuscript (scripts, inputs and results). Its subfolder [`CMBL_Sub2/strengthen_v2/`](CMBL_Sub2/strengthen_v2/) holds the pre-specified version-2 analyses (calibrated checks, benchmark in public data, public islet cross-check, pharmacovigilance annotation, database-version sensitivity, plate provenance) with their protocol and fingerprints. Earlier folders are unchanged.
+The folder [`CMBL_Sub2/`](CMBL_Sub2/) holds the analysis for the revised 17-gene version of the manuscript (scripts, inputs and results). Its subfolder [`CMBL_Sub2/strengthen_v2/`](CMBL_Sub2/strengthen_v2/) holds the pre-specified version-2 analyses (calibrated checks, benchmark in public data, public islet cross-check, pharmacovigilance annotation, database-version sensitivity, plate provenance) with their protocol and fingerprints. Earlier folders are unchanged. Release v2.1.0 (November 2026) adds the post hoc checks of the benchmark (`CMBL_Sub2/strengthen_v2/ars_review_191126/post_hoc/`), the code of Fig. 10 and the checks tool [`tools/coexp-checks/`](tools/coexp-checks/).
 
 | Folder | Content | Archived release |
 |---|---|---|
 | root `Fig_*.r`, `README_fig*.md` | npj Systems Biology and Applications revisions (20 genes) | - |
 | `BiologyDirect_Sub1/` | Biology Direct submission (October 2026) | release v1.0.0, DOI 10.5281/zenodo.23430561 |
-| `CMBL_Sub2/` | 17-gene analysis and version-2 analyses (`strengthen_v2/`) | release v2.0.0 (the DOI is shown on the release page) |
+| `CMBL_Sub2/` | 17-gene analysis and version-2 analyses (`strengthen_v2/`) | releases v2.0.0 and v2.1.0 (the DOIs are shown on the release pages; v2.1.0 adds the post hoc checks) |
+| `tools/coexp-checks/` | the calibrated checks as a small Python package (version 1.1.0) | release v2.1.0 |
 
 ---
 

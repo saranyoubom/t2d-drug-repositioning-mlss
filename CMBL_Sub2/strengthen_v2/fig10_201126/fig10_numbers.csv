@@ -1,0 +1,30 @@
+number,value,source
+T_r2 type I error,7.5%,calibration_tables.csv T_r2 r=0 m=0: 276 of 3700
+T_r2 type I error without 2 series with constant genes (post hoc),5.0%,calibration_sensitivity_no_degenerate.csv: 175 of 3500
+"T_r2 power r 0.7, 6 genes",91%,calibration_tables.csv: 671 of 740
+count test power r 0.7,28%,calibration_tables.csv: 209 of 740
+count test power r 0.9,68%,calibration_tables.csv: 500 of 740
+count test power r 0.5,13%,calibration_tables.csv: 99 of 740
+design 4 per group: T_r2 power r 0.7,87%,design_table.csv n=4 r=0.7
+design 4 per group: share of true module pairs detected,6%,design_table.csv n=4 r=0.7
+design 4 per group: |r| the best single pair needs,0.90,design_table.csv n=4
+design 6 and 8 per group: T_r2 power r 0.5,0.78 to 0.96,"design_table.csv n=6, n=8 r=0.5"
+"T_r2 flagged, validation sets, gene set A",80%,validation_endpoints_long.csv: 47 of 59
+"share carried by group means, gene set A (median of series)",0.98,ars_review_191126\post_hoc\results_validation\summary.json sets.A.obs_share_quartiles
+"expected share without coupling, gene set A",0.99,ars_review_191126\post_hoc\results_validation\summary.json sets.A.null_share_quartiles
+"share carried by group means, gene set B",0.85,ars_review_191126\post_hoc\results_validation\summary.json sets.B.obs_share_quartiles
+"expected share without coupling, gene set B",0.92,ars_review_191126\post_hoc\results_validation\summary.json sets.B.null_share_quartiles
+matrices above the 97.5th null percentile,2 of 118,ars_review_191126\post_hoc\results_validation\summary.json sets.A+B
+"T_r2 flagged after removal of PC1, gene set A",54%,ars_review_191126\post_hoc\results_validation\summary.json sets.A: 32 of 59
+"T_r2 flagged, original, same sets (gene set A)",80%,ars_review_191126\post_hoc\results_validation\summary.json sets.A: 47 of 59
+INS-1 share carried by group means,0.97,results_ins1/summary.json
+INS-1 expected share,0.98,results_ins1/summary.json
+INS-1 null mean 22.1,22.1,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+INS-1 P = 0.68,0.68,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+INS-1 Tr2 P = 0.061,0.061,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+INS-1 same-run r,+0.149,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+INS-1 between-run r,−0.019,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+INS-1 D,+0.168,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+INS-1 D P,0.020,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+INS-1 row-layout simulation,+0.520,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"
+"INS-1 observed same-run, 26 August",+0.536,"manuscript Results, paragraphs on the permutation null, the coupling test and the run structure"

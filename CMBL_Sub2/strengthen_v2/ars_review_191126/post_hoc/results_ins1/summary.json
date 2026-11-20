@@ -1,0 +1,31 @@
+{
+ "main_methods_sha256": "dc88e898590bbf3c3b1a95ffd33c8ff6097d98d86387d972d24211ae52b18e2f",
+ "addendum_sha256": "02c7a9593fa5b3a71ac4af86a840dc81dd26780ce9d6d8c019c6939215e99f3d",
+ "nperm": 10000,
+ "seed": 2026,
+ "gate": {
+  "share_ok": true,
+  "tr2_ok": true,
+  "p_ok": true
+ },
+ "share": {
+  "obs_median": 0.9713605788093822,
+  "obs_mean": 0.9676134970203235,
+  "obs_n_pairs": 66,
+  "null_n_pairs_mean": 64.8507,
+  "null_no_sig_frac": 0.0,
+  "null_mean": 0.9825852039938616,
+  "null_q025": 0.9636229354555869,
+  "null_q975": 0.998276012558887,
+  "excess": -0.01122462518447942,
+  "above_q975": false
+ },
+ "coupling": {
+  "T_r2": 0.13290465491606648,
+  "T_r2_p": 0.060693930606939304,
+  "T_r2_pc1": 0.143104829516758,
+  "T_r2_pc1_p": 0.1621837816218378,
+  "pc1_share": 0.3563223051501924,
+  "null_pc1_mean": 0.13025058032921016
+ }
+}
