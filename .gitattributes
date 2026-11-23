@@ -1,0 +1,6 @@
+# Language statistics only. The two rules below make the "Languages" bar on the GitHub repository page
+# ignore Python (.py) and shell (.sh) files, so the bar counts R only. No file is removed, hidden or changed:
+# the repository also contains Python scripts (the strengthen_v2 re-analyses, the post hoc checks, Fig. 10 and
+# tools/coexp-checks) and a few shell scripts, as described in README.md.
+*.py -linguist-detectable
+*.sh -linguist-detectable
