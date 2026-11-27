@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it together with the article that describes the checks."
 title: "coexp-checks: calibrated checks for pooled co-expression analyses of small designed experiments"
 type: software
-version: 1.1.0
+version: 1.1.1
 authors:
   - family-names: "Oontawee"
     given-names: "Saranyou"

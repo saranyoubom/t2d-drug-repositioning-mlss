@@ -1,0 +1,60 @@
+"gse","platform","order","status_numpy","n_de_numpy","status_exact","n_de_exact"
+"GSE167190","GPL1261",153,"analysable (dry run)",7387,"analysable (dry run)",7387
+"GSE62999","GPL1261",162,"analysable (dry run)",3074,"analysable (dry run)",3074
+"GSE53301","GPL1261",163,"analysable (dry run)",1506,"analysable (dry run)",1506
+"GSE4518","GPL1261",167,"not analysable: 11 DE genes (< 34)",11,"not analysable: 11 DE genes (< 34)",11
+"GSE132458","GPL1261",168,"analysable (dry run)",96,"analysable (dry run)",96
+"GSE37415","GPL1261",172,"not analysable: 0 DE genes (< 34)",0,"not analysable: 0 DE genes (< 34)",0
+"GSE30485","GPL1261",177,"analysable (dry run)",1778,"analysable (dry run)",1778
+"GSE52620","GPL1261",198,"analysable (dry run)",2900,"analysable (dry run)",2900
+"GSE8295","GPL1261",201,"analysable (dry run)",4458,"analysable (dry run)",4458
+"GSE43716","GPL1261",202,"analysable (dry run)",8565,"analysable (dry run)",8565
+"GSE35961","GPL1261",203,"analysable (dry run)",4841,"analysable (dry run)",4841
+"GSE55746","GPL1261",207,"analysable (dry run)",2436,"analysable (dry run)",2436
+"GSE62868","GPL1261",211,"analysable (dry run)",249,"analysable (dry run)",249
+"GSE50813","GPL1261",212,"analysable (dry run)",118,"analysable (dry run)",118
+"GSE9038","GPL1261",213,"analysable (dry run)",7046,"analysable (dry run)",7046
+"GSE67316","GPL1261",214,"analysable (dry run)",5122,"analysable (dry run)",5122
+"GSE11206","GPL1261",220,"not analysable: 0 DE genes (< 34)",0,"not analysable: 0 DE genes (< 34)",0
+"GSE31431","GPL1261",222,"analysable (dry run)",2342,"analysable (dry run)",2342
+"GSE163086","GPL1261",227,"analysable (dry run)",6063,"analysable (dry run)",6063
+"GSE46211","GPL1261",232,"analysable (dry run)",1290,"analysable (dry run)",1290
+"GSE15808","GPL1261",233,"not analysable: 26 DE genes (< 34)",26,"not analysable: 26 DE genes (< 34)",26
+"GSE32903","GPL1261",239,"analysable (dry run)",4049,"analysable (dry run)",4049
+"GSE20426","GPL1261",243,"analysable (dry run)",5487,"analysable (dry run)",5487
+"GSE22381","GPL1261",245,"analysable (dry run)",7747,"analysable (dry run)",7747
+"GSE295735","GPL570",158,"analysable (dry run)",9125,"analysable (dry run)",9125
+"GSE24206","GPL570",161,"not analysable: 11 DE genes (< 34)",11,"not analysable: 11 DE genes (< 34)",11
+"GSE79768","GPL570",165,"not analysable: 20 DE genes (< 34)",20,"not analysable: 20 DE genes (< 34)",20
+"GSE27220","GPL570",169,"not analysable: 0 DE genes (< 34)",0,"not analysable: 0 DE genes (< 34)",0
+"GSE19697","GPL570",183,"not analysable: 10 DE genes (< 34)",10,"not analysable: 10 DE genes (< 34)",10
+"GSE27384","GPL570",194,"not analysable: 0 DE genes (< 34)",0,"not analysable: 0 DE genes (< 34)",0
+"GSE39904","GPL570",198,"analysable (dry run)",8183,"analysable (dry run)",8183
+"GSE68424","GPL570",206,"analysable (dry run)",10332,"analysable (dry run)",10326
+"GSE33970","GPL570",208,"analysable (dry run)",8726,"analysable (dry run)",8726
+"GSE2634","GPL570",212,"not analysable: 0 DE genes (< 34)",0,"not analysable: 0 DE genes (< 34)",0
+"GSE27095","GPL570",216,"analysable (dry run)",1540,"analysable (dry run)",1540
+"GSE124069","GPL570",226,"not analysable: 1 DE genes (< 34)",1,"not analysable: 1 DE genes (< 34)",1
+"GSE39902","GPL570",234,"analysable (dry run)",9506,"analysable (dry run)",9506
+"GSE137553","GPL570",236,"analysable (dry run)",7207,"analysable (dry run)",7207
+"GSE27204","GPL570",240,"analysable (dry run)",454,"analysable (dry run)",454
+"GSE70528","GPL570",243,"analysable (dry run)",3150,"analysable (dry run)",3150
+"GSE294689","GPL570",253,"not analysable: ZeroDivisionError division by zero",NA,"not analysable: ZeroDivisionError division by zero",NA
+"GSE42174","GPL570",255,"analysable (dry run)",4470,"analysable (dry run)",4470
+"GSE110693","GPL570",263,"not analysable: 1 DE genes (< 34)",1,"not analysable: 1 DE genes (< 34)",1
+"GSE18670","GPL570",265,"analysable (dry run)",546,"analysable (dry run)",546
+"GSE15947","GPL570",291,"analysable (dry run)",1163,"analysable (dry run)",1163
+"GSE93980","GPL570",293,"not analysable: 33 DE genes (< 34)",33,"not analysable: 33 DE genes (< 34)",33
+"GSE93989","GPL570",294,"not analysable: 33 DE genes (< 34)",33,"not analysable: 33 DE genes (< 34)",33
+"GSE49958","GPL570",303,"analysable (dry run)",231,"analysable (dry run)",231
+"GSE16625","GPL570",308,"not analysable: 16 DE genes (< 34)",16,"not analysable: 16 DE genes (< 34)",16
+"GSE45626","GPL570",312,"not analysable: 0 DE genes (< 34)",0,"not analysable: 0 DE genes (< 34)",0
+"GSE41040","GPL570",333,"analysable (dry run)",2207,"analysable (dry run)",2207
+"GSE50938","GPL570",336,"analysable (dry run)",3865,"analysable (dry run)",3865
+"GSE22600","GPL570",341,"analysable (dry run)",3584,"analysable (dry run)",3584
+"GSE30950","GPL570",348,"not analysable: 0 DE genes (< 34)",0,"not analysable: 0 DE genes (< 34)",0
+"GSE36765","GPL570",360,"analysable (dry run)",89,"analysable (dry run)",89
+"GSE37715","GPL570",361,"analysable (dry run)",335,"analysable (dry run)",335
+"GSE56352","GPL570",362,"analysable (dry run)",298,"analysable (dry run)",298
+"GSE39840","GPL570",369,"not analysable: ZeroDivisionError division by zero",NA,"not analysable: ZeroDivisionError division by zero",NA
+"GSE22875","GPL570",377,"analysable (dry run)",2781,"analysable (dry run)",2781

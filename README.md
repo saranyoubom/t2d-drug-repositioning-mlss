@@ -15,8 +15,8 @@ The folder [`CMBL_Sub2/`](CMBL_Sub2/) holds the analysis for the revised 17-gene
 |---|---|---|
 | root `Fig_*.r`, `README_fig*.md` | npj Systems Biology and Applications revisions (20 genes) | - |
 | `BiologyDirect_Sub1/` | Biology Direct submission (October 2026) | release v1.0.0, DOI 10.5281/zenodo.23430561 |
-| `CMBL_Sub2/` | 17-gene analysis and version-2 analyses (`strengthen_v2/`) | releases v2.0.0 and v2.1.0 (the DOIs are shown on the release pages; v2.1.0 adds the post hoc checks) |
-| `tools/coexp-checks/` | the calibrated checks as a small Python package (version 1.1.0) | release v2.1.0 |
+| `CMBL_Sub2/` | 17-gene analysis and version-2 analyses (`strengthen_v2/`) | releases v2.0.0 and v2.1.0 (the DOIs are shown on the release pages; v2.1.0 adds the post hoc checks and the R reimplementation `strengthen_v2/r_port/`) |
+| `tools/coexp-checks/` | the calibrated checks as a small Python package (version 1.1.1) | release v2.1.0 |
 
 ---
 

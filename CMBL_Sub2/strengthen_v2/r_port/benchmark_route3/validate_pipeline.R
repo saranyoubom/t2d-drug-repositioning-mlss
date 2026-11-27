@@ -1,0 +1,20 @@
+## validate_pipeline.R - R port of benchmark_route3/validate_pipeline.py. Code validation (PROTOCOL section 6): the generalized pipeline (bench_pipeline.R) must reproduce the manuscript's INS-1 numbers
+## from the 17-gene matrix before it is used on any benchmark dataset. Usage: Rscript validate_pipeline.R   (exit status 0 = PASSED; RA_ARCHIVE = folder with pipeline_17genes.json, default Analysis_outputs/reanalysis_17genes)
+suppressMessages({ library(readxl); library(jsonlite) })
+HERE <- dirname(normalizePath(sub("^--file=", "", grep("^--file=", commandArgs(FALSE), value = TRUE)[1]))); R_PORT <- normalizePath(file.path(HERE, ".."))
+source(file.path(R_PORT, "rng", "numpy_rng.R")); source(file.path(R_PORT, "pycompat.R")); source(file.path(R_PORT, "bench_pipeline.R"))
+SRC <- Sys.getenv("INS1_MATRIX", normalizePath(file.path(R_PORT, "..", "..", "R_17genes", "Fig_4b_Correlation_matrix_Relative_mRNA_expression.xlsx")))
+REF <- fromJSON(file.path(Sys.getenv("RA_ARCHIVE", normalizePath(file.path(R_PORT, "..", "..", "reanalysis_17genes"))), "pipeline_17genes.json"), simplifyVector = FALSE)
+GENES17 <- setdiff(c("Wnt2", "Wnt2b", "Wnt5a", "Wnt5b", "Wnt9a", "Lef1", "Tcf7", "Tcf7l2", "Hes1", "Hey1", "Itpr1", "Ryr2", "Ryr3", "Cacna1c", "Cacna1d", "Kcnj11", "Ptbp1", "Glut2", "Ins1", "Glp1r"), c("Hey1", "Wnt2", "Wnt2b", "Ryr1"))
+X <- as.matrix(as.data.frame(read_excel(SRC))[, GENES17]); storage.mode(X) <- "double"; den <- match(c("Ins1", "Kcnj11", "Hes1"), GENES17)
+t0 <- Sys.time(); o <- B_analyse(X, den, nperm = 10000, seed = 2026); ok <- TRUE
+check <- function(name, got, want, tol = 0) { good <- abs(got - want) <= tol; ok <<- ok && good; cat(sprintf("%s %s: got %s | manuscript %s\n", if (good) "OK " else "FAIL", name, format(got), format(want))) }
+check("consensus pairs (any sign)", o$observed, length(REF$consensus)); check("consensus pairs (same sign)", o$observed_same_sign, length(REF$consensus_signcons))
+for (i in seq_along(REF$counts)) check(sprintf("pooled significant pairs, %s", names(REF$counts)[i]), o$pooled_sig_per_scheme[i], REF$counts[[i]]$sig)
+for (i in seq_along(REF$adj_sig_q05)) check(sprintf("adjusted q<0.05, %s", names(REF$adj_sig_q05)[i]), o$adj_q05_per_scheme[i], as.integer(REF$adj_sig_q05[[i]]))
+check("consensus pairs with q<0.05 in >= 1 scheme after adjustment", o$cons_adj_any, length(REF$cons_adj_any)); check("pairs significant in all four schemes after adjustment", o$adj_pairs_all4, length(REF$adj_all_four))
+check("permutation null mean (10000 permutations; manuscript 2000)", round(o$null_mean, 2), round(REF$perm$mean, 2), tol = 0.4); check("permutation null SD", round(o$null_sd, 2), round(REF$perm$sd, 2), tol = 0.3)
+check("P(null >= observed)", round(o$perm_p_plain, 3), round(REF$perm$p_ge_obs, 3), tol = 0.04); check("same-sign null mean", round(o$null_mean_same_sign, 2), round(REF$perm_signcons$mean, 2), tol = 0.4)
+cat(sprintf("share of pooled covariance carried by group means (raw, significant pairs): %.2f (manuscript: median 0.97)\n", o$share_between_raw))
+cat("VALIDATION", if (ok) "PASSED" else "FAILED", sprintf("(%.0f s)\n", as.numeric(difftime(Sys.time(), t0, units = "secs"))))
+quit(status = if (ok) 0L else 1L)

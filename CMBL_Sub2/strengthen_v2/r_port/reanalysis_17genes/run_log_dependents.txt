@@ -1,0 +1,118 @@
+
+##### gapdh_exact
+reference Cq: reported pairs HK 22.569 22.798 22.569 22.798 | C0 22.6834 | C1 23.6215
+Tcf7l2   DAPT fold change / padj(CTRL-DAPT):  reported 0.778 / 0.0015 | C0 0.779 / 0.0031 | C1 1.493 / 0.00033
+Kcnj11   DAPT fold change / padj(CTRL-DAPT):  reported 0.396 / 1e-06 | C0 0.398 / 2.1e-06 | C1 0.763 / 0.027
+Cacna1d  DAPT fold change / padj(CTRL-DAPT):  reported 0.763 / 0.0028 | C0 0.762 / 0.001 | C1 1.459 / 1.7e-05
+Cacna1c  DAPT fold change / padj(CTRL-DAPT):  reported 0.712 / 0.013 | C0 0.715 / 0.02 | C1 1.371 / 0.054
+Ptbp1    DAPT fold change / padj(CTRL-DAPT):  reported 0.616 / 9.1e-06 | C0 0.616 / 1.1e-05 | C1 1.180 / 0.025
+[reported] sig {'Raw': 66, 'Ins1-normalized': 80, 'Kcnj11-normalized': 84, 'Hes1-normalized': 120} | consensus 21 (kept 21, lost 0, new 0) | adj q<0.05 {'Raw': 0, 'Ins1-normalized': 51, 'Kcnj11-normalized': 11, 'Hes1-normalized': 15} | hubs ['Glp1r', 'Cacna1d', 'Ptbp1', 'Tcf7l2'] | Glp1r 6 Cacna1d 5 Ptbp1 5 Tcf7l2 5
+[C0] sig {'Raw': 63, 'Ins1-normalized': 80, 'Kcnj11-normalized': 86, 'Hes1-normalized': 120} | consensus 24 (kept 20, lost 1, new 4) | adj q<0.05 {'Raw': 0, 'Ins1-normalized': 47, 'Kcnj11-normalized': 36, 'Hes1-normalized': 12} | hubs ['Glp1r', 'Cacna1d', 'Ptbp1', 'Tcf7l2', 'Wnt5a'] | Glp1r 6 Cacna1d 5 Ptbp1 5 Tcf7l2 5
+[C1] sig {'Raw': 62, 'Ins1-normalized': 49, 'Kcnj11-normalized': 44, 'Hes1-normalized': 120} | consensus 21 (kept 11, lost 10, new 10) | adj q<0.05 {'Raw': 2, 'Ins1-normalized': 41, 'Kcnj11-normalized': 12, 'Hes1-normalized': 12} | hubs ['Cacna1d', 'Glp1r'] | Glp1r 5 Cacna1d 5 Ptbp1 4 Tcf7l2 4
+elapsed gapdh_exact : 16.4 s
+##### table_counts
+20 genes (compare with the existing table: raw 190/80/52/15/0; Hes1 171/169/169/43/12; Kcnj11 171/118/111/54/5; Ins1 171/98/89/76/49; all-four 27/18/5/0; sign-cons 21)
+   Raw {'pairs': 190, 'pooled_p': 80, 'pooled_q': 52, 'adj_p': 15, 'adj_q': 0} 
+   Ins1-normalized {'pairs': 171, 'pooled_p': 98, 'pooled_q': 89, 'adj_p': 76, 'adj_q': 49} 
+   Kcnj11-normalized {'pairs': 171, 'pooled_p': 118, 'pooled_q': 111, 'adj_p': 54, 'adj_q': 5} 
+   Hes1-normalized {'pairs': 171, 'pooled_p': 169, 'pooled_q': 169, 'adj_p': 43, 'adj_q': 12} 
+   all {'pooled_p': 27, 'pooled_q': 6, 'adj_p': 5, 'adj_q': 0, 'signcons': 21} 
+17 genes
+   Raw {'pairs': 136, 'pooled_p': 66, 'pooled_q': 42, 'adj_p': 15, 'adj_q': 0} 
+   Ins1-normalized {'pairs': 120, 'pooled_p': 80, 'pooled_q': 76, 'adj_p': 70, 'adj_q': 51} 
+   Kcnj11-normalized {'pairs': 120, 'pooled_p': 84, 'pooled_q': 79, 'adj_p': 40, 'adj_q': 11} 
+   Hes1-normalized {'pairs': 120, 'pooled_p': 120, 'pooled_q': 120, 'adj_p': 34, 'adj_q': 15} 
+   all {'pooled_p': 21, 'pooled_q': 5, 'adj_p': 5, 'adj_q': 0, 'signcons': 21} 
+elapsed table_counts : 25.5 s
+##### denom_sens
+20 genes (check vs manuscript: Hey1/Tcf7 retained all evaluable, Cacna1c 12 of 22): {"n_consensus": 27, "Hey1": {"evaluable": 21, "retained": 21, "new_consensus": 27, "gained": 6}, "Tcf7": {"evaluable": 26, "retained": 26, "new_consensus": 33, "gained": 7}, "Cacna1c": {"evaluable": 22, "retained": 12, "new_consensus": 14, "gained": 2}} 
+17 genes: {"n_consensus": 21, "Tcf7": {"evaluable": 20, "retained": 20, "new_consensus": 26, "gained": 6}, "Cacna1c": {"evaluable": 17, "retained": 11, "new_consensus": 12, "gained": 1}} 
+elapsed denom_sens : 19.3 s
+##### netw
+Warning message:
+== 20 genes | consensus: 27 pairs, 14 genes, components 2
+   Tcf7l2   degree 6  betweenness 0.1874  closeness 0.6471
+   Glp1r    degree 6  betweenness 0.1731  closeness 0.6875
+   Hey1     degree 6  betweenness 0.0662  closeness 0.6471
+   Cacna1d  degree 6  betweenness 0.0635  closeness 0.6111
+   Ptbp1    degree 6  betweenness 0.0635  closeness 0.6111
+   Cacna1c  degree 5  betweenness 0.0342  closeness 0.6111
+   Wnt5a    degree 5  betweenness 0.0058  closeness 0.5789
+   Ryr3     degree 3  betweenness 0.0919  closeness 0.5500
+   Wnt5b    degree 3  betweenness 0.0026  closeness 0.5238
+   Itpr1    degree 2  betweenness 0.0235  closeness 0.4400
+   Ryr2     degree 2  betweenness 0.0064  closeness 0.3929
+   Glut2    degree 2  betweenness 0.0000  closeness 0.4074
+   Tcf7     degree 1  betweenness 0.0000  closeness 1.0000
+   Wnt9a    degree 1  betweenness 0.0000  closeness 1.0000
+   degree>=6 hubs: ['Tcf7l2', 'Glp1r', 'Hey1', 'Cacna1d', 'Ptbp1'] | degree>=5: ['Tcf7l2', 'Glp1r', 'Hey1', 'Cacna1d', 'Ptbp1', 'Cacna1c', 'Wnt5a'] 
+== 20 genes | consensus_signcons: 21 pairs, 13 genes, components 2
+   Glp1r    degree 6  betweenness 0.2551  closeness 0.7143
+   Tcf7l2   degree 5  betweenness 0.1806  closeness 0.6250
+   Cacna1d  degree 5  betweenness 0.0644  closeness 0.5882
+   Ptbp1    degree 5  betweenness 0.0644  closeness 0.5882
+   Cacna1c  degree 4  betweenness 0.0606  closeness 0.5882
+   Wnt5a    degree 4  betweenness 0.0038  closeness 0.5556
+   Ryr3     degree 3  betweenness 0.1010  closeness 0.5556
+   Itpr1    degree 2  betweenness 0.0202  closeness 0.4348
+   Ryr2     degree 2  betweenness 0.0076  closeness 0.4000
+   Glut2    degree 2  betweenness 0.0000  closeness 0.4000
+   Wnt5b    degree 2  betweenness 0.0000  closeness 0.5000
+   Tcf7     degree 1  betweenness 0.0000  closeness 1.0000
+   Wnt9a    degree 1  betweenness 0.0000  closeness 1.0000
+   degree>=6 hubs: ['Glp1r'] | degree>=5: ['Glp1r', 'Tcf7l2', 'Cacna1d', 'Ptbp1'] 
+== 17 genes | consensus: 21 pairs, 13 genes, components 2
+   Glp1r    degree 6  betweenness 0.2551  closeness 0.7143
+   Tcf7l2   degree 5  betweenness 0.1806  closeness 0.6250
+   Cacna1d  degree 5  betweenness 0.0644  closeness 0.5882
+   Ptbp1    degree 5  betweenness 0.0644  closeness 0.5882
+   Cacna1c  degree 4  betweenness 0.0606  closeness 0.5882
+   Wnt5a    degree 4  betweenness 0.0038  closeness 0.5556
+   Ryr3     degree 3  betweenness 0.1010  closeness 0.5556
+   Itpr1    degree 2  betweenness 0.0202  closeness 0.4348
+   Ryr2     degree 2  betweenness 0.0076  closeness 0.4000
+   Glut2    degree 2  betweenness 0.0000  closeness 0.4000
+   Wnt5b    degree 2  betweenness 0.0000  closeness 0.5000
+   Tcf7     degree 1  betweenness 0.0000  closeness 1.0000
+   Wnt9a    degree 1  betweenness 0.0000  closeness 1.0000
+   degree>=6 hubs: ['Glp1r'] | degree>=5: ['Glp1r', 'Tcf7l2', 'Cacna1d', 'Ptbp1'] 
+== 17 genes | consensus_signcons: 21 pairs, 13 genes, components 2
+   Glp1r    degree 6  betweenness 0.2551  closeness 0.7143
+   Tcf7l2   degree 5  betweenness 0.1806  closeness 0.6250
+   Cacna1d  degree 5  betweenness 0.0644  closeness 0.5882
+   Ptbp1    degree 5  betweenness 0.0644  closeness 0.5882
+   Cacna1c  degree 4  betweenness 0.0606  closeness 0.5882
+   Wnt5a    degree 4  betweenness 0.0038  closeness 0.5556
+   Ryr3     degree 3  betweenness 0.1010  closeness 0.5556
+   Itpr1    degree 2  betweenness 0.0202  closeness 0.4348
+   Ryr2     degree 2  betweenness 0.0076  closeness 0.4000
+   Glut2    degree 2  betweenness 0.0000  closeness 0.4000
+   Wnt5b    degree 2  betweenness 0.0000  closeness 0.5000
+   Tcf7     degree 1  betweenness 0.0000  closeness 1.0000
+   Wnt9a    degree 1  betweenness 0.0000  closeness 1.0000
+   degree>=6 hubs: ['Glp1r'] | degree>=5: ['Glp1r', 'Tcf7l2', 'Cacna1d', 'Ptbp1'] 
+elapsed netw : 6.6 s
+##### perm_arrays
+saved {'Raw': 64.845, 'Hes1-normalized': 120, 'Kcnj11-normalized': 87.136, 'Ins1-normalized': 76.659, 'cons': 22.1125, 'cons_sign': 21.762} 
+elapsed perm_arrays : 74.9 s
+##### perm_detail
+== 20 genes
+   Raw {'mean': 77.9275, 'lo': 72, 'hi': 84} 
+   Ins1-normalized {'mean': 95.2885, 'lo': 87, 'hi': 105} 
+   Kcnj11-normalized {'mean': 113.145, 'lo': 100, 'hi': 128} 
+   Hes1-normalized {'mean': 168.941, 'lo': 166, 'hi': 171} 
+   cons {'mean': 29.7105, 'lo': 24, 'hi': 37} 
+   cons_sign {'mean': 22.751, 'lo': 17, 'hi': 29} 
+   observed {'Raw': 80, 'Ins1-normalized': 98, 'Kcnj11-normalized': 118, 'Hes1-normalized': 169, 'cons': 27, 'cons_sign': 21} 
+   P_ge_obs {'cons': 0.8485, 'cons_sign': 0.7595} 
+== 17 genes
+   Raw {'mean': 64.845, 'lo': 59, 'hi': 72} 
+   Ins1-normalized {'mean': 76.659, 'lo': 72, 'hi': 83} 
+   Kcnj11-normalized {'mean': 87.136, 'lo': 81, 'hi': 96} 
+   Hes1-normalized {'mean': 120, 'lo': 120, 'hi': 120} 
+   cons {'mean': 22.1125, 'lo': 17, 'hi': 29} 
+   cons_sign {'mean': 21.762, 'lo': 17, 'hi': 28} 
+   observed {'Raw': 66, 'Ins1-normalized': 80, 'Kcnj11-normalized': 84, 'Hes1-normalized': 120, 'cons': 21, 'cons_sign': 21} 
+   P_ge_obs {'cons': 0.6875, 'cons_sign': 0.644} 
+elapsed perm_detail : 172.8 s
+DONE

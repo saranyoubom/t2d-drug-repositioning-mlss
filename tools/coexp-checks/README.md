@@ -4,7 +4,7 @@ Calibrated checks for pooled co-expression analyses of small designed experiment
 
 **Status: candidate checks.** Their calibration in public data is reported in the associated article. Whether using them improves the conclusions drawn from small experiments has not been tested, and passing them does not show that a network is biologically right: they detect some design artifacts, not all.
 
-Version 1.1.0 (module `coexp_checks.py`). The earlier module (version 1.0, 4 Nov 2026) is archived in the study repository; `CHANGES.md` lists what is different (a new function and two warnings; no existing statistic changed).
+Version 1.1.1 (module `coexp_checks.py`; 1.1.0 plus a fix for genes with the same value in every sample, see `CHANGES.md`). The earlier module (version 1.0, 4 Nov 2026) is archived in the study repository; `CHANGES.md` lists what is different (version 1.1.0: a new function and two warnings, no existing statistic changed; version 1.1.1: a gene with the same value in every sample gets p = 1 in the group-effect test).
 
 ## Install and run
 ```

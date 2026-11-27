@@ -159,3 +159,9 @@ PASS  vectorized consensus counting is at least 20x faster than the loop | 46x
 56 checks, 0 failed
 ALL TESTS PASSED
 regression exit=0
+
+==== coexp-checks 1.1.1, 27 Nov 2026 (Python 3.14.4, NumPy 2.4.4, SciPy 1.17.1) ====
+tests/test_smoke.py: Ran 12 tests in 39.2 s, OK (new: test_constant_gene_has_no_group_effect, test_bh_counts_nan_as_one)
+test_coexp_checks.py of the study repository (run against this module in a copy of the repository layout, INS1_MATRIX = the original INS-1 matrix): 56 checks, 0 failed, ALL TESTS PASSED
+Gene with the same value in every sample (12 samples, 3 groups of 4, two genes with strong group effects): group-effect genes 2 without it; 1.1.0 gave 3 (inexact grand mean) and 0 (exact grand mean); 1.1.1 gives 2 and 2, the constant gene has p = 1 and no q is NaN
+The 74 development matrices of the study's benchmark: 1.1.1 differs from the archived module only for GSE28477 gene set A (group-effect genes 0 -> 16; share of pooled-significant raw pairs NaN -> 0.733)

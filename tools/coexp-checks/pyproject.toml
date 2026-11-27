@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "coexp-checks"
-version = "1.1.0"
+version = "1.1.1"
 description = "Calibrated checks for pooled co-expression analyses of small designed experiments: group-mean share, permutation nulls, within-group coupling, run structure."
 readme = "README.md"
 license = { text = "MIT" }

@@ -1,0 +1,28 @@
+package,compare,items_agree,files_byte_identical,items_differ,missing,errors,line_counts,values_compared,largest_relative_difference,seconds
+WP1,compare_wp1.R,12,0,2,0,0,as expected,4828.0,0.002,8.0
+WP3,compare_wp3.R,4,0,0,0,0,as expected,30358.0,0.0,8.0
+WP5a,compare_wp5.R,2,0,1,0,0,as expected,3202.0,0.0,6.0
+WP9,compare_wp9.R,9,9,0,0,0,as expected,4481.0,0.0,6.0
+WP10,compare_wp10.R,8,0,0,0,0,as expected,4260.0,0.0,5.0
+WP12,compare_wp12.R,5,5,0,0,0,as expected,2784.0,0.0,5.0
+WP13,compare_wp13.R,2,0,0,0,0,as expected,382.0,0.0,5.0
+WP14,compare_wp14.R,1,0,0,0,0,as expected,187.0,0.0,4.0
+reanalysis_17genes,compare_reanalysis.R,14,0,0,0,0,as expected,18328.0,2.6e-08,10.0
+"route 3 (full run, 58 series)",compare_route3.R,58,0,3,0,0,as expected,4906.0,1.0,9.0
+route 3 selection,compare_select.R,1,0,1,0,0,as expected,0.0,,3.0
+WP2 post-processing,compare_wp2.R post design,12,0,0,0,0,as expected,31514.0,0.0,11.0
+WP2 gate (extract),compare_wp2.R gate,3,0,0,0,0,as expected,16613.0,1.2e-15,12.0
+WP2 held-out arrays,compare_wp2.R heldout,0,0,2,0,0,as expected,0.0,0.0,10.0
+WP2 RNA-seq,compare_wp2.R rnaseq,1,0,1,0,0,as expected,0.0,0.0,10.0
+WP2 calibration,compare_wp2.R calib,1,0,5,0,0,as expected,44.0,1.0,16.0
+WP2 analyse_matrix on 74 matrices,compare_wp2.R core,0,0,1,0,0,as expected,0.0,1.0,11.0
+post hoc checks,compare_posthoc.R,8,0,6,0,0,as expected,2788.0,0.29,10.0
+WP4 datasets,compare_wp4.R results,69,0,1,0,0,as expected,31619.0,0.0021,16.0
+WP4 meta-analysis,compare_wp4.R meta,8,1,0,0,0,as expected,902.0,0.0,9.0
+WP4 gene-graph null,compare_wp4.R meta_graph,2,1,0,0,0,as expected,121.0,0.0,6.0
+WP4 metacells,compare_wp4.R metacell,4,0,0,0,0,as expected,9630.0,0.0,7.0
+WP4 positive control,compare_wp4.R positive,14,1,2,0,0,as expected,740.0,3.3e-07,13.0
+WP4 GSE60803,compare_wp4.R perturbation,2,0,0,0,0,as expected,326.0,0.0,9.0
+WP4 wider search,compare_wp4.R wider,5,1,0,0,0,as expected,402.0,0.0,10.0
+WP4 live queries,compare_wp4.R scout,3,8,0,0,0,as expected,0.0,,6.0
+Additional file 6 (built from the archived results),compare_af6.R,1,1,0,0,0,as expected,86987.0,0.0,443.0

@@ -1,0 +1,14 @@
+PROTOCOL 3.2 REQUIREMENT (T_r2 type I error <= 0.06 and power >= 80% at r = 0.7, m = 6; pooled over 36 series)
+
+T_r2 type I error: 172/3600 = 0.0478 (Wilson 95% CI 0.0413 to 0.0552) -> PASS
+T_r2 power at r = 0.7, m = 6: 656/720 = 0.9111 (Wilson 95% CI 0.8881 to 0.9298) -> PASS; per series: min 0.75, median 0.90, 35 of 36 series at or above 0.80
+OVERALL: PASS
+
+All pre-listed statistics (type I error, power at r = 0.7, m = 6): T_r2 0.048, 0.911; T_p 0.031, 0.918; T_eig 0.045, 0.908; count 0.043, 0.275
+Pre-listed statistics meeting both requirements: T_r2, T_p, T_eig
+
+POST HOC SENSITIVITY (not the pre-specified analysis): without the 1 series whose gene set A has genes with no within-group variation (GSE28477); 35 series remain
+  T_r2   type I error 171/3500 = 0.0489 (0.0422 to 0.0565); power at r = 0.7, m = 6: 637/700 = 0.9100 (0.8865 to 0.9290)
+  T_p    type I error 112/3500 = 0.0320 (0.0267 to 0.0384); power at r = 0.7, m = 6: 643/700 = 0.9186 (0.8960 to 0.9366)
+  T_eig  type I error 161/3500 = 0.0460 (0.0395 to 0.0535); power at r = 0.7, m = 6: 637/700 = 0.9100 (0.8865 to 0.9290)
+  count  type I error 31/700 = 0.0443 (0.0314 to 0.0622); power at r = 0.7, m = 6: 197/700 = 0.2814 (0.2494 to 0.3159)

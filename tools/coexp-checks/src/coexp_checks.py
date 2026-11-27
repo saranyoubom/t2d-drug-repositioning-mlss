@@ -45,7 +45,7 @@ from functools import lru_cache
 import numpy as np
 from scipy import stats, special
 
-__version__ = '1.1 (module of 4 Nov 2026 plus group_mean_share_expected and two warnings, 19 Nov 2026)'
+__version__ = '1.1.1 (1.1 of 19 Nov 2026 plus the fix for genes with the same value in every sample, 27 Nov 2026)'
 MAX_ELEMS = 1_000_000          # elements per working array in a permutation chunk (memory guard; does not change results)
 ALPHA = 0.05
 
@@ -118,8 +118,9 @@ def _pval(r, df):
 
 
 def _bh(p):
-    """Benjamini-Hochberg adjusted p along the last axis (same values as statsmodels fdr_bh)"""
-    m = p.shape[-1]; order = np.argsort(p, axis=-1); ps = np.take_along_axis(p, order, -1)
+    """Benjamini-Hochberg adjusted p along the last axis (same values as statsmodels fdr_bh). A NaN p (an undefined test) counts as p = 1 (version 1.1.1;
+    before, one NaN p turned every q of its row into NaN, because np.minimum.accumulate propagates NaN)."""
+    p = np.where(np.isnan(p), 1.0, p); m = p.shape[-1]; order = np.argsort(p, axis=-1); ps = np.take_along_axis(p, order, -1)
     q = np.minimum.accumulate((ps * m / np.arange(1, m + 1))[..., ::-1], axis=-1)[..., ::-1]
     out = np.empty_like(q); np.put_along_axis(out, order, np.minimum(q, 1.0), -1); return out
 
@@ -383,9 +384,13 @@ def geometric_expectation(r_crit, K):
 
 
 def anova_group_effect(X, groups, log=True):
-    """one-way ANOVA per gene (log scale by default): F, p and Benjamini-Hochberg q across genes"""
+    """one-way ANOVA per gene (log scale by default): F, p and Benjamini-Hochberg q across genes. A gene with the same value in every sample has no group
+    effect: its F (0/0) is undefined (reported as NaN) and its p is 1 (version 1.1.1; before, rounding of the grand mean gave such a gene p = 0, so it was
+    counted as a group-effect gene, or a p of NaN that made every q NaN, so no gene was counted)."""
     X = _check_X(X); des = as_design(groups); Y = np.log(X) if log else X; gm = _group_means(Y, des); N, K = des.N, des.K
-    ssw = ((Y - gm) ** 2).sum(0); ssb = ((gm - Y.mean(0)) ** 2).sum(0); F = (ssb / (K - 1)) / (ssw / (N - K)); p = stats.f.sf(F, K - 1, N - K); return dict(F=F, p=p, q=_bh(p))
+    ssw = ((Y - gm) ** 2).sum(0); ssb = ((gm - Y.mean(0)) ** 2).sum(0); const = (Y == Y[:1]).all(0)
+    with np.errstate(divide='ignore', invalid='ignore'): F = (ssb / (K - 1)) / (ssw / (N - K))
+    F = np.where(const, np.nan, F); p = np.where(const, 1.0, stats.f.sf(F, K - 1, N - K)); return dict(F=F, p=p, q=_bh(p))
 
 
 def geometry_check(X, groups, fdr=ALPHA, log=True):

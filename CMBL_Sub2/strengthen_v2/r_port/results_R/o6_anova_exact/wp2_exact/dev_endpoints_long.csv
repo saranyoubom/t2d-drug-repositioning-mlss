@@ -1,0 +1,313 @@
+arm,gene_set,endpoint,scheme,k,n,estimate,lo,hi
+"development, all 37 series",A,E1_count_not_above_null,,30.0,36,0.8333333333333334,0.6810920568872053,0.921295524049819
+"development, all 37 series",A,E1_count_flagged,,6.0,36,0.16666666666666666,0.07870447595018111,0.3189079431127947
+"development, all 37 series",A,coupling_T_r2,,22.0,36,0.6111111111111112,0.44864459096605136,0.7521512693462901
+"development, all 37 series",A,coupling_T_p,,20.0,36,0.5555555555555556,0.3958106175569729,0.7045873125991979
+"development, all 37 series",A,coupling_T_eig,,19.0,36,0.5277777777777778,0.37005938022987594,0.6801395848482095
+"development, all 37 series",A,T_r2_observed,,,36,0.1436205892380613,0.12224576893681002,0.17586841909856493
+"development, all 37 series",A,T_r2_null_mean,,,36,0.11424254255605829,0.11239807287237628,0.1208364511961826
+"development, all 37 series",A,E2_retained_any_scheme,,,36,0.7165242165242165,0.3181573275862069,0.9261786600496278
+"development, all 37 series",A,E2_retained_all_schemes,,,36,0.0,0.0,0.0
+"development, all 37 series",A,E2_retained_raw_scheme,,,36,0.0,0.0,0.029454022988505746
+"development, all 37 series",A,E2_pairs_sig_all_after_adjustment,,,36,0.0,0.0,1.0
+"development, all 37 series",A,E2_raw_any_consensus_pair_retained,,11.0,36,0.3055555555555556,0.18004451594829915,0.4685627285051034
+"development, all 37 series",A,E3_share_between,,,36,0.9782225855539222,0.9561487191520991,0.9930993888701526
+"development, all 37 series",A,raw_sig_share_group_effect,,,36,0.8088235294117647,0.6452205882352942,0.9117647058823529
+"development, all 37 series",A,raw_sig_share_all_pairs,,,36,0.8088235294117647,0.6452205882352942,0.9117647058823529
+"development, all 37 series",A,raw_sig_share_above_expectation,,30.0,36,0.8333333333333334,0.6810920568872053,0.921295524049819
+"development, all 37 series",A,observed_consensus,,,36,26.0,13.75,32.5
+"development, all 37 series",A,null_mean_consensus,,,36,24.799500000000002,13.235125,31.891125
+"development, all 37 series",A,consensus_minus_null,,,36,0.7165000000000004,-0.9355000000000011,2.939749999999999
+"development, all 37 series",A,adj_share_P_lt_0_05,raw,9.0,36,0.25,0.1375047766299483,0.41070453766728354
+"development, all 37 series",A,adj_median_observed,raw,,36,0.0,0.0,2.0
+"development, all 37 series",A,adj_median_null_mean,raw,,36,0.106,0.076,0.20700000000000002
+"development, all 37 series",A,adj_median_ratio_obs_over_null,raw,,36,0.0,0.0,13.201754385964913
+"development, all 37 series",A,adj_median_excess,raw,,36,-0.056999999999999995,-0.119,1.6775000000000002
+"development, all 37 series",A,adj_share_P_lt_0_05,den1,8.0,36,0.2222222222222222,0.11716331975796457,0.3808470294611819
+"development, all 37 series",A,adj_median_observed,den1,,36,12.0,1.75,52.0
+"development, all 37 series",A,adj_median_null_mean,den1,,36,4.304,0.65,46.7785
+"development, all 37 series",A,adj_median_ratio_obs_over_null,den1,,36,1.0189668878493863,0.7129754920009246,2.9867410090308955
+"development, all 37 series",A,adj_median_excess,den1,,36,0.7110000000000001,-0.6775000000000007,3.9515000000000002
+"development, all 37 series",A,adj_share_P_lt_0_05,den2,9.0,36,0.25,0.1375047766299483,0.41070453766728354
+"development, all 37 series",A,adj_median_observed,den2,,36,13.5,3.0,39.25
+"development, all 37 series",A,adj_median_null_mean,den2,,36,9.585999999999999,1.3915,26.206
+"development, all 37 series",A,adj_median_ratio_obs_over_null,den2,,36,0.991537414816979,0.4958572464613392,2.327052847845083
+"development, all 37 series",A,adj_median_excess,den2,,36,-0.20500000000000074,-1.7990000000000004,5.643000000000001
+"development, all 37 series",A,adj_share_P_lt_0_05,den3,3.0,36,0.08333333333333333,0.028748611335993407,0.2182669124927264
+"development, all 37 series",A,adj_median_observed,den3,,36,16.5,4.75,57.5
+"development, all 37 series",A,adj_median_null_mean,den3,,36,25.509,2.9555,54.5375
+"development, all 37 series",A,adj_median_ratio_obs_over_null,den3,,36,1.0134493124283752,0.4344823802424854,1.5433049413044897
+"development, all 37 series",A,adj_median_excess,den3,,36,0.3900000000000032,-5.658000000000001,5.426
+"development, human GPL570",A,E1_count_not_above_null,,13.0,16,0.8125,0.5699111903802585,0.9340840092857186
+"development, human GPL570",A,E1_count_flagged,,3.0,16,0.1875,0.06591599071428139,0.43008880961974144
+"development, human GPL570",A,coupling_T_r2,,11.0,16,0.6875,0.4440435583474066,0.8583535614521797
+"development, human GPL570",A,coupling_T_p,,10.0,16,0.625,0.38641040545502714,0.8151876744113636
+"development, human GPL570",A,coupling_T_eig,,9.0,16,0.5625,0.331785563988119,0.7690134759450765
+"development, human GPL570",A,T_r2_observed,,,16,0.1508475011307601,0.12997366910896752,0.17537633146839543
+"development, human GPL570",A,T_r2_null_mean,,,16,0.11767949154310434,0.11133271349742979,0.12240235465206213
+"development, human GPL570",A,E2_retained_any_scheme,,,16,0.6703703703703703,0.5238095238095238,0.8596153846153847
+"development, human GPL570",A,E2_retained_all_schemes,,,16,0.0,0.0,0.0
+"development, human GPL570",A,E2_retained_raw_scheme,,,16,0.0,0.0,0.02647783251231527
+"development, human GPL570",A,E2_pairs_sig_all_after_adjustment,,,16,0.0,0.0,0.25
+"development, human GPL570",A,E2_raw_any_consensus_pair_retained,,5.0,16,0.3125,0.14164643854782027,0.5559564416525933
+"development, human GPL570",A,E3_share_between,,,16,0.9761622285104241,0.9640129478899813,0.9926986588845922
+"development, human GPL570",A,raw_sig_share_group_effect,,,16,0.8235294117647058,0.6746323529411765,0.9319852941176471
+"development, human GPL570",A,raw_sig_share_all_pairs,,,16,0.8235294117647058,0.6746323529411765,0.9319852941176471
+"development, human GPL570",A,raw_sig_share_above_expectation,,14.0,16,0.875,0.639771727342413,0.9650225122567595
+"development, human GPL570",A,observed_consensus,,,16,27.0,17.25,31.25
+"development, human GPL570",A,null_mean_consensus,,,16,21.17375,13.235125,29.96775
+"development, human GPL570",A,consensus_minus_null,,,16,1.3817500000000003,0.10875000000000057,3.267499999999999
+"development, human GPL570",A,adj_share_P_lt_0_05,raw,3.0,16,0.1875,0.06591599071428139,0.43008880961974144
+"development, human GPL570",A,adj_median_observed,raw,,16,0.0,0.0,1.0
+"development, human GPL570",A,adj_median_null_mean,raw,,16,0.101,0.08349999999999999,0.222
+"development, human GPL570",A,adj_median_ratio_obs_over_null,raw,,16,0.0,0.0,12.010403916768666
+"development, human GPL570",A,adj_median_excess,raw,,16,-0.06,-0.104,0.9165000000000001
+"development, human GPL570",A,adj_share_P_lt_0_05,den1,6.0,16,0.375,0.1848123255886363,0.6135895945449727
+"development, human GPL570",A,adj_median_observed,den1,,16,21.5,3.5,46.75
+"development, human GPL570",A,adj_median_null_mean,den1,,16,3.041,0.4645,42.1495
+"development, human GPL570",A,adj_median_ratio_obs_over_null,den1,,16,3.4162354048158763,1.0033028715545367,6.637678988252909
+"development, human GPL570",A,adj_median_excess,den1,,16,2.473000000000003,0.33050000000000007,16.003999999999998
+"development, human GPL570",A,adj_share_P_lt_0_05,den2,6.0,16,0.375,0.1848123255886363,0.6135895945449727
+"development, human GPL570",A,adj_median_observed,den2,,16,20.0,3.75,40.75
+"development, human GPL570",A,adj_median_null_mean,den2,,16,11.048,2.9375,24.287
+"development, human GPL570",A,adj_median_ratio_obs_over_null,den2,,16,1.816282767035161,0.9561915760703814,3.011458643887643
+"development, human GPL570",A,adj_median_excess,den2,,16,3.255,-0.4079999999999996,15.387
+"development, human GPL570",A,adj_share_P_lt_0_05,den3,1.0,16,0.0625,0.011119344764642547,0.28328737570298945
+"development, human GPL570",A,adj_median_observed,den3,,16,11.0,4.75,57.0
+"development, human GPL570",A,adj_median_null_mean,den3,,16,13.31,4.5155,49.687
+"development, human GPL570",A,adj_median_ratio_obs_over_null,den3,,16,1.1256632745993596,0.8263776741489274,2.2633933309822742
+"development, human GPL570",A,adj_median_excess,den3,,16,0.9570000000000003,-7.2265,6.8505
+"development, mouse GPL1261",A,E1_count_not_above_null,,17.0,20,0.85,0.639581135259243,0.9476312541037833
+"development, mouse GPL1261",A,E1_count_flagged,,3.0,20,0.15,0.052368745896216595,0.36041886474075696
+"development, mouse GPL1261",A,coupling_T_r2,,11.0,20,0.55,0.34208534245034233,0.7418021417443759
+"development, mouse GPL1261",A,coupling_T_p,,10.0,20,0.5,0.2992980081982123,0.7007019918017877
+"development, mouse GPL1261",A,coupling_T_eig,,10.0,20,0.5,0.2992980081982123,0.7007019918017877
+"development, mouse GPL1261",A,T_r2_observed,,,20,0.1378175382496707,0.1195348453497908,0.17586841909856493
+"development, mouse GPL1261",A,T_r2_null_mean,,,20,0.1138073445326875,0.11274456760781795,0.11789240481453754
+"development, mouse GPL1261",A,E2_retained_any_scheme,,,20,0.7461538461538462,0.2298951048951049,0.9394177812745869
+"development, mouse GPL1261",A,E2_retained_all_schemes,,,20,0.0,0.0,0.00390625
+"development, mouse GPL1261",A,E2_retained_raw_scheme,,,20,0.0,0.0,0.03645833333333333
+"development, mouse GPL1261",A,E2_pairs_sig_all_after_adjustment,,,20,0.0,0.0,1.0
+"development, mouse GPL1261",A,E2_raw_any_consensus_pair_retained,,6.0,20,0.3,0.14547724486760422,0.5189728183535234
+"development, mouse GPL1261",A,E3_share_between,,,20,0.9843717520486874,0.9543346895857836,0.9930993888701526
+"development, mouse GPL1261",A,raw_sig_share_group_effect,,,20,0.8014705882352942,0.6323529411764706,0.8988970588235294
+"development, mouse GPL1261",A,raw_sig_share_all_pairs,,,20,0.8014705882352942,0.6323529411764706,0.8988970588235294
+"development, mouse GPL1261",A,raw_sig_share_above_expectation,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+"development, mouse GPL1261",A,observed_consensus,,,20,25.5,12.25,32.5
+"development, mouse GPL1261",A,null_mean_consensus,,,20,25.484499999999997,13.21975,31.891125
+"development, mouse GPL1261",A,consensus_minus_null,,,20,-0.16650000000000098,-1.438250000000001,2.812999999999999
+"development, mouse GPL1261",A,adj_share_P_lt_0_05,raw,6.0,20,0.3,0.14547724486760422,0.5189728183535234
+"development, mouse GPL1261",A,adj_median_observed,raw,,20,0.0,0.0,2.25
+"development, mouse GPL1261",A,adj_median_null_mean,raw,,20,0.146,0.073,0.2025
+"development, mouse GPL1261",A,adj_median_ratio_obs_over_null,raw,,20,0.0,0.0,16.855736301369863
+"development, mouse GPL1261",A,adj_median_excess,raw,,20,-0.056999999999999995,-0.1475,2.1835
+"development, mouse GPL1261",A,adj_share_P_lt_0_05,den1,2.0,20,0.1,0.027866481213768196,0.3010336452284873
+"development, mouse GPL1261",A,adj_median_observed,den1,,20,5.5,0.0,57.5
+"development, mouse GPL1261",A,adj_median_null_mean,den1,,20,6.215,0.67,47.7005
+"development, mouse GPL1261",A,adj_median_ratio_obs_over_null,den1,,20,0.9323907342684099,0.0,1.2139697575565471
+"development, mouse GPL1261",A,adj_median_excess,den1,,20,-0.32100000000000195,-1.4479999999999997,2.166
+"development, mouse GPL1261",A,adj_share_P_lt_0_05,den2,3.0,20,0.15,0.052368745896216595,0.36041886474075696
+"development, mouse GPL1261",A,adj_median_observed,den2,,20,5.5,2.75,29.5
+"development, mouse GPL1261",A,adj_median_null_mean,den2,,20,9.585999999999999,0.7605,33.337
+"development, mouse GPL1261",A,adj_median_ratio_obs_over_null,den2,,20,0.8025068949771201,0.3175162406077112,1.1760554666640106
+"development, mouse GPL1261",A,adj_median_excess,den2,,20,-0.29900000000000004,-5.888999999999999,1.96
+"development, mouse GPL1261",A,adj_share_P_lt_0_05,den3,2.0,20,0.1,0.027866481213768196,0.3010336452284873
+"development, mouse GPL1261",A,adj_median_observed,den3,,20,21.5,7.25,60.25
+"development, mouse GPL1261",A,adj_median_null_mean,den3,,20,34.864000000000004,2.8635,60.049
+"development, mouse GPL1261",A,adj_median_ratio_obs_over_null,den3,,20,0.9638170674755127,0.33994029883595034,1.100484165409953
+"development, mouse GPL1261",A,adj_median_excess,den3,,20,-0.097999999999998,-4.822499999999998,3.9650000000000034
+"development, without series with degenerate genes (post hoc sensitivity)",A,E1_count_not_above_null,,29.0,35,0.8285714285714286,0.6731771770095504,0.9189735994629841
+"development, without series with degenerate genes (post hoc sensitivity)",A,E1_count_flagged,,6.0,35,0.17142857142857143,0.08102640053701589,0.3268228229904497
+"development, without series with degenerate genes (post hoc sensitivity)",A,coupling_T_r2,,22.0,35,0.6285714285714286,0.4633693684359532,0.7683418049663429
+"development, without series with degenerate genes (post hoc sensitivity)",A,coupling_T_p,,20.0,35,0.5714285714285714,0.40857411143974914,0.7201543182281931
+"development, without series with degenerate genes (post hoc sensitivity)",A,coupling_T_eig,,19.0,35,0.5428571428571428,0.3818972506848375,0.6953398071159278
+"development, without series with degenerate genes (post hoc sensitivity)",A,T_r2_observed,,,35,0.1449293500167954,0.12168327667477259,0.17793630016321088
+"development, without series with degenerate genes (post hoc sensitivity)",A,T_r2_null_mean,,,35,0.11443864538141933,0.11208244880424736,0.12088888664761337
+"development, without series with degenerate genes (post hoc sensitivity)",A,E2_retained_any_scheme,,,35,0.6923076923076923,0.2925646551724138,0.9115384615384616
+"development, without series with degenerate genes (post hoc sensitivity)",A,E2_retained_all_schemes,,,35,0.0,0.0,0.0
+"development, without series with degenerate genes (post hoc sensitivity)",A,E2_retained_raw_scheme,,,35,0.0,0.0,0.031130268199233715
+"development, without series with degenerate genes (post hoc sensitivity)",A,E2_pairs_sig_all_after_adjustment,,,35,0.0,0.0,1.0
+"development, without series with degenerate genes (post hoc sensitivity)",A,E2_raw_any_consensus_pair_retained,,11.0,35,0.3142857142857143,0.1855084467426582,0.47979763612069193
+"development, without series with degenerate genes (post hoc sensitivity)",A,E3_share_between,,,35,0.9777760438124911,0.9558033833997341,0.9926634008323146
+"development, without series with degenerate genes (post hoc sensitivity)",A,raw_sig_share_group_effect,,,35,0.8088235294117647,0.6433823529411764,0.9117647058823529
+"development, without series with degenerate genes (post hoc sensitivity)",A,raw_sig_share_all_pairs,,,35,0.8088235294117647,0.6433823529411764,0.9117647058823529
+"development, without series with degenerate genes (post hoc sensitivity)",A,raw_sig_share_above_expectation,,29.0,35,0.8285714285714286,0.6731771770095504,0.9189735994629841
+"development, without series with degenerate genes (post hoc sensitivity)",A,observed_consensus,,,35,26.0,13.5,33.0
+"development, without series with degenerate genes (post hoc sensitivity)",A,null_mean_consensus,,,35,24.559,13.07875,32.05075
+"development, without series with degenerate genes (post hoc sensitivity)",A,consensus_minus_null,,,35,0.8045,-0.885250000000001,3.0589999999999993
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_share_P_lt_0_05,raw,9.0,35,0.2571428571428571,0.14163027069060447,0.42069306843839177
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_observed,raw,,35,0.0,0.0,2.0
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_null_mean,raw,,35,0.11,0.076,0.218
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_ratio_obs_over_null,raw,,35,0.0,0.0,13.24561403508772
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_excess,raw,,35,-0.054,-0.128,1.735
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_share_P_lt_0_05,den1,8.0,35,0.22857142857142856,0.12065879834191684,0.3901731689199025
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_observed,den1,,35,7.0,1.5,50.0
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_null_mean,den1,,35,3.484,0.642,42.274
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_ratio_obs_over_null,den1,,35,1.0294117647058825,0.6295189992933432,3.459589453891375
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_excess,den1,,35,0.834,-0.6810000000000012,4.187000000000001
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_share_P_lt_0_05,den2,9.0,35,0.2571428571428571,0.14163027069060447,0.42069306843839177
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_observed,den2,,35,9.0,3.0,39.5
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_null_mean,den2,,35,8.786,1.215,27.066000000000003
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_ratio_obs_over_null,den2,,35,0.99117534211536,0.4589494423099987,2.379901667100173
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_excess,den2,,35,-0.214,-1.8440000000000005,6.148000000000001
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_share_P_lt_0_05,den3,3.0,35,0.08571428571428572,0.02958236826696979,0.22379273965896496
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_observed,den3,,35,14.0,4.5,58.0
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_null_mean,den3,,35,23.79,2.701,56.119
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_ratio_obs_over_null,den3,,35,1.0254966621089037,0.41575832495358633,1.654260830162968
+"development, without series with degenerate genes (post hoc sensitivity)",A,adj_median_excess,den3,,35,0.612,-5.7109999999999985,5.834
+"development, all 37 series",B,E1_count_not_above_null,,24.0,36,0.6666666666666666,0.5033399787115651,0.7978538117569469
+"development, all 37 series",B,E1_count_flagged,,12.0,36,0.3333333333333333,0.2021461882430531,0.4966600212884349
+"development, all 37 series",B,coupling_T_r2,,28.0,36,0.7777777777777778,0.6191529705388181,0.8828366802420353
+"development, all 37 series",B,coupling_T_p,,27.0,36,0.75,0.5892954623327165,0.8624952233700518
+"development, all 37 series",B,coupling_T_eig,,26.0,36,0.7222222222222222,0.5600751000260289,0.841516620598654
+"development, all 37 series",B,T_r2_observed,,,36,0.15836873841567173,0.13410177266509332,0.23694637111523315
+"development, all 37 series",B,T_r2_null_mean,,,36,0.11390116074178516,0.11066790297104397,0.11924055464733145
+"development, all 37 series",B,E2_retained_any_scheme,,,36,0.9761904761904762,0.6538461538461539,1.0
+"development, all 37 series",B,E2_retained_all_schemes,,,36,0.0,0.0,0.022727272727272728
+"development, all 37 series",B,E2_retained_raw_scheme,,,36,0.0,0.0,0.21250000000000002
+"development, all 37 series",B,E2_pairs_sig_all_after_adjustment,,,36,0.0,0.0,1.5
+"development, all 37 series",B,E2_raw_any_consensus_pair_retained,,13.0,36,0.3611111111111111,0.2247559294651537,0.5242492451444196
+"development, all 37 series",B,E3_share_between,,,36,0.6945198962507478,0.4809933755884185,0.872155150458872
+"development, all 37 series",B,raw_sig_share_group_effect,,,28,0.6857142857142857,0.369047619047619,0.9139194139194139
+"development, all 37 series",B,raw_sig_share_all_pairs,,,36,0.2647058823529412,0.18014705882352944,0.3988970588235294
+"development, all 37 series",B,raw_sig_share_above_expectation,,15.0,28,0.5357142857142857,0.358126892344679,0.7046843001720462
+"development, all 37 series",B,observed_consensus,,,36,9.0,5.0,13.25
+"development, all 37 series",B,null_mean_consensus,,,36,5.19425,3.574375,8.271749999999999
+"development, all 37 series",B,consensus_minus_null,,,36,2.42225,-0.215125,4.7638750000000005
+"development, all 37 series",B,adj_share_P_lt_0_05,raw,13.0,36,0.3611111111111111,0.2247559294651537,0.5242492451444196
+"development, all 37 series",B,adj_median_observed,raw,,36,1.0,0.0,3.75
+"development, all 37 series",B,adj_median_null_mean,raw,,36,0.097,0.0655,0.172
+"development, all 37 series",B,adj_median_ratio_obs_over_null,raw,,36,4.244339690022141,0.0,29.871323529411764
+"development, all 37 series",B,adj_median_excess,raw,,36,0.8280000000000001,-0.0645,3.686
+"development, all 37 series",B,adj_share_P_lt_0_05,den1,11.0,36,0.3055555555555556,0.18004451594829915,0.4685627285051034
+"development, all 37 series",B,adj_median_observed,den1,,36,17.5,2.0,67.25
+"development, all 37 series",B,adj_median_null_mean,den1,,36,5.906000000000001,1.0899999999999999,45.1835
+"development, all 37 series",B,adj_median_ratio_obs_over_null,den1,,36,1.5276588027841342,0.945694001670239,3.9773530212631023
+"development, all 37 series",B,adj_median_excess,den1,,36,2.131,-0.3055,10.225000000000001
+"development, all 37 series",B,adj_share_P_lt_0_05,den2,7.0,36,0.19444444444444445,0.09753095418928728,0.3502804299517739
+"development, all 37 series",B,adj_median_observed,den2,,36,14.0,3.75,67.0
+"development, all 37 series",B,adj_median_null_mean,den2,,36,10.325,2.387,53.2885
+"development, all 37 series",B,adj_median_ratio_obs_over_null,den2,,36,1.0538815387810145,0.9754547886570358,1.7555143319451378
+"development, all 37 series",B,adj_median_excess,den2,,36,1.3430000000000017,-0.06,7.055
+"development, all 37 series",B,adj_share_P_lt_0_05,den3,6.0,36,0.16666666666666666,0.07870447595018111,0.3189079431127947
+"development, all 37 series",B,adj_median_observed,den3,,36,20.0,5.5,49.5
+"development, all 37 series",B,adj_median_null_mean,den3,,36,8.597,2.0585,33.172
+"development, all 37 series",B,adj_median_ratio_obs_over_null,den3,,36,1.1729138076741177,0.8701549683123138,2.802739186676729
+"development, all 37 series",B,adj_median_excess,den3,,36,2.136,-1.512499999999995,11.971499999999999
+"development, human GPL570",B,E1_count_not_above_null,,11.0,16,0.6875,0.4440435583474066,0.8583535614521797
+"development, human GPL570",B,E1_count_flagged,,5.0,16,0.3125,0.14164643854782027,0.5559564416525933
+"development, human GPL570",B,coupling_T_r2,,12.0,16,0.75,0.5050168346449122,0.8981793250878696
+"development, human GPL570",B,coupling_T_p,,11.0,16,0.6875,0.4440435583474066,0.8583535614521797
+"development, human GPL570",B,coupling_T_eig,,10.0,16,0.625,0.38641040545502714,0.8151876744113636
+"development, human GPL570",B,T_r2_observed,,,16,0.15796509714146817,0.13272358011064442,0.17641118314820553
+"development, human GPL570",B,T_r2_null_mean,,,16,0.11750062140803755,0.11052916138470449,0.12034628277837249
+"development, human GPL570",B,E2_retained_any_scheme,,,16,0.7695652173913043,0.5571428571428572,1.0
+"development, human GPL570",B,E2_retained_all_schemes,,,16,0.0,0.0,0.025
+"development, human GPL570",B,E2_retained_raw_scheme,,,16,0.0,0.0,0.025
+"development, human GPL570",B,E2_pairs_sig_all_after_adjustment,,,16,0.0,0.0,0.25
+"development, human GPL570",B,E2_raw_any_consensus_pair_retained,,4.0,16,0.25,0.10182067491213043,0.4949831653550878
+"development, human GPL570",B,E3_share_between,,,16,0.7469346288789096,0.6499681335500485,0.903624560776393
+"development, human GPL570",B,raw_sig_share_group_effect,,,12,0.6431318681318682,0.369047619047619,0.9166666666666666
+"development, human GPL570",B,raw_sig_share_all_pairs,,,16,0.2389705882352941,0.1801470588235294,0.4540441176470588
+"development, human GPL570",B,raw_sig_share_above_expectation,,6.0,12,0.5,0.253781597633706,0.746218402366294
+"development, human GPL570",B,observed_consensus,,,16,10.0,6.75,13.5
+"development, human GPL570",B,null_mean_consensus,,,16,6.119249999999999,4.2475,9.63825
+"development, human GPL570",B,consensus_minus_null,,,16,2.16725,0.3308749999999998,4.2947500000000005
+"development, human GPL570",B,adj_share_P_lt_0_05,raw,4.0,16,0.25,0.10182067491213043,0.4949831653550878
+"development, human GPL570",B,adj_median_observed,raw,,16,0.5,0.0,1.5
+"development, human GPL570",B,adj_median_null_mean,raw,,16,0.11199999999999999,0.0685,0.172
+"development, human GPL570",B,adj_median_ratio_obs_over_null,raw,,16,2.3212627669452184,0.0,8.928571428571427
+"development, human GPL570",B,adj_median_excess,raw,,16,0.395,-0.08299999999999999,1.4335
+"development, human GPL570",B,adj_share_P_lt_0_05,den1,4.0,16,0.25,0.10182067491213043,0.4949831653550878
+"development, human GPL570",B,adj_median_observed,den1,,16,11.0,2.0,58.25
+"development, human GPL570",B,adj_median_null_mean,den1,,16,5.625,1.0985,45.1835
+"development, human GPL570",B,adj_median_ratio_obs_over_null,den1,,16,1.5276588027841342,0.9780430965010642,2.0789445965873186
+"development, human GPL570",B,adj_median_excess,den1,,16,1.6680000000000001,-0.0954999999999954,5.537999999999999
+"development, human GPL570",B,adj_share_P_lt_0_05,den2,2.0,16,0.125,0.03497748774324044,0.36022827265758695
+"development, human GPL570",B,adj_median_observed,den2,,16,12.0,3.25,57.75
+"development, human GPL570",B,adj_median_null_mean,den2,,16,10.624,1.9554999999999998,40.3495
+"development, human GPL570",B,adj_median_ratio_obs_over_null,den2,,16,1.06976394382631,0.6085854913631984,1.5828697481270755
+"development, human GPL570",B,adj_median_excess,den2,,16,0.5899999999999976,-0.06,6.5845
+"development, human GPL570",B,adj_share_P_lt_0_05,den3,3.0,16,0.1875,0.06591599071428139,0.43008880961974144
+"development, human GPL570",B,adj_median_observed,den3,,16,18.5,4.75,46.0
+"development, human GPL570",B,adj_median_null_mean,den3,,16,6.843999999999999,1.533,24.555
+"development, human GPL570",B,adj_median_ratio_obs_over_null,den3,,16,1.5191129381527473,1.010063935331308,2.225985743119405
+"development, human GPL570",B,adj_median_excess,den3,,16,3.4560000000000004,0.05550000000000005,11.971499999999999
+"development, mouse GPL1261",B,E1_count_not_above_null,,13.0,20,0.65,0.43285427668523624,0.818808175898918
+"development, mouse GPL1261",B,E1_count_flagged,,7.0,20,0.35,0.18119182410108203,0.5671457233147638
+"development, mouse GPL1261",B,coupling_T_r2,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+"development, mouse GPL1261",B,coupling_T_p,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+"development, mouse GPL1261",B,coupling_T_eig,,16.0,20,0.8,0.5839825677481064,0.919342337420202
+"development, mouse GPL1261",B,T_r2_observed,,,20,0.18106609023654507,0.14172309348764678,0.2570103753772223
+"development, mouse GPL1261",B,T_r2_null_mean,,,20,0.11290002512724572,0.11122140498420106,0.11824232745910172
+"development, mouse GPL1261",B,E2_retained_any_scheme,,,20,1.0,0.8660714285714286,1.0
+"development, mouse GPL1261",B,E2_retained_all_schemes,,,20,0.0,0.0,0.022727272727272728
+"development, mouse GPL1261",B,E2_retained_raw_scheme,,,20,0.0,0.0,0.2976190476190476
+"development, mouse GPL1261",B,E2_pairs_sig_all_after_adjustment,,,20,0.5,0.0,3.0
+"development, mouse GPL1261",B,E2_raw_any_consensus_pair_retained,,9.0,20,0.45,0.2581978582556242,0.6579146575496577
+"development, mouse GPL1261",B,E3_share_between,,,20,0.6142237535180022,0.4548165889669912,0.8130557503052371
+"development, mouse GPL1261",B,raw_sig_share_group_effect,,,16,0.6857142857142857,0.40476190476190477,0.8972527472527473
+"development, mouse GPL1261",B,raw_sig_share_all_pairs,,,20,0.27205882352941174,0.18014705882352944,0.3492647058823529
+"development, mouse GPL1261",B,raw_sig_share_above_expectation,,9.0,16,0.5625,0.331785563988119,0.7690134759450765
+"development, mouse GPL1261",B,observed_consensus,,,20,8.0,5.0,12.5
+"development, mouse GPL1261",B,null_mean_consensus,,,20,4.1457500000000005,3.10375,6.15475
+"development, mouse GPL1261",B,consensus_minus_null,,,20,2.42225,-0.25775000000000015,5.636125
+"development, mouse GPL1261",B,adj_share_P_lt_0_05,raw,9.0,20,0.45,0.2581978582556242,0.6579146575496577
+"development, mouse GPL1261",B,adj_median_observed,raw,,20,1.0,0.0,9.75
+"development, mouse GPL1261",B,adj_median_null_mean,raw,,20,0.089,0.0635,0.1865
+"development, mouse GPL1261",B,adj_median_ratio_obs_over_null,raw,,20,9.498834498834498,0.0,41.29464285714286
+"development, mouse GPL1261",B,adj_median_excess,raw,,20,0.951,-0.040999999999999995,9.488
+"development, mouse GPL1261",B,adj_share_P_lt_0_05,den1,7.0,20,0.35,0.18119182410108203,0.5671457233147638
+"development, mouse GPL1261",B,adj_median_observed,den1,,20,22.0,3.5,69.25
+"development, mouse GPL1261",B,adj_median_null_mean,den1,,20,5.906000000000001,1.0899999999999999,29.9685
+"development, mouse GPL1261",B,adj_median_ratio_obs_over_null,den1,,20,1.5787021079226067,0.9076236932659948,6.355272714695811
+"development, mouse GPL1261",B,adj_median_excess,den1,,20,2.131,-1.118,18.758499999999998
+"development, mouse GPL1261",B,adj_share_P_lt_0_05,den2,5.0,20,0.25,0.11186170140766563,0.4687008776187441
+"development, mouse GPL1261",B,adj_median_observed,den2,,20,31.5,5.25,69.0
+"development, mouse GPL1261",B,adj_median_null_mean,den2,,20,8.573,3.1390000000000002,57.384499999999996
+"development, mouse GPL1261",B,adj_median_ratio_obs_over_null,den2,,20,1.0538815387810145,0.9992212930394845,1.9730034432270758
+"development, mouse GPL1261",B,adj_median_excess,den2,,20,1.5249999999999968,-0.005499999999999984,7.955500000000001
+"development, mouse GPL1261",B,adj_share_P_lt_0_05,den3,3.0,20,0.15,0.052368745896216595,0.36041886474075696
+"development, mouse GPL1261",B,adj_median_observed,den3,,20,22.0,5.5,54.5
+"development, mouse GPL1261",B,adj_median_null_mean,den3,,20,9.105,2.8395,50.753499999999995
+"development, mouse GPL1261",B,adj_median_ratio_obs_over_null,den3,,20,1.0992195275289007,0.7330089314389014,2.814189558408496
+"development, mouse GPL1261",B,adj_median_excess,den3,,20,1.129,-1.7165000000000004,8.849500000000003
+"development, without series with degenerate genes (post hoc sensitivity)",B,E1_count_not_above_null,,23.0,35,0.6571428571428571,0.4915194951399626,0.7916830501295105
+"development, without series with degenerate genes (post hoc sensitivity)",B,E1_count_flagged,,12.0,35,0.34285714285714286,0.2083169498704896,0.5084805048600374
+"development, without series with degenerate genes (post hoc sensitivity)",B,coupling_T_r2,,28.0,35,0.8,0.6410838693433438,0.8995755352620138
+"development, without series with degenerate genes (post hoc sensitivity)",B,coupling_T_p,,27.0,35,0.7714285714285715,0.6098268310800975,0.8793412016580832
+"development, without series with degenerate genes (post hoc sensitivity)",B,coupling_T_eig,,26.0,35,0.7428571428571429,0.5793069315616083,0.8583697293093956
+"development, without series with degenerate genes (post hoc sensitivity)",B,T_r2_observed,,,35,0.1587108590942295,0.13920226500467242,0.2377244075528013
+"development, without series with degenerate genes (post hoc sensitivity)",B,T_r2_null_mean,,,35,0.11399903457601984,0.11104786940210758,0.11925210586639978
+"development, without series with degenerate genes (post hoc sensitivity)",B,E2_retained_any_scheme,,,35,0.9523809523809523,0.641025641025641,1.0
+"development, without series with degenerate genes (post hoc sensitivity)",B,E2_retained_all_schemes,,,35,0.0,0.0,0.045454545454545456
+"development, without series with degenerate genes (post hoc sensitivity)",B,E2_retained_raw_scheme,,,35,0.0,0.0,0.225
+"development, without series with degenerate genes (post hoc sensitivity)",B,E2_pairs_sig_all_after_adjustment,,,35,0.0,0.0,2.0
+"development, without series with degenerate genes (post hoc sensitivity)",B,E2_raw_any_consensus_pair_retained,,13.0,35,0.37142857142857144,0.23165819503365714,0.5366306315640468
+"development, without series with degenerate genes (post hoc sensitivity)",B,E3_share_between,,,35,0.6907587005094531,0.47572193965556225,0.8477834817716694
+"development, without series with degenerate genes (post hoc sensitivity)",B,raw_sig_share_group_effect,,,27,0.6666666666666666,0.3571428571428571,0.938949938949939
+"development, without series with degenerate genes (post hoc sensitivity)",B,raw_sig_share_all_pairs,,,35,0.2647058823529412,0.17647058823529413,0.3602941176470588
+"development, without series with degenerate genes (post hoc sensitivity)",B,raw_sig_share_above_expectation,,14.0,27,0.5185185185185185,0.3398561575495228,0.6925677302378154
+"development, without series with degenerate genes (post hoc sensitivity)",B,observed_consensus,,,35,9.0,5.0,13.0
+"development, without series with degenerate genes (post hoc sensitivity)",B,null_mean_consensus,,,35,5.1655,3.55825,8.008
+"development, without series with degenerate genes (post hoc sensitivity)",B,consensus_minus_null,,,35,2.5214999999999996,0.03925000000000023,5.05375
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_share_P_lt_0_05,raw,13.0,35,0.37142857142857144,0.23165819503365714,0.5366306315640468
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_observed,raw,,35,1.0,0.0,4.5
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_null_mean,raw,,35,0.1,0.066,0.172
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_ratio_obs_over_null,raw,,35,4.642525533890437,0.0,30.330882352941174
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_excess,raw,,35,0.8280000000000001,-0.065,4.428
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_share_P_lt_0_05,den1,11.0,35,0.3142857142857143,0.1855084467426582,0.47979763612069193
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_observed,den1,,35,17.0,2.0,61.0
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_null_mean,den1,,35,3.944,1.016,35.177
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_ratio_obs_over_null,den1,,35,1.6129032258064517,0.9354172833579586,4.518279925687716
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_excess,den1,,35,1.768,-0.493,10.804
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_share_P_lt_0_05,den2,7.0,35,0.2,0.10042446473798627,0.35891613065665623
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_observed,den2,,35,16.0,3.5,67.0
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_null_mean,den2,,35,10.624,2.2800000000000002,53.917
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_ratio_obs_over_null,den2,,35,1.0810690323874907,0.991589700930106,1.7748117890806505
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_excess,den2,,35,1.346,-0.025999999999997556,7.128
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_share_P_lt_0_05,den3,6.0,35,0.17142857142857143,0.08102640053701589,0.3268228229904497
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_observed,den3,,35,20.0,5.0,47.0
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_null_mean,den3,,35,8.472,1.963,26.378
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_ratio_obs_over_null,den3,,35,1.2254901960784315,0.8604929385602249,2.8121822839679838
+"development, without series with degenerate genes (post hoc sensitivity)",B,adj_median_excess,den3,,35,2.01,-1.5769999999999968,12.158999999999999

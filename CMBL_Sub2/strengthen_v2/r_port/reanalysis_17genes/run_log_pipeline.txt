@@ -1,0 +1,24 @@
+﻿===== 20 genes (current manuscript) | genes 20 
+   Raw {'pairs': 190, 'sig': 80, 'strong': 48, 'very': 24} 
+   Ins1-normalized {'pairs': 171, 'sig': 98, 'strong': 77, 'very': 52} 
+   Kcnj11-normalized {'pairs': 171, 'sig': 118, 'strong': 91, 'very': 63} 
+   Hes1-normalized {'pairs': 171, 'sig': 169, 'strong': 164, 'very': 141} 
+   pooled consensus (p<=0.05 in all 4 schemes, any sign): 27 | sign-consistent: 21 
+   permutation null (perm): mean 29.7 SD 3.2, P(null>=27)=0.849, 5-95%: 25-35
+   permutation null (perm_signcons): mean 22.8 SD 3.0, P(null>=21)=0.759, 5-95%: 18-28
+   treatment-adjusted q<0.05 per scheme: {'Raw': 0, 'Ins1-normalized': 49, 'Kcnj11-normalized': 5, 'Hes1-normalized': 12} | all four: 0 | consensus pairs sig in >=1 scheme: 13 of 27 
+   consensus pairs sig in >=3 schemes: ['Cacna1d|Ptbp1', 'Cacna1d|Wnt5a'] 
+   sign-inconsistent pairs (sig all 4 but sign differs): 6 
+   |r| needed at df=8: p<0.05 0.632 ; best pair q<0.05 raw 0.909 / norm 0.907
+===== 17 genes (after exclusion) | genes 17 
+   Raw {'pairs': 136, 'sig': 66, 'strong': 38, 'very': 18} 
+   Ins1-normalized {'pairs': 120, 'sig': 80, 'strong': 66, 'very': 45} 
+   Kcnj11-normalized {'pairs': 120, 'sig': 84, 'strong': 72, 'very': 57} 
+   Hes1-normalized {'pairs': 120, 'sig': 120, 'strong': 120, 'very': 117} 
+   pooled consensus (p<=0.05 in all 4 schemes, any sign): 21 | sign-consistent: 21 
+   permutation null (perm): mean 22.1 SD 3.1, P(null>=21)=0.688, 5-95%: 17-27
+   permutation null (perm_signcons): mean 21.8 SD 3.0, P(null>=21)=0.644, 5-95%: 17-27
+   treatment-adjusted q<0.05 per scheme: {'Raw': 0, 'Ins1-normalized': 51, 'Kcnj11-normalized': 11, 'Hes1-normalized': 15} | all four: 0 | consensus pairs sig in >=1 scheme: 13 of 21 
+   consensus pairs sig in >=3 schemes: ['Cacna1d|Ptbp1', 'Cacna1d|Wnt5a', 'Tcf7|Wnt9a'] 
+   sign-inconsistent pairs (sig all 4 but sign differs): 0 
+   |r| needed at df=8: p<0.05 0.632 ; best pair q<0.05 raw 0.901 / norm 0.898

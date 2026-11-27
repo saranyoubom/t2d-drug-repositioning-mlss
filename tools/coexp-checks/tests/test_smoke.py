@@ -76,6 +76,23 @@ class SmokeTests(unittest.TestCase):
             res = json.load(open(out, encoding='utf8'))
             self.assertIn('coupling', res); self.assertTrue(os.path.getsize(rep) > 100)
 
+    def test_constant_gene_has_no_group_effect(self):           # version 1.1.1: the rounding of the grand mean must not decide the result
+        rng = np.random.default_rng(1); X = np.exp(rng.normal(0, 0.3, size=(12, 6)))
+        X[4:8, 0] *= 4.0; X[8:12, 0] *= 8.0; X[4:8, 1] *= 0.25; X[8:12, 1] *= 3.0    # genes 0 and 1: strong group effects
+        def with_const(c): Xc = X.copy(); Xc[:, 4] = c; return Xc
+        def mean_exact(c): Y = np.log(with_const(c)); return bool(Y.mean(0)[4] == Y[0, 4])
+        cands = [1.0 + k / 997.0 for k in range(1, 4000)]
+        cases = (next(c for c in cands if not mean_exact(c)), next(c for c in cands if mean_exact(c)))   # computed grand mean off by rounding / exact
+        self.assertEqual(cc.geometry_check(X, GROUPS)['n_group_effect_genes'], 2)
+        for c in cases:
+            a = cc.anova_group_effect(with_const(c), GROUPS)
+            self.assertEqual(a['p'][4], 1.0); self.assertFalse(np.isnan(a['q']).any())
+            self.assertEqual(cc.geometry_check(with_const(c), GROUPS)['n_group_effect_genes'], 2)
+
+    def test_bh_counts_nan_as_one(self):                         # version 1.1.1: one undefined test must not erase every q
+        q = cc._bh(np.array([0.001, np.nan, 0.01, 0.5]))
+        self.assertFalse(np.isnan(q).any()); self.assertTrue(np.allclose(q, cc._bh(np.array([0.001, 1.0, 0.01, 0.5]))))
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

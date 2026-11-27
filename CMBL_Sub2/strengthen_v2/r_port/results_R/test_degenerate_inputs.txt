@@ -1,0 +1,35 @@
+test_degenerate_inputs.R | R version 4.3.1 (2023-06-16 ucrt) | 2026-11-27 12:30
+constant genes g5 = 0.10000000000000001 and g6 = 0.11370000000000001: their mean as numpy computes it (sequential sum / 12) differs from the value by -1.4e-17 and -2.8e-17
+
+== 1. pooled correlation (cc_corr, coexp_checks.R)
+PASS  a constant gene correlates 0 with every gene | largest |r| 0.0e+00
+PASS  a gene and 2 x that gene correlate 1 (to within 1e-12) | r = 0.99999999999999967
+PASS  constant gene on the log scale also correlates 0 | largest |r| 0.0e+00
+
+== 2. residual correlation after removing group means (cc_residual_corr: the within-group coupling statistics)
+NOISE a constant gene has residual correlation 0 with every gene | largest |residual| of g5, g6 2.2e-16; largest |r| of a constant gene with a non-constant gene 0.312; r(g5, g6) = 0.000 | noise: the residuals of a constant gene are rounding noise (largest |residual| above); cc_corr scales the noise to unit length, so a constant gene can correlate with real genes and with another constant gene. This is the case of GSE20677 and GSE28477 (calibration, analyse_matrix, route 3 adjusted endpoints), where R and Python give different numbers because the noise depends on the order of floating-point operations; neither is the exact value
+NOISE a gene constant within each group (different group levels) has residual correlation 0 | largest |r| 0.114 | noise: same rounding-noise case: the within-group residuals are exactly 0 in exact arithmetic
+
+== 3. part 1 / route 3 pipeline (B_pooled, bench_pipeline.R)
+PASS  two constant genes are not significant together in the raw scheme | Python's np.corrcoef gives r = +-1 here when numpy's mean of both columns is inexact (the GSE20677 A artefact pair)
+PASS  in each ratio scheme two constant genes divided by the same denominator correlate 1 to within 1e-12 (exactly 1 in exact arithmetic: both are a constant times 1/denominator) | r = 1, 1, 1; this is why the consensus rule also needs the raw scheme (first version of this file expected 0 here: the expectation was wrong, not the port)
+PASS  a constant gene is never in a consensus pair
+PASS  the consensus pairs do not depend on the column order of the non-denominator genes | whole 8 x 8 consensus matrix compared after undoing the permutation; 1 consensus pair(s)
+PASS  the port's ratio schemes are unchanged when every sample is multiplied by its own factor (dilution): correlations and significant pairs | largest correlation difference 4.4e-16; significant pairs identical in the 3 ratio schemes: TRUE
+
+== 4. route 3 ANOVA (anova_fdr, run_benchmark.R) on a probe that is constant in all 12 samples
+KNOWN a constant probe is not called differentially expressed (F = 0/0 is undefined; its p should not be 0) | p of the constant probes: 1, 0 | known: the port reproduces numpy's sequential grand mean on purpose: the mean differs from the value by an ulp, the between-group sum of squares is about 1e-31 against a within-group sum of exactly 0, so F = Inf and p = 0; on GPL1261 thousands of floor-level probes get p = 0 and make the BH step lenient (memory: route 3 ANOVA artefact, decision pending)
+REF   with long-double means (R's colMeans, not the port's anova_fdr) the between-group sum of squares of the two constant probes is 0 and 0: F = 0/0 in exact arithmetic, so they would not be called
+PASS  with ANOVA_EXACT=1 (impact check O6, 26 Nov 2026) the constant probes get p = 1 and every other p is unchanged | p of the constant probes with the switch: 1, 1
+
+== 5. ranks with ties (Spearman version of the INS-1 analysis)
+PASS  R's rank(), which the port uses for the Spearman version, gives scipy.stats.rankdata's average ranks for ties
+
+== 6. output format (route 3 results_per_dataset.jsonl)
+PASS  non-ASCII characters are written as Python's json.dumps writes them (\u escape, lowercase hex) | the beta of GSE29881 (17beta-estradiol); the 25 Nov run wrote it raw, so that line differed from the archive in its bytes only
+
+== 7. group-effect ANOVA of the coexpression tool with a constant gene (cc_anova_group_effect, cc_geometry_check; fix F3 of the audit of 27 Nov 2026)
+KNOWN a gene with the same value in every sample has no group effect and leaves the count of the other genes unchanged | group-effect genes without the constant gene 2; with it (inexact mean 1.001, exact mean 1.00201): 3, 0 | known: the port reproduces the archived module (coexp_checks.py 1.0, tool 1.1.0) on purpose: an inexact grand mean gives the constant gene p = 0 (counted), an exact one gives p = NaN and every q NaN (no gene counted); fixed in tool 1.1.1
+PASS  with CC_CONSTANT_FIX=1 (coexp-checks 1.1.1) the constant gene gets p = 1, no q is NaN and the count of the other genes is unchanged | group-effect genes with the switch (inexact mean, exact mean): 2, 2
+
+SUMMARY: 12 PASS, 2 KNOWN (Python artefacts reproduced on purpose), 2 NOISE (rounding noise of both implementations, not reproduced bit for bit), 0 FAIL

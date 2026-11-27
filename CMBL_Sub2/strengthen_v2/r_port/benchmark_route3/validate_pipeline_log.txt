@@ -1,0 +1,18 @@
+﻿OK  consensus pairs (any sign): got 21 | manuscript 21
+OK  consensus pairs (same sign): got 21 | manuscript 21
+OK  pooled significant pairs, Raw: got 66 | manuscript 66
+OK  pooled significant pairs, Ins1-normalized: got 80 | manuscript 80
+OK  pooled significant pairs, Kcnj11-normalized: got 84 | manuscript 84
+OK  pooled significant pairs, Hes1-normalized: got 120 | manuscript 120
+OK  adjusted q<0.05, Raw: got 0 | manuscript 0
+OK  adjusted q<0.05, Ins1-normalized: got 51 | manuscript 51
+OK  adjusted q<0.05, Kcnj11-normalized: got 11 | manuscript 11
+OK  adjusted q<0.05, Hes1-normalized: got 15 | manuscript 15
+OK  consensus pairs with q<0.05 in >= 1 scheme after adjustment: got 13 | manuscript 13
+OK  pairs significant in all four schemes after adjustment: got 0 | manuscript 0
+OK  permutation null mean (10000 permutations; manuscript 2000): got 22.18 | manuscript 22.11
+OK  permutation null SD: got 3.04 | manuscript 3.06
+OK  P(null >= observed): got 0.695 | manuscript 0.688
+OK  same-sign null mean: got 21.83 | manuscript 21.76
+share of pooled covariance carried by group means (raw, significant pairs): 0.97 (manuscript: median 0.97)
+VALIDATION PASSED (147 s)

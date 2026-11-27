@@ -29,6 +29,7 @@ The public-data analyses carry the name of their dataset. Nothing here predicts 
 | `ars_review_191126/post_hoc/` | post hoc checks of the benchmark (19-20 November 2026; added in release v2.1.0): the share of the pooled covariance carried by group means against its expectation without within-group coupling, and T_r2 after removal of one shared axis, on the 37 development series, the INS-1 matrix and the 59 validation sets; the method notes were written and fingerprinted before the runs (`FINGERPRINTS.txt`). See its own `README.md`. |
 | `fig10_201126/` | code and numbers of Fig. 10 (candidate checks for pooled co-expression networks), added in release v2.1.0; the script imports `wp6a_assets/figstyle.py` and, to check the INS-1 numbers, reads the manuscript file (environment variable `FIG10_MANUSCRIPT`; the manuscript is not part of this repository) |
 | `wp6a_assets/figstyle.py` | the figure style module that `fig10_201126/make_fig10.py` imports; the rest of `wp6a_assets/` is not included |
+| `r_port/` | independent reimplementation of the version-2 analyses in R (written 23-27 November 2026, after the results were known; added in release v2.1.0): gates against the Python results, the agreement report, and the post hoc correction of the benchmark (`o6_anova_exact/`); see `r_port/README.md` |
 | `../benchmark_route3/` | first part of the benchmark (route 3), which the version-2 benchmark builds on, with its own pre-specification and fingerprints |
 
 ## Reading key

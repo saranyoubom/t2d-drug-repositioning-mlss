@@ -5,7 +5,7 @@
   "access_right": "open",
   "license": "MIT",
   "language": "eng",
-  "description": "<p>Analysis scripts, pre-specified protocol with SHA-256 fingerprints, results and saved openFDA responses for an exploratory study of co-expression networks in INS-1 cells after treatment with the Notch inhibitor DAPT or the Wnt antagonist DKK-1, of a network-based drug-pair ranking and, from version 2.1.0, of post hoc checks of the benchmark (the share of covariance carried by group means against its expectation, and coupling after removal of one shared axis). Exploratory and computational: the study makes no prediction of toxicity, efficacy or synergy. The folder <code>CMBL_Sub2/strengthen_v2/</code> holds the version-2 analyses; see its README.</p>",
+  "description": "<p>Analysis scripts, pre-specified protocol with SHA-256 fingerprints, results and saved openFDA responses for an exploratory study of co-expression networks in INS-1 cells after treatment with the Notch inhibitor DAPT or the Wnt antagonist DKK-1, of a network-based drug-pair ranking and, from version 2.1.0, of post hoc checks of the benchmark (the share of covariance carried by group means against its expectation, and coupling after removal of one shared axis), with a reimplementation of the analyses in R that computed a post hoc correction of the benchmark. Exploratory and computational: the study makes no prediction of toxicity, efficacy or synergy. The folder <code>CMBL_Sub2/strengthen_v2/</code> holds the version-2 analyses; see its README.</p>",
   "creators": [
     {
       "name": "Oontawee, Saranyou",
